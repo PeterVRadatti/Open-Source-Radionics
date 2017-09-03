@@ -135,7 +135,9 @@ public class HotbitsClient {
      */
     public Boolean hotbitsAvalaible() {
 
-        return getByte() != null;
+        if (getByte() == null) return false;
+
+        return true;
     }
 
     public Long getSeed(int iterations) {
@@ -169,6 +171,18 @@ public class HotbitsClient {
     }
 
     public Byte getByte() {
+
+        if (currentData == null) {
+            try {
+                refreshActualPackage();
+            } catch (Exception e) {
+                return null;
+            }
+        }
+
+        if (currentData == null) {
+            return null;
+        }
 
         byte b = currentData[currentPosition];
         currentPosition++;
@@ -279,6 +293,9 @@ public class HotbitsClient {
         }
 
         currentData = hotbitPackage.getHotbits().getBytes();
-        packageSize = currentData.length;
+
+        if (currentData != null) {
+            packageSize = currentData.length;
+        }
     }
 }

@@ -14,25 +14,33 @@ console.log("AetherOne Version 1.0!");
  * Another note: If you are reading the sourcecode and you know how to code, then help to improve this open source project on https://github.com/radionics/OpenSourceRadionics
  */
 
+
+
 aether.init = function () {
     console.log("init AtherOne...");
 
     aether.checkServerStatus();
     aether.checkServerStatusThread();
     aether.checkHotbitsStatus();
+    aether.checkHotbitsStatusThread();
 };
 
 aether.checkHotbitsStatus = function () {
     $.get("hotbits-status", function (data) {
         console.log(data);
-        if ("" == data) {
+        if (data) {
             $('#statusHotbits').removeClass('btn-danger').addClass('btn-success');
+        } else {
+            $('#statusHotbits').removeClass('btn-success').addClass('btn-danger');
         }
     }).fail(function () {
         $('#statusHotbits').removeClass('btn-success').addClass('btn-danger');
     });
 };
 
+/**
+ * The application could run on a server which uses a different hardware for the generation of TRNG and it could be plugged in or out
+ */
 aether.checkHotbitsStatusThread = function () {
     window.setInterval(function () {
         aether.checkHotbitsStatus();

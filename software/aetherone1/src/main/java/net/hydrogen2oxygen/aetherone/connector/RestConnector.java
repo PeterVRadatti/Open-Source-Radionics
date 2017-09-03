@@ -14,11 +14,6 @@ public class RestConnector {
     @Autowired
     private HotbitsClient hotbitsClient;
 
-   /* @PostConstruct
-    public void init() throws Exception {
-        hotbitsClient = new HotbitsClient();
-    }*/
-
     @RequestMapping("ping")
     public String ping() throws IOException {
         return "pong";
@@ -30,4 +25,6 @@ public class RestConnector {
         System.out.println(result);
         return result;
     }
+
+
 }
