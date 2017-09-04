@@ -2,6 +2,11 @@ var aether = {};
 
 console.log("AetherOne Version 1.0!");
 
+$.fn.addClick = function (event) {
+    this.unbind("click").click(event);
+    return this;
+};
+
 /**
  * Important Note:
  * Do not misuse this application!
@@ -14,7 +19,26 @@ console.log("AetherOne Version 1.0!");
  * Another note: If you are reading the sourcecode and you know how to code, then help to improve this open source project on https://github.com/radionics/OpenSourceRadionics
  */
 
+aether.showAddNewUserForm = function () {
+    aether.showForm("formNewUser.html","formNewUser","Add new target / patient",false);
+};
 
+aether.showForm = function(template,id,title,sortable) {
+    $.get(template, function (data) {
+
+        var form = aether.formTemplate.replace('#ID#',id).replace('#TITLE#',title).replace('#CONTENT#',data);
+        $('#lobiContainerForAether').append(form);
+
+        $('#' + id).lobiPanel({
+            minWidth: 300,
+            minHeight: 300,
+            maxWidth: 1000,
+            maxHeight: 1000,
+            draggable: true,
+            sortable: sortable
+        }).pin();
+    });
+};
 
 aether.init = function () {
     console.log("init AtherOne...");
@@ -23,6 +47,12 @@ aether.init = function () {
     aether.checkServerStatusThread();
     aether.checkHotbitsStatus();
     aether.checkHotbitsStatusThread();
+
+    $.get("formTemplate.html", function (data) {
+        aether.formTemplate = data;
+    });
+
+    $('#buttonNewUser').addClick(aether.showAddNewUserForm);
 };
 
 aether.checkHotbitsStatus = function () {
