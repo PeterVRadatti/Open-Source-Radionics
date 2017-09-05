@@ -50,7 +50,15 @@
             <version>2.5</version>
         </dependency>
 
-        <dependency>
+		<!-- TODO search for a better alternative to communicate with the serial port -->
+		<!-- https://stackoverflow.com/questions/5310477/how-do-i-get-maven-to-download-javax-comm-dependency -->
+		<!--<dependency>
+			<groupId>javax.comm</groupId>
+			<artifactId>comm</artifactId>
+			<version>3.0-u1</version>
+		</dependency>-->
+
+		<dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
