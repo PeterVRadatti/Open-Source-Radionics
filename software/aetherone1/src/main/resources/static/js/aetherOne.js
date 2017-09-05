@@ -19,14 +19,34 @@ $.fn.addClick = function (event) {
  * Another note: If you are reading the sourcecode and you know how to code, then help to improve this open source project on https://github.com/radionics/OpenSourceRadionics
  */
 
-aether.showAddNewUserForm = function () {
-    aether.showForm("formNewUser.html","formNewUser","Add new target / patient",false);
+aether.saveNewUser = function () {
+    var target = {name: $('#inputNewTargetName').val()};
+    console.log(target);
+
+    jQuery.ajax({
+        type: "POST",
+        url: 'target',
+        data: JSON.stringify(target),
+        contentType: "application/json; charset=utf-8",
+        success: function() {
+            console.log("OK!");
+            $('#formNewUser').lobiPanel("close");
+        },
+        processData:false,
+        cache: false,
+        async: false
+    });
+
 };
 
-aether.showForm = function(template,id,title,sortable) {
+aether.showAddNewTargetForm = function () {
+    aether.showForm("formNewUser.html", "formNewUser", "Add new target / patient", false);
+};
+
+aether.showForm = function (template, id, title, sortable) {
     $.get(template, function (data) {
 
-        var form = aether.formTemplate.replace('#ID#',id).replace('#TITLE#',title).replace('#CONTENT#',data);
+        var form = aether.formTemplate.replace('#ID#', id).replace('#TITLE#', title).replace('#CONTENT#', data);
         $('#lobiContainerForAether').append(form);
 
         $('#' + id).lobiPanel({
@@ -52,7 +72,7 @@ aether.init = function () {
         aether.formTemplate = data;
     });
 
-    $('#buttonNewUser').addClick(aether.showAddNewUserForm);
+    $('#buttonNewUser').addClick(aether.showAddNewTargetForm);
 };
 
 aether.checkHotbitsStatus = function () {

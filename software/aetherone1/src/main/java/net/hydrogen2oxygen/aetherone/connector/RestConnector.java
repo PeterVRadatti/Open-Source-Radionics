@@ -33,9 +33,10 @@ public class RestConnector {
         return result;
     }
 
-    @RequestMapping(value = "territory", method = RequestMethod.POST, consumes = "application/json")
+    @RequestMapping(value = "target", method = RequestMethod.POST, consumes = "application/json")
     public void saveNewTarget(@RequestBody Target newTarget) {
 
+        System.out.println("saving");
         targetRepository.save(newTarget);
     }
 }
