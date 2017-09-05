@@ -4,13 +4,11 @@ import net.hydrogen2oxygen.aetherone.hotbits.HotbitsClient;
 import net.hydrogen2oxygen.aetherone.peristence.dao.TargetRepository;
 import net.hydrogen2oxygen.aetherone.peristence.jpa.Target;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
-import javax.annotation.PostConstruct;
 import java.io.IOException;
+import java.util.ArrayList;
+import java.util.List;
 
 @RestController
 public class RestConnector {
@@ -38,5 +36,25 @@ public class RestConnector {
 
         System.out.println("saving");
         targetRepository.save(newTarget);
+    }
+
+    @RequestMapping(value = "target", method = RequestMethod.GET)
+    public List<Target> getTarget() throws IOException {
+
+        List<Target> list = new ArrayList<>();
+        targetRepository.findAll().iterator().forEachRemaining(list::add);
+        return list;
+    }
+
+    @RequestMapping(value = "target/{id}", method = RequestMethod.GET)
+    public Target getTarget(@PathVariable Long id) throws IOException {
+
+        return targetRepository.findOne(id);
+    }
+
+    @RequestMapping(value = "target/{id}", method = RequestMethod.DELETE)
+    public void deleteTarget(@PathVariable Long id) throws IOException {
+
+        targetRepository.delete(id);
     }
 }

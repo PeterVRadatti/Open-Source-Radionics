@@ -23,20 +23,23 @@ aether.saveNewUser = function () {
     var target = {name: $('#inputNewTargetName').val()};
     console.log(target);
 
+    aether.post('target', target, function() {
+        $('#formNewUser').lobiPanel("close");
+    });
+};
+
+aether.post = function(url,data,callbackSuccess) {
+
     jQuery.ajax({
         type: "POST",
-        url: 'target',
-        data: JSON.stringify(target),
+        url: url,
+        data: JSON.stringify(data),
         contentType: "application/json; charset=utf-8",
-        success: function() {
-            console.log("OK!");
-            $('#formNewUser').lobiPanel("close");
-        },
+        success: callbackSuccess,
         processData:false,
         cache: false,
-        async: false
+        async: true
     });
-
 };
 
 aether.showAddNewTargetForm = function () {
