@@ -32,10 +32,10 @@ public class RestConnector {
     }
 
     @RequestMapping(value = "target", method = RequestMethod.POST, consumes = "application/json")
-    public void saveNewTarget(@RequestBody Target newTarget) {
+    public Target saveNewTarget(@RequestBody Target newTarget) {
 
         System.out.println("saving");
-        targetRepository.save(newTarget);
+        return targetRepository.save(newTarget);
     }
 
     @RequestMapping(value = "target", method = RequestMethod.GET)

@@ -19,16 +19,22 @@ $.fn.addClick = function (event) {
  * Another note: If you are reading the sourcecode and you know how to code, then help to improve this open source project on https://github.com/radionics/OpenSourceRadionics
  */
 
-aether.saveNewUser = function () {
+/**
+ * TODO List
+ * - https://github.com/danielm/uploader/
+ * - https://jqueryvalidation.org/
+ */
+
+aether.saveNewTarget = function () {
     var target = {name: $('#inputNewTargetName').val()};
     console.log(target);
 
-    aether.post('target', target, function() {
-        $('#formNewUser').lobiPanel("close");
+    aether.post('target', target, function () {
+        $('#formNewTarget').lobiPanel("close");
     });
 };
 
-aether.post = function(url,data,callbackSuccess) {
+aether.post = function (url, data, callbackSuccess) {
 
     jQuery.ajax({
         type: "POST",
@@ -36,21 +42,29 @@ aether.post = function(url,data,callbackSuccess) {
         data: JSON.stringify(data),
         contentType: "application/json; charset=utf-8",
         success: callbackSuccess,
-        processData:false,
+        processData: false,
         cache: false,
         async: true
     });
 };
 
-aether.showAddNewTargetForm = function () {
-    aether.showForm("formNewUser.html", "formNewUser", "Add new target / patient", false);
+aether.showSelectTargetForm = function () {
+    aether.showForm("formSelect.html", "formNewTarget", "Add new target / patient", false);
 };
 
-aether.showForm = function (template, id, title, sortable) {
+aether.showAddNewTargetForm = function () {
+    aether.showForm("formNewTarget.html", "formNewTarget", "Add new target / patient", false);
+};
+
+aether.showForm = function (template, id, title, sortable, callbackAfterLoad) {
     $.get(template, function (data) {
 
         var form = aether.formTemplate.replace('#ID#', id).replace('#TITLE#', title).replace('#CONTENT#', data);
         $('#lobiContainerForAether').append(form);
+
+        if (callbackAfterLoad != null) {
+            callbackAfterLoad();
+        }
 
         $('#' + id).lobiPanel({
             minWidth: 300,
@@ -75,7 +89,7 @@ aether.init = function () {
         aether.formTemplate = data;
     });
 
-    $('#buttonNewUser').addClick(aether.showAddNewTargetForm);
+    $('#buttonNewTarget').addClick(aether.showAddNewTargetForm);
 };
 
 aether.checkHotbitsStatus = function () {
