@@ -23,6 +23,7 @@ $.fn.addClick = function (event) {
  * TODO List
  * - https://github.com/danielm/uploader/
  * - https://jqueryvalidation.org/
+ * - https://stackoverflow.com/questions/1962718/maven-and-the-jogl-library  (import processing libraries for serial communication via usb)
  */
 
 aether.saveNewTarget = function () {
