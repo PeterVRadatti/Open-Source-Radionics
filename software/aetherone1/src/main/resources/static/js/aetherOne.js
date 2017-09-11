@@ -28,6 +28,12 @@ $.fn.addClick = function (event) {
 
 aether.saveNewTarget = function () {
     var target = {name: $('#inputNewTargetName').val()};
+
+    if ($('#pastedImage').attr('src') != null) {
+        target.base64File = $('#pastedImage').attr('src').replace(/^data:image\/(png|jpg);base64,/, '');
+        target.fileExtension = $('#pastedImage').attr('src').substr(11,3);
+    }
+
     console.log(target);
 
     aether.post('target', target, function () {

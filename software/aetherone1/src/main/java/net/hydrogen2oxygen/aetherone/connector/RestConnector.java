@@ -35,6 +35,7 @@ public class RestConnector {
     public Target saveNewTarget(@RequestBody Target newTarget) {
 
         System.out.println("saving");
+        System.out.println(newTarget.getBase64File().length);
         return targetRepository.save(newTarget);
     }
 

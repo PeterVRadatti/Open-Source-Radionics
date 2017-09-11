@@ -4,10 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 
 @Entity
 @Data
@@ -23,4 +20,10 @@ public class Target {
     private String signature;
     private String description;
 
+    @Lob
+    @Basic(fetch = FetchType.LAZY)
+    @Column(length=16777215)
+    private byte[] base64File;
+
+    private String fileExtension;
 }
