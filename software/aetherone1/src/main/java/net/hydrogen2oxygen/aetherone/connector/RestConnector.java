@@ -26,16 +26,12 @@ public class RestConnector {
 
     @RequestMapping("hotbits-status")
     public Boolean hotbitsStatus() throws IOException {
-        Boolean result = hotbitsClient.hotbitsAvalaible();
-        System.out.println(result);
-        return result;
+        return hotbitsClient.hotbitsAvalaible();
     }
 
     @RequestMapping(value = "target", method = RequestMethod.POST, consumes = "application/json")
     public Target saveNewTarget(@RequestBody Target newTarget) {
 
-        System.out.println("saving");
-        System.out.println(newTarget.getBase64File().length);
         return targetRepository.save(newTarget);
     }
 
@@ -51,6 +47,12 @@ public class RestConnector {
     public Target getTarget(@PathVariable Long id) throws IOException {
 
         return targetRepository.findOne(id);
+    }
+
+    @RequestMapping(value = "target/image/{id}", method = RequestMethod.GET)
+    public String getTargetImage(@PathVariable Long id) throws IOException {
+
+        return new String(targetRepository.findOne(id).getBase64File());
     }
 
     @RequestMapping(value = "target/{id}", method = RequestMethod.DELETE)

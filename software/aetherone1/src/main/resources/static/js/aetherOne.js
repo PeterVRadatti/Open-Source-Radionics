@@ -34,10 +34,10 @@ aether.saveNewTarget = function () {
         target.fileExtension = $('#pastedImage').attr('src').substr(11,3);
     }
 
-    console.log(target);
-
-    aether.post('target', target, function () {
+    aether.post('target', target, function (persistedTarget) {
+        console.log(persistedTarget);
         $('#formNewTarget').lobiPanel("close");
+        aether.showSelectTargetForm(persistedTarget);
     });
 };
 
@@ -55,8 +55,15 @@ aether.post = function (url, data, callbackSuccess) {
     });
 };
 
-aether.showSelectTargetForm = function () {
-    aether.showForm("formSelect.html", "formNewTarget", "Add new target / patient", false);
+aether.showSelectTargetForm = function (target) {
+    aether.showForm("formSelect.html", "formSelectedTarget" + target.id, target.name, false, function () {
+        if (target.base64File == null) {
+            return;
+        }
+
+        var targetImage = '<img src="data:image/png;base64,' + target.base64File + '">';
+        $("#formSelectedTarget" + target.id + "Content").append(targetImage);
+    });
 };
 
 aether.showAddNewTargetForm = function () {
@@ -66,7 +73,7 @@ aether.showAddNewTargetForm = function () {
 aether.showForm = function (template, id, title, sortable, callbackAfterLoad) {
     $.get(template, function (data) {
 
-        var form = aether.formTemplate.replace('#ID#', id).replace('#TITLE#', title).replace('#CONTENT#', data);
+        var form = aether.formTemplate.replace('#ID#', id).replace('#TITLE#', title).replace('#CONTENT#', data).replace('#ID-CONTENT#', id + "Content");
         $('#lobiContainerForAether').append(form);
 
         if (callbackAfterLoad != null) {
