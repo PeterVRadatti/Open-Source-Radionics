@@ -1,6 +1,8 @@
 # OpenSourceRadionics
 Concepts, Design and Software for Open Source Radionics
 
+![AetherOne](/AetherOneOpenSourceRadionics.jpg)
+
 See https://radionicsnews.wordpress.com for more info.
 
 Read more:
