@@ -27,7 +27,7 @@ $.fn.addClick = function (event) {
  */
 
 aether.saveNewTarget = function () {
-    var target = {name: $('#inputNewTargetName').val()};
+    var target = {name: $('#inputNewTargetName').val(), description: $('#inputNewTargetDescription').val()};
 
     if ($('#pastedImage').attr('src') != null) {
         target.base64File = $('#pastedImage').attr('src').replace(/^data:image\/(png|jpg);base64,/, '');
@@ -79,6 +79,8 @@ aether.showForm = function (template, id, title, sortable, callbackAfterLoad) {
         if (callbackAfterLoad != null) {
             callbackAfterLoad();
         }
+
+        console.log('init lobiPanel for id = ' + id);
 
         $('#' + id).lobiPanel({
             minWidth: 300,
