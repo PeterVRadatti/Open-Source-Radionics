@@ -57,12 +57,15 @@ aether.post = function (url, data, callbackSuccess) {
 
 aether.showSelectTargetForm = function (target) {
     aether.showForm("formSelect.html", "formSelectedTarget" + target.id, target.name, false, function () {
-        if (target.base64File == null) {
-            return;
+        var targetContent = '';
+        if (target.base64File != null) {
+            targetContent += '<img src="data:image/png;base64,' + target.base64File + '">';
+        }
+        if (target.description != null) {
+            targetContent += '<p>' + target.description + '</p>';
         }
 
-        var targetImage = '<img src="data:image/png;base64,' + target.base64File + '">';
-        $("#formSelectedTarget" + target.id + "Content").append(targetImage);
+        $("#formSelectedTarget" + target.id + "Content").append(targetContent);
     });
 };
 
@@ -89,7 +92,7 @@ aether.showForm = function (template, id, title, sortable, callbackAfterLoad) {
             maxHeight: 1000,
             draggable: true,
             sortable: sortable
-        }).pin();
+        });
     });
 };
 

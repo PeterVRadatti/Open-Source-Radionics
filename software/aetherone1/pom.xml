@@ -7,9 +7,12 @@
     <artifactId>aetherone</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
+    <url>https://radionicsnews.wordpress.com</url>
 
     <name>AetherOne</name>
-    <description>Open Source Radionics</description>
+    <description>Open Source Radionics - Source can be found at https://github.com/radionics/OpenSourceRadionics and at
+        https://radionicsnews.wordpress.com you can read about the progress made in the research.
+    </description>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -50,15 +53,15 @@
             <version>2.5</version>
         </dependency>
 
-		<!-- TODO search for a better alternative to communicate with the serial port -->
-		<!-- https://stackoverflow.com/questions/5310477/how-do-i-get-maven-to-download-javax-comm-dependency -->
-		<!--<dependency>
-			<groupId>javax.comm</groupId>
-			<artifactId>comm</artifactId>
-			<version>3.0-u1</version>
-		</dependency>-->
+        <!-- TODO search for a better alternative to communicate with the serial port -->
+        <!-- https://stackoverflow.com/questions/5310477/how-do-i-get-maven-to-download-javax-comm-dependency -->
+        <!--<dependency>
+            <groupId>javax.comm</groupId>
+            <artifactId>comm</artifactId>
+            <version>3.0-u1</version>
+        </dependency>-->
 
-		<dependency>
+        <dependency>
             <groupId>com.h2database</groupId>
             <artifactId>h2</artifactId>
             <scope>runtime</scope>
