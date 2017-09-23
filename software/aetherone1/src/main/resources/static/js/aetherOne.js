@@ -31,7 +31,7 @@ aether.saveNewTarget = function () {
 
     if ($('#pastedImage').attr('src') != null) {
         target.base64File = $('#pastedImage').attr('src').replace(/^data:image\/(png|jpg);base64,/, '');
-        target.fileExtension = $('#pastedImage').attr('src').substr(11,3);
+        target.fileExtension = $('#pastedImage').attr('src').substr(11, 3);
     }
 
     aether.post('target', target, function (persistedTarget) {
@@ -56,7 +56,7 @@ aether.post = function (url, data, callbackSuccess) {
 };
 
 aether.showSelectTargetForm = function (target) {
-    aether.showForm("formSelect.html", "formSelectedTarget" + target.id, target.name, false, function () {
+    aether.showForm("empty.html", "formSelectedTarget" + target.id, target.name, false, function () {
         var targetContent = '';
         if (target.base64File != null) {
             targetContent += '<img src="data:image/png;base64,' + target.base64File + '">';
@@ -96,6 +96,28 @@ aether.showForm = function (template, id, title, sortable, callbackAfterLoad) {
     });
 };
 
+aether.showAllTargets = function () {
+    $.get("target", function (targets) {
+
+        aether.targets = targets;
+        aether.showForm("empty.html", "selectFormContent", "Select a target", false, function () {
+
+            var table = '<table class="table table-striped table-bordered"><tr><th>Name</th><th>Description</th><th>Image</th></tr>';
+
+            $.each(aether.targets, function (id, target) {
+                console.log(target);
+                table += '<tr><td>' + target.name + '</td>';
+                table += '<td>' + target.description + '</td>';
+                table += '<td><img width="128" src="data:image/png;base64,' + target.base64File + '"></td></tr>';
+            });
+
+            table += '</table>';
+
+            $("#selectFormContent").append(table);
+        });
+    });
+};
+
 aether.init = function () {
     console.log("init AtherOne...");
 
@@ -109,6 +131,7 @@ aether.init = function () {
     });
 
     $('#buttonNewTarget').addClick(aether.showAddNewTargetForm);
+    $('#buttonShowAllTargets').addClick(aether.showAllTargets);
 };
 
 aether.checkHotbitsStatus = function () {
