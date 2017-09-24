@@ -2,6 +2,8 @@
     position: fixed;
     left: 200px;
     padding-left: 50px;
+    overflow-y: scroll;
+    height: 3000px;
 }
 
 .nav-side-menu {
