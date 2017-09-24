@@ -7,66 +7,68 @@ import java.io.IOException;
 /**
  * True random numbers deriving from a diode inside the Raspberry Pi. They seed
  * a standard java.util.Random.
- * 
- * @author Peter
+ * <p>
+ * TODO: try to access a Android via USB (like the Due) or another Raspberry Pi in Server Mode or a TRNG Service online.
  *
+ * @author Peter
  */
 public class HotbitsAccessor {
 
-	private static Long counterError = 0L;
+    private static Long counterError = 0L;
 
-	private HotbitsAccessor() {
-	}
+    private HotbitsAccessor() {
+    }
 
-	public static Byte[] getBytes(Integer n) {
+    public static Byte[] getBytes(Integer n) {
 
-		FileInputStream in = null;
+        FileInputStream in = null;
 
-		try {
+        try {
 
-			in = getFileInputStream();
+            in = getFileInputStream();
 
-			Byte[] data = new Byte[n];
+            Byte[] data = new Byte[n];
 
-			for (int x = 0; x < n; x++)
-				data[x] = (byte) in.read();
+            for (int x = 0; x < n; x++)
+                data[x] = (byte) in.read();
 
-			return data;
+            return data;
 
-		} catch (Exception e) {
-			counterError++;
+        } catch (Exception e) {
+            counterError++;
 
-			System.err.println("Error while accessing hotbits = " + e.getMessage());
-			System.out.println("wait a little and then proceed");
+            System.err.println("Error while accessing hotbits = " + e.getMessage());
+            System.out.println("wait a little and then proceed");
 
-			try {
-				Thread.sleep(250);
-			} catch (InterruptedException e1) {
-			}
+            try {
+                Thread.sleep(250);
+            } catch (InterruptedException e1) {
+            }
 
-			System.out.println("continue");
-		} finally {
+            System.out.println("continue");
+        } finally {
 
-			if (in != null) {
-				try {
-					in.close();
-				} catch (IOException e) {
-					e.printStackTrace();
-				}
-			}
-		}
+            if (in != null) {
+                try {
+                    in.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            }
+        }
 
-		return null;
-	}
+        return null;
+    }
 
-	/**
-	 * The actual access to the TRNG of the Raspberry Pi
-	 * @return FileInputStream ... a stream of Qubits
-	 * @throws FileNotFoundException
-	 */
-	public static FileInputStream getFileInputStream() throws FileNotFoundException {
+    /**
+     * The actual access to the TRNG of the Raspberry Pi
+     *
+     * @return FileInputStream ... a stream of Qubits
+     * @throws FileNotFoundException
+     */
+    public static FileInputStream getFileInputStream() throws FileNotFoundException {
 
-		return new FileInputStream("/dev/hwrng");
-	}
+        return new FileInputStream("/dev/hwrng");
+    }
 
 }

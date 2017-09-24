@@ -104,7 +104,6 @@
                 <li>Feedback</li>
                 <li>New features</li>
                 <li><span class="oi oi-print"></span> Print</li>
-                <li><span class="oi oi-info"></span> Help / Documentation</li>
             </ul>
 
 
@@ -139,6 +138,12 @@
                 <li><span class="oi oi-fork"></span> Plugins</li>
             </ul>
 
+            <li id="buttonHelp" class="collapsed">
+                <a href="#">
+                    <span class="oi oi-info"></span> Help / Documentation <span class="oi oi-chevron-right"></span>
+                </a>
+            </li>
+
             <!-- .logout wAS HERE -->
         </ul>
         <!-- MOVED TO HERE -->
@@ -166,7 +171,13 @@
     <div id="lobiContainerForAether" style="width: 50%">
 
     </div>
-
+    <footer id="protocolFooter" class="blockquote-footer aetherLogging">Protocol ready - Just hit F5 (refresh) for a new
+        Session
+    </footer>
+</div>
+<div id="modalDialog" title="Help / Documentation">
+    <p>This is the default dialog which is useful for displaying information. The dialog window can be moved, resized
+        and closed with the 'x' icon.</p>
 </div>
 <script src="js/aetherOne.js"></script>
 <script>aether.init();</script>

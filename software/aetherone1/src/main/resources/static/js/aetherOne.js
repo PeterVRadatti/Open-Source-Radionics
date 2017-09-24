@@ -21,10 +21,14 @@ $.fn.addClick = function (event) {
 
 /**
  * TODO List
- * - https://github.com/danielm/uploader/
  * - https://jqueryvalidation.org/
  * - https://stackoverflow.com/questions/1962718/maven-and-the-jogl-library  (import processing libraries for serial communication via usb)
  */
+
+aether.session = {
+    time: $.now(),
+    note: 'Protocol ready - Just hit <span class="badge badge-secondary">F5</span> (refresh) for a new Session'
+};
 
 aether.saveNewTarget = function () {
     var target = {name: $('#inputNewTargetName').val(), description: $('#inputNewTargetDescription').val()};
@@ -102,20 +106,33 @@ aether.showAllTargets = function () {
         aether.targets = targets;
         aether.showForm("empty.html", "selectFormContent", "Select a target", false, function () {
 
-            var table = '<table class="table table-striped table-bordered"><tr><th>Name</th><th>Description</th><th>Image</th></tr>';
+            var table = '<table id="selectTargetTable" class="table table-striped table-bordered"><tr><th>Name</th><th>Description</th><th>Image</th></tr>';
 
             $.each(aether.targets, function (id, target) {
                 console.log(target);
-                table += '<tr><td>' + target.name + '</td>';
+                table += '<tr><td data-id="' + target.id + '">' + target.name + '</td>';
                 table += '<td>' + target.description + '</td>';
-                table += '<td><img width="128" src="data:image/png;base64,' + target.base64File + '"></td></tr>';
+
+                var image = '';
+                if (target.base64File != null) {
+                    image = '<img width="128" src="data:image/png;base64,' + target.base64File + '">';
+                }
+
+                table += '<td>' + image + '</td></tr>';
             });
 
             table += '</table>';
 
             $("#selectFormContent").append(table);
+            $("#selectTargetTable").unbind("click").click(function (event) {
+                aether.selectTarget($(event.target).data('id'));
+            });
         });
     });
+};
+
+aether.selectTarget = function (targetId) {
+    console.log('select target id = ' + targetId);
 };
 
 aether.init = function () {
@@ -132,6 +149,26 @@ aether.init = function () {
 
     $('#buttonNewTarget').addClick(aether.showAddNewTargetForm);
     $('#buttonShowAllTargets').addClick(aether.showAllTargets);
+    $('#protocolFooter').html(aether.getProtocolHTML());
+
+    $('#buttonHelp').click(function () {
+        $.get('help.html', function (helpData) {
+            $('#modalDialog').html(helpData);
+            $( "#modalDialog" ).dialog();
+        });
+    });
+};
+
+aether.getProtocolHTML = function () {
+    var protocol = '<h3>Protocol</h3>';
+    var dateTime = new Date(aether.session.time);
+    protocol += aether.getDateTimeFormatted(dateTime) + ' ' + aether.session.note;
+
+    return protocol;
+};
+
+aether.getDateTimeFormatted = function (dateTime) {
+    return $.datepicker.formatDate('yy-mm-dd', dateTime) + ' ' + dateTime.getHours() + ':' + dateTime.getMinutes() + ':' + dateTime.getSeconds();
 };
 
 aether.checkHotbitsStatus = function () {
