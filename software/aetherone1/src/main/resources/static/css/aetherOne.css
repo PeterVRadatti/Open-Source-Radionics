@@ -12,6 +12,10 @@
     color: #c3c3c3;
 }
 
+.blockquote-footer::before {
+    content: "";
+}
+
 .nav-side-menu {
     overflow: hidden;
     font-family: verdana;

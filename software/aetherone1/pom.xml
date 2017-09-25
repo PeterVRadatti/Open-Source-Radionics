@@ -100,6 +100,21 @@
                     </dependency>
                 </dependencies>
             </plugin>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.3</version>
+                <inherited>true</inherited>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                    <showDeprecation>false</showDeprecation>
+                    <showWarnings>true</showWarnings>
+                    <optimize>true</optimize>
+                    <compilerVersion>${java.version}</compilerVersion>
+                    <fork>true</fork>
+                    <debug>true</debug>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
 
