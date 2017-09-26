@@ -6,6 +6,9 @@ import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 
+/**
+ * The target is the witness or the input. (In this case the rate is the output and can be used to copy or broadcast).
+ */
 @Entity
 @Data
 @NoArgsConstructor
