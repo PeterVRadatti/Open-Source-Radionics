@@ -53,6 +53,12 @@
             <version>2.5</version>
         </dependency>
 
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-csv</artifactId>
+            <version>1.5</version>
+        </dependency>
+
         <!-- TODO search for a better alternative to communicate with the serial port -->
         <!-- https://stackoverflow.com/questions/5310477/how-do-i-get-maven-to-download-javax-comm-dependency -->
         <!--<dependency>
