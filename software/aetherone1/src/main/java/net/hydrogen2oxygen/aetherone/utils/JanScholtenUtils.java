@@ -4,6 +4,7 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import com.fasterxml.jackson.databind.SerializationFeature;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
+import org.apache.commons.io.FileUtils;
 
 import java.io.File;
 import java.io.FileReader;
@@ -111,6 +112,22 @@ public class JanScholtenUtils {
         mapper.enable(SerializationFeature.INDENT_OUTPUT);
         mapper.writeValue(new File("target/kingdoms.json"), kingdoms);
 
+
+        for (WonderfulPlantsFamily family : kingdoms.getPlants()) {
+
+            for (WonderfulPlantsFamily innerFamily : family.getSubFamilies()) {
+                for (WonderfulPlantsFamily subFamily : innerFamily.getSubFamilies()) {
+                    StringBuilder str = new StringBuilder();
+                    for (WonderfulPlantsRemedy remedy : subFamily.getRemedies()) {
+                        str.append(remedy.getKey()).append("\n");
+                    }
+
+                    if (str.length() == 0) continue;
+
+                    FileUtils.writeStringToFile(new File("target/" + subFamily.getKey() + "_" + subFamily.getName().replaceAll("ä","ae") + ".txt"), str.toString(), "UTF-8");
+                }
+            }
+        }
     }
 
 }

@@ -10,6 +10,9 @@ import javax.persistence.GenerationType;
 import javax.persistence.Id;
 import java.util.Calendar;
 
+/**
+ * Every action or insight during a session will be logged in a protocol.
+ */
 @Entity
 @Data
 @NoArgsConstructor

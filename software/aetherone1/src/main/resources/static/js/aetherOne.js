@@ -30,6 +30,16 @@ aether.session = {
     note: 'Protocol ready - Just hit <span class="badge badge-secondary">F5</span> (refresh) for a new Session'
 };
 
+aether.saveNewCase = function () {
+    var caseObject = {name: $('#inputNewTargetName').val(), description: $('#inputNewTargetDescription').val()};
+
+    aether.post('case', caseObject, function (persistedCase) {
+        console.log(persistedCase);
+        $('#formNewCase').lobiPanel("close");
+        aether.showSelectCaseForm(persistedCase);
+    });
+};
+
 aether.saveNewTarget = function () {
     var target = {name: $('#inputNewTargetName').val(), description: $('#inputNewTargetDescription').val()};
 
@@ -59,6 +69,20 @@ aether.post = function (url, data, callbackSuccess) {
     });
 };
 
+aether.showSelectCaseForm = function (caseObject) {
+    aether.showForm("empty.html", "formSelectedCase" + caseObject.id, caseObject.name, false, function () {
+        var caseContent = '';
+        if (caseObject.base64File != null) {
+            caseContent += '<img src="data:image/png;base64,' + caseObject.base64File + '">';
+        }
+        if (caseObject.description != null) {
+            caseContent += '<p>' + caseObject.description + '</p>';
+        }
+
+        $("#formSelectedCase" + caseObject.id + "Content").append(caseContent);
+    });
+};
+
 aether.showSelectTargetForm = function (target) {
     aether.showForm("empty.html", "formSelectedTarget" + target.id, target.name, false, function () {
         var targetContent = '';
@@ -71,6 +95,10 @@ aether.showSelectTargetForm = function (target) {
 
         $("#formSelectedTarget" + target.id + "Content").append(targetContent);
     });
+};
+
+aether.showAddNewCaseForm = function () {
+    aether.showForm("formNewCase.html", "formNewCase", "Add new case", false);
 };
 
 aether.showAddNewTargetForm = function () {
@@ -147,6 +175,7 @@ aether.init = function () {
         aether.formTemplate = data;
     });
 
+    $('#buttonNewCase').addClick(aether.showAddNewCaseForm);
     $('#buttonNewTarget').addClick(aether.showAddNewTargetForm);
     $('#buttonShowAllTargets').addClick(aether.showAllTargets);
     $('#protocolFooter').html(aether.getProtocolHTML());
