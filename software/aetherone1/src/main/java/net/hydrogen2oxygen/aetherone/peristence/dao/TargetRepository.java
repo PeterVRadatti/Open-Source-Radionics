@@ -8,6 +8,10 @@ import org.springframework.stereotype.Repository;
 
 import java.util.List;
 
+/**
+ * Targets are entities to which the operators links. For example a witness, a patient, a morphic field and so on.
+ * They are used as input or output, depending on the intention of the radionic operator.
+ */
 @RepositoryRestResource(collectionResourceRel = "target", path = "target")
 public interface TargetRepository extends CrudRepository<Target, Long> {
 
