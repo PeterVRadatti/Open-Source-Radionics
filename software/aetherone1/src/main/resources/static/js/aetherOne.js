@@ -31,7 +31,9 @@ aether.session = {
 };
 
 aether.saveNewCase = function () {
-    var caseObject = {name: $('#inputNewTargetName').val(), description: $('#inputNewTargetDescription').val()};
+    var caseObject = {name: $('#inputNewCaseName').val(), description: $('#inputNewCaseDescription').val()};
+
+    console.log(caseObject);
 
     aether.post('case', caseObject, function (persistedCase) {
         console.log(persistedCase);
@@ -72,9 +74,7 @@ aether.post = function (url, data, callbackSuccess) {
 aether.showSelectCaseForm = function (caseObject) {
     aether.showForm("empty.html", "formSelectedCase" + caseObject.id, caseObject.name, false, function () {
         var caseContent = '';
-        if (caseObject.base64File != null) {
-            caseContent += '<img src="data:image/png;base64,' + caseObject.base64File + '">';
-        }
+
         if (caseObject.description != null) {
             caseContent += '<p>' + caseObject.description + '</p>';
         }
@@ -105,6 +105,15 @@ aether.showAddNewTargetForm = function () {
     aether.showForm("formNewTarget.html", "formNewTarget", "Add new target / patient", false);
 };
 
+/**
+ * Inside the "formTemplate" (which contains lobi header and body) the template is embedded, replacing title and other data
+ *
+ * @param template
+ * @param id
+ * @param title
+ * @param sortable
+ * @param callbackAfterLoad
+ */
 aether.showForm = function (template, id, title, sortable, callbackAfterLoad) {
     $.get(template, function (data) {
 
@@ -131,12 +140,13 @@ aether.showForm = function (template, id, title, sortable, callbackAfterLoad) {
 aether.showAllTargets = function () {
     $.get("target", function (targets) {
 
+        console.log(targets);
         aether.targets = targets;
         aether.showForm("empty.html", "selectFormContent", "Select a target", false, function () {
 
             var table = '<table id="selectTargetTable" class="table table-striped table-bordered"><tr><th>Name</th><th>Description</th><th>Image</th></tr>';
 
-            $.each(aether.targets, function (id, target) {
+            $.each(aether.targets.content, function (id, target) {
                 console.log(target);
                 table += '<tr><td data-id="' + target.id + '">' + target.name + '</td>';
                 table += '<td>' + target.description + '</td>';

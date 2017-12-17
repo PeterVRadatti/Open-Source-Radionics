@@ -1,16 +1,11 @@
 package net.hydrogen2oxygen.aetherone.connector;
 
 import net.hydrogen2oxygen.aetherone.hotbits.HotbitsClient;
-import net.hydrogen2oxygen.aetherone.peristence.dao.CaseRepository;
-import net.hydrogen2oxygen.aetherone.peristence.dao.TargetRepository;
-import net.hydrogen2oxygen.aetherone.peristence.jpa.Case;
-import net.hydrogen2oxygen.aetherone.peristence.jpa.Target;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.List;
 
 @RestController
 public class RestConnector {
@@ -18,11 +13,11 @@ public class RestConnector {
     @Autowired
     private HotbitsClient hotbitsClient;
 
-    @Autowired
+    /*@Autowired
     private TargetRepository targetRepository;
 
     @Autowired
-    private CaseRepository caseRepository;
+    private CaseRepository caseRepository;*/
 
     @RequestMapping("ping")
     public String ping() throws IOException {
@@ -34,7 +29,7 @@ public class RestConnector {
         return hotbitsClient.hotbitsAvalaible();
     }
 
-    @RequestMapping(value = "case", method = RequestMethod.POST, consumes = "application/json")
+    /*@RequestMapping(value = "case", method = RequestMethod.POST, consumes = "application/json")
     public Case saveNewCase(@RequestBody Case c) {
 
         return caseRepository.save(c);
@@ -90,5 +85,5 @@ public class RestConnector {
     public void deleteTarget(@PathVariable Long id) throws IOException {
 
         targetRepository.delete(id);
-    }
+    }*/
 }

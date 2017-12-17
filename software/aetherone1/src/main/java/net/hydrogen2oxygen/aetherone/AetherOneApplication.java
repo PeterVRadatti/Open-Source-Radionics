@@ -2,6 +2,7 @@ package net.hydrogen2oxygen.aetherone;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.boot.autoconfigure.data.rest.RepositoryRestMvcAutoConfiguration;
 import org.springframework.context.annotation.PropertySource;
 
 import java.net.Inet4Address;
