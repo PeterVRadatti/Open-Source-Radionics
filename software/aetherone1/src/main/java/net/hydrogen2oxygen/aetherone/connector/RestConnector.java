@@ -1,8 +1,14 @@
 package net.hydrogen2oxygen.aetherone.connector;
 
 import net.hydrogen2oxygen.aetherone.hotbits.HotbitsClient;
+import net.hydrogen2oxygen.aetherone.peristence.dao.CaseRepository;
+import net.hydrogen2oxygen.aetherone.peristence.dao.SessionRepository;
+import net.hydrogen2oxygen.aetherone.peristence.jpa.Case;
+import net.hydrogen2oxygen.aetherone.peristence.jpa.Session;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.io.IOException;
@@ -13,11 +19,17 @@ public class RestConnector {
     @Autowired
     private HotbitsClient hotbitsClient;
 
-    /*@Autowired
-    private TargetRepository targetRepository;
+    @Autowired
+    private SessionRepository sessionRepository;
 
     @Autowired
-    private CaseRepository caseRepository;*/
+    private CaseRepository caseRepository;
+
+    @Autowired
+    private Case selectedCase;
+
+    @Autowired
+    private Session selectedSession;
 
     @RequestMapping("ping")
     public String ping() throws IOException {
@@ -29,61 +41,26 @@ public class RestConnector {
         return hotbitsClient.hotbitsAvalaible();
     }
 
-    /*@RequestMapping(value = "case", method = RequestMethod.POST, consumes = "application/json")
-    public Case saveNewCase(@RequestBody Case c) {
-
-        return caseRepository.save(c);
+    @RequestMapping(value = "case/selected/{id}", method = RequestMethod.GET)
+    public Case selectCase(@PathVariable Long id) {
+        selectedCase = caseRepository.findOne(id);
+        return selectedCase;
     }
 
-    @RequestMapping(value = "case", method = RequestMethod.GET)
-    public List<Case> getCase() throws IOException {
-
-        List<Case> list = new ArrayList<>();
-        caseRepository.findAll().iterator().forEachRemaining(list::add);
-        return list;
+    @RequestMapping(value = "session/selected/{id}", method = RequestMethod.GET)
+    public Session selectSession(@PathVariable Long id) {
+        selectedSession = sessionRepository.findOne(id);
+        return selectedSession;
     }
 
-    @RequestMapping(value = "case/{id}", method = RequestMethod.GET)
-    public Case getCase(@PathVariable Long id) throws IOException {
-
-        return caseRepository.findOne(id);
+    @RequestMapping("case/selected")
+    public Case getSelectedCase() {
+        return selectedCase;
     }
 
-    @RequestMapping(value = "case/{id}", method = RequestMethod.DELETE)
-    public void deleteCase(@PathVariable Long id) throws IOException {
-
-        caseRepository.delete(id);
+    @RequestMapping("session/selected")
+    public Session getSelectedSession() {
+        return selectedSession;
     }
 
-    @RequestMapping(value = "target", method = RequestMethod.POST, consumes = "application/json")
-    public Target saveNewTarget(@RequestBody Target newTarget) {
-
-        return targetRepository.save(newTarget);
-    }
-
-    @RequestMapping(value = "target", method = RequestMethod.GET)
-    public List<Target> getTarget() throws IOException {
-
-        List<Target> list = new ArrayList<>();
-        targetRepository.findAll().iterator().forEachRemaining(list::add);
-        return list;
-    }
-
-    @RequestMapping(value = "target/{id}", method = RequestMethod.GET)
-    public Target getTarget(@PathVariable Long id) throws IOException {
-
-        return targetRepository.findOne(id);
-    }
-
-    @RequestMapping(value = "target/image/{id}", method = RequestMethod.GET)
-    public String getTargetImage(@PathVariable Long id) throws IOException {
-
-        return new String(targetRepository.findOne(id).getBase64File());
-    }
-
-    @RequestMapping(value = "target/{id}", method = RequestMethod.DELETE)
-    public void deleteTarget(@PathVariable Long id) throws IOException {
-
-        targetRepository.delete(id);
-    }*/
 }

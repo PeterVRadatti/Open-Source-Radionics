@@ -1,5 +1,6 @@
 package net.hydrogen2oxygen.aetherone.configuration;
 
+import net.hydrogen2oxygen.aetherone.peristence.jpa.Case;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.data.rest.core.config.RepositoryRestConfiguration;
@@ -18,6 +19,7 @@ class CustomRestMvcConfiguration {
             @Override
             public void configureRepositoryRestConfiguration(RepositoryRestConfiguration config) {
                 config.setDefaultMediaType(MediaType.APPLICATION_JSON);
+                config.exposeIdsFor(Case.class);
             }
         };
     }

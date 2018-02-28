@@ -155,6 +155,10 @@ body {
     padding: 0px;
 }
 
+textarea {
+    padding: 5px;
+}
+
 /* ADDED THIS*/
 .menu-list {
     position: absolute;
@@ -171,4 +175,9 @@ body {
     background-image: url("../images/hex.jpg");
     background-repeat: repeat;
     height: 100%;
+}
+
+/* Mouse pointer over table row */
+tr {
+     cursor: pointer;
 }

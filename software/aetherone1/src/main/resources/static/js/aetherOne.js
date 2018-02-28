@@ -27,17 +27,22 @@ $.fn.addClick = function (event) {
 
 aether.session = {
     time: $.now(),
-    note: 'Protocol ready - Just hit <span class="badge badge-secondary">F5</span> (refresh) for a new Session'
+    note: 'Protocol ready - Just hit <span class="badge badge-secondary">F5</span> (refresh) for a new Session',
+    case: {}
 };
 
 aether.saveNewCase = function () {
-    var caseObject = {name: $('#inputNewCaseName').val(), description: $('#inputNewCaseDescription').val()};
+    var caseObject = {name: $('#inputNewCaseName').val(), description: $('#inputNewCaseDescription').val(), createdTime: Date.now()};
 
     console.log(caseObject);
 
     aether.post('case', caseObject, function (persistedCase) {
         console.log(persistedCase);
         $('#formNewCase').lobiPanel("close");
+        console.log('Set new case as selected with id = ' + persistedCase.id);
+        $.get('case/selected/' + persistedCase.id, function(selectedCase){
+            console.log(selectedCase.id);
+        });
         aether.showSelectCaseForm(persistedCase);
     });
 };
@@ -68,6 +73,19 @@ aether.post = function (url, data, callbackSuccess) {
         processData: false,
         cache: false,
         async: true
+    });
+};
+
+aether.get = function (url, async, callbackSuccess) {
+
+    jQuery.ajax({
+        type: "GET",
+        url: url,
+        contentType: "application/json; charset=utf-8",
+        success: callbackSuccess,
+        processData: false,
+        cache: false,
+        async: async
     });
 };
 
@@ -137,6 +155,32 @@ aether.showForm = function (template, id, title, sortable, callbackAfterLoad) {
     });
 };
 
+aether.showAllCases = function () {
+
+    $.get("case", function (cases) {
+
+        console.log(cases);
+        aether.cases = cases;
+        aether.showForm("empty.html", "selectCaseFormContent", "Select a case", false, function () {
+
+            var table = '<table id="selectCaseTable" class="table table-striped table-bordered table-hover"><tr><th>Name</th><th>Description</th></tr>';
+
+            $.each(aether.cases.content, function (id, caseObject) {
+                console.log(caseObject);
+                table += '<tr><td data-id="' + caseObject.id + '">' + caseObject.name + '</td>';
+                table += '<td>' + caseObject.description + '</td></tr>';
+            });
+
+            table += '</table>';
+
+            $("#selectCaseFormContent").append(table);
+            $("#selectCaseTable").unbind("click").click(function (event) {
+                aether.selectCase($(event.target).data('id'));
+            });
+        });
+    });
+};
+
 aether.showAllTargets = function () {
     $.get("target", function (targets) {
 
@@ -144,7 +188,7 @@ aether.showAllTargets = function () {
         aether.targets = targets;
         aether.showForm("empty.html", "selectFormContent", "Select a target", false, function () {
 
-            var table = '<table id="selectTargetTable" class="table table-striped table-bordered"><tr><th>Name</th><th>Description</th><th>Image</th></tr>';
+            var table = '<table id="selectTargetTable" class="table table-striped table-bordered table-hover"><tr><th>Name</th><th>Description</th><th>Image</th></tr>';
 
             $.each(aether.targets.content, function (id, target) {
                 console.log(target);
@@ -169,6 +213,10 @@ aether.showAllTargets = function () {
     });
 };
 
+aether.selectCase = function (caseId) {
+    console.log('select case id = ' + caseId);
+};
+
 aether.selectTarget = function (targetId) {
     console.log('select target id = ' + targetId);
 };
@@ -186,6 +234,7 @@ aether.init = function () {
     });
 
     $('#buttonNewCase').addClick(aether.showAddNewCaseForm);
+    $('#buttonShowAllCases').addClick(aether.showAllCases);
     $('#buttonNewTarget').addClick(aether.showAddNewTargetForm);
     $('#buttonShowAllTargets').addClick(aether.showAllTargets);
     $('#protocolFooter').html(aether.getProtocolHTML());
@@ -201,6 +250,17 @@ aether.init = function () {
 aether.getProtocolHTML = function () {
     var protocol = '<h3>Protocol</h3>';
     var dateTime = new Date(aether.session.time);
+
+
+    aether.get('case/selected',false,function(selectedCase){
+        console.log(selectedCase);
+
+        if (selectedCase != null) {
+            aether.session.case = selectedCase;
+            protocol += '<p>Selected case : ' + selectedCase.name + '</p>';
+        }
+    });
+
     protocol += aether.getDateTimeFormatted(dateTime) + ' ' + aether.session.note;
 
     return protocol;
