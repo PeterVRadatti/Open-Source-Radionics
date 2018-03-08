@@ -44,12 +44,16 @@ aether.saveNewCase = function () {
         console.log(persistedCase);
         $('#formNewCase').lobiPanel("close");
         console.log('Set new case as selected with id = ' + persistedCase.id);
-        $('#headInformation').html('<h3>' + persistedCase.name + '</h3><p class="lead">' + persistedCase.description + '</p>');
+        aether.session.case = persistedCase;
+        aether.setSelectedCase(persistedCase.id);
+    });
+};
 
-        $.get('case/selected/' + persistedCase.id, function (selectedCase) {
-            aether.session.case = selectedCase;
-            aether.saveNewSession();
-        });
+aether.setSelectedCase = function (id) {
+
+    aether.get('case/selected/' + id, true,function (selectedCase) {
+        aether.session.case = selectedCase;
+        aether.saveNewSession();
     });
 };
 
@@ -64,12 +68,15 @@ aether.saveNewSession = function () {
     aether.post('session', session, function (persistedSession) {
         console.log(persistedSession);
 
-        if (persistedSession.intentionDescription == null) {
+        $('#headInformation').html('<h3>' + aether.session.case.name + '</h3><p class="lead">' + aether.session.case.description + '</p>');
+
+        if (persistedSession.intentionDescription == null || persistedSession.intentionDescription.length == 0) {
             aether.prepareNewSession();
         } else {
             $('#headSessionInformation').html(persistedSession.intentionDescription);
             $('#sessionIntentionDescription').val('');
             $('#sessionForm').css('visibility', 'hidden');
+            aether.session.sessionObject = persistedSession;
         }
     });
 };
@@ -165,7 +172,7 @@ aether.showAddNewTargetForm = function () {
  * @param callbackAfterLoad
  */
 aether.showForm = function (template, id, title, sortable, callbackAfterLoad) {
-    $.get(template, function (data) {
+    aether.get(template, true, function (data) {
 
         var form = aether.formTemplate.replace('#ID#', id).replace('#TITLE#', title).replace('#CONTENT#', data).replace('#ID-CONTENT#', id + "Content");
         $('#lobiContainerForAether').append(form);
@@ -189,7 +196,7 @@ aether.showForm = function (template, id, title, sortable, callbackAfterLoad) {
 
 aether.showAllCases = function () {
 
-    $.get("case", function (cases) {
+    aether.get("case", true, function (cases) {
 
         console.log(cases);
         aether.cases = cases;
@@ -214,7 +221,7 @@ aether.showAllCases = function () {
 };
 
 aether.showAllTargets = function () {
-    $.get("target", function (targets) {
+    aether.get("target", true, function (targets) {
 
         console.log(targets);
         aether.targets = targets;
@@ -247,6 +254,7 @@ aether.showAllTargets = function () {
 
 aether.selectCase = function (caseId) {
     console.log('select case id = ' + caseId);
+    aether.loadCase(caseId);
 };
 
 aether.selectTarget = function (targetId) {
@@ -261,7 +269,7 @@ aether.init = function () {
     aether.checkHotbitsStatus();
     aether.checkHotbitsStatusThread();
 
-    $.get("formTemplate.html", function (data) {
+    aether.get("formTemplate.html", true, function (data) {
         aether.formTemplate = data;
     });
 
@@ -272,7 +280,7 @@ aether.init = function () {
     $('#protocolFooter').html(aether.actualizeProtocolHTML());
 
     $('#buttonHelp').click(function () {
-        $.get('help.html', function (helpData) {
+        aether.get('help.html', true, function (helpData) {
             $('#modalDialog').html(helpData);
             $("#modalDialog").dialog();
         });
@@ -295,11 +303,19 @@ aether.initLobiPanel = function () {
 
 aether.actualizeSelectedCase = function () {
 
-    $.get('case/selected/', function (selectedCase) {
+    aether.get('case/selected/', true, function (selectedCase) {
         if (selectedCase.name != null) {
             $('#headInformation').html('<h3>' + selectedCase.name + '</h3><p class="lead">' + selectedCase.description + '</p>');
             aether.prepareNewSession();
         }
+    });
+};
+
+aether.loadCase = function (id) {
+
+    aether.get('case/' + id, true, function (selectedCase) {
+        aether.session.case = selectedCase;
+        aether.setSelectedCase(selectedCase.id);
     });
 };
 
