@@ -17,12 +17,15 @@
     <link rel="stylesheet" href="css/lobibox.css">
     <link rel="icon" href="images/cropped-brain-32x32.png" sizes="32x32"/>
     <link rel="icon" href="images/cropped-brain-192x192.png" sizes="192x192"/>
+    <!-- JQuery -->
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/jquery-ui.min.js"></script>
+    <!-- Bootstraps without bower is not able to load popper.js ... load manually -->
+    <script src="js/popper.js"></script>
+    <script src="js/popper-utils.js"></script>
     <script src="js/bootstrap.js"></script>
     <script src="js/lobipanel.js"></script>
     <script src="js/lobibox.js"></script>
-    <!--<script src="js/popper.js"></script>-->
 </head>
 <body>
 
@@ -178,9 +181,21 @@
 </div>
 <div class="container-fluid aetherContainer hexagon" id="container">
 
-    <div id="lobiContainerForAether" style="width: 50%">
-
+    <div id="headInformation" class="alert alert-success" style="color:black">No case selected. Please create a new one or select an existing from the database.</div>
+    <div id="headSession" class="alert alert-success" style="color:black">
+        <div id="headSessionInformation">No case selected and therefore no session initiated.</div>
+        <form onsubmit="return false;" style="visibility: hidden;">
+            <div class="alert alert-dark" role="alert" style="color: black;width: 80%">Describe your intention for this session.</div>
+            <div class="form-group row">
+                <label for="sessionIntentionDescription" class="col-sm-2 col-form-label">Description</label>
+                <div class="col">
+                    <textarea id="sessionIntentionDescription" placeholder="Description" style="width: 80%"></textarea>
+                </div>
+            </div>
+            <button class="btn btn-primary" onclick="aether.saveNewSession();">Save</button>
+        </form>
     </div>
+    <div id="lobiContainerForAether" style="width: 50%"></div>
     <footer id="protocolFooter" class="blockquote-footer aetherLogging">Protocol ready - Just hit F5 (refresh) for a new
         Session
     </footer>

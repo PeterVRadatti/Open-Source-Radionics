@@ -11,6 +11,8 @@ import java.util.*;
 /**
  * A case persists of multiple sessions. It contains one target (person, animal, plant ...)
  * or multiple targets for agriculture or a family / group (epidemic).
+ *
+ * It represents something like a file folder (ring binder).
  */
 @Entity
 @Data

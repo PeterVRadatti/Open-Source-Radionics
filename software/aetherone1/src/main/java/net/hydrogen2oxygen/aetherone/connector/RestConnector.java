@@ -25,9 +25,17 @@ public class RestConnector {
     @Autowired
     private CaseRepository caseRepository;
 
+    /**
+     * The current case, from a "new case" action or by selection from a list
+     */
     @Autowired
     private Case selectedCase;
 
+    /**
+     * The current session, by selecting a new or old case, or just by hitting F5.
+     * <p>
+     * A session is always connected to a case.
+     */
     @Autowired
     private Session selectedSession;
 

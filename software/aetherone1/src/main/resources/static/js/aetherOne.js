@@ -32,7 +32,11 @@ aether.session = {
 };
 
 aether.saveNewCase = function () {
-    var caseObject = {name: $('#inputNewCaseName').val(), description: $('#inputNewCaseDescription').val(), createdTime: Date.now()};
+    var caseObject = {
+        name: $('#inputNewCaseName').val(),
+        description: $('#inputNewCaseDescription').val(),
+        createdTime: Date.now()
+    };
 
     console.log(caseObject);
 
@@ -40,10 +44,21 @@ aether.saveNewCase = function () {
         console.log(persistedCase);
         $('#formNewCase').lobiPanel("close");
         console.log('Set new case as selected with id = ' + persistedCase.id);
-        $.get('case/selected/' + persistedCase.id, function(selectedCase){
+        $.get('case/selected/' + persistedCase.id, function (selectedCase) {
+            console.log("selectedCase (in aether.saveNewCase):");
             console.log(selectedCase.id);
+            $('#headInformation').html('<h3>' + selectedCase.name + '</h3><p class="lead">' + selectedCase.description + '</p>');
         });
-        aether.showSelectCaseForm(persistedCase);
+    });
+};
+
+aether.saveNewSession = function () {
+
+    var session = {caseID: aether.session.case.id, createdTime: Date.now()};
+
+    aether.post('session', session, function (persistedSession) {
+        console.log(persistedSession);
+
     });
 };
 
@@ -237,23 +252,31 @@ aether.init = function () {
     $('#buttonShowAllCases').addClick(aether.showAllCases);
     $('#buttonNewTarget').addClick(aether.showAddNewTargetForm);
     $('#buttonShowAllTargets').addClick(aether.showAllTargets);
-    $('#protocolFooter').html(aether.getProtocolHTML());
+    $('#protocolFooter').html(aether.actualizeProtocolHTML());
 
     $('#buttonHelp').click(function () {
         $.get('help.html', function (helpData) {
             $('#modalDialog').html(helpData);
-            $( "#modalDialog" ).dialog();
+            $("#modalDialog").dialog();
         });
+    });
+
+    aether.actualizeSelectedCase();
+};
+
+aether.actualizeSelectedCase = function () {
+
+    $.get('case/selected/', function (selectedCase) {
+        if (selectedCase != null) {
+            $('#headInformation').html('<h3>' + selectedCase.name + '</h3><p class="lead">' + selectedCase.description + '</p>');
+        }
     });
 };
 
-aether.getProtocolHTML = function () {
+aether.actualizeProtocolHTML = function () {
     var protocol = '<h3>Protocol</h3>';
-    var dateTime = new Date(aether.session.time);
 
-
-    aether.get('case/selected',false,function(selectedCase){
-        console.log(selectedCase);
+    aether.get('case/selected', false, function (selectedCase) {
 
         if (selectedCase != null) {
             aether.session.case = selectedCase;
@@ -261,7 +284,7 @@ aether.getProtocolHTML = function () {
         }
     });
 
-    protocol += aether.getDateTimeFormatted(dateTime) + ' ' + aether.session.note;
+    protocol += aether.session.note;
 
     return protocol;
 };
@@ -272,7 +295,7 @@ aether.getDateTimeFormatted = function (dateTime) {
 
 aether.checkHotbitsStatus = function () {
     $.get("hotbits-status", function (data) {
-        console.log(data);
+        //console.log(data);
         if (data) {
             $('#statusHotbits').removeClass('btn-danger').addClass('btn-success');
         } else {
