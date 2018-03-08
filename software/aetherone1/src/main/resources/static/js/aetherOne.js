@@ -44,22 +44,39 @@ aether.saveNewCase = function () {
         console.log(persistedCase);
         $('#formNewCase').lobiPanel("close");
         console.log('Set new case as selected with id = ' + persistedCase.id);
+        $('#headInformation').html('<h3>' + persistedCase.name + '</h3><p class="lead">' + persistedCase.description + '</p>');
+
         $.get('case/selected/' + persistedCase.id, function (selectedCase) {
-            console.log("selectedCase (in aether.saveNewCase):");
-            console.log(selectedCase.id);
-            $('#headInformation').html('<h3>' + selectedCase.name + '</h3><p class="lead">' + selectedCase.description + '</p>');
+            aether.session.case = selectedCase;
+            aether.saveNewSession();
         });
     });
 };
 
+/**
+ * Every reload of the page represents a new session
+ */
 aether.saveNewSession = function () {
 
     var session = {caseID: aether.session.case.id, createdTime: Date.now()};
+    session.intentionDescription = $('#sessionIntentionDescription').val();
 
     aether.post('session', session, function (persistedSession) {
         console.log(persistedSession);
 
+        if (persistedSession.intentionDescription == null) {
+            aether.prepareNewSession();
+        } else {
+            $('#headSessionInformation').html(persistedSession.intentionDescription);
+            $('#sessionIntentionDescription').val('');
+            $('#sessionForm').css('visibility', 'hidden');
+        }
     });
+};
+
+aether.prepareNewSession = function () {
+    $('#headSessionInformation').html('Describe your intention for this session and then click the Save Button (hit F5 for a new session).');
+    $('#sessionForm').css('visibility', 'visible');
 };
 
 aether.saveNewTarget = function () {
@@ -264,11 +281,24 @@ aether.init = function () {
     aether.actualizeSelectedCase();
 };
 
+aether.initLobiPanel = function () {
+    console.log("init lobiPanels");
+
+    $('.panel').lobiPanel({
+        minWidth: 300,
+        minHeight: 300,
+        maxWidth: 1000,
+        maxHeight: 1000,
+        sortable: true
+    });
+};
+
 aether.actualizeSelectedCase = function () {
 
     $.get('case/selected/', function (selectedCase) {
-        if (selectedCase != null) {
+        if (selectedCase.name != null) {
             $('#headInformation').html('<h3>' + selectedCase.name + '</h3><p class="lead">' + selectedCase.description + '</p>');
+            aether.prepareNewSession();
         }
     });
 };

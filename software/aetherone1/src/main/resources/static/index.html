@@ -181,13 +181,13 @@
 </div>
 <div class="container-fluid aetherContainer hexagon" id="container">
 
-    <div id="headInformation" class="alert alert-success" style="color:black">No case selected. Please create a new one or select an existing from the database.</div>
+    <div id="headInformation" class="alert alert-success" style="color:black">No case selected. Please create a new one
+        or select an existing from the database.
+    </div>
     <div id="headSession" class="alert alert-success" style="color:black">
         <div id="headSessionInformation">No case selected and therefore no session initiated.</div>
-        <form onsubmit="return false;" style="visibility: hidden;">
-            <div class="alert alert-dark" role="alert" style="color: black;width: 80%">Describe your intention for this session.</div>
+        <form id="sessionForm" onsubmit="return false;" style="visibility: hidden;">
             <div class="form-group row">
-                <label for="sessionIntentionDescription" class="col-sm-2 col-form-label">Description</label>
                 <div class="col">
                     <textarea id="sessionIntentionDescription" placeholder="Description" style="width: 80%"></textarea>
                 </div>
@@ -205,20 +205,9 @@
         and closed with the 'x' icon.</p>
 </div>
 <script src="js/aetherOne.js"></script>
-<script>aether.init();</script>
 <script>
-    $(function () {
-            console.log("init lobiPanels");
-
-            $('.panel').lobiPanel({
-                minWidth: 300,
-                minHeight: 300,
-                maxWidth: 1000,
-                maxHeight: 1000,
-                sortable: true
-            });
-        }
-    );
+    aether.init();
+    aether.initLobiPanel();
 </script>
 </body>
 </html>
