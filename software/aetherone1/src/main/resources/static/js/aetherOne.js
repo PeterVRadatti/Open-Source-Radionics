@@ -215,6 +215,7 @@ aether.showAllCases = function () {
             $("#selectCaseFormContent").append(table);
             $("#selectCaseTable").unbind("click").click(function (event) {
                 aether.selectCase($(event.target).data('id'));
+                $('#selectCaseFormContent').remove();
             });
         });
     });
