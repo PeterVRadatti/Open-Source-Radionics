@@ -70,5 +70,5 @@ public class RestConnector {
     public Session getSelectedSession() {
         return selectedSession;
     }
-
+    
 }

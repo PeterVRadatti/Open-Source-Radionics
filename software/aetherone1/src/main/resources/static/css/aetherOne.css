@@ -181,3 +181,7 @@ textarea {
 tr {
      cursor: pointer;
 }
+
+.classAndSessionGreen {
+    background-color: #4caa4f;
+}

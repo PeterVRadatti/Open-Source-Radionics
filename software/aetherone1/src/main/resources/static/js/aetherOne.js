@@ -73,10 +73,9 @@ aether.saveNewSession = function () {
         if (persistedSession.intentionDescription == null || persistedSession.intentionDescription.length == 0) {
             aether.prepareNewSession();
         } else {
-            $('#headSessionInformation').html(persistedSession.intentionDescription);
-            $('#sessionIntentionDescription').val('');
-            $('#sessionForm').css('visibility', 'hidden');
+            $('#headInformation').append('<p>' + persistedSession.intentionDescription + '</p>');
             aether.session.sessionObject = persistedSession;
+            $('#headSession').remove();
         }
     });
 };
@@ -269,6 +268,8 @@ aether.init = function () {
     aether.checkServerStatusThread();
     aether.checkHotbitsStatus();
     aether.checkHotbitsStatusThread();
+
+    $('#sessionIntentionDescription').val('');
 
     aether.get("formTemplate.html", true, function (data) {
         aether.formTemplate = data;
