@@ -9,10 +9,7 @@ import javax.persistence.*;
 import java.util.*;
 
 /**
- * A case persists of multiple sessions. It contains one target (person, animal, plant ...)
- * or multiple targets for agriculture or a family / group (epidemic).
- *
- * It represents something like a file folder (ring binder).
+ * A case persists of multiple sessions. It represents the main target.
  */
 @Entity
 @Data
@@ -30,7 +27,4 @@ public class Case {
     private String name;
 
     private String description;
-
-    @ElementCollection(targetClass=Long.class)
-    private List<Long> targetIDs = new ArrayList<>();
 }

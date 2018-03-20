@@ -1,4 +1,5 @@
 var aether = {};
+var protocol = {};
 
 console.log("AetherOne Version 1.0!");
 
@@ -12,7 +13,7 @@ $.fn.addClick = function (event) {
  * Do not misuse this application!
  * Do not harm anyone!
  * The intention build into this software is to heal and balance.
- * Only the mild-tempered will inherit the earth!
+ * Only the mild-tempered ones will inherit the earth!
  */
 
 /**
@@ -40,12 +41,21 @@ aether.saveNewCase = function () {
 
     console.log(caseObject);
 
-    aether.post('case', caseObject, function (persistedCase) {
+    aether.saveCase(caseObject, function (persistedCase) {
         console.log(persistedCase);
         $('#formNewCase').lobiPanel("close");
         console.log('Set new case as selected with id = ' + persistedCase.id);
         aether.session.case = persistedCase;
         aether.setSelectedCase(persistedCase.id);
+    });
+};
+
+aether.saveCase = function (caseObject, callBackAfterSave) {
+
+    aether.post('case', caseObject, function (persistedCase) {
+        if (callBackAfterSave != null) {
+            callBackAfterSave(persistedCase);
+        }
     });
 };
 
@@ -76,6 +86,7 @@ aether.saveNewSession = function () {
             $('#headInformation').append('<p>' + persistedSession.intentionDescription + '</p>');
             aether.session.sessionObject = persistedSession;
             $('#headSession').remove();
+            protocol.intention(persistedSession.intentionDescription);
         }
     });
 };
@@ -259,6 +270,7 @@ aether.selectCase = function (caseId) {
 
 aether.selectTarget = function (targetId) {
     console.log('select target id = ' + targetId);
+    aether.loadTarget(targetId);
 };
 
 aether.init = function () {
@@ -279,7 +291,12 @@ aether.init = function () {
     $('#buttonShowAllCases').addClick(aether.showAllCases);
     $('#buttonNewTarget').addClick(aether.showAddNewTargetForm);
     $('#buttonShowAllTargets').addClick(aether.showAllTargets);
-    $('#protocolFooter').html(aether.actualizeProtocolHTML());
+
+    aether.get('case/selected', false, function (selectedCase) {
+        if (selectedCase != null) {
+            aether.session.case = selectedCase;
+        }
+    });
 
     $('#buttonHelp').click(function () {
         aether.get('help.html', true, function (helpData) {
@@ -321,20 +338,15 @@ aether.loadCase = function (id) {
     });
 };
 
-aether.actualizeProtocolHTML = function () {
-    var protocol = '<h3>Protocol</h3>';
+aether.loadTarget = function (id) {
 
-    aether.get('case/selected', false, function (selectedCase) {
+    aether.get('target/' + id, true, function (selectedTarget) {
+        console.log(selectedTarget);
+        aether.session.case.targetIDs.push(selectedTarget.id);
 
-        if (selectedCase != null) {
-            aether.session.case = selectedCase;
-            protocol += '<p>Selected case : ' + selectedCase.name + '</p>';
-        }
+        console.log(aether.session);
+        // TODO save case with target inside
     });
-
-    protocol += aether.session.note;
-
-    return protocol;
 };
 
 aether.getDateTimeFormatted = function (dateTime) {
@@ -377,4 +389,62 @@ aether.checkServerStatusThread = function () {
     window.setInterval(function () {
         aether.checkServerStatus();
     }, 15000);
+};
+
+protocol.info = function(text) {
+    protocol.logging('[INFO] ' + text);
+};
+
+protocol.warning = function(text) {
+    protocol.logging('[WARNING] ' + text);
+};
+
+protocol.error = function(text) {
+    protocol.logging('[ERROR] ' + text);
+};
+
+protocol.intention = function(text) {
+    protocol.logging('[INTENTION] ' + text);
+};
+
+protocol.analysisResult = function(text) {
+    protocol.logging('[ANALYSIS RESULT] ' + text);
+};
+
+protocol.note = function(text) {
+    protocol.logging('[NOTE] ' + text);
+};
+
+/**
+ * Neutral logging (better use info, warning, error and so on)
+ * @param text
+ */
+protocol.logging = function(text) {
+
+    console.log(text);
+
+    var protocolObject = {
+        createdTime:Date.now(),
+        text:text,
+        sessionId:aether.session.sessionObject.id
+    };
+
+    aether.post('protocol',protocolObject,function (persistedProtocol) {
+       console.log(persistedProtocol);
+    });
+};
+
+protocol.formatDate = function(date){
+    var d = new Date(date),
+        month = '' + (d.getMonth() + 1),
+        day = '' + d.getDate(),
+        year = d.getFullYear(),
+        hour = d.getHours(),
+        minutes = d.getMinutes(),
+        seconds = d.getSeconds();
+
+    if (month.length < 2) month = '0' + month;
+    if (day.length < 2) day = '0' + day;
+
+    return [year, month, day].join('-') + " " + [hour,minutes,seconds].join(':');
 };
