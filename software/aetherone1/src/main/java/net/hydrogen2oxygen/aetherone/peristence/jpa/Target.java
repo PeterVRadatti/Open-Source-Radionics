@@ -21,6 +21,9 @@ public class Target {
 
     private String name;
     private String signature;
+
+    @Lob
+    @Column(length=4000,columnDefinition="TEXT")
     private String description;
 
     @Lob

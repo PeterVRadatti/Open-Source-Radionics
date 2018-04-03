@@ -5,10 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import org.springframework.stereotype.Component;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
@@ -31,11 +28,14 @@ public class Session {
 
     private Long caseID;
 
+    /**
+     * One session is also bound to one specific target / person
+     */
+    private Long targetID;
+
     private Calendar createdTime = Calendar.getInstance();
 
+    @Lob
+    @Column(length=2000,columnDefinition="TEXT")
     private String intentionDescription;
-
-    private String anamnesis;
-
-    private String treatmentPlan;
 }

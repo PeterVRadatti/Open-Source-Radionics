@@ -4,10 +4,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
 import java.util.Calendar;
 
 /**
@@ -25,6 +22,8 @@ public class Protocol {
 
     private Calendar createdTime;
 
+    @Lob
+    @Column(length=2000,columnDefinition="TEXT")
     private String text;
 
     private Long sessionId;

@@ -83,7 +83,7 @@ aether.saveNewSession = function () {
         if (persistedSession.intentionDescription == null || persistedSession.intentionDescription.length == 0) {
             aether.prepareNewSession();
         } else {
-            $('#headInformation').append('<p>' + persistedSession.intentionDescription + '</p>');
+            $('#headInformation').append('<p><b>Intention: </b>' + persistedSession.intentionDescription + '</p>');
             aether.session.sessionObject = persistedSession;
             $('#headSession').remove();
             protocol.intention(persistedSession.intentionDescription);
@@ -338,14 +338,25 @@ aether.loadCase = function (id) {
     });
 };
 
+/**
+ * Load and bind target to current session
+ * @param id
+ */
 aether.loadTarget = function (id) {
 
     aether.get('target/' + id, true, function (selectedTarget) {
-        console.log(selectedTarget);
-        aether.session.case.targetIDs.push(selectedTarget.id);
 
-        console.log(aether.session);
-        // TODO save case with target inside
+        aether.session.sessionObject.targetID = selectedTarget.id;
+
+        // bind target to session
+        aether.post('session',aether.session.sessionObject,function (updatedSession) {
+            protocol.info('Target/Person "' + selectedTarget.name +  '" selected as input energy signature.');
+            $('#headInformation').append('<p><b>Selected Target/Person energetic information: </b>' + selectedTarget.name + '</p>');
+
+            var imageId = "selectedTargetImage" + Date.now();
+            $('#headInformation').append('<p><img id="' + imageId + '"></p>');
+            document.getElementById(imageId).src = 'data:image/png;base64,' + selectedTarget.base64File;
+        });
     });
 };
 
@@ -430,7 +441,7 @@ protocol.logging = function(text) {
     };
 
     aether.post('protocol',protocolObject,function (persistedProtocol) {
-       console.log(persistedProtocol);
+        console.log(persistedProtocol);
     });
 };
 
