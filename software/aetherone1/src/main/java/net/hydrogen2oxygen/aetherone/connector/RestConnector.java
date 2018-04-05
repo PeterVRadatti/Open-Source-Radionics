@@ -1,5 +1,7 @@
 package net.hydrogen2oxygen.aetherone.connector;
 
+import net.hydrogen2oxygen.aetherone.hotbits.HotBitIntegers;
+import net.hydrogen2oxygen.aetherone.hotbits.HotbitPackage;
 import net.hydrogen2oxygen.aetherone.hotbits.HotbitsClient;
 import net.hydrogen2oxygen.aetherone.peristence.dao.CaseRepository;
 import net.hydrogen2oxygen.aetherone.peristence.dao.SessionRepository;
@@ -47,6 +49,18 @@ public class RestConnector {
     @RequestMapping("hotbits-status")
     public Boolean hotbitsStatus() throws IOException {
         return hotbitsClient.hotbitsAvalaible();
+    }
+
+    @RequestMapping("hotbits-integer/{min}/{max}/{ammount}")
+    public HotBitIntegers getHotbitsInteger(@PathVariable Integer min, @PathVariable Integer max, @PathVariable Integer ammount) {
+
+        HotBitIntegers hotBitIntegers = new HotBitIntegers();
+
+        for (int i=0; i<ammount; i++){
+            hotBitIntegers.getIntegerList().add(hotbitsClient.getInteger(min, max));
+        }
+
+        return hotBitIntegers;
     }
 
     @RequestMapping(value = "case/selected/{id}", method = RequestMethod.GET)

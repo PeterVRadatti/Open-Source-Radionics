@@ -187,3 +187,13 @@ tr {
     margin-right: 200px;
     padding-right: auto;
 }
+
+/**
+Animating Bootstrap progress bar width with jQuery:
+The problem is in default Bootstrap transition effect, which animates any update of the width property.
+If you switch it off with supressing the corresponding style, it will work fine.
+ */
+.progress-bar {
+    -webkit-transition: width 2.5s ease;
+    transition: width 2.5s ease;
+}

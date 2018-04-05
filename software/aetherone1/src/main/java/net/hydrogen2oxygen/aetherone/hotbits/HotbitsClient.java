@@ -17,6 +17,7 @@ import org.springframework.stereotype.Component;
 public class HotbitsClient {
 
     private Random pseudoRandom;
+    private boolean pseudoRandomMode = false;
 
     private byte[] currentData;
     private int currentPosition = 0;
@@ -89,6 +90,11 @@ public class HotbitsClient {
     }
 
     public int getInteger(Integer min, Integer max) {
+
+        if (pseudoRandomMode) {
+            return pseudoRandom.nextInt((max - min) + 1) + min;
+        }
+
         return getRandom(getSeed(10)).nextInt((max - min) + 1) + min;
     }
 
@@ -121,6 +127,7 @@ public class HotbitsClient {
 
         // Fallback to simulation
         if (seed == 0) {
+            pseudoRandomMode = true;
             return pseudoRandom;
         }
 

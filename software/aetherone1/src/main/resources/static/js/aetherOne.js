@@ -32,6 +32,8 @@ aether.session = {
     case: {}
 };
 
+aether.animateIntervall = 100;
+
 aether.saveNewCase = function () {
     var caseObject = {
         name: $('#inputNewCaseName').val(),
@@ -291,6 +293,7 @@ aether.init = function () {
     $('#buttonShowAllCases').addClick(aether.showAllCases);
     $('#buttonNewTarget').addClick(aether.showAddNewTargetForm);
     $('#buttonShowAllTargets').addClick(aether.showAllTargets);
+    $('#buttonConnect').addClick(aether.startConnectToTarget);
 
     aether.get('case/selected', false, function (selectedCase) {
         if (selectedCase != null) {
@@ -306,6 +309,81 @@ aether.init = function () {
     });
 
     aether.actualizeSelectedCase();
+};
+
+aether.startConnectToTarget = function () {
+
+    if( $('#progressBarConnectDiv').length == 0 ) {
+        aether.connectStatus = 0;
+        aether.connectionSuccess = false;
+        $('#lobiContainerForAether').append('<div class="progress" id="progressBarConnectDiv"><div id="progressBarConnect" class="progress-bar bg-warning" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div></div>');
+        aether.connectToTarget();
+    }
+};
+
+aether.connectToTarget = function () {
+
+    console.log("get hotbits");
+
+    aether.get('hotbits-integer/1/1000/1440', true, function (hotBitIntegers) {
+
+        $.each(hotBitIntegers.integerList, function (id, value) {
+
+            if (aether.connectStatus > 100) {
+                aether.connectStatus = 100;
+                console.log("Connection success!");
+            }
+
+            if (value > 990 && aether.connectStatus != 100) {
+                aether.connectStatus += 1;
+            } else if (aether.connectStatus == 100) {
+
+                $("#progressBarConnect").animate({
+                    width: '100%'
+                }, aether.animateIntervall, function () {
+                    aether.removeConnectionBar();
+                });
+
+                aether.removeConnectionBar();
+
+                return;
+            }
+        });
+
+        $("#progressBarConnect").html(aether.connectStatus + "%");
+        console.log("aether.connectStatus = " + aether.connectStatus);
+
+        $("#progressBarConnect").attr('aria-valuenow', aether.connectStatus);
+        $("#progressBarConnect").animate({
+            width: '' + aether.connectStatus + '%'
+        }, aether.animateIntervall, function () {
+
+            $('#progressBarConnect').css("width",function() {
+                return $(this).attr("aria-valuenow") + "%";
+            });
+
+            if (aether.connectStatus >= 100) {
+                aether.removeConnectionBar();
+            } else {
+                console.log("need more hotbits");
+                setTimeout(function () {
+                    aether.connectToTarget();
+                }, aether.animateIntervall * 5);
+            }
+        });
+
+    });
+};
+
+aether.removeConnectionBar = function () {
+
+    $("#progressBarConnect").animate({
+        opacity: 0.0
+    }, 4320, function () {
+        $('#progressBarConnectDiv').remove();
+        $('#headInformation').append('<p><span class="badge badge-success">Connected</span></p>');
+        protocol.info('Connected to the energetic signature of ...');
+    });
 };
 
 aether.initLobiPanel = function () {
