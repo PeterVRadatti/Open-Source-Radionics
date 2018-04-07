@@ -313,61 +313,68 @@ aether.init = function () {
 
 aether.startConnectToTarget = function () {
 
-    if( $('#progressBarConnectDiv').length == 0 ) {
-        aether.connectStatus = 0;
-        aether.connectionSuccess = false;
-        $('#lobiContainerForAether').append('<div class="progress" id="progressBarConnectDiv"><div id="progressBarConnect" class="progress-bar bg-warning" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div></div>');
-        aether.connectToTarget();
+    if (aether.session.case.id != null) {
+        aether.startBuildingTensionProgressBar({
+            badgeType: 'badge-success',
+            successInfo: 'Connection established!',
+            protocolText: 'Connected to the energetic signature of ...'
+        });
+    } else {
+        alert("First choose a case and a target!");
     }
 };
 
-aether.connectToTarget = function () {
+aether.startBuildingTensionProgressBar = function (energeticBuildUpResult) {
 
-    console.log("get hotbits");
+    if( $('#progressBarDiv').length == 0 ) {
+        aether.progressStatus = 0;
+        $('#lobiContainerForAether').append('<div class="progress" id="progressBarDiv"><div id="progressBar" class="progress-bar bg-warning" role="progressbar" style="width: 0%" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"></div></div>');
+        aether.buildUpEnergeticTension(energeticBuildUpResult);
+    }
+};
+
+/**
+ * Energetic tension is build up by evaluating rare events deriving from nondeterministic data flow (just like in QiGong)
+ */
+aether.buildUpEnergeticTension = function (energeticBuildUpResult) {
 
     aether.get('hotbits-integer/1/1000/1440', true, function (hotBitIntegers) {
 
         $.each(hotBitIntegers.integerList, function (id, value) {
 
-            if (aether.connectStatus > 100) {
-                aether.connectStatus = 100;
-                console.log("Connection success!");
+            if (aether.progressStatus > 100) {
+                aether.progressStatus = 100;
             }
 
-            if (value > 990 && aether.connectStatus != 100) {
-                aether.connectStatus += 1;
-            } else if (aether.connectStatus == 100) {
+            if (value > 990 && aether.progressStatus != 100) {
+                aether.progressStatus += 1;
+            } else if (aether.progressStatus == 100) {
 
-                $("#progressBarConnect").animate({
+                $("#progressBar").animate({
                     width: '100%'
                 }, aether.animateIntervall, function () {
-                    aether.removeConnectionBar();
+                    aether.removeProgressBar(energeticBuildUpResult);
                 });
-
-                aether.removeConnectionBar();
 
                 return;
             }
         });
 
-        $("#progressBarConnect").html(aether.connectStatus + "%");
-        console.log("aether.connectStatus = " + aether.connectStatus);
-
-        $("#progressBarConnect").attr('aria-valuenow', aether.connectStatus);
-        $("#progressBarConnect").animate({
-            width: '' + aether.connectStatus + '%'
+        $("#progressBar").html(aether.progressStatus + "%");
+        $("#progressBar").attr('aria-valuenow', aether.progressStatus);
+        $("#progressBar").animate({
+            width: '' + aether.progressStatus + '%'
         }, aether.animateIntervall, function () {
 
-            $('#progressBarConnect').css("width",function() {
+            $('#progressBar').css("width",function() {
                 return $(this).attr("aria-valuenow") + "%";
             });
 
-            if (aether.connectStatus >= 100) {
-                aether.removeConnectionBar();
+            if (aether.progressStatus >= 100) {
+                aether.removeProgressBar(energeticBuildUpResult);
             } else {
-                console.log("need more hotbits");
                 setTimeout(function () {
-                    aether.connectToTarget();
+                    aether.buildUpEnergeticTension(energeticBuildUpResult);
                 }, aether.animateIntervall * 5);
             }
         });
@@ -375,14 +382,14 @@ aether.connectToTarget = function () {
     });
 };
 
-aether.removeConnectionBar = function () {
+aether.removeProgressBar = function (energeticBuildUpResult) {
 
-    $("#progressBarConnect").animate({
+    $("#progressBarDiv").animate({
         opacity: 0.0
     }, 4320, function () {
-        $('#progressBarConnectDiv').remove();
-        $('#headInformation').append('<p><span class="badge badge-success">Connected</span></p>');
-        protocol.info('Connected to the energetic signature of ...');
+        $('#progressBarDiv').remove();
+        $('#headInformation').append('<p><span class="badge ' + energeticBuildUpResult.badgeType + '">' + energeticBuildUpResult.successInfo + '</span></p>');
+        protocol.info(energeticBuildUpResult.protocolText);
     });
 };
 

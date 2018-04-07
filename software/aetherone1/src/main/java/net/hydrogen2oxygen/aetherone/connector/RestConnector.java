@@ -1,5 +1,7 @@
 package net.hydrogen2oxygen.aetherone.connector;
 
+import net.hydrogen2oxygen.aetherone.domain.AnalysisResult;
+import net.hydrogen2oxygen.aetherone.domain.RateObject;
 import net.hydrogen2oxygen.aetherone.hotbits.HotBitIntegers;
 import net.hydrogen2oxygen.aetherone.hotbits.HotbitPackage;
 import net.hydrogen2oxygen.aetherone.hotbits.HotbitsClient;
@@ -7,13 +9,19 @@ import net.hydrogen2oxygen.aetherone.peristence.dao.CaseRepository;
 import net.hydrogen2oxygen.aetherone.peristence.dao.SessionRepository;
 import net.hydrogen2oxygen.aetherone.peristence.jpa.Case;
 import net.hydrogen2oxygen.aetherone.peristence.jpa.Session;
+import org.apache.commons.io.FileUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.io.File;
 import java.io.IOException;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 @RestController
 public class RestConnector {
@@ -61,6 +69,47 @@ public class RestConnector {
         }
 
         return hotBitIntegers;
+    }
+
+    @RequestMapping("analysis/{rateListName}")
+    public AnalysisResult analysisRateList(@PathVariable String rateListName) throws IOException {
+
+        AnalysisResult analysisResult = new AnalysisResult();
+
+        List<String> rates = FileUtils.readLines(new File("src/main/resources/rates/" + rateListName + ".txt"), "UTF-8");
+        Map<String, Integer> ratesValues = new HashMap<>();
+
+        int max = rates.size() / 10;
+        if (max > 100) max = 100;
+        int count = 0;
+
+        while (rates.size() > 0) {
+
+            int x = hotbitsClient.getInteger(0,rates.size());
+            String rate = rates.remove(x);
+            ratesValues.put(rate,0);
+
+            count +=1;
+
+            if (count >= max) {
+                break;
+            }
+        }
+
+        for (int x=0; x<7; x++) {
+            for (String rate : ratesValues.keySet()) {
+
+                Integer energeticValue = ratesValues.get(rate);
+                energeticValue += hotbitsClient.getInteger(0, 100);
+                ratesValues.put(rate, energeticValue);
+            }
+        }
+
+        for (String rate : ratesValues.keySet()) {
+            analysisResult.getRateObjects().add(new RateObject(ratesValues.get(rate),rate));
+        }
+
+        return analysisResult.sort();
     }
 
     @RequestMapping(value = "case/selected/{id}", method = RequestMethod.GET)
