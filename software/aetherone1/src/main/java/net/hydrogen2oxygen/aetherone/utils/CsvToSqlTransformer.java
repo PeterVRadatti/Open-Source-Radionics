@@ -15,7 +15,7 @@ public class CsvToSqlTransformer {
         return;
     }
 
-    private static void generateSql(String sourceFileName, String sqlFileName, String groupName, String sourceName) throws IOException {
+    private static void generateSql(String sourceFileName, String sqlFileName, String sourceName, String groupName) throws IOException {
 
         List<String> lines = FileUtils.readLines(new File("src/main/resources/rates/" + sourceFileName + ".txt"), "UTF-8");
         StringBuilder sqlContent = new StringBuilder();

@@ -20,10 +20,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.Arrays;
-import java.util.HashMap;
-import java.util.List;
-import java.util.Map;
+import java.util.*;
 
 @RestController
 public class RestConnector {
@@ -81,18 +78,24 @@ public class RestConnector {
 
         AnalysisResult analysisResult = new AnalysisResult();
 
-        List<String> rates = FileUtils.readLines(new File("src/main/resources/rates/" + rateListName + ".txt"), "UTF-8");
+        Iterable<Rate> rates = rateRepository.findAllBySourceName(rateListName);
+        List<Rate> rateList = new ArrayList<>();
+
+        for (Rate rate : rates) {
+            rateList.add(rate);
+        }
+
         Map<String, Integer> ratesValues = new HashMap<>();
 
-        int max = rates.size() / 10;
+        int max = rateList.size() / 10;
         if (max > 100) max = 100;
         int count = 0;
 
-        while (rates.size() > 0) {
+        while (rateList.size() > 0) {
 
-            int x = hotbitsClient.getInteger(0,rates.size() - 1);
-            String rate = rates.remove(x);
-            ratesValues.put(rate,0);
+            int x = hotbitsClient.getInteger(0,rateList.size() - 1);
+            Rate rate = rateList.remove(x);
+            ratesValues.put(rate.getName(),0);
 
             count +=1;
 

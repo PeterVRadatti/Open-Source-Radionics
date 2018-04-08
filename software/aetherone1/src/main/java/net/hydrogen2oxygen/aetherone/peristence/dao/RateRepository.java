@@ -10,6 +10,8 @@ import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 @RepositoryRestResource(collectionResourceRel = "rate", path = "rate")
 public interface RateRepository extends CrudRepository<Rate, Long> {
 
+    Iterable<Rate> findAllBySourceName(String sourceName);
+
     Iterable<Rate> findAllByGroupName(String groupName);
 
     Iterable<Rate> findAllByName(String name);
