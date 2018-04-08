@@ -1,6 +1,5 @@
 package net.hydrogen2oxygen.aetherone.utils;
 
-import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 

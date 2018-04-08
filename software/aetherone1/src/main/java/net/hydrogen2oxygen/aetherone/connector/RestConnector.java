@@ -6,8 +6,10 @@ import net.hydrogen2oxygen.aetherone.hotbits.HotBitIntegers;
 import net.hydrogen2oxygen.aetherone.hotbits.HotbitPackage;
 import net.hydrogen2oxygen.aetherone.hotbits.HotbitsClient;
 import net.hydrogen2oxygen.aetherone.peristence.dao.CaseRepository;
+import net.hydrogen2oxygen.aetherone.peristence.dao.RateRepository;
 import net.hydrogen2oxygen.aetherone.peristence.dao.SessionRepository;
 import net.hydrogen2oxygen.aetherone.peristence.jpa.Case;
+import net.hydrogen2oxygen.aetherone.peristence.jpa.Rate;
 import net.hydrogen2oxygen.aetherone.peristence.jpa.Session;
 import org.apache.commons.io.FileUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -34,6 +36,9 @@ public class RestConnector {
 
     @Autowired
     private CaseRepository caseRepository;
+
+    @Autowired
+    private RateRepository rateRepository;
 
     /**
      * The current case, from a "new case" action or by selection from a list
@@ -85,7 +90,7 @@ public class RestConnector {
 
         while (rates.size() > 0) {
 
-            int x = hotbitsClient.getInteger(0,rates.size());
+            int x = hotbitsClient.getInteger(0,rates.size() - 1);
             String rate = rates.remove(x);
             ratesValues.put(rate,0);
 
