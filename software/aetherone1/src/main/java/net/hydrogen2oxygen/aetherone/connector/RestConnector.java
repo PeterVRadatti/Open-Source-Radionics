@@ -2,6 +2,7 @@ package net.hydrogen2oxygen.aetherone.connector;
 
 import net.hydrogen2oxygen.aetherone.domain.AnalysisResult;
 import net.hydrogen2oxygen.aetherone.domain.RateObject;
+import net.hydrogen2oxygen.aetherone.domain.VitalityObject;
 import net.hydrogen2oxygen.aetherone.hotbits.HotBitIntegers;
 import net.hydrogen2oxygen.aetherone.hotbits.HotbitPackage;
 import net.hydrogen2oxygen.aetherone.hotbits.HotbitsClient;
@@ -11,6 +12,7 @@ import net.hydrogen2oxygen.aetherone.peristence.dao.SessionRepository;
 import net.hydrogen2oxygen.aetherone.peristence.jpa.Case;
 import net.hydrogen2oxygen.aetherone.peristence.jpa.Rate;
 import net.hydrogen2oxygen.aetherone.peristence.jpa.Session;
+import net.hydrogen2oxygen.aetherone.service.AnalyseService;
 import org.apache.commons.io.FileUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -36,6 +38,9 @@ public class RestConnector {
 
     @Autowired
     private RateRepository rateRepository;
+
+    @Autowired
+    private AnalyseService analyseService;
 
     /**
      * The current case, from a "new case" action or by selection from a list
@@ -73,51 +78,56 @@ public class RestConnector {
         return hotBitIntegers;
     }
 
+    @RequestMapping("rate/groups")
+    public Iterable<String> getAllGroups() {
+        return rateRepository.getAllGroups();
+    }
+
+    @RequestMapping("rate/sources")
+    public Iterable<String> getAllSources() {
+        return rateRepository.getAllSources();
+    }
+
+    @RequestMapping("analysis/generalVitality")
+    public Integer analyseGeneralVitality() {
+
+        Map<Integer,Integer> vitalityMap = new HashMap<>();
+
+        for (int x=0; x<101; x++) {
+
+            vitalityMap.put(x,0);
+        }
+
+        for (int x=0; x<3456; x++) {
+
+            Integer key = hotbitsClient.getInteger(0,100);
+            Integer value = vitalityMap.get(key) + 1;
+            vitalityMap.put(key,value);
+        }
+
+        List<VitalityObject> vitalityList = new ArrayList<>();
+
+        for (int x=0; x<101; x++) {
+            vitalityList.add(new VitalityObject(x,vitalityMap.get(x)));
+        }
+
+        Collections.sort(vitalityList, new Comparator<VitalityObject>() {
+            @Override
+            public int compare(VitalityObject o1, VitalityObject o2) {
+                return o2.getValue().compareTo(o1.getValue());
+            }
+        });
+
+        return vitalityList.get(0).getNumber();
+    }
+
     @RequestMapping("analysis/{rateListName}")
     public AnalysisResult analysisRateList(@PathVariable String rateListName) throws IOException {
 
         AnalysisResult analysisResult = new AnalysisResult();
 
         Iterable<Rate> rates = rateRepository.findAllBySourceName(rateListName);
-        List<Rate> rateList = new ArrayList<>();
-
-        for (Rate rate : rates) {
-            rateList.add(rate);
-        }
-
-        Map<String, Integer> ratesValues = new HashMap<>();
-
-        int max = rateList.size() / 10;
-        if (max > 100) max = 100;
-        int count = 0;
-
-        while (rateList.size() > 0) {
-
-            int x = hotbitsClient.getInteger(0,rateList.size() - 1);
-            Rate rate = rateList.remove(x);
-            ratesValues.put(rate.getName(),0);
-
-            count +=1;
-
-            if (count >= max) {
-                break;
-            }
-        }
-
-        for (int x=0; x<7; x++) {
-            for (String rate : ratesValues.keySet()) {
-
-                Integer energeticValue = ratesValues.get(rate);
-                energeticValue += hotbitsClient.getInteger(0, 100);
-                ratesValues.put(rate, energeticValue);
-            }
-        }
-
-        for (String rate : ratesValues.keySet()) {
-            analysisResult.getRateObjects().add(new RateObject(ratesValues.get(rate),rate));
-        }
-
-        return analysisResult.sort();
+        return analyseService.getAnalysisResult(analysisResult, rates);
     }
 
     @RequestMapping(value = "case/selected/{id}", method = RequestMethod.GET)
