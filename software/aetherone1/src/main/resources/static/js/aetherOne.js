@@ -294,6 +294,7 @@ aether.init = function () {
     $('#buttonNewTarget').addClick(aether.showAddNewTargetForm);
     $('#buttonShowAllTargets').addClick(aether.showAllTargets);
     $('#buttonConnect').addClick(aether.startConnectToTarget);
+    $('#buttonAnalyzeGeneralVitality').addClick(aether.startAnalyseGeneralVitality);
 
     aether.get('case/selected', false, function (selectedCase) {
         if (selectedCase != null) {
@@ -318,6 +319,18 @@ aether.startConnectToTarget = function () {
             badgeType: 'badge-success',
             successInfo: 'Connection established!',
             protocolText: 'Connected to the energetic signature of ...'
+        });
+    } else {
+        alert("First choose a case and a target!");
+    }
+};
+
+aether.startAnalyseGeneralVitality = function () {
+
+    if (aether.session.case.id != null) {
+        aether.get('analysis/generalVitality',true,function (generalVitality) {
+            $('#headInformation').append('<p><span class="badge badge-primary">General Vitality = ' + generalVitality + '</span></p>');
+            protocol.info("General Vitality of " + generalVitality);
         });
     } else {
         alert("First choose a case and a target!");
