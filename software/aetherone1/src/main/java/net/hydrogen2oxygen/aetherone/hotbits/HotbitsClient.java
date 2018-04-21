@@ -8,20 +8,22 @@ import java.util.List;
 import java.util.Random;
 
 import lombok.Data;
+import net.hydrogen2oxygen.aetherone.utils.HttpUtils;
 import org.apache.commons.io.FileUtils;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
+import org.springframework.util.StringUtils;
 
 @Data
 @Component
 public class HotbitsClient {
 
-    private Random pseudoRandom;
     private boolean pseudoRandomMode = false;
 
     private byte[] currentData;
     private int currentPosition = 0;
 
+    private final List<Integer> randomOrgSeeds = new ArrayList<>();
     private final List<HotbitPackage> hotbitPackages = new ArrayList<>();
 
     private String hotbitServerUrls;
@@ -40,8 +42,6 @@ public class HotbitsClient {
 
     public HotbitsClient() throws Exception {
 
-        // Fallback if hotbits are not available (local test for example)
-        pseudoRandom = new Random(Calendar.getInstance().getTimeInMillis());
         hotbitsFactory = new HotbitsFactory();
         actualizeLastCallValue();
         initAsynchronousDownload();
@@ -92,7 +92,7 @@ public class HotbitsClient {
     public int getInteger(Integer min, Integer max) {
 
         if (pseudoRandomMode) {
-            return pseudoRandom.nextInt((max - min) + 1) + min;
+            return getRandomOrgSeeded().nextInt((max - min) + 1) + min;
         }
 
         return getRandom(getSeed(10)).nextInt((max - min) + 1) + min;
@@ -128,11 +128,48 @@ public class HotbitsClient {
         // Fallback to simulation
         if (seed == 0) {
             pseudoRandomMode = true;
-            return pseudoRandom;
+
+            // At least get some (real) seeds from RANDOM.ORG
+            return getRandomOrgSeeded();
         }
 
         // The real deal: hotbits initialized random (delivers for one run true random numbers)
         return new Random(seed);
+    }
+
+    public Random getRandomOrgSeeded() {
+
+        if (randomOrgSeeds.size() > 0) {
+            return new Random(randomOrgSeeds.remove(0));
+        }
+
+        try {
+
+            String randomSeeds = HttpUtils.get("https://www.random.org/integers/?num=1000&min=1&max=1000000&col=1&base=10&format=plain&rnd=new");
+
+            if (!StringUtils.isEmpty(randomSeeds)) {
+
+                String [] parts = randomSeeds.split("\n");
+
+                if (parts.length < 5) {
+                    System.out.println(randomSeeds);
+                    return new Random(Calendar.getInstance().getTimeInMillis());
+                }
+
+                for (String part : parts) {
+                    if (!StringUtils.isEmpty(part)) {
+                        randomOrgSeeds.add(Integer.parseInt(part));
+                    }
+                }
+            }
+
+        } catch (Exception e) {
+            System.out.println("Connection to random.org not successful.");
+            e.printStackTrace();
+            return new Random(Calendar.getInstance().getTimeInMillis());
+        }
+
+        return new Random(randomOrgSeeds.remove(0));
     }
 
     /**

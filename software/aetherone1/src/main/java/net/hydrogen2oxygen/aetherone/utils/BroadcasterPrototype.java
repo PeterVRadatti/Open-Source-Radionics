@@ -25,12 +25,14 @@ public class BroadcasterPrototype extends PApplet {
         }
 
         fill(0, 0, 0);
+
+        ellipse(50, 50, 80, 80);
     }
 
     @Override
     public void settings() {
-        fullScreen();
-
+        //fullScreen();
+        size(480, 120);
     }
 
     @Override
