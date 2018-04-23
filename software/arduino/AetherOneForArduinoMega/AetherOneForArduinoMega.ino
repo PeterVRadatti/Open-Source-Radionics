@@ -34,7 +34,7 @@ class AetherOneForArduino {
 
       writeString(command + "\n");
 
-      if (command == "clear") {
+      if (command == "CLEAR") {
         clear();
         return;
       }
