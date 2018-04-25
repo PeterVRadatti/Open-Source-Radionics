@@ -22,11 +22,8 @@ void loop() {
         break;
       }
     }
-
-    Serial.write("read end\n");
   }
 
-  delay(1000);
-
   aetherOne->executeCommand(input);
+  delay(250);
 }

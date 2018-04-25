@@ -2,7 +2,7 @@
 class AetherOneForArduino {
 
   private:
-    const int UV_LED = 13;
+    const int UV_LED = 12;
     const int RED_LED = 48;
     const int GREEN_LED = 50;
     const int BLUE_LED = 52;
@@ -32,7 +32,12 @@ class AetherOneForArduino {
 
       if (command == "") return;
 
-      writeString(command + "\n");
+      if (command == "AETHER_PING") {
+        digitalWrite(RED_LED, HIGH);
+        Serial.println("ARDUINO_PONG");
+        delay(1500);
+        digitalWrite(RED_LED, LOW);
+      }
 
       if (command == "CLEAR") {
         clear();
@@ -109,6 +114,8 @@ class AetherOneForArduino {
     }
 
     void writeString(String stringData) { // Used to serially push out a String with Serial.write()
+
+      stringData += "\n";
 
       for (int i = 0; i < stringData.length(); i++)
       {
