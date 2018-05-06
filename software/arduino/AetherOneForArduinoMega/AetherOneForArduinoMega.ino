@@ -7,6 +7,7 @@ class AetherOneForArduino {
     const int GREEN_LED = 50;
     const int BLUE_LED = 52;
     const int WHITE_LED = 51;
+    boolean connectionEstablished = false;
 
   public:
 
@@ -30,9 +31,14 @@ class AetherOneForArduino {
 
     void executeCommand(String command) {
 
-      if (command == "") return;
+      if (connectionEstablished == false) {
+        Serial.println("ARDUINO_PONG");
+      } else {
+        digitalWrite(GREEN_LED, HIGH);
+      }
 
       if (command == "AETHER_PING") {
+        connectionEstablished = true;
         digitalWrite(RED_LED, HIGH);
         Serial.println("ARDUINO_PONG");
         delay(1500);
@@ -81,6 +87,8 @@ class AetherOneForArduino {
       switchLED(command, "GREEN", GREEN_LED);
       switchLED(command, "BLUE", BLUE_LED);
       switchLED(command, "WHITE", WHITE_LED);
+
+
     }
 
     void blinkLED(int pin, char *arr, char value) {
