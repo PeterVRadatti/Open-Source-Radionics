@@ -2,7 +2,7 @@ public void buttonClick(GButton source, GEvent event) { //_CODE_:button1:685804:
   println("button1 - GButton >> " + source.getText() + " @ " + millis());
   
   if (source.getText() == "BROADCAST") {
-    arduinoConnection.broadCast(signatureTextField.getText(),10);
+    arduinoConnection.broadCast(signatureTextField.getText(),72);
   }
   
   if (source.getText() == "GREEN") {

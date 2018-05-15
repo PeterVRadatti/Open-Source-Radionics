@@ -59,7 +59,7 @@ public class RadionicsElements {
     }  
     noStroke();
     smooth();
-    
+
     return this;
   }
 
@@ -77,4 +77,48 @@ public class RadionicsElements {
       .setSize(w, h)
       .setColor(c);
   }
+
+  public RadionicsElements addTextField(String textfieldName, int x, int y, int w, int h, boolean focus) {
+    cp5.addTextfield(textfieldName)
+      .setPosition(x, y)
+      .setSize(w, h)
+      .setFont(font)
+      .setFocus(focus)
+      .setColor(c);
+
+    return this;
+  }
+
+  public RadionicsElements addKnob(String name, int x, int y, int radius, int rangeStart, int rangeEnd, int value, Colors colors) {
+    
+    if (colors == null) colors = new Colors();
+    
+    cp5.addKnob(name)
+      .setRange(rangeStart, rangeEnd)
+      .setValue(value)
+      .setPosition(x, y)
+      .setRadius(radius)
+      .setNumberOfTickMarks(10)
+      .setTickMarkLength(4)
+      .setColorActive(color(colors.aRed, colors.aGreen, colors.aBlue))
+      .setColorBackground(color(colors.bRed, colors.bGreen, colors.bBlue))
+      .setColorForeground(color(colors.fRed, colors.fGreen, colors.fBlue))
+      .setDragDirection(Knob.HORIZONTAL);
+
+    return this;
+  }
+}
+
+public class Colors {
+  public int fRed = 255;
+  public int fGreen = 255;
+  public int fBlue = 255;
+  
+  public int bRed = 0;
+  public int bGreen = 45;
+  public int bBlue = 90;
+  
+  public int aRed = 120;
+  public int aGreen = 0;
+  public int aBlue = 0;
 }
