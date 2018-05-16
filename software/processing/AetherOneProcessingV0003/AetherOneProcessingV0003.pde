@@ -43,6 +43,12 @@ void setup() {
     .addButton("select image")
     .addButton("paste image")
     .addButton("clear image");
+    
+  radionicsElements.startAtX = 650;
+  radionicsElements.startAtY = 250;
+  radionicsElements
+    .addButton("clear peggotty")
+    .addButton("automatic set");
 
   int xx = 10;
   int yy = 450;
@@ -94,9 +100,12 @@ void initConfiguration() {
 
 void draw() {
   background(0);
+  tint(255, 0);
   stroke(255);
   line(0, 400, 1250, 400);
-  line(600, 0, 600, 900);
+  line(420, 220, 630, 220);
+  line(420, 220, 420, 400);
+  line(630, 0, 630, 900);
   line(1250, 0, 1250, 900);
   fill(255, 100);
   pushMatrix();
@@ -113,17 +122,38 @@ void draw() {
   int alpha = 0;
 
   for (PImage photo : photos) {
-    
+
     if (imageCount > 0) {
       alpha = 125 + (imageCount * 3);
     }
-    
+
     tint(255, alpha);
-    image(photo, 602, 404);
+    image(photo, 632, 404);
     imageCount ++;
   }
-  
+
   imageCount = 0;
+
+  drawLED("ARDUINO\nCONNECTED", 450, 250, 20, true);
+  drawLED("CLEARING", 450 + 70, 250, 20, false);
+  drawLED("ANALYSING", 450 + 140, 250, 23, false);
+  drawLED("BROADCASTING", 450, 250 + 70, 20, true);
+  drawLED("COPY", 450 + 70, 250 + 70, 10, false);
+}
+
+void drawLED(String text, int x, int y, int textOffset, boolean on) {
+  fill(50,0,0);
+  if (on) {
+    fill(0, 255, 0);
+  }
+  stroke(200);
+  strokeWeight(3);
+  ellipse(x, y, 30, 30);
+  strokeWeight(1);
+
+  fill(255);
+  textSize(9);
+  text(text, x - textOffset, y + 30);
 }
 
 void peggotty(int theX, int theY) {
@@ -158,7 +188,7 @@ public void controlEvent(ControlEvent theEvent) {
     PImage photo = getImageFromClipboard();
 
     if (photo != null) {
-      photo.resize(645, 490);
+      photo.resize(615, 490);
       photos.add(photo);
     }
   }
