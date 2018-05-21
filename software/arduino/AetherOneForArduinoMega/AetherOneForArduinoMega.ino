@@ -7,7 +7,14 @@ class AetherOneForArduino {
     const int GREEN_LED = 50;
     const int BLUE_LED = 52;
     const int WHITE_LED = 51;
+    int trngNumber = 0;
+    int bitNumber = 0;
+    int trng_bitmask_x = 0;
+    int trng_seed_rounds = 0;
+    int trng_seed = 0;
     boolean connectionEstablished = false;
+    boolean trng_generation = false;
+    int wait_millis = 250;
 
   public:
 
@@ -27,12 +34,57 @@ class AetherOneForArduino {
         digitalWrite(UV_LED, LOW);
         delay(25);
       }
+
+      Serial.println("CLEARED");
+    }
+
+    int getWaitMillis() {
+      return wait_millis;
+    }
+
+    void generateTRNG() {
+      if (trng_generation == false) {
+        wait_millis = 250;
+        return;
+      }
+
+      wait_millis = 0;
+      
+      if (analogRead(0) > analogRead(0)) {
+        bitNumber |= 1UL << trng_bitmask_x;
+      } else {
+        bitNumber &= ~(1UL << trng_bitmask_x);
+      }
+
+      trng_bitmask_x++;
+
+      if (trng_bitmask_x >= 16) {
+        trng_bitmask_x = 0;
+        trng_seed_rounds++;
+        trng_seed += bitNumber;
+        bitNumber = 0;
+      }
+
+      if (trng_seed_rounds >= 10) {
+        if (trng_seed < 0) {
+          trng_seed = trng_seed * -1;
+        }
+        Serial.println(trng_seed);
+        trng_seed = 0;
+        trng_seed_rounds = 0;
+      }
     }
 
     void executeCommand(String command) {
 
+      if (command.length() > 0)
+        Serial.println(command);
+
       if (connectionEstablished == false) {
         Serial.println("ARDUINO_PONG");
+        digitalWrite(GREEN_LED, HIGH);
+        delay(20);
+        digitalWrite(GREEN_LED, LOW);
       } else {
         digitalWrite(GREEN_LED, HIGH);
       }
@@ -40,9 +92,23 @@ class AetherOneForArduino {
       if (command == "AETHER_PING") {
         connectionEstablished = true;
         digitalWrite(RED_LED, HIGH);
-        Serial.println("ARDUINO_PONG");
+        Serial.println("ARDUINO_OK");
         delay(1500);
         digitalWrite(RED_LED, LOW);
+      }
+
+      if (command == "TRNG_START") {
+        connectionEstablished = true;
+        trng_generation = true;
+        digitalWrite(RED_LED, HIGH);
+        delay(1500);
+        digitalWrite(RED_LED, LOW);
+      }
+
+      if (command == "TRNG_STOP") {
+        wait_millis = 250;
+        Serial.println("TRNG_STOP");
+        trng_generation = false;
       }
 
       if (command == "CLEAR") {
@@ -81,14 +147,14 @@ class AetherOneForArduino {
             }
           }
         }
+
+        Serial.println("BROADCAST FINISHED");
       }
 
       switchLED(command, "RED", RED_LED);
       switchLED(command, "GREEN", GREEN_LED);
       switchLED(command, "BLUE", BLUE_LED);
       switchLED(command, "WHITE", WHITE_LED);
-
-
     }
 
     void blinkLED(int pin, char *arr, char value) {

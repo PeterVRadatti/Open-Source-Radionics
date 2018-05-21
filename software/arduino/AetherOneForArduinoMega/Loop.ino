@@ -10,7 +10,10 @@ void loop() {
 
   String input = "";
 
+  aetherOne->generateTRNG();
+
   if (Serial.available() > 0 ) {
+    delay(250);
     char inChar = Serial.read();
 
     while (inChar != '#') {
@@ -23,7 +26,7 @@ void loop() {
       }
     }
   }
-
+  
   aetherOne->executeCommand(input);
-  delay(250);
+  delay(aetherOne->getWaitMillis());
 }

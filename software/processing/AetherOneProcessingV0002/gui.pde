@@ -8,6 +8,14 @@ public void buttonClick(GButton source, GEvent event) { //_CODE_:button1:685804:
   if (source.getText() == "GREEN") {
     arduinoConnection.clear();
   }
+  
+  if (source.getText() == "RED") {
+    arduinoConnection.start_trng();
+  }
+  
+  if (source.getText() == "BLUE") {
+    arduinoConnection.stop_trng();
+  }
 }
 
 GButton buttonBroadcast;

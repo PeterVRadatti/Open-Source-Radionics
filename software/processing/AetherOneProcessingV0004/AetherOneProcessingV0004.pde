@@ -6,19 +6,28 @@ import java.awt.datatransfer.DataFlavor;
 import java.awt.datatransfer.UnsupportedFlavorException;
 import java.awt.image.BufferedImage;
 import java.awt.Graphics2D;
+import processing.net.*;
+import processing.serial.*;
 import java.util.*;
 
 RadionicsElements radionicsElements;
+ArduinoSerialConnection arduinoConnection;
+AetherOneCore core;
 
 boolean initFinished = false;
 List<PImage> photos = new ArrayList<PImage>();
 JSONObject configuration;
 PImage backgroundImage;
+int arduinoConnectionMillis;
 
 void setup() {
   size(1800, 900);
   noStroke();
   smooth();
+  core = new AetherOneCore();
+  arduinoConnection = new ArduinoSerialConnection(this, 9600, core);
+  arduinoConnectionMillis = millis();
+  arduinoConnection.getPort();
   
   backgroundImage = loadImage("AetherOneBackground.png");
   
@@ -67,6 +76,7 @@ void setup() {
     .addButton("automatic set");
 
   radionicsElements.addSlider("process", 635, 325, 570, 10, 100);
+  radionicsElements.addSlider("hotbits", 635, 340, 570, 10, 100);
 
   int xx = 10;
   int yy = 520;
@@ -95,7 +105,7 @@ void setup() {
   radionicsElements
     .addKnob("generalVitality", 420, 520, 70, 0, 100, 0, null)
     .addKnob("amplifier", 400, 700, 90, 0, 360, 0, color_gold);
-
+  
   initFinished = true;
 }
 
@@ -154,18 +164,43 @@ void draw() {
 
   imageCount = 0;
 
-  drawLED("ARDUINO\nCONNECTED", 450, 250, 20, true);
-  drawLED("CLEARING", 450 + 70, 250, 20, false);
-  drawLED("ANALYSING", 450 + 140, 250, 23, false);
-  drawLED("BROADCASTING", 450, 250 + 70, 20, true);
-  drawLED("COPY", 450 + 70, 250 + 70, 10, false);
-  drawLED("GROUNDING", 450 + 140, 250 + 70, 25, false);
+  drawGreenLED("ARDUINO\nCONNECTED", 450, 250, 20, arduinoConnection.arduinoFound);
+  drawBlueLED("CLEARING", 450 + 70, 250, 20, arduinoConnection.clearing);
+  drawGreenLED("ANALYSING", 450 + 140, 250, 23, false);
+  drawGreenLED("BROADCASTING", 450, 250 + 70, 20, false);
+  drawGreenLED("COPY", 450 + 70, 250 + 70, 10, false);
+  drawBlueLED("GROUNDING", 450 + 140, 250 + 70, 25, false);
+  drawRedLED("HOTBITS", 450, 250 + 130, 20, arduinoConnection.collectingHotbits);
+  
+  if (arduinoConnection.arduinoConnectionEstablished() == false) {
+    if ((arduinoConnectionMillis + 1500) < millis()) {
+      arduinoConnectionMillis = millis();
+      arduinoConnection.getPort();
+      delay(1000);
+    }
+  }
 }
 
-void drawLED(String text, int x, int y, int textOffset, boolean on) {
+void serialEvent(Serial p) { 
+  arduinoConnection.serialEvent(p);
+}
+
+void drawRedLED(String text, int x, int y, int textOffset, boolean on) {
+  drawLED(text,x,y,textOffset,on,255,0,0);
+}
+
+void drawGreenLED(String text, int x, int y, int textOffset, boolean on) {
+  drawLED(text,x,y,textOffset,on,0,255,0);
+}
+
+void drawBlueLED(String text, int x, int y, int textOffset, boolean on) {
+  drawLED(text,x,y,textOffset,on,0,0,255);
+}
+
+void drawLED(String text, int x, int y, int textOffset, boolean on, int r, int g, int b) {
   fill(50, 0, 0);
   if (on) {
-    fill(0, 255, 0);
+    fill(r, g, b);
   }
   stroke(200);
   strokeWeight(3);
@@ -217,6 +252,10 @@ public void controlEvent(ControlEvent theEvent) {
   if ("clear image".equals(command)) {
     photos.clear();
     tint(255, 0);
+  }
+  
+  if ("clear".equals(command)) {
+    arduinoConnection.clear();
   }
 }
 
