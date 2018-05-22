@@ -9,6 +9,7 @@ import java.awt.Graphics2D;
 import processing.net.*;
 import processing.serial.*;
 import java.util.*;
+import javax.xml.bind.DatatypeConverter;
 
 RadionicsElements radionicsElements;
 ArduinoSerialConnection arduinoConnection;
@@ -28,9 +29,9 @@ void setup() {
   arduinoConnection = new ArduinoSerialConnection(this, 9600, core);
   arduinoConnectionMillis = millis();
   arduinoConnection.getPort();
-  
+
   backgroundImage = loadImage("AetherOneBackground.png");
-  
+
   initConfiguration();
 
   radionicsElements = new RadionicsElements(this);
@@ -105,12 +106,24 @@ void setup() {
   radionicsElements
     .addKnob("generalVitality", 420, 520, 70, 0, 100, 0, null)
     .addKnob("amplifier", 400, 700, 90, 0, 360, 0, color_gold);
-  
+
+  prepareExitHandler ();
   initFinished = true;
 }
 
-void stop() {
-  saveJSONObject(configuration, "configuration.json");
+
+
+private void prepareExitHandler () {
+
+  Runtime.getRuntime().addShutdownHook(new Thread(new Runnable() {
+
+    public void run () {
+
+      saveJSONObject(configuration, "configuration.json");
+      core.persistHotBits();
+    }
+  }
+  ));
 }
 
 void initConfiguration() {
@@ -131,7 +144,7 @@ void draw() {
   image(backgroundImage, 0, 0);
   stroke(255);
   text("x: "+mouseX+" y: "+mouseY, 320, 495);
-  
+
   stroke(255);
   strokeWeight(1);
   fill(255, 100);
@@ -167,16 +180,16 @@ void draw() {
   drawGreenLED("ARDUINO\nCONNECTED", 450, 250, 20, arduinoConnection.arduinoFound);
   drawBlueLED("CLEARING", 450 + 70, 250, 20, arduinoConnection.clearing);
   drawGreenLED("ANALYSING", 450 + 140, 250, 23, false);
-  drawGreenLED("BROADCASTING", 450, 250 + 70, 20, false);
+  drawGreenLED("BROADCASTING", 450, 250 + 70, 20, arduinoConnection.broadcasting);
   drawGreenLED("COPY", 450 + 70, 250 + 70, 10, false);
   drawBlueLED("GROUNDING", 450 + 140, 250 + 70, 25, false);
   drawRedLED("HOTBITS", 450, 250 + 130, 20, arduinoConnection.collectingHotbits);
-  
+
   if (arduinoConnection.arduinoConnectionEstablished() == false) {
     if ((arduinoConnectionMillis + 1500) < millis()) {
       arduinoConnectionMillis = millis();
       arduinoConnection.getPort();
-      delay(1000);
+      delay(250);
     }
   }
 }
@@ -186,15 +199,15 @@ void serialEvent(Serial p) {
 }
 
 void drawRedLED(String text, int x, int y, int textOffset, boolean on) {
-  drawLED(text,x,y,textOffset,on,255,0,0);
+  drawLED(text, x, y, textOffset, on, 255, 0, 0);
 }
 
 void drawGreenLED(String text, int x, int y, int textOffset, boolean on) {
-  drawLED(text,x,y,textOffset,on,0,255,0);
+  drawLED(text, x, y, textOffset, on, 0, 255, 0);
 }
 
 void drawBlueLED(String text, int x, int y, int textOffset, boolean on) {
-  drawLED(text,x,y,textOffset,on,0,0,255);
+  drawLED(text, x, y, textOffset, on, 0, 0, 255);
 }
 
 void drawLED(String text, int x, int y, int textOffset, boolean on, int r, int g, int b) {
@@ -251,11 +264,23 @@ public void controlEvent(ControlEvent theEvent) {
 
   if ("clear image".equals(command)) {
     photos.clear();
-    tint(255, 0);
   }
-  
+
   if ("clear".equals(command)) {
     arduinoConnection.clear();
+    cp5.get(Textfield.class, "Input").setText("");
+    cp5.get(Textfield.class, "Intention").setText("");
+    cp5.get(Textfield.class, "Manual rate").setText("");
+    cp5.get(Textfield.class, "Output").setText("");
+  }
+  
+  if ("broadcast".equals(command)) {
+    String manualRate = cp5.get(Textfield.class, "Manual rate").getText();
+    String outputRate = cp5.get(Textfield.class, "Output").getText();
+    String broadcastSignature = manualRate + outputRate;
+    println("broadcastSignature = " + broadcastSignature);
+    String b64 = DatatypeConverter.printBase64Binary(broadcastSignature.getBytes());
+    arduinoConnection.broadCast(b64,72);
   }
 }
 

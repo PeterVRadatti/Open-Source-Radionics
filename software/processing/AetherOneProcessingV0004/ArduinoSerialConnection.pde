@@ -8,6 +8,7 @@ class ArduinoSerialConnection {
   boolean arduinoFound;
   boolean collectingHotbits = false;
   boolean clearing = false;
+  boolean broadcasting = false;
   String[] portList;
   String arduinoInputString;
   AetherOneCore core;
@@ -24,6 +25,7 @@ class ArduinoSerialConnection {
 
   public void broadCast(String signature, int repeat) {
     serialPort.write("BROADCAST " + repeat + " "  + signature);
+    broadcasting = true;
   }
 
   public void clear() {
@@ -44,11 +46,17 @@ class ArduinoSerialConnection {
     if (arduinoFound) return;
 
     currentPortNumber += 1;
-    println("getPort " + currentPortNumber);
     numberOfPorts = Serial.list().length;
-
-    if (currentPortNumber >= numberOfPorts) return;
-    println(numberOfPorts + " " + currentPortNumber);
+    
+    if (currentPortNumber >= numberOfPorts) {
+      currentPortNumber = 1;
+    }
+    
+    if (currentPortNumber >= numberOfPorts) {
+      return;
+    }
+    
+    println("getPort " + currentPortNumber + " of " + numberOfPorts);
 
     portList = new String[numberOfPorts];
     portList[currentPortNumber] = Serial.list()[currentPortNumber];
@@ -57,19 +65,25 @@ class ArduinoSerialConnection {
 
   public void serialEvent(Serial p) {
     arduinoInputString = p.readStringUntil('\n');
-
-    if (arduinoInputString.length() == 0) {
-      return;
-    }
-
     arduinoInputString = arduinoInputString.replaceAll("\n", "");
     arduinoInputString = arduinoInputString.replaceAll("\r", "");
     arduinoInputString = arduinoInputString.replaceAll("\t", "");
-
-    println("[" + arduinoInputString + "]");
+    
+    if (arduinoInputString.trim().length() == 0) {
+      return;
+    }
+    
+    if ("ARDUINO_PONG".equals(arduinoInputString) && arduinoFound) {
+      delay(100);
+      return;
+    }
 
     if ("CLEARED".equals(arduinoInputString)) {
       clearing = false;
+    }
+    
+    if ("BROADCAST FINISHED".equals(arduinoInputString)) {
+      broadcasting = false;
     }
 
     if ("ARDUINO_OK".equals(arduinoInputString)) {
@@ -99,13 +113,14 @@ class ArduinoSerialConnection {
     try {
       Integer seed = Integer.parseInt(arduinoInputString);
       collectingHotbits = true;
-      core.hotbits.add(seed);
-      println("Hotbits archive size " + core.hotbits.size());
+      core.addHotBitSeed(seed);
       return;
     } 
     catch(Exception e) {
       collectingHotbits = false;
     }
+    
+    println("[" + arduinoInputString + "]");
   }
 
   public boolean connect(String detectedPort) {
