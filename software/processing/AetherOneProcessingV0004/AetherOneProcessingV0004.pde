@@ -20,6 +20,8 @@ List<PImage> photos = new ArrayList<PImage>();
 JSONObject configuration;
 PImage backgroundImage;
 int arduinoConnectionMillis;
+File selectedDatabase;
+String monitorText = "";
 
 void setup() {
   size(1800, 900);
@@ -192,6 +194,13 @@ void draw() {
       delay(250);
     }
   }
+  
+  if (selectedDatabase != null) {
+    textSize(14);
+    text(selectedDatabase.getName(), 1275, 45);
+    stroke(0,0,255);
+    text(monitorText, 1275, 71);
+  }
 }
 
 void serialEvent(Serial p) { 
@@ -237,6 +246,60 @@ public void controlEvent(ControlEvent theEvent) {
 
   String command = theEvent.getController().getName();
 
+  if ("select database".equals(command)) {
+    println(dataPath(""));
+    JFileChooser chooser = new JFileChooser(dataPath(""));
+    chooser.setCurrentDirectory(new File(dataPath("")));
+    FileNameExtensionFilter filter = new FileNameExtensionFilter(
+      "Database", "txt", "csv", "json");
+    chooser.setFileFilter(filter);
+    int returnVal = chooser.showOpenDialog(null);
+    if (returnVal == JFileChooser.APPROVE_OPTION) {
+      println("You chose to open this file: " +
+        chooser.getSelectedFile().getName());
+      selectedDatabase = chooser.getSelectedFile();
+    }
+  }
+
+  if ("analyse".equals(command)) {
+    if (selectedDatabase == null) return;
+
+    String[] lines = loadStrings(selectedDatabase);
+    Map<String, Integer> ratesDoubles = new HashMap<String, Integer>();
+    int doubles = 0;
+
+    while (doubles < 5) {
+      String rate = lines[core.getRandomNumber(lines.length)];
+
+      if (ratesDoubles.get(rate) != null) {
+        Integer count = ratesDoubles.get(rate);
+        count++;
+        ratesDoubles.put(rate, count);
+      } else {
+        ratesDoubles.put(rate, 1);
+      }
+
+      doubles = 0;
+
+      for (String rateKey : ratesDoubles.keySet()) {
+        if (ratesDoubles.get(rateKey) > 4) {
+          doubles++;
+        }
+      }
+    }
+
+    monitorText += "---------------------------\n";
+    
+    for (String rateKey : ratesDoubles.keySet()) {
+      if (ratesDoubles.get(rateKey) > 4) {
+        println(rateKey + " " + ratesDoubles.get(rateKey));
+        monitorText += rateKey + " " + ratesDoubles.get(rateKey) + "\n";
+      }
+    }
+
+    core.updateCp5ProgressBar();
+  }
+
   if ("select image".equals(command)) {
     JFileChooser chooser = new JFileChooser();
     FileNameExtensionFilter filter = new FileNameExtensionFilter(
@@ -273,14 +336,14 @@ public void controlEvent(ControlEvent theEvent) {
     cp5.get(Textfield.class, "Manual rate").setText("");
     cp5.get(Textfield.class, "Output").setText("");
   }
-  
+
   if ("broadcast".equals(command)) {
     String manualRate = cp5.get(Textfield.class, "Manual rate").getText();
     String outputRate = cp5.get(Textfield.class, "Output").getText();
     String broadcastSignature = manualRate + outputRate;
     println("broadcastSignature = " + broadcastSignature);
     String b64 = DatatypeConverter.printBase64Binary(broadcastSignature.getBytes());
-    arduinoConnection.broadCast(b64,72);
+    arduinoConnection.broadCast(b64, 72);
   }
 }
 

@@ -2,6 +2,8 @@ public class AetherOneCore { //<>// //<>//
 
   List<Integer> hotbits = new ArrayList<Integer>();
   int updateProcessBar = 0;
+  Calendar today = Calendar.getInstance();
+  Random pseudoRandom = new Random(today.getTimeInMillis());
 
   public AetherOneCore() {
     try {
@@ -35,21 +37,44 @@ public class AetherOneCore { //<>// //<>//
   }
 
   void addHotBitSeed(Integer seed) {
+    
+    if (hotbits.size() > 500000) return;
+    
     hotbits.add(seed);
     updateProcessBar++;
 
-    int count = hotbits.size();
-
-    if (count > 0) count = count / 100;
-    if (count > 100) count = 100;
-
-    if (cp5 != null && updateProcessBar > 100) {
-      cp5.get("hotbits").setValue(count);
+    if (updateProcessBar > 100) {
+      updateCp5ProgressBar();
       updateProcessBar = 0;
     }
   }
 
   Integer getHotBitSeed() {
     return hotbits.remove(0);
+  }
+  
+  void updateCp5ProgressBar() {
+    
+    int count = hotbits.size();
+    
+    if (count > 0) count = count / 100;
+    if (count > 100) count = 100;
+
+    if (cp5 != null) {
+      cp5.get("hotbits").setValue(count);
+    }
+  }
+  
+  Integer getRandomNumber(int max) {
+    
+    Random random;
+    
+    if (hotbits.size() > 0) {
+      random = new Random(getHotBitSeed());
+    } else {
+      random = pseudoRandom;
+    }
+    
+    return random.nextInt(max);
   }
 }
