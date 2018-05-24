@@ -50,7 +50,9 @@ public class AetherOneCore { //<>// //<>//
   }
 
   Integer getHotBitSeed() {
-    return hotbits.remove(0);
+    Integer seed = hotbits.remove(0);
+    println(seed);
+    return seed;
   }
   
   void updateCp5ProgressBar() {

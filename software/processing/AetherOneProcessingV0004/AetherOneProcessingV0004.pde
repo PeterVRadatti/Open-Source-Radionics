@@ -1,4 +1,4 @@
-import javax.swing.JFileChooser;
+import javax.swing.JFileChooser; //<>//
 import javax.swing.filechooser.FileNameExtensionFilter;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.Transferable;
@@ -48,7 +48,7 @@ void setup() {
     .addButton("disconnect")
     .addButton("select database")
     .addButton("analyse")
-    .addButton("check potency")
+    .addButton("general vitality")
     .addButton("broadcast")
     .addButton("copy")
     .addButton("invert")
@@ -194,13 +194,10 @@ void draw() {
       delay(250);
     }
   }
-  
-  if (selectedDatabase != null) {
-    textSize(14);
-    text(selectedDatabase.getName(), 1275, 45);
-    stroke(0,0,255);
-    text(monitorText, 1275, 71);
-  }
+
+  textSize(14);
+  stroke(0, 0, 255);
+  text(monitorText, 1275, 45);
 }
 
 void serialEvent(Serial p) { 
@@ -239,6 +236,17 @@ void peggotty(int theX, int theY) {
   radionicsElements.d[theX][theY].update();
 }
 
+public boolean reachedSpecifiedHits(Map<String, Integer> ratesDoubles, int max) {
+
+  for (String rateKey : ratesDoubles.keySet()) {
+    if (ratesDoubles.get(rateKey) >= max) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
 public void controlEvent(ControlEvent theEvent) {
   println(theEvent.getController().getName());
 
@@ -266,9 +274,14 @@ public void controlEvent(ControlEvent theEvent) {
 
     String[] lines = loadStrings(selectedDatabase);
     Map<String, Integer> ratesDoubles = new HashMap<String, Integer>();
-    int doubles = 0;
 
-    while (doubles < 5) {
+    int expectedDoubles = 10;
+
+    if (lines.length <= 10) {
+      expectedDoubles = lines.length / 2;
+    }
+
+    while (!reachedSpecifiedHits(ratesDoubles, expectedDoubles)) {
       String rate = lines[core.getRandomNumber(lines.length)];
 
       if (ratesDoubles.get(rate) != null) {
@@ -278,23 +291,32 @@ public void controlEvent(ControlEvent theEvent) {
       } else {
         ratesDoubles.put(rate, 1);
       }
-
-      doubles = 0;
-
-      for (String rateKey : ratesDoubles.keySet()) {
-        if (ratesDoubles.get(rateKey) > 4) {
-          doubles++;
-        }
-      }
     }
 
-    monitorText += "---------------------------\n";
-    
+    monitorText += "---------------------------\n" + selectedDatabase.getName() + "\n";
+
+    List<RateObject> rateObjects = new ArrayList<RateObject>();
+
     for (String rateKey : ratesDoubles.keySet()) {
-      if (ratesDoubles.get(rateKey) > 4) {
-        println(rateKey + " " + ratesDoubles.get(rateKey));
-        monitorText += rateKey + " " + ratesDoubles.get(rateKey) + "\n";
+      RateObject rateObject = new RateObject();
+      rateObject.level = ratesDoubles.get(rateKey);
+      rateObject.rate = rateKey;
+      rateObjects.add(rateObject);
+    }
+
+    Collections.sort(rateObjects, new Comparator<RateObject>() {
+      public int compare(RateObject o1, RateObject o2) {
+        Integer i1 = o1.level;
+        Integer i2 = o2.level;
+        return i2.compareTo(i1);
       }
+    }    
+    );
+
+    for (int x=0; x<expectedDoubles; x++) {
+      RateObject rateObject = rateObjects.get(x);
+
+      monitorText += rateObject.level + "  | " + rateObject.rate + "\n";
     }
 
     core.updateCp5ProgressBar();
@@ -335,6 +357,7 @@ public void controlEvent(ControlEvent theEvent) {
     cp5.get(Textfield.class, "Intention").setText("");
     cp5.get(Textfield.class, "Manual rate").setText("");
     cp5.get(Textfield.class, "Output").setText("");
+    monitorText = "";
   }
 
   if ("broadcast".equals(command)) {
@@ -404,4 +427,9 @@ BufferedImage toBufferedImage(java.awt.Image src) {
   g2.dispose();
 
   return dest;
+}
+
+public class RateObject {
+  String rate;
+  Integer level = 0;
 }

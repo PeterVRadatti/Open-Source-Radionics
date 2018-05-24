@@ -47,15 +47,15 @@ class ArduinoSerialConnection {
 
     currentPortNumber += 1;
     numberOfPorts = Serial.list().length;
-    
+
     if (currentPortNumber >= numberOfPorts) {
       currentPortNumber = 1;
     }
-    
+
     if (currentPortNumber >= numberOfPorts) {
       return;
     }
-    
+
     println("getPort " + currentPortNumber + " of " + numberOfPorts);
 
     portList = new String[numberOfPorts];
@@ -68,11 +68,11 @@ class ArduinoSerialConnection {
     arduinoInputString = arduinoInputString.replaceAll("\n", "");
     arduinoInputString = arduinoInputString.replaceAll("\r", "");
     arduinoInputString = arduinoInputString.replaceAll("\t", "");
-    
+
     if (arduinoInputString.trim().length() == 0) {
       return;
     }
-    
+
     if ("ARDUINO_PONG".equals(arduinoInputString) && arduinoFound) {
       delay(100);
       return;
@@ -81,7 +81,7 @@ class ArduinoSerialConnection {
     if ("CLEARED".equals(arduinoInputString)) {
       clearing = false;
     }
-    
+
     if ("BROADCAST FINISHED".equals(arduinoInputString)) {
       broadcasting = false;
     }
@@ -95,13 +95,15 @@ class ArduinoSerialConnection {
       serialPort.write("#");
       println("Arduino found at port " + portList[currentPortNumber]);
       serialPort.write("AETHER_PING");
-      
-      
+
+
       (new Thread() {
         public void run() {
           try {
             Thread.sleep(5000);
-          } catch(Exception e){}
+          } 
+          catch(Exception e) {
+          }
           start_trng();
         }
       }
@@ -112,6 +114,10 @@ class ArduinoSerialConnection {
 
     try {
       Integer seed = Integer.parseInt(arduinoInputString);
+
+      // a bugfix, during broadcasting the seed drops under 100, and therefore we discard it
+      if (seed < 100) return;
+
       collectingHotbits = true;
       core.addHotBitSeed(seed);
       return;
@@ -119,7 +125,7 @@ class ArduinoSerialConnection {
     catch(Exception e) {
       collectingHotbits = false;
     }
-    
+
     println("[" + arduinoInputString + "]");
   }
 
