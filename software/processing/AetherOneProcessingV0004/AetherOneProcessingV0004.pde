@@ -9,7 +9,6 @@ import java.awt.Graphics2D;
 import processing.net.*;
 import processing.serial.*;
 import java.util.*;
-import javax.xml.bind.DatatypeConverter;
 
 RadionicsElements radionicsElements;
 ArduinoSerialConnection arduinoConnection;
@@ -365,7 +364,9 @@ public void controlEvent(ControlEvent theEvent) {
     String outputRate = cp5.get(Textfield.class, "Output").getText();
     String broadcastSignature = manualRate + outputRate;
     println("broadcastSignature = " + broadcastSignature);
-    String b64 = DatatypeConverter.printBase64Binary(broadcastSignature.getBytes());
+    byte[] data = broadcastSignature.getBytes();
+    String b64 = Base64.getEncoder().encodeToString(data);
+    println("broadcastSignature encoded = " + b64);
     arduinoConnection.broadCast(b64, 72);
   }
 }
