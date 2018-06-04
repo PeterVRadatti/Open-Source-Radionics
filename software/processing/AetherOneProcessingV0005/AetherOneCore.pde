@@ -53,7 +53,6 @@ public class AetherOneCore { //<>// //<>//
 
   Integer getHotBitSeed() {
     Integer seed = hotbits.remove(0);
-    println(seed);
     return seed;
   }
   

@@ -273,8 +273,9 @@ public void controlEvent(ControlEvent theEvent) {
 
     String[] lines = loadStrings(selectedDatabase);
     Map<String, Integer> ratesDoubles = new HashMap<String, Integer>();
-
+  
     int expectedDoubles = 10;
+    int rounds = 0;
 
     if (lines.length <= 10) {
       expectedDoubles = lines.length / 2;
@@ -282,6 +283,8 @@ public void controlEvent(ControlEvent theEvent) {
 
     while (!reachedSpecifiedHits(ratesDoubles, expectedDoubles)) {
       String rate = lines[core.getRandomNumber(lines.length)];
+      
+      rounds++;
 
       if (ratesDoubles.get(rate) != null) {
         Integer count = ratesDoubles.get(rate);
@@ -292,7 +295,7 @@ public void controlEvent(ControlEvent theEvent) {
       }
     }
 
-    monitorText += "---------------------------\n" + selectedDatabase.getName() + "\n";
+    monitorText = "---------------------------\n" + selectedDatabase.getName() + "\n";
 
     List<RateObject> rateObjects = new ArrayList<RateObject>();
 
@@ -317,6 +320,8 @@ public void controlEvent(ControlEvent theEvent) {
 
       monitorText += rateObject.level + "  | " + rateObject.rate + "\n";
     }
+    
+    monitorText += "Analysis end reached after " +  rounds + " rounds";
 
     core.updateCp5ProgressBar();
   }
