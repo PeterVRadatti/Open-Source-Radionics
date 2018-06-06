@@ -321,7 +321,8 @@ public void controlEvent(ControlEvent theEvent) {
       monitorText += rateObject.level + "  | " + rateObject.rate + "\n";
     }
     
-    monitorText += "Analysis end reached after " +  rounds + " rounds";
+    int ratio = rounds / lines.length;
+    monitorText += "Analysis end reached after " +  rounds + " rounds (rounds / rates ratio = " + ratio + ")" ;
 
     core.updateCp5ProgressBar();
   }
