@@ -1,0 +1,359 @@
+import javax.swing.JFileChooser; //<>//
+import javax.swing.filechooser.FileNameExtensionFilter;
+import java.awt.datatransfer.Clipboard;
+import java.awt.datatransfer.Transferable;
+import java.awt.datatransfer.DataFlavor;
+import java.awt.datatransfer.UnsupportedFlavorException;
+import java.awt.image.BufferedImage;
+import java.awt.Graphics2D;
+import processing.net.*;
+import processing.serial.*;
+import java.util.*;
+
+RadionicsElements radionicsElements;
+ArduinoSerialConnection arduinoConnection;
+AetherOneCore core;
+
+boolean initFinished = false;
+List<PImage> photos = new ArrayList<PImage>();
+JSONObject configuration;
+PImage backgroundImage;
+int arduinoConnectionMillis;
+File selectedDatabase;
+String monitorText = "";
+
+void setup() {
+  size(540, 700);
+  noStroke();
+  smooth();
+  core = new AetherOneCore();
+  arduinoConnection = new ArduinoSerialConnection(this, 9600, core);
+  arduinoConnectionMillis = millis();
+  arduinoConnection.getPort();
+
+  backgroundImage = loadImage("AetherOneBackground.png");
+
+  initConfiguration();
+
+  radionicsElements = new RadionicsElements(this);
+  radionicsElements.startAtX = 328;
+  radionicsElements.startAtY = 70;
+  radionicsElements.usualWidth = 200;
+  radionicsElements.usualHeight = 21;
+  radionicsElements
+    .addButton("clear")
+    .addButton("grounding")
+    .addButton("connect")
+    .addButton("disconnect")
+    .addButton("select database")
+    .addButton("analyse")
+    .addButton("general vitality")
+    .addButton("broadcast")
+    .addTextField("Input", 75, 10, 450, 20, true)
+    .addTextField("Output", 75, 40, 450, 20, false);
+
+  radionicsElements.addSlider("process", 10, 270, 480, 10, 100);
+  radionicsElements.addSlider("hotbits", 10, 290, 480, 10, 100);
+
+  prepareExitHandler ();
+  initFinished = true;
+}
+
+
+
+private void prepareExitHandler () {
+
+  Runtime.getRuntime().addShutdownHook(new Thread(new Runnable() {
+
+    public void run () {
+
+      saveJSONObject(configuration, "configuration.json");
+      core.persistHotBits();
+    }
+  }
+  ));
+}
+
+void initConfiguration() {
+  try {
+    configuration = loadJSONObject("configuration.json");
+  } 
+  catch(Exception e) {
+    configuration = new JSONObject();
+  }
+
+  if (configuration == null) {
+    configuration = new JSONObject();
+  }
+}
+
+void draw() {
+  background(0);
+  //image(backgroundImage, 0, 0);
+  stroke(255);
+  text("INPUT", 10, 25);
+  text("OUTPUT", 10, 55);
+  //text("x: "+mouseX+" y: "+mouseY, 320, 495);
+
+  int x = 30;
+  int y = 90;
+  drawGreenLED("ARDUINO\nCONNECTED", x, y, 20, arduinoConnection.arduinoFound);
+  drawBlueLED("CLEARING", x + 70, y, 20, arduinoConnection.clearing);
+  drawGreenLED("ANALYSING", x + 140, y, 23, false);
+  drawGreenLED("BROADCASTING", x, y + 70, 20, arduinoConnection.broadcasting);
+  drawGreenLED("COPY", x + 70, y + 70, 10, false);
+  drawBlueLED("GROUNDING", x + 140, y + 70, 25, false);
+  drawRedLED("HOTBITS", x, y + 130, 20, arduinoConnection.collectingHotbits);
+  drawBlueLED("SIMULATION", x + 70, y + 130, 26, core.simulation);
+
+  if (arduinoConnection.arduinoConnectionEstablished() == false) {
+    if ((arduinoConnectionMillis + 2500) < millis()) {
+      arduinoConnectionMillis = millis();
+      arduinoConnection.getPort();
+      delay(250);
+    }
+  }
+
+  textSize(14);
+  stroke(0, 0, 255);
+  text(monitorText, 10, 330);
+}
+
+void serialEvent(Serial p) { 
+  arduinoConnection.serialEvent(p);
+}
+
+void drawRedLED(String text, int x, int y, int textOffset, boolean on) {
+  drawLED(text, x, y, textOffset, on, 255, 0, 0);
+}
+
+void drawGreenLED(String text, int x, int y, int textOffset, boolean on) {
+  drawLED(text, x, y, textOffset, on, 0, 255, 0);
+}
+
+void drawBlueLED(String text, int x, int y, int textOffset, boolean on) {
+  drawLED(text, x, y, textOffset, on, 0, 0, 255);
+}
+
+void drawLED(String text, int x, int y, int textOffset, boolean on, int r, int g, int b) {
+  fill(50, 0, 0);
+  if (on) {
+    fill(r, g, b);
+  }
+  stroke(200);
+  strokeWeight(3);
+  ellipse(x, y, 30, 30);
+  strokeWeight(1);
+
+  fill(255);
+  textSize(9);
+  text(text, x - textOffset, y + 30);
+}
+
+
+
+public boolean reachedSpecifiedHits(Map<String, Integer> ratesDoubles, int max) {
+
+  for (String rateKey : ratesDoubles.keySet()) {
+    if (ratesDoubles.get(rateKey) >= max) {
+      return true;
+    }
+  }
+
+  return false;
+}
+
+public void controlEvent(ControlEvent theEvent) {
+  println(theEvent.getController().getName());
+
+  if (!initFinished) return;
+
+  String command = theEvent.getController().getName();
+
+  if ("select database".equals(command)) {
+    println(dataPath(""));
+    JFileChooser chooser = new JFileChooser(dataPath(""));
+    chooser.setCurrentDirectory(new File(dataPath("")));
+    FileNameExtensionFilter filter = new FileNameExtensionFilter(
+      "Database", "txt", "csv", "json");
+    chooser.setFileFilter(filter);
+    int returnVal = chooser.showOpenDialog(null);
+    if (returnVal == JFileChooser.APPROVE_OPTION) {
+      println("You chose to open this file: " +
+        chooser.getSelectedFile().getName());
+      selectedDatabase = chooser.getSelectedFile();
+      core.updateCp5ProgressBar();
+    }
+  }
+
+  if ("analyse".equals(command)) {
+    if (selectedDatabase == null) return;
+
+    String[] lines = loadStrings(selectedDatabase);
+    Map<String, Integer> ratesDoubles = new HashMap<String, Integer>();
+
+    int expectedDoubles = 10;
+    int rounds = 0;
+
+    if (lines.length <= 10) {
+      expectedDoubles = lines.length / 2;
+    }
+
+    while (!reachedSpecifiedHits(ratesDoubles, expectedDoubles)) {
+      String rate = lines[core.getRandomNumber(lines.length)];
+
+      rounds++;
+
+      if (ratesDoubles.get(rate) != null) {
+        Integer count = ratesDoubles.get(rate);
+        count++;
+        ratesDoubles.put(rate, count);
+      } else {
+        ratesDoubles.put(rate, 1);
+      }
+    }
+
+    monitorText = selectedDatabase.getName() + "\n";
+
+    List<RateObject> rateObjects = new ArrayList<RateObject>();
+
+    for (String rateKey : ratesDoubles.keySet()) {
+      RateObject rateObject = new RateObject();
+      rateObject.level = ratesDoubles.get(rateKey);
+      rateObject.rate = rateKey;
+      rateObjects.add(rateObject);
+    }
+
+    Collections.sort(rateObjects, new Comparator<RateObject>() {
+      public int compare(RateObject o1, RateObject o2) {
+        Integer i1 = o1.level;
+        Integer i2 = o2.level;
+        return i2.compareTo(i1);
+      }
+    }    
+    );
+
+    for (int x=0; x<expectedDoubles; x++) {
+      RateObject rateObject = rateObjects.get(x);
+
+      monitorText += rateObject.level + "  | " + rateObject.rate + "\n";
+    }
+
+    int ratio = rounds / lines.length;
+    monitorText += "Analysis end reached after " +  rounds + " rounds (rounds / rates ratio = " + ratio + ")" ;
+
+    core.updateCp5ProgressBar();
+    core.persistHotBits();
+  }
+
+  if ("select image".equals(command)) {
+    JFileChooser chooser = new JFileChooser();
+    FileNameExtensionFilter filter = new FileNameExtensionFilter(
+      "JPG & GIF Images", "jpg", "gif");
+    chooser.setFileFilter(filter);
+    int returnVal = chooser.showOpenDialog(null);
+    if (returnVal == JFileChooser.APPROVE_OPTION) {
+      System.out.println("You chose to open this file: " +
+        chooser.getSelectedFile().getName());
+      PImage photo = loadImage(chooser.getSelectedFile().getAbsolutePath());
+      photo.resize(615, 490);
+      photos.add(photo);
+    }
+  }
+
+  if ("paste image".equals(command)) {
+
+    PImage photo = getImageFromClipboard();
+
+    if (photo != null) {
+      photo.resize(615, 490);
+      photos.add(photo);
+    }
+  }
+
+  if ("clear image".equals(command)) {
+    photos.clear();
+  }
+
+  if ("clear".equals(command)) {
+    arduinoConnection.clear();
+    cp5.get(Textfield.class, "Input").setText("");
+    cp5.get(Textfield.class, "Output").setText("");
+    monitorText = "";
+  }
+
+  if ("broadcast".equals(command)) {
+    String manualRate = cp5.get(Textfield.class, "Input").getText();
+    String outputRate = cp5.get(Textfield.class, "Output").getText();
+    String broadcastSignature = manualRate + outputRate;
+    println("broadcastSignature = " + broadcastSignature);
+    byte[] data = broadcastSignature.getBytes();
+    String b64 = Base64.getEncoder().encodeToString(data);
+    println("broadcastSignature encoded = " + b64);
+    arduinoConnection.broadCast(b64, 72);
+  }
+}
+
+PImage getImageFromClipboard() {
+
+  java.awt.Image image = (java.awt.Image) getFromClipboard(DataFlavor.imageFlavor);
+
+  if (image != null)
+  {      
+    BufferedImage bufferedImage = toBufferedImage(image);
+    return new PImage(bufferedImage);
+  }
+
+  return null;
+}
+
+Object getFromClipboard (DataFlavor flavor) {
+
+  java.awt.Component component = new java.awt.Canvas();
+  Clipboard clipboard = component.getToolkit().getSystemClipboard();
+  Transferable contents = clipboard.getContents(null);
+  Object object = null;
+
+  if (contents != null && contents.isDataFlavorSupported(flavor))
+  {
+    try
+    {
+      object = contents.getTransferData(flavor);
+      println("Clipboard.GetFromClipboard() >> Object transferred from clipboard.");
+    }
+
+    catch (UnsupportedFlavorException e1) // Unlikely but we must catch it
+    {
+      println("Clipboard.GetFromClipboard() >> Unsupported flavor: " + e1);
+    }
+
+    catch (java.io.IOException e2)
+    {
+      println("Clipboard.GetFromClipboard() >> Unavailable data: " + e2);
+    }
+  }
+
+  return object;
+} 
+
+BufferedImage toBufferedImage(java.awt.Image src) {
+
+  int w = src.getWidth(null);
+  int h = src.getHeight(null);
+
+  int type = BufferedImage.TYPE_INT_RGB;  // other options
+
+  BufferedImage dest = new BufferedImage(w, h, type);
+
+  Graphics2D g2 = dest.createGraphics();
+
+  g2.drawImage(src, 0, 0, null);
+  g2.dispose();
+
+  return dest;
+}
+
+public class RateObject {
+  String rate;
+  Integer level = 0;
+}
