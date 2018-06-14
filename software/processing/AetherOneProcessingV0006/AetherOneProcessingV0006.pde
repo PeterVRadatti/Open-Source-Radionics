@@ -21,6 +21,13 @@ PImage backgroundImage;
 int arduinoConnectionMillis;
 File selectedDatabase;
 String monitorText = "";
+long timeNow;
+
+long getTimeMillis() {
+  Calendar cal = Calendar.getInstance();
+  timeNow = cal.getTimeInMillis();
+  return timeNow;
+}
 
 void setup() {
   size(540, 700);
@@ -233,15 +240,47 @@ public void controlEvent(ControlEvent theEvent) {
     }    
     );
 
+    int level = 0;
+    
+    JSONArray protocolArray = new JSONArray();
+    
     for (int x=0; x<expectedDoubles; x++) {
       RateObject rateObject = rateObjects.get(x);
-
+      
+      JSONObject protocolEntry = new JSONObject();
+      protocolEntry.setInt(rateObject.rate,rateObject.level);
+      protocolArray.setJSONObject(x,protocolEntry);
+      
       monitorText += rateObject.level + "  | " + rateObject.rate + "\n";
+      
+      level += (10 - rateObject.level);
     }
-
+    
     int ratio = rounds / lines.length;
-    monitorText += "Analysis end reached after " +  rounds + " rounds (rounds / rates ratio = " + ratio + ")" ;
-
+    String synopsis = "Analysis end reached after " +  rounds + " rounds (rounds / rates ratio = " + ratio + ")\n" ;
+    synopsis += "Level " + level;
+    monitorText += synopsis;
+    
+    String inputText = cp5.get(Textfield.class, "Input").getText();
+    String outputText = cp5.get(Textfield.class, "Output").getText();
+    
+    JSONObject protocol = new JSONObject();
+    protocol.setJSONArray("result",protocolArray);
+    protocol.setString("synopsis",synopsis);
+    protocol.setString("input",inputText);
+    protocol.setString("output",outputText);
+    protocol.setInt("level",level);
+    protocol.setInt("ratio",ratio);
+    String filePath = System.getProperty("user.home");
+    
+    if (inputText != null && inputText.length() > 0) {
+      filePath += "/AetherOne/protocol_" + getTimeMillis() + "_" + inputText.replaceAll(" ","") + ".txt";
+    } else {
+      filePath += "/AetherOne/protocol_" + getTimeMillis() + ".txt";
+    }
+    
+    saveJSONObject(protocol, filePath);
+    
     core.updateCp5ProgressBar();
     core.persistHotBits();
   }
