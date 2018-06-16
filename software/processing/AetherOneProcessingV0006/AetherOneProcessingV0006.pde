@@ -61,6 +61,10 @@ void setup() {
 
   radionicsElements.addSlider("process", 10, 270, 480, 10, 100);
   radionicsElements.addSlider("hotbits", 10, 290, 480, 10, 100);
+  
+  radionicsElements
+  .addKnob("Max Hits",230,70,35,1,100,10,null)
+  .addKnob("Broadcast Repeats",230,170,35,1,360,72,null);
 
   prepareExitHandler ();
   initFinished = true;
@@ -199,11 +203,13 @@ public void controlEvent(ControlEvent theEvent) {
     String[] lines = loadStrings(selectedDatabase);
     Map<String, Integer> ratesDoubles = new HashMap<String, Integer>();
 
-    int expectedDoubles = 10;
+    Float maxHits = cp5.get(Knob.class, "Max Hits").getValue();
+    int maxEntries = 10;
+    int expectedDoubles = maxHits.intValue();
     int rounds = 0;
 
     if (lines.length <= 10) {
-      expectedDoubles = lines.length / 2;
+      maxEntries = lines.length / 2;
     }
 
     while (!reachedSpecifiedHits(ratesDoubles, expectedDoubles)) {
@@ -244,7 +250,7 @@ public void controlEvent(ControlEvent theEvent) {
     
     JSONArray protocolArray = new JSONArray();
     
-    for (int x=0; x<expectedDoubles; x++) {
+    for (int x=0; x<maxEntries; x++) {
       RateObject rateObject = rateObjects.get(x);
       
       JSONObject protocolEntry = new JSONObject();
@@ -322,6 +328,9 @@ public void controlEvent(ControlEvent theEvent) {
   }
 
   if ("broadcast".equals(command)) {
+    Float fBroadcastRepeats = cp5.get(Knob.class, "Broadcast Repeats").getValue();
+    int broadcastRepeats = fBroadcastRepeats.intValue();
+    
     String manualRate = cp5.get(Textfield.class, "Input").getText();
     String outputRate = cp5.get(Textfield.class, "Output").getText();
     String broadcastSignature = manualRate + outputRate;
@@ -329,7 +338,7 @@ public void controlEvent(ControlEvent theEvent) {
     byte[] data = broadcastSignature.getBytes();
     String b64 = Base64.getEncoder().encodeToString(data);
     println("broadcastSignature encoded = " + b64);
-    arduinoConnection.broadCast(b64, 72);
+    arduinoConnection.broadCast(b64, broadcastRepeats);
   }
 }
 
