@@ -23,8 +23,8 @@ class ArduinoSerialConnection {
     return arduinoFound;
   }
 
-  public void broadCast(String signature, int repeat) {
-    serialPort.write("BROADCAST " + repeat + " "  + signature);
+  public void broadCast(String signature, int repeat, int iDelay) {
+    serialPort.write("BROADCAST " + repeat + " "  + signature + " " + iDelay);
     broadcasting = true;
   }
 

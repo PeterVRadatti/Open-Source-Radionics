@@ -61,10 +61,11 @@ void setup() {
 
   radionicsElements.addSlider("process", 10, 270, 480, 10, 100);
   radionicsElements.addSlider("hotbits", 10, 290, 480, 10, 100);
-  
+
   radionicsElements
-  .addKnob("Max Hits",230,70,35,1,100,10,null)
-  .addKnob("Broadcast Repeats",230,170,35,1,360,72,null);
+    .addKnob("Max Hits", 230, 70, 35, 1, 100, 10, null)
+    .addKnob("Broadcast Repeats", 230, 180, 35, 1, 360, 72, null)
+    .addKnob("Delay", 145, 200, 25, 1, 250, 25, null);
 
   prepareExitHandler ();
   initFinished = true;
@@ -247,46 +248,46 @@ public void controlEvent(ControlEvent theEvent) {
     );
 
     int level = 0;
-    
+
     JSONArray protocolArray = new JSONArray();
-    
+
     for (int x=0; x<maxEntries; x++) {
       RateObject rateObject = rateObjects.get(x);
-      
+
       JSONObject protocolEntry = new JSONObject();
-      protocolEntry.setInt(rateObject.rate,rateObject.level);
-      protocolArray.setJSONObject(x,protocolEntry);
-      
+      protocolEntry.setInt(rateObject.rate, rateObject.level);
+      protocolArray.setJSONObject(x, protocolEntry);
+
       monitorText += rateObject.level + "  | " + rateObject.rate + "\n";
-      
+
       level += (10 - rateObject.level);
     }
-    
+
     int ratio = rounds / lines.length;
     String synopsis = "Analysis end reached after " +  rounds + " rounds (rounds / rates ratio = " + ratio + ")\n" ;
     synopsis += "Level " + level;
     monitorText += synopsis;
-    
+
     String inputText = cp5.get(Textfield.class, "Input").getText();
     String outputText = cp5.get(Textfield.class, "Output").getText();
-    
+
     JSONObject protocol = new JSONObject();
-    protocol.setJSONArray("result",protocolArray);
-    protocol.setString("synopsis",synopsis);
-    protocol.setString("input",inputText);
-    protocol.setString("output",outputText);
-    protocol.setInt("level",level);
-    protocol.setInt("ratio",ratio);
+    protocol.setJSONArray("result", protocolArray);
+    protocol.setString("synopsis", synopsis);
+    protocol.setString("input", inputText);
+    protocol.setString("output", outputText);
+    protocol.setInt("level", level);
+    protocol.setInt("ratio", ratio);
     String filePath = System.getProperty("user.home");
-    
+
     if (inputText != null && inputText.length() > 0) {
-      filePath += "/AetherOne/protocol_" + getTimeMillis() + "_" + inputText.replaceAll(" ","") + ".txt";
+      filePath += "/AetherOne/protocol_" + getTimeMillis() + "_" + inputText.replaceAll(" ", "") + ".txt";
     } else {
       filePath += "/AetherOne/protocol_" + getTimeMillis() + ".txt";
     }
-    
+
     saveJSONObject(protocol, filePath);
-    
+
     core.updateCp5ProgressBar();
     core.persistHotBits();
   }
@@ -328,18 +329,24 @@ public void controlEvent(ControlEvent theEvent) {
   }
 
   if ("broadcast".equals(command)) {
-    Float fBroadcastRepeats = cp5.get(Knob.class, "Broadcast Repeats").getValue();
-    int broadcastRepeats = fBroadcastRepeats.intValue();
-    
     String manualRate = cp5.get(Textfield.class, "Input").getText();
     String outputRate = cp5.get(Textfield.class, "Output").getText();
     String broadcastSignature = manualRate + outputRate;
-    println("broadcastSignature = " + broadcastSignature);
-    byte[] data = broadcastSignature.getBytes();
-    String b64 = Base64.getEncoder().encodeToString(data);
-    println("broadcastSignature encoded = " + b64);
-    arduinoConnection.broadCast(b64, broadcastRepeats);
+    broadcast(broadcastSignature);
   }
+}
+
+void broadcast(String broadcastSignature) {
+  Float fBroadcastRepeats = cp5.get(Knob.class, "Broadcast Repeats").getValue();
+  int broadcastRepeats = fBroadcastRepeats.intValue();
+  Float fDelay = cp5.get(Knob.class, "Delay").getValue();
+  int iDelay = fDelay.intValue();
+
+  println("broadcastSignature = " + broadcastSignature);
+  byte[] data = broadcastSignature.getBytes();
+  String b64 = Base64.getEncoder().encodeToString(data);
+  println("broadcastSignature encoded = " + b64);
+  arduinoConnection.broadCast(b64, broadcastRepeats, iDelay);
 }
 
 PImage getImageFromClipboard() {

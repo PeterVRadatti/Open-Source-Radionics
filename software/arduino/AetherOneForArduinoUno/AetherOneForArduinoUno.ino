@@ -17,6 +17,7 @@ class AetherOneForArduino {
     boolean connectionEstablished = false;
     boolean trng_generation = false;
     int wait_millis = 250;
+    int delay_millis = 25;
 
   public:
 
@@ -143,7 +144,7 @@ class AetherOneForArduino {
         return;
       }
 
-      // BROADCAST 2 a2b2ZGFzamb2a3NkavZm
+      // BROADCAST 2 a2b2ZGFzamb2a3NkavZm 25
       if (getValue(command, ' ', 0) == "BROADCAST") {
 
         digitalWrite(CONTROL_LED, LOW);
@@ -156,6 +157,7 @@ class AetherOneForArduino {
         String stringData = getValue(command, ' ', 2);
 
         int repeat = getValue(command, ' ', 1).toInt();
+        delay_millis = getValue(command, ' ', 3).toInt();
 
         for (int z = 0; z < repeat; z++) {
           for (int x = 0; x < stringData.length(); x++) {
@@ -197,9 +199,9 @@ class AetherOneForArduino {
 
         if (arr[i] == value) {
           digitalWrite(pin, HIGH);
-          delay(25);
+          delay(delay_millis);
           digitalWrite(pin, LOW);
-          delay(25);
+          delay(delay_millis);
         }
       }
     }
