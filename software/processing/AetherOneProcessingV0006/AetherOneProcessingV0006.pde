@@ -197,6 +197,16 @@ public void controlEvent(ControlEvent theEvent) {
       core.updateCp5ProgressBar();
     }
   }
+  
+  if ("grounding".equals(command)) {
+        
+    String [] signatures = loadStrings(sketchPath() + "/data/FUNCTION_GROUNDING.txt");
+    String groundingSignature = signatures[core.getRandomNumber(signatures.length)]
+    + " " + signatures[core.getRandomNumber(signatures.length)]
+    + " " + signatures[core.getRandomNumber(signatures.length)];
+    
+    broadcast(groundingSignature);
+  }
 
   if ("analyse".equals(command)) {
     if (selectedDatabase == null) return;
