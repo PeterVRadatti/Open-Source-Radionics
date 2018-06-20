@@ -22,6 +22,7 @@ int arduinoConnectionMillis;
 File selectedDatabase;
 String monitorText = "";
 long timeNow;
+Integer generalVitality = null;
 
 long getTimeMillis() {
   Calendar cal = Calendar.getInstance();
@@ -201,11 +202,26 @@ public void controlEvent(ControlEvent theEvent) {
   if ("grounding".equals(command)) {
         
     String [] signatures = loadStrings(sketchPath() + "/data/FUNCTION_GROUNDING.txt");
+    println(signatures.length);
+    println(core.getRandomNumber(signatures.length));
     String groundingSignature = signatures[core.getRandomNumber(signatures.length)]
     + " " + signatures[core.getRandomNumber(signatures.length)]
     + " " + signatures[core.getRandomNumber(signatures.length)];
     
     broadcast(groundingSignature);
+  }
+  
+  if ("general vitality".equals(command)) {
+    
+    List<Integer> list = new ArrayList<Integer>();
+    
+    for (int x=0; x<3; x++) {
+      list.add(core.getRandomNumber(1000));
+    }
+    
+    Collections.sort(list, Collections.reverseOrder());
+    
+    monitorText += "General vitality = " + list.get(0) + "\n";
   }
 
   if ("analyse".equals(command)) {
@@ -336,6 +352,7 @@ public void controlEvent(ControlEvent theEvent) {
     cp5.get(Textfield.class, "Input").setText("");
     cp5.get(Textfield.class, "Output").setText("");
     monitorText = "";
+    generalVitality = null;
   }
 
   if ("broadcast".equals(command)) {
