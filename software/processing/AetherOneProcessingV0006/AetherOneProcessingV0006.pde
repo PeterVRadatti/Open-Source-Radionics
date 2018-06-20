@@ -208,6 +208,8 @@ public void controlEvent(ControlEvent theEvent) {
     + " " + signatures[core.getRandomNumber(signatures.length)]
     + " " + signatures[core.getRandomNumber(signatures.length)];
     
+    monitorText = "GROUNDING signature:\n" + groundingSignature;
+    
     broadcast(groundingSignature);
   }
   
@@ -221,7 +223,7 @@ public void controlEvent(ControlEvent theEvent) {
     
     Collections.sort(list, Collections.reverseOrder());
     
-    monitorText += "General vitality = " + list.get(0) + "\n";
+    monitorText += "\nGeneral vitality = " + list.get(0);
   }
 
   if ("analyse".equals(command)) {
