@@ -24,7 +24,16 @@ class ArduinoSerialConnection {
   }
 
   public void broadCast(String signature, int repeat, int iDelay) {
-    serialPort.write("BROADCAST " + repeat + " "  + signature + " " + iDelay);
+    
+    signature = signature.replaceAll(" ","");
+    
+    String broadCastSignature = "BROADCAST " 
+    + repeat + " "  
+    + signature
+    + " " + iDelay;
+    
+    println("broadCastSignature = " + broadCastSignature);
+    serialPort.write(broadCastSignature);
     broadcasting = true;
   }
 

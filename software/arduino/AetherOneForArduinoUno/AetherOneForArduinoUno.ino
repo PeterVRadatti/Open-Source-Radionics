@@ -52,7 +52,7 @@ class AetherOneForArduino {
     }
 
     void clear() {
-      
+
       digitalWrite(CONTROL_LED, LOW);
 
       for (int x = 0; x < 100; x++) {
@@ -157,7 +157,12 @@ class AetherOneForArduino {
         String stringData = getValue(command, ' ', 2);
 
         int repeat = getValue(command, ' ', 1).toInt();
-        delay_millis = getValue(command, ' ', 3).toInt();
+
+        if (getValue(command, ' ', 3) != NULL) {
+          delay_millis = getValue(command, ' ', 3).toInt();
+        } else {
+          delay_millis = 20;
+        }
 
         for (int z = 0; z < repeat; z++) {
           for (int x = 0; x < stringData.length(); x++) {
@@ -172,7 +177,7 @@ class AetherOneForArduino {
               char blues[2] = {'4', '8'};
               char whites[2] = {'0', '9'};
               char infrared[2] = {'1', '6'};
-              
+
               blinkLED(RED_LED, reds, stringPart[y]);
               blinkLED(GREEN_LED, greens, stringPart[y]);
               blinkLED(BLUE_LED, blues, stringPart[y]);

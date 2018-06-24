@@ -39,7 +39,7 @@ public class AetherOneCore { //<>// //<>//
 
   void addHotBitSeed(Integer seed) {
     
-    if (hotbits.size() > 500000) return;
+    if (hotbits.size() > 4000000) return;
     
     if (seed < 100) return;
     

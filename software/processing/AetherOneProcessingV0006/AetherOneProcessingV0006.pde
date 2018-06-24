@@ -360,7 +360,7 @@ public void controlEvent(ControlEvent theEvent) {
   if ("broadcast".equals(command)) {
     String manualRate = cp5.get(Textfield.class, "Input").getText();
     String outputRate = cp5.get(Textfield.class, "Output").getText();
-    String broadcastSignature = manualRate + outputRate;
+    String broadcastSignature = manualRate  + " " + outputRate;
     broadcast(broadcastSignature);
   }
 }
@@ -369,7 +369,9 @@ void broadcast(String broadcastSignature) {
   Float fBroadcastRepeats = cp5.get(Knob.class, "Broadcast Repeats").getValue();
   int broadcastRepeats = fBroadcastRepeats.intValue();
   Float fDelay = cp5.get(Knob.class, "Delay").getValue();
+  println(fDelay);
   int iDelay = fDelay.intValue();
+  println(iDelay);
 
   println("broadcastSignature = " + broadcastSignature);
   byte[] data = broadcastSignature.getBytes();

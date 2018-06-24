@@ -4,7 +4,7 @@ ControlP5 cp5;
 
 public class RadionicsElements {
 
-  private PApplet p;
+  private PApplet p = null;
   private ControlFont font;
   private CColor c;
 
@@ -18,16 +18,14 @@ public class RadionicsElements {
     this.p = p;
     cp5 = new ControlP5(p);
 
-    PFont pfont = createFont("Arial", 18, true);
-    font = new ControlFont(pfont, 18);
+    PFont pfont = createFont("Arial", 15, true);
+    font = new ControlFont(pfont, 15);
 
     c = new CColor();
     c.setBackground(color(43, 0, 118));
     c.setActive(color(0, 0, 0));
     c.setForeground(color(255, 125, 0));
   }
-
-
   
   public RadionicsElements addSlider(String text, int x, int y, int w, int h, int range) {
     cp5.addSlider(text)

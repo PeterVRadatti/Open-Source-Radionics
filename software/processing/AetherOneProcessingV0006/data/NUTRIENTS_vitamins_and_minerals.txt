@@ -1,3 +1,17 @@
+Calcium
+Magnesium
+Phosphorus
+Potassium
+Sodium
+Chloride
+Chromium
+Copper
+Iodine
+Iron
+Fluoride
+Manganese
+Selenium
+Zinc
 A1 2344 
 A2 2404 
 B1 2544 
@@ -8,6 +22,7 @@ B4 9456
 B5 6743 
 B6 6534 
 B8 48803 
+B Complex
 Biotin 35109 
 C 3443 
 D1 7409 
