@@ -18,8 +18,8 @@ public class RadionicsElements {
     this.p = p;
     cp5 = new ControlP5(p);
 
-    PFont pfont = createFont("Arial", 15, true);
-    font = new ControlFont(pfont, 15);
+    PFont pfont = createFont("Arial", 16, true);
+    font = new ControlFont(pfont, 16);
 
     c = new CColor();
     c.setBackground(color(43, 0, 118));

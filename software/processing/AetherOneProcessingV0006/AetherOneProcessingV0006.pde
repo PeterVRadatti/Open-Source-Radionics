@@ -57,7 +57,7 @@ void setup() {
     .addButton("connect")
     .addButton("disconnect")
     .addButton("select database")
-    .addButton("analyse")
+    .addButton("analyze")
     .addButton("general vitality")
     .addButton("broadcast")
     .addTextField("Input", 75, 10, 450, 20, true)
@@ -131,14 +131,14 @@ void draw() {
     }
   }
 
+  //textSize(10);
+  //text("Hotbits " + core.hotbits.size(), 10, 315);
+  
   textSize(14);
   stroke(0, 0, 255);
   text(monitorText, 10, 330);
   
-  textSize(10);
-  text("Hotbits " + core.hotbits.size(), 10, 315);
-  
-  if (connectMode || disconnectMode) {
+  /*if (connectMode || disconnectMode) {
     if (core.getRandomNumber(1000) > 950) {
       progress += 1;
       core.setProgress(progress);
@@ -158,7 +158,7 @@ void draw() {
       disconnectMode = false;
       core.persistHotBits();
     }
-  }
+  }*/
 }
 
 void serialEvent(Serial p) { 
@@ -266,7 +266,7 @@ public void controlEvent(ControlEvent theEvent) {
   }
 
   if ("analyse".equals(command)) {
-    if (selectedDatabase == null) return;
+    if (selectedDatabase == null) return; //<>//
 
     String[] lines = loadStrings(selectedDatabase);
     Map<String, Integer> ratesDoubles = new HashMap<String, Integer>();
