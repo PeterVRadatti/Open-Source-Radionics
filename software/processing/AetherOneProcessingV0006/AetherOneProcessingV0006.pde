@@ -212,7 +212,7 @@ public void controlEvent(ControlEvent theEvent) {
 
   String command = theEvent.getController().getName();
 
-  if ("select database".equals(command)) {
+  if ("select data".equals(command)) {
     println(dataPath(""));
     JFileChooser chooser = new JFileChooser(dataPath(""));
     chooser.setCurrentDirectory(new File(dataPath("")));
