@@ -55,13 +55,13 @@ void setup() {
     .addButton("clear")
     .addButton("grounding")
     .addButton("connect")
-    .addButton("disconnect")
-    .addButton("select database")
+    .addButton("select data")
     .addButton("analyze")
     .addButton("general vitality")
     .addButton("broadcast")
-    .addTextField("Input", 75, 10, 450, 20, true)
-    .addTextField("Output", 75, 40, 450, 20, false);
+    .addButton("disconnect")
+    .addTextField("Input", 80, 10, 445, 20, true)
+    .addTextField("Output", 80, 40, 445, 20, false);
 
   radionicsElements.addSlider("progress", 10, 270, 480, 10, 100);
   radionicsElements.addSlider("hotbits", 10, 290, 480, 10, 100);
@@ -131,14 +131,14 @@ void draw() {
     }
   }
 
-  //textSize(10);
-  //text("Hotbits " + core.hotbits.size(), 10, 315);
+  textSize(11);
+  text("Hotbits " + core.hotbits.size(), 10, 315);
   
-  textSize(14);
+  textSize(16);
   stroke(0, 0, 255);
   text(monitorText, 10, 330);
   
-  /*if (connectMode || disconnectMode) {
+  if (connectMode || disconnectMode) {
     if (core.getRandomNumber(1000) > 950) {
       progress += 1;
       core.setProgress(progress);
@@ -158,7 +158,7 @@ void draw() {
       disconnectMode = false;
       core.persistHotBits();
     }
-  }*/
+  }
 }
 
 void serialEvent(Serial p) { 
@@ -206,7 +206,7 @@ public boolean reachedSpecifiedHits(Map<String, Integer> ratesDoubles, int max) 
 }
 
 public void controlEvent(ControlEvent theEvent) {
-  println(theEvent.getController().getName());
+  println("controlEvent " + theEvent.getController().getName());
 
   if (!initFinished) return;
 
@@ -265,7 +265,7 @@ public void controlEvent(ControlEvent theEvent) {
     monitorText += "\nGeneral vitality = " + list.get(0);
   }
 
-  if ("analyse".equals(command)) {
+  if ("analyze".equals(command)) {
     if (selectedDatabase == null) return; //<>//
 
     String[] lines = loadStrings(selectedDatabase);
