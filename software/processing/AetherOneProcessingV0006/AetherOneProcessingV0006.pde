@@ -23,6 +23,9 @@ File selectedDatabase;
 String monitorText = "";
 long timeNow;
 Integer generalVitality = null;
+Integer progress = 0;
+boolean connectMode = false;
+boolean disconnectMode = false;
 
 long getTimeMillis() {
   Calendar cal = Calendar.getInstance();
@@ -60,7 +63,7 @@ void setup() {
     .addTextField("Input", 75, 10, 450, 20, true)
     .addTextField("Output", 75, 40, 450, 20, false);
 
-  radionicsElements.addSlider("process", 10, 270, 480, 10, 100);
+  radionicsElements.addSlider("progress", 10, 270, 480, 10, 100);
   radionicsElements.addSlider("hotbits", 10, 290, 480, 10, 100);
 
   radionicsElements
@@ -70,6 +73,7 @@ void setup() {
 
   prepareExitHandler ();
   initFinished = true;
+  core.updateCp5ProgressBar();
 }
 
 
@@ -130,6 +134,31 @@ void draw() {
   textSize(14);
   stroke(0, 0, 255);
   text(monitorText, 10, 330);
+  
+  textSize(10);
+  text("Hotbits " + core.hotbits.size(), 10, 315);
+  
+  if (connectMode || disconnectMode) {
+    if (core.getRandomNumber(1000) > 950) {
+      progress += 1;
+      core.setProgress(progress);
+    }
+    
+    if (progress >= 100) {
+      
+      if (connectMode) {
+        monitorText = "CONNECTED!";
+      }
+      
+      if (disconnectMode) {
+        monitorText = "DISCONNECTED!";
+      }
+      
+      connectMode = false;
+      disconnectMode = false;
+      core.persistHotBits();
+    }
+  }
 }
 
 void serialEvent(Serial p) { 
@@ -211,6 +240,16 @@ public void controlEvent(ControlEvent theEvent) {
     monitorText = "GROUNDING signature:\n" + groundingSignature;
     
     broadcast(groundingSignature);
+  }
+  
+  if ("connect".equals(command)) {
+    connectMode = true;
+    progress = 0;
+  }
+  
+  if ("disconnect".equals(command)) {
+    disconnectMode = true;
+    progress = 0;
   }
   
   if ("general vitality".equals(command)) {

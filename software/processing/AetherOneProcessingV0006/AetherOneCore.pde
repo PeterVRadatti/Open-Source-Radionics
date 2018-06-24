@@ -70,6 +70,10 @@ public class AetherOneCore { //<>// //<>//
     }
   }
   
+  void setProgress(Integer progress) {
+    cp5.get("progress").setValue(progress);
+  }
+  
   Integer getRandomNumber(int max) {
     
     Random random;
