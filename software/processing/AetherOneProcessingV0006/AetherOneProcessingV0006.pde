@@ -47,9 +47,9 @@ void setup() {
   initConfiguration();
 
   radionicsElements = new RadionicsElements(this);
-  radionicsElements.startAtX = 328;
+  radionicsElements.startAtX = 348;
   radionicsElements.startAtY = 70;
-  radionicsElements.usualWidth = 200;
+  radionicsElements.usualWidth = 180;
   radionicsElements.usualHeight = 21;
   radionicsElements
     .addButton("clear")
@@ -133,6 +133,10 @@ void draw() {
 
   textSize(11);
   text("Hotbits " + core.hotbits.size(), 10, 315);
+  
+  if (selectedDatabase != null) {
+    text("Selected database " + selectedDatabase.getName(), 144, 315);
+  }
   
   textSize(16);
   stroke(0, 0, 255);
