@@ -59,6 +59,7 @@ public class RadionicsElements {
       .setFont(font)
       .setFocus(focus)
       .setColor(c)
+      .setColorCursor(255)
       .setLabel("");
 
     return this;
