@@ -263,6 +263,7 @@ public void controlEvent(ControlEvent theEvent) {
       println("You chose to open this file: " +
         chooser.getSelectedFile().getName());
       selectedDatabase = chooser.getSelectedFile();
+      monitorText = selectedDatabase.getName() + "\n";
       core.updateCp5ProgressBar();
     }
   }
