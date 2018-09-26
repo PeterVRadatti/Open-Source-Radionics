@@ -52,7 +52,7 @@ long getTimeMillis() {
 */
 void setup() {
   size(540, 700);
-  frame.setTitle("AetherOne");
+  surface.setTitle("AetherOne");
   noStroke();
   smooth();
   core = new AetherOneCore();
