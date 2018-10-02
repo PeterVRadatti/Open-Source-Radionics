@@ -303,7 +303,18 @@ public void controlEvent(ControlEvent theEvent) {
     
     Collections.sort(list, Collections.reverseOrder());
     
-    monitorText += "\nGeneral vitality = " + list.get(0);
+    Integer gv = list.get(0);
+    
+    if (gv > 950) {
+      int randomDice = core.getRandomNumber(100);
+      
+      while(randomDice >= 50) {
+        gv += randomDice;
+        randomDice = core.getRandomNumber(100);
+      }
+    }
+    
+    monitorText += "\nGeneral vitality = " + gv;
   }
 
   if ("analyze".equals(command)) {
