@@ -1,0 +1,25 @@
+once
+twice
+daily 1x
+daily 2x
+daily 3x
+night
+weekly
+every 2 weeks
+every 3 weeks
+monthly
+every 2 months
+every 3 months
+check again every day
+NOW!
+in one hour
+in two hours
+in three hours
+in four hours
+in five hours
+in six hours
+every 15 minutes (acute)
+every hour (acute)
+repeat every year at same time
+STOP!
+Check again!
