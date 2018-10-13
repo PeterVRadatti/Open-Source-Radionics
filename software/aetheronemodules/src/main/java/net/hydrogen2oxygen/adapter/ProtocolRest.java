@@ -2,6 +2,7 @@ package net.hydrogen2oxygen.adapter;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
 import net.hydrogen2oxygen.domain.Protocol;
+import org.springframework.util.StringUtils;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -25,8 +26,12 @@ public class ProtocolRest {
 
         for (File file : aetherOneDirectory.listFiles()) {
 
-            if (file.isFile() && file.getName().startsWith("protocol_")) {
-                Protocol protocol = mapper.readValue(file, Protocol.class);
+            if (!file.isFile()) continue;
+            if (!file.getName().startsWith("protocol_")) continue;
+
+            Protocol protocol = mapper.readValue(file, Protocol.class);
+
+            if (!StringUtils.isEmpty(protocol.getInput())) {
                 protocols.add(protocol);
             }
         }
