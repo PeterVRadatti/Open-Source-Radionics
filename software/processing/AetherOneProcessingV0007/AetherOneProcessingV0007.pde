@@ -38,6 +38,8 @@ Integer progress = 0;
 boolean connectMode = false;
 boolean disconnectMode = false;
 
+//PWindow win;
+
 /**
 * Get current time in milliseconds
 */
@@ -118,7 +120,7 @@ void initConfiguration() {
     configuration = loadJSONObject("configuration.json");
   } 
   catch(Exception e) {
-    configuration = new JSONObject();
+    //do nothing
   }
 
   if (configuration == null) {
@@ -130,6 +132,12 @@ void initConfiguration() {
 * The draw loop of processing
 */
 void draw() {
+  
+  //if (win == null) {
+     //win = new PWindow();
+     //win.evokedFromPrimary(100, 100);
+  //}
+  
   background(0);
   //image(backgroundImage, 0, 0);
   stroke(255);

@@ -7,3 +7,17 @@ application.windows64
 application.macosx
 .idea
 *.iml
+*.class
+/target/
+/data/
+/.settings/
+.classpath
+.project
+/print/
+/backup/
+/index/
+/export/
+/.idea/
+*.iml
+uiDesigner.xml
+workspace.xml
