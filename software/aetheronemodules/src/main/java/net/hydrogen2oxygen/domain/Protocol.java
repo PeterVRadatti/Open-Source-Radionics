@@ -19,4 +19,7 @@ public class Protocol {
     private String level;
     private String synopsis;
     private String ratio;
+    private Long dateTimeLong;
+    private String dateTimeString;
+    private String fileName;
 }

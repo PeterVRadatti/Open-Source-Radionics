@@ -38,7 +38,8 @@
     <!-- Navbar Search -->
     <form class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
         <div class="input-group">
-            <input type="text" class="form-control" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+            <input type="text" class="form-control" placeholder="Search for..." aria-label="Search"
+                   aria-describedby="basic-addon2">
             <div class="input-group-append">
                 <button class="btn btn-primary" type="button">
                     <i class="fas fa-search"></i>
@@ -221,7 +222,8 @@
             <div class="card mb-3">
                 <div class="card-header">
                     <i class="fas fa-table"></i>
-                    Protocol</div>
+                    Protocol
+                </div>
                 <div class="card-body">
                     <div class="table-responsive">
                         <table class="table table-bordered" id="dataTable" width="100%" cellspacing="0">
@@ -245,8 +247,7 @@
                                 <th>Synopsis</th>
                             </tr>
                             </tfoot>
-                            <tbody>
-
+                            <tbody id="protocolTable">
                             </tbody>
                         </table>
                     </div>
@@ -277,25 +278,25 @@
     <i class="fas fa-angle-up"></i>
 </a>
 
-<!-- Logout Modal
-<div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+<!-- Modal Protocol Dialog -->
+<div class="modal fade" id="protocolModalDialog" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+     aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Ready to Leave?</h5>
+                <h5 class="modal-title" id="spanProtocolFileName"></h5>
                 <button class="close" type="button" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">×</span>
                 </button>
             </div>
-            <div class="modal-body">Select "Logout" below if you are ready to end your current session.</div>
+            <div class="modal-body" id="protocolDialogBody"></div>
             <div class="modal-footer">
-                <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancel</button>
-                <a class="btn btn-primary" href="login.html">Logout</a>
+                <button class="btn btn-secondary" type="button" data-dismiss="modal">Exit</button>
             </div>
         </div>
     </div>
 </div>
--->
+
 
 <!-- Bootstrap core JavaScript-->
 <script src="vendor/jquery/jquery.min.js"></script>
@@ -312,7 +313,48 @@
 <!-- Custom scripts for all pages-->
 <script src="js/sb-admin.min.js"></script>
 
+<script>
+    var aether = {};
 
+    aether.init = function () {
+        $.get('protocol', function (data) {
+
+            data.forEach(function (rate) {
+                console.log(rate);
+                var row = '<tr fileName="' + rate.fileName + '"><td>' + rate.dateTimeString + '</td><td>' + rate.input + '</td><td>' + rate.output + '</td><td>' + rate.level + '</td><td>' + rate.ratio + '</td><td>' + rate.synopsis + '</td></tr>';
+                $('#protocolTable').append(row);
+            })
+        });
+
+        $('#protocolTable').delegate('tr', 'click', function () {
+            console.log($(this).attr('fileName'));
+
+            var id = $(this).attr('fileName').split("_")[1];
+
+            $.get('protocol/' + id, function (protocol) {
+                $('#spanProtocolFileName').html(protocol.fileName);
+
+                var resultTable = '<table class="table table-bordered"><thead><th>Rate</th><th>Energetic Level</th></thead><tbody>';
+
+                protocol.result.forEach(function(rate) {
+
+                    console.log(rate);
+                    var name = Object.keys(rate)[0];
+                    var value = rate[name];
+
+                    resultTable += '<tr><td>' + name + '</td><td>' + value + '</td></tr>';
+                });
+
+                resultTable += '</tbody></table>';
+
+                $('#protocolDialogBody').html(resultTable);
+                $('#protocolModalDialog').modal('show');
+            });
+        });
+    };
+
+    aether.init();
+</script>
 
 </body>
 

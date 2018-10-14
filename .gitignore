@@ -9,6 +9,7 @@ application.macosx
 *.iml
 *.class
 /target/
+*/target/**
 /data/
 /.settings/
 .classpath
