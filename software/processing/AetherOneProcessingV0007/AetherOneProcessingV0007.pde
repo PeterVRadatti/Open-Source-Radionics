@@ -413,7 +413,11 @@ public void controlEvent(ControlEvent theEvent) {
       filePath += "/AetherOne/protocol_" + getTimeMillis() + ".txt";
     }
 
-    saveJSONObject(protocol, filePath);
+    println("[" + inputText + "]");
+    
+    if (inputText != null && inputText.trim().length() > 0) {
+      saveJSONObject(protocol, filePath);
+    }
 
     core.updateCp5ProgressBar();
     core.persistHotBits();

@@ -22,4 +22,5 @@ public class Protocol {
     private Long dateTimeLong;
     private String dateTimeString;
     private String fileName;
+    private String database;
 }
