@@ -5,6 +5,7 @@ public class AetherOneCore { //<>// //<>//
   Calendar today = Calendar.getInstance();
   Random pseudoRandom = new Random(today.getTimeInMillis());
   boolean simulation = false;
+  boolean trngMode = true;
 
   public AetherOneCore() {
     try {
@@ -78,7 +79,9 @@ public class AetherOneCore { //<>// //<>//
     
     Random random;
     
-    if (hotbits.size() > 0) {
+    if (trngMode == false) {
+      random = pseudoRandom;
+    } else if (hotbits.size() > 0) {
       random = new Random(getHotBitSeed());
       simulation = false;
     } else {

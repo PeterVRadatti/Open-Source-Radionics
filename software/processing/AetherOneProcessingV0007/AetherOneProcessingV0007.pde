@@ -37,6 +37,7 @@ Integer generalVitality = null;
 Integer progress = 0;
 boolean connectMode = false;
 boolean disconnectMode = false;
+boolean trngMode = true;
 
 //PWindow win;
 
@@ -67,10 +68,10 @@ void setup() {
   initConfiguration();
 
   radionicsElements = new RadionicsElements(this);
-  radionicsElements.startAtX = 348;
+  radionicsElements.startAtX = 382;
   radionicsElements.startAtY = 70;
-  radionicsElements.usualWidth = 180;
-  radionicsElements.usualHeight = 21;
+  radionicsElements.usualWidth = 144;
+  radionicsElements.usualHeight = 18;
   radionicsElements
     .addButton("clear")
     .addButton("grounding")
@@ -80,6 +81,7 @@ void setup() {
     .addButton("general vitality")
     .addButton("broadcast")
     .addButton("disconnect")
+    .addButton("TRNG / PRNG")
     .addTextField("Input", 80, 10, 445, 20, true)
     .addTextField("Output", 80, 40, 445, 20, false);
 
@@ -165,10 +167,16 @@ void draw() {
   }
 
   textSize(11);
-  text("Hotbits " + core.hotbits.size(), 10, 315);
+  String trngModeText = "  TRNG Mode";
+  if (trngMode == false) {
+    fill(255,50,10);
+    trngModeText = "  PRNG Simulation Mode";
+  }
+  text("Hotbits " + core.hotbits.size() + trngModeText, 10, 315);
+  fill(255);
   
   if (selectedDatabase != null) {
-    text("Selected database " + selectedDatabase.getName(), 144, 315);
+    text("Selected: " + selectedDatabase.getName(), 250, 315);
   }
   
   textSize(16);
@@ -466,6 +474,19 @@ public void controlEvent(ControlEvent theEvent) {
     String broadcastSignature = manualRate  + " " + outputRate;
     broadcast(broadcastSignature);
   }
+  
+  // Switch Simulation Mode
+  if ("TRNG / PRNG".equals(command)) {
+    if (trngMode) {
+      trngMode = false;
+    } else {
+      trngMode = true;
+    }
+    
+    core.trngMode = trngMode;
+  }
+  
+  println("NO EVENT FOUND FOR " + command);
 }
 
 /**

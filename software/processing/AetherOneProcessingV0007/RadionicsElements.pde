@@ -6,6 +6,7 @@ public class RadionicsElements {
 
   private PApplet p = null;
   private ControlFont font;
+  private ControlFont smallFont;
   private CColor c;
 
   public Integer startAtX;
@@ -18,8 +19,10 @@ public class RadionicsElements {
     this.p = p;
     cp5 = new ControlP5(p);
 
-    PFont pfont = createFont("Arial", 16, true);
-    font = new ControlFont(pfont, 16);
+    PFont pfont = createFont("Arial", 12, true);
+    font = new ControlFont(pfont, 12);
+    PFont pSmallFont = createFont("Arial", 10, true);
+    smallFont = new ControlFont(pSmallFont, 10);
 
     c = new CColor();
     c.setBackground(color(43, 0, 118));
