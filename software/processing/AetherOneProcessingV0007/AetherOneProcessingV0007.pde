@@ -69,7 +69,7 @@ void setup() {
 
   radionicsElements = new RadionicsElements(this);
   radionicsElements.startAtX = 382;
-  radionicsElements.startAtY = 70;
+  radionicsElements.startAtY = 65;
   radionicsElements.usualWidth = 144;
   radionicsElements.usualHeight = 18;
   radionicsElements
@@ -80,12 +80,13 @@ void setup() {
     .addButton("analyze")
     .addButton("general vitality")
     .addButton("broadcast")
+    .addButton("copy")
     .addButton("disconnect")
     .addButton("TRNG / PRNG")
     .addTextField("Input", 80, 10, 445, 20, true)
     .addTextField("Output", 80, 40, 445, 20, false);
 
-  radionicsElements.addSlider("progress", 10, 270, 480, 10, 100);
+  radionicsElements.addSlider("progress", 10, 276, 480, 10, 100);
   radionicsElements.addSlider("hotbits", 10, 290, 480, 10, 100);
 
   radionicsElements
