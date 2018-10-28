@@ -156,7 +156,7 @@ void draw() {
   drawGreenLED("COPY", x + 70, y + 70, 10, false);
   drawBlueLED("GROUNDING", x + 140, y + 70, 25, arduinoConnection.grounding);
   drawRedLED("HOTBITS", x, y + 130, 20, arduinoConnection.collectingHotbits);
-  drawBlueLED("SIMULATION", x + 70, y + 130, 26, core.simulation);
+  drawBlueLED("SIMULATION", x + 70, y + 130, 26, !arduinoConnection.arduinoFound);
 
   if (arduinoConnection.arduinoConnectionEstablished() == false) {
     if ((arduinoConnectionMillis + 2500) < millis()) {
