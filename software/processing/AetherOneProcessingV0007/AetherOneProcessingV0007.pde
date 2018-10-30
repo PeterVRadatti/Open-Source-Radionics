@@ -68,9 +68,10 @@ void setup() {
   initConfiguration();
 
   radionicsElements = new RadionicsElements(this);
-  radionicsElements.startAtX = 382;
-  radionicsElements.startAtY = 70;
-  radionicsElements.usualWidth = 144;
+
+  radionicsElements.startAtX = 408;
+  radionicsElements.startAtY = 62;
+  radionicsElements.usualWidth = 120;
   radionicsElements.usualHeight = 18;
   radionicsElements
     .addButton("clear")
@@ -78,14 +79,15 @@ void setup() {
     .addButton("connect")
     .addButton("select data")
     .addButton("analyze")
+    .addButton("new screen")
     .addButton("general vitality")
     .addButton("broadcast")
     .addButton("disconnect")
     .addButton("TRNG / PRNG")
     .addTextField("Input", 80, 10, 445, 20, true)
     .addTextField("Output", 80, 40, 445, 20, false);
-
-  radionicsElements.addSlider("progress", 10, 270, 480, 10, 100);
+  
+  radionicsElements.addSlider("progress", 10, 274, 480, 10, 100);
   radionicsElements.addSlider("hotbits", 10, 290, 480, 10, 100);
 
   radionicsElements
@@ -266,7 +268,11 @@ public void controlEvent(ControlEvent theEvent) {
   if (!initFinished) return;
 
   String command = theEvent.getController().getName();
-
+  
+  if ("new screen".equals(command)) {
+    monitorText = "";
+  }
+  
   if ("select data".equals(command)) {
     println(dataPath(""));
     JFileChooser chooser = new JFileChooser(dataPath(""));
