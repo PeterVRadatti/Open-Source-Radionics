@@ -66,18 +66,11 @@ void setup() {
   backgroundImage = loadImage("AetherOneBackground.png");
 
   initConfiguration();
-
+  
   radionicsElements = new RadionicsElements(this);
-<<<<<<< HEAD
-
   radionicsElements.startAtX = 408;
   radionicsElements.startAtY = 62;
   radionicsElements.usualWidth = 120;
-=======
-  radionicsElements.startAtX = 382;
-  radionicsElements.startAtY = 65;
-  radionicsElements.usualWidth = 144;
->>>>>>> 12c5224c6f848f4d773cc3d6487ef43aec240233
   radionicsElements.usualHeight = 18;
   radionicsElements
     .addButton("clear")
@@ -88,18 +81,12 @@ void setup() {
     .addButton("new screen")
     .addButton("general vitality")
     .addButton("broadcast")
-    .addButton("copy")
     .addButton("disconnect")
     .addButton("TRNG / PRNG")
     .addTextField("Input", 80, 10, 445, 20, true)
     .addTextField("Output", 80, 40, 445, 20, false);
-<<<<<<< HEAD
   
   radionicsElements.addSlider("progress", 10, 274, 480, 10, 100);
-=======
-
-  radionicsElements.addSlider("progress", 10, 276, 480, 10, 100);
->>>>>>> 12c5224c6f848f4d773cc3d6487ef43aec240233
   radionicsElements.addSlider("hotbits", 10, 290, 480, 10, 100);
 
   radionicsElements
@@ -281,8 +268,11 @@ public void controlEvent(ControlEvent theEvent) {
 
   String command = theEvent.getController().getName();
   
+  if ("hotbits".equals(command)) return;
+  
   if ("new screen".equals(command)) {
     monitorText = "";
+    return;
   }
   
   if ("select data".equals(command)) {
@@ -300,6 +290,7 @@ public void controlEvent(ControlEvent theEvent) {
       monitorText = selectedDatabase.getName() + "\n";
       core.updateCp5ProgressBar();
     }
+    return;
   }
   
   if ("grounding".equals(command)) {
@@ -315,16 +306,19 @@ public void controlEvent(ControlEvent theEvent) {
     
     arduinoConnection.grounding = true;
     broadcast(groundingSignature);
+    return;
   }
   
   if ("connect".equals(command)) {
     connectMode = true;
     progress = 0;
+    return;
   }
   
   if ("disconnect".equals(command)) {
     disconnectMode = true;
     progress = 0;
+    return;
   }
   
   if ("general vitality".equals(command)) {
@@ -349,6 +343,7 @@ public void controlEvent(ControlEvent theEvent) {
     }
     
     monitorText += "\nGeneral vitality = " + gv;
+    return;
   }
 
   if ("analyze".equals(command)) {
@@ -447,6 +442,7 @@ public void controlEvent(ControlEvent theEvent) {
 
     core.updateCp5ProgressBar();
     core.persistHotBits();
+    return;
   }
 
   if ("select image".equals(command)) {
@@ -462,6 +458,7 @@ public void controlEvent(ControlEvent theEvent) {
       photo.resize(615, 490);
       photos.add(photo);
     }
+    return;
   }
 
   if ("paste image".equals(command)) {
@@ -472,10 +469,12 @@ public void controlEvent(ControlEvent theEvent) {
       photo.resize(615, 490);
       photos.add(photo);
     }
+    return;
   }
 
   if ("clear image".equals(command)) {
     photos.clear();
+    return;
   }
 
   if ("clear".equals(command)) {
@@ -491,6 +490,7 @@ public void controlEvent(ControlEvent theEvent) {
     String outputRate = cp5.get(Textfield.class, "Output").getText();
     String broadcastSignature = manualRate  + " " + outputRate;
     broadcast(broadcastSignature);
+    return;
   }
   
   // Switch Simulation Mode
@@ -502,6 +502,7 @@ public void controlEvent(ControlEvent theEvent) {
     }
     
     core.trngMode = trngMode;
+    return;
   }
   
   println("NO EVENT FOUND FOR " + command);
