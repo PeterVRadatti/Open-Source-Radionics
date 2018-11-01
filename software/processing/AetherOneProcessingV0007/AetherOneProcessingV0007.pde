@@ -68,10 +68,16 @@ void setup() {
   initConfiguration();
 
   radionicsElements = new RadionicsElements(this);
+<<<<<<< HEAD
 
   radionicsElements.startAtX = 408;
   radionicsElements.startAtY = 62;
   radionicsElements.usualWidth = 120;
+=======
+  radionicsElements.startAtX = 382;
+  radionicsElements.startAtY = 65;
+  radionicsElements.usualWidth = 144;
+>>>>>>> 12c5224c6f848f4d773cc3d6487ef43aec240233
   radionicsElements.usualHeight = 18;
   radionicsElements
     .addButton("clear")
@@ -82,12 +88,18 @@ void setup() {
     .addButton("new screen")
     .addButton("general vitality")
     .addButton("broadcast")
+    .addButton("copy")
     .addButton("disconnect")
     .addButton("TRNG / PRNG")
     .addTextField("Input", 80, 10, 445, 20, true)
     .addTextField("Output", 80, 40, 445, 20, false);
+<<<<<<< HEAD
   
   radionicsElements.addSlider("progress", 10, 274, 480, 10, 100);
+=======
+
+  radionicsElements.addSlider("progress", 10, 276, 480, 10, 100);
+>>>>>>> 12c5224c6f848f4d773cc3d6487ef43aec240233
   radionicsElements.addSlider("hotbits", 10, 290, 480, 10, 100);
 
   radionicsElements
