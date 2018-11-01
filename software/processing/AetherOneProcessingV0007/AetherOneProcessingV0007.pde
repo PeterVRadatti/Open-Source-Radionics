@@ -55,7 +55,7 @@ long getTimeMillis() {
 */
 void setup() {
   size(540, 700);
-  surface.setTitle("AetherOne");
+  surface.setTitle("AetherOne - Open Source Radionics");
   noStroke();
   smooth();
   core = new AetherOneCore();

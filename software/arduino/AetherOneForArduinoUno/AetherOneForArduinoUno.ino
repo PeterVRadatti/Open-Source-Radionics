@@ -22,6 +22,10 @@ class AetherOneForArduino {
   public:
 
     void init() {
+      
+      // --> TEST MODE <--
+      boolean testmode = false;
+      
       pinMode(UV_LED, OUTPUT);
       pinMode(RED_LED, OUTPUT);
       pinMode(GREEN_LED, OUTPUT);
@@ -30,10 +34,8 @@ class AetherOneForArduino {
       pinMode(IR_LED, OUTPUT);
       pinMode(CONTROL_LED, OUTPUT);
 
-      // TEST MODE
-      boolean testmode = false;
       if (testmode) {
-        for (int x = 0; x < 5; x++) {
+        for (int x = 0; x < 100; x++) {
           testLED(UV_LED);
           testLED(RED_LED);
           testLED(GREEN_LED);
@@ -47,7 +49,7 @@ class AetherOneForArduino {
 
     void testLED(int ledPin) {
       digitalWrite(ledPin, HIGH);
-      delay(100);
+      delay(500);
       digitalWrite(ledPin, LOW);
     }
 
@@ -55,7 +57,7 @@ class AetherOneForArduino {
 
       digitalWrite(CONTROL_LED, LOW);
 
-      for (int x = 0; x < 100; x++) {
+      for (int x = 0; x < 1000; x++) {
         digitalWrite(UV_LED, HIGH);
         delay(25);
         digitalWrite(UV_LED, LOW);
