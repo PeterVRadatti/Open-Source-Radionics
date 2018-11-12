@@ -26,6 +26,7 @@ ArduinoSerialConnection arduinoConnection;
 AetherOneCore core;
 
 boolean initFinished = false;
+int maxEntries = 10;
 List<PImage> photos = new ArrayList<PImage>();
 JSONObject configuration;
 PImage backgroundImage;
@@ -38,6 +39,9 @@ Integer progress = 0;
 boolean connectMode = false;
 boolean disconnectMode = false;
 boolean trngMode = true;
+List<RateObject> rateList = new ArrayList<RateObject>();
+int gvCounter = 0;
+
 
 //PWindow win;
 
@@ -78,7 +82,6 @@ void setup() {
     .addButton("connect")
     .addButton("select data")
     .addButton("analyze")
-    .addButton("new screen")
     .addButton("general vitality")
     .addButton("broadcast")
     .addButton("disconnect")
@@ -142,6 +145,7 @@ void draw() {
   //}
   
   background(0);
+  fill(255);
   //image(backgroundImage, 0, 0);
   stroke(255);
   text("INPUT", 10, 25);
@@ -176,13 +180,58 @@ void draw() {
   text("Hotbits " + core.hotbits.size() + trngModeText, 10, 315);
   fill(255);
   
-  if (selectedDatabase != null) {
-    text("Selected: " + selectedDatabase.getName(), 250, 315);
-  }
-  
   textSize(16);
   stroke(0, 0, 255);
-  text(monitorText, 10, 330);
+  
+  fill(164, 197, 249);
+  if (selectedDatabase != null) {
+    text(selectedDatabase.getName(), 10, 330);
+  }
+  
+  int yRate = 350;
+ 
+  for (int iRate=0; iRate<rateList.size(); iRate++) {
+    
+      RateObject rateObject = rateList.get(iRate);
+      
+      if (mouseY >= yRate - 20 && mouseY < yRate) {
+        fill(51, 10, 10);
+        noStroke();
+        rect(0, yRate - 16, 540, 20);
+      }
+
+      if (rateObject.gv == 0) {
+        fill(150);
+      } else if (rateObject.gv > generalVitality && rateObject.gv > 1000) {
+        fill(32, 255, 24);
+      } else if (rateObject.gv > generalVitality) { //<>//
+        fill(28, 204, 22);
+      } else if (rateObject.gv < generalVitality) {
+        fill(255, 105, 30);
+      } else {
+        fill(12, 134, 178);
+      }
+      
+      text(rateObject.rate, 10, yRate);
+      
+      if (rateObject.gv != 0) {
+        fill(208, 147, 255);
+        text(rateObject.gv, 480, yRate);
+      }
+      
+      yRate += 20;
+  }
+  
+  if (generalVitality == null && rateList.size() > 0) {
+    fill(135, 223, 255);
+    text("Check General Vitality as next step!", 10, yRate);
+  } else if (generalVitality != null) {
+    fill(150, 227, 255);
+    text("General Vitality is " + generalVitality, 10, yRate);
+  } else if (selectedDatabase != null && rateList.size() == 0) {
+    fill(66, 214, 47);
+    text("Focus and then click on ANALYZE", 10, yRate);
+  }
   
   if (connectMode || disconnectMode) {
     if (core.getRandomNumber(1000) > 950) {
@@ -270,11 +319,6 @@ public void controlEvent(ControlEvent theEvent) {
   
   if ("hotbits".equals(command)) return;
   
-  if ("new screen".equals(command)) {
-    monitorText = "";
-    return;
-  }
-  
   if ("select data".equals(command)) {
     println(dataPath(""));
     JFileChooser chooser = new JFileChooser(dataPath(""));
@@ -289,6 +333,8 @@ public void controlEvent(ControlEvent theEvent) {
       selectedDatabase = chooser.getSelectedFile();
       monitorText = selectedDatabase.getName() + "\n";
       core.updateCp5ProgressBar();
+      generalVitality = null;
+      rateList.clear();
     }
     return;
   }
@@ -323,6 +369,10 @@ public void controlEvent(ControlEvent theEvent) {
   
   if ("general vitality".equals(command)) {
     
+    if (gvCounter > maxEntries) {
+      return;
+    }
+    
     List<Integer> list = new ArrayList<Integer>();
     
     for (int x=0; x<3; x++) {
@@ -335,25 +385,37 @@ public void controlEvent(ControlEvent theEvent) {
     
     if (gv > 950) {
       int randomDice = core.getRandomNumber(100);
-      
+       //<>//
       while(randomDice >= 50) {
         gv += randomDice;
         randomDice = core.getRandomNumber(100);
       }
     }
     
-    monitorText += "\nGeneral vitality = " + gv;
+    if (gvCounter == 0) {
+      monitorText += "\nGeneral vitality = " + gv;
+      generalVitality = gv;
+    } else {
+      RateObject rateObject = rateList.get(gvCounter - 1);
+      rateObject.gv = gv;
+    }
+    
+    gvCounter += 1;
+    
     return;
   }
 
   if ("analyze".equals(command)) {
-    if (selectedDatabase == null) return; //<>//
+    if (selectedDatabase == null) return;
+    
+    rateList.clear();
+    generalVitality = null;
+    gvCounter = 0;
 
     String[] lines = loadStrings(selectedDatabase);
     Map<String, Integer> ratesDoubles = new HashMap<String, Integer>();
 
     Float maxHits = cp5.get(Knob.class, "Max Hits").getValue();
-    int maxEntries = 10;
     int expectedDoubles = maxHits.intValue();
     int rounds = 0;
 
@@ -405,7 +467,8 @@ public void controlEvent(ControlEvent theEvent) {
       JSONObject protocolEntry = new JSONObject();
       protocolEntry.setInt(rateObject.rate, rateObject.level);
       protocolArray.setJSONObject(x, protocolEntry);
-
+      
+      rateList.add(rateObject);
       monitorText += rateObject.level + "  | " + rateObject.rate + "\n";
 
       level += (10 - rateObject.level);
@@ -421,6 +484,10 @@ public void controlEvent(ControlEvent theEvent) {
 
     JSONObject protocol = new JSONObject();
     protocol.setJSONArray("result", protocolArray);
+    
+    if (selectedDatabase != null) {
+      protocol.setString("database", selectedDatabase.getName());
+    }
     protocol.setString("synopsis", synopsis);
     protocol.setString("input", inputText);
     protocol.setString("output", outputText);
@@ -483,6 +550,8 @@ public void controlEvent(ControlEvent theEvent) {
     cp5.get(Textfield.class, "Output").setText("");
     monitorText = "";
     generalVitality = null;
+    gvCounter = 0;
+    rateList.clear();
   }
 
   if ("broadcast".equals(command)) {
@@ -524,6 +593,23 @@ void broadcast(String broadcastSignature) {
   String b64 = Base64.getEncoder().encodeToString(data);
   println("broadcastSignature encoded = " + b64);
   arduinoConnection.broadCast(b64, broadcastRepeats, iDelay);
+}
+
+void mouseClicked() {
+  println("CLICK");
+  int yRate = 350;
+ 
+  for (int iRate=0; iRate<rateList.size(); iRate++) {
+    
+      RateObject rateObject = rateList.get(iRate);
+      
+      if (mouseY >= yRate - 20 && mouseY < yRate) {
+        println(rateObject.rate);
+        cp5.get(Textfield.class, "Output").setText(rateObject.rate);
+      }
+      
+      yRate += 20;
+  }
 }
 
 /**
@@ -600,4 +686,5 @@ BufferedImage toBufferedImage(java.awt.Image src) {
 public class RateObject {
   String rate;
   Integer level = 0;
+  Integer gv = 0;
 }

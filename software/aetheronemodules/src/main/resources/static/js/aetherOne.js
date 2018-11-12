@@ -19,7 +19,9 @@ aether.init = function () {
 
             $('#spanProtocolFileName').html(protocol.input);
 
-            var details = '<pre>' + protocol.database + '\n' + protocol.output + '\n' + protocol.synopsis + '</pre>';
+            var database = protocol.database != null ? protocol.database : '';
+            var output = protocol.output != null ? protocol.output : '';
+            var details = '<pre>' + database + '\n' + output + '\n' + protocol.synopsis + '</pre>';
             details = details.replace('(','\n(');
             var resultTable = details + '<table class="table table-bordered"><thead><th>Rate</th><th>Energetic Level</th></thead><tbody>';
 

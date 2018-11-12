@@ -1,0 +1,456 @@
+*91713133-Psychic phenomena -Reg. Deficiency -Abgeschlagenheitsgefu_hl 
+*1712652-Psychic phenomena -Gov. deficiency -exhaustion 
+*12711117-Psychic phenomena -Affirmation-Dependency (code against ...) 
+*5991133-Psychic phenomena -Reg. Deficiency -Obesity (overweight) 
+*81716126-Psychic phenomena -Affirmation-Activity (code for ...) 
+*16212810-Psychic phenomena -Condition -Alcoholics with shrinking liver 
+*71515215-Psychic phenomena -Reg. Deficiency -Alcoholics with shrinking liver 
+*14122364-Psychic phenomena -Regulation-Alcoholics with shrinking liver 
+*1682562-Psychic phenomena -Regulation-Alcoholism, aggressive personality 
+*71111310-Psychic phenomena -Reg. Deficiency -Alcoholism, gastritis 
+*13131115-Psychic phenomena -Condition -Alcohol abuse, episodes of 
+*72128117-Psychic phenomena -Reg. Deficiency -Alcohol abuse, episodes of 
+*13467104-Psychic phenomena -Affirmation-Cure alcoholism 
+*6107317-Psychic phenomena -Affirmation-Alliedness (code for ...) 
+*61213810-Psychic phenomena -Condition -Alopecia areata (hair) 
+*11111817-Psychic phenomena -Regulation-Alopecia areata (hair) 
+*6045143-Psychic phenomena -Degeneration State-Alopecia (hair) 
+*3817917-Psychic phenomena -Affirmation-Nightmares (nightmare) 
+*1888612-Psychic phenomena -Affirmation-Alterations, psychic 
+*11711155-Psychic phenomena -Reg. Deficiency -Alterations, psychic 
+*11101415-Psychic phenomena -Regulation-Fear at heart 
+*1171599-Psychic phenomena -Regulation-Anxiety and anxiety 
+*11151359-Psychic phenomena -Regulation-Anxiety and great motor restlessness 
+*6316129-Psychic phenomena -Affirmation-Fear and palpitations 
+*11919612-Psychic phenomena -Regulation-Fear of strangers 
+*11919412-Psychic phenomena -Regulation-Fear of everything new 
+*1193109-Psychic phenomena -Regulation-Fear of darkness 
+*9111018-Psychic phenomena -Regulation-Fear of family conflicts 
+*11911118-Psychic phenomena -Regulation-Fear of dogs 
+*1199762-Psychic phenomena -Regulation-Fear of cats 
+*11913620-Psychic phenomena -Regulation-Fear of mice 
+*11961721-Psychic phenomena -Regulation-Fear of people 
+*1188127-Psychic phenomena -Regulation-Fear of serious illness 
+*11917913-Psychic phenomena -Regulation-scared of spiders 
+*11122102-Psychic phenomena -Regulation-Fear of overburdening consequences 
+*1197524-Psychic phenomena -Regulation-Fear of water 
+*1191086-Psychic phenomena -Regulation-Fear of the dentist 
+*97787712-Psychic phenomena -Regulation-Fear, as if something had to happen 
+*9155807-Psychic phenomena -Regulation-Fear, screaming, fear of suffocation 
+*3961325-Psychic phenomena -Cause (Combined)-Afraid of being overwhelmed 
+*9223169-Psychic phenomena -Cause (Combined)-Afraid not to be loved (also: sexuality) 
+*3271584-Psychic phenomena -Regulation-Anxiety, anxiety 
+*14351011-Psychic phenomena -Affirmation-Anxiety neurosis (code against ...) 
+*81012111-Psychic phenomena -Reg. Deficiency -Anxiety dreams of dangers 
+*14811037-Psychic phenomena -Affirmation-State of anxiety (code against ...) 
+*3117666-Psychic phenomena -Regulation-apathy 
+*10135140-Psychic phenomena -Regulation-anorexia 
+*1188312-Psychic phenomena -Affirmation-Increase work ethic (code for ...) 
+*6563175-Psychic phenomena -Degeneration State-workaholism 
+*4956312-Psychic phenomena -Gov. deficiency -workaholism 
+*39911669-Psychic phenomena -Regulation-disinclination to work 
+*3147031-Psychic phenomena -Regulation-arrogance 
+*15461214-Psychic phenomena -Reg. Deficiency -Articulation difficulties (brain) 
+*53233213-Psychic phenomena -Regulation-excitement 
+*51262317-Psychic phenomena -Affirmation-Balance (code for ...) 
+*14161067-Psychic phenomena -Affirmation-Barbiturate addiction 
+*6139108-Psychic phenomena -Regulation-Barbiturate addiction 
+*21841965-Psychic phenomena -Affirmation-confusion 
+*1351011-Psychic phenomena -Regulation-unhappiness 
+*9769286-Psychic phenomena -Regulation-Sadness and confusion, much sighing 
+*1151198-Psychic phenomena -Affirmation-Load capacity (code for ...) 
+*10132317-Psychic phenomena -Regulation-Burden, mental 
+*17231374-Psychic phenomena -Regulation-dizziness 
+*16762212-Psychic phenomena -Gov. deficiency -Drowsiness with somnolence, dizziness, headache 
+*1661211-Psychic phenomena -Regulation-Drowsiness with weakness, fatigue, dizziness 
+*7831362-Psychic phenomena -Degeneration State-Drowsiness with heaviness in the head and dizziness 
+*87171274-Psychic phenomena -Regulation-Drowsiness with heaviness in the head, dizziness 
+*7216107-Psychic phenomena -Condition -Drowsiness and pressure in the head 
+*8763369-Psychic phenomena -Regulation-Drowsiness and pressure in the head 
+*8245122-Psychic phenomena -Regulation-Dazed and confused 
+*10314106-Psychic phenomena -Affirmation-Convenience (code against ...) 
+*1595339-Psychic phenomena -Regulation-mountain sickness 
+*93891425-Psychic phenomena -Affirmation-Recognize appointment (code for ...) 
+*50161454-Psychic phenomena -Regulation-tenderness 
+*57109910-Psychic phenomena -Regulation-Touch sensitivity, strong, with photophobia 
+*71191598-Psychic phenomena -Regulation-Narrowness, spiritual 
+*1410918-Psychic phenomena -Degeneration State-obsession 
+*7103317-Psychic phenomena -Affirmation-Obsession (code against ...) 
+*8783112-Psychic phenomena -Affirmation-Obsession (mental level) 
+*78935159-Psychic phenomena -Extreme (combi) -Obsession (physical level) 
+*91922316-Psychic phenomena -Cause (Combined)-Obsession (physical level) 
+*11141791-Psychic phenomena -Extreme (combi) -Obsession (mental level) 
+*1314885-Psychic phenomena -Affirmation-Regulate possessions (code for ...) 
+*41278714-Psychic phenomena -Affirmation-Concern (code against ...) 
+*68081264-Psychic phenomena -Affirmation-mobility increase 
+*91622178-Psychic phenomena -Regulation-mobility increase 
+*99153104-Psychic phenomena -Regulation-urge to move 
+*1290249-Psychic phenomena -Affirmation-Awareness weakness 
+*14138126-Psychic phenomena -Gov. deficiency -Awareness weakness 
+*93146611-Psychic phenomena -Regulation-Awareness weakness 
+*1288112-Psychic phenomena -Affirmation-Awareness split (code against ...) 
+*12561366-Psychic phenomena -Affirmation-Relationship addiction (code against ...) (also: sexuality) 
+*9372216-Psychic phenomena -Affirmation-Borderline syndrome (psychology) 
+*2181112-Psychic phenomena -Reg. Deficiency -Borderline syndrome (psychology) 
+*8198137-Psychic phenomena -Regulation-Borderline syndrome (psychology) 
+*5171288-Psychic phenomena -Affirmation-Malice (code against ...) 
+*57773615-Psychic phenomena -Regulation-bulimia 
+*54315173-Psychic phenomena -Regulation-Burn-out syndrome 
+*15354130-Psychic phenomena -Reg. Deficiency -Constant stress due to allergens 
+*4719415-Psychic phenomena -Regulation-Constant stress due to allergens 
+*9131020-Psychic phenomena -Cause (Combined)-Constant stress due to bacterial attack 
+*20391468-Psychic phenomena -Extreme (combi) -Constant stress due to chronic interference fields 
+*4712991-Psychic phenomena -Regulation-Constant stress due to chronic interference fields 
+*47141665-Psychic phenomena -Regulation-Long-term stress due to hereditary load / miasms 
+*47197111-Psychic phenomena -Regulation-Long-term stress due to geopathogenic stress 
+*15362075-Psychic phenomena -Reg. Deficiency -Constant stress due to vaccine damage 
+*4793126-Psychic phenomena -Regulation-Constant stress due to vaccine damage 
+*12312104-Psychic phenomena -Regulation-Permanent stress due to magnetic fields and electrosmog 
+*22951514-Psychic phenomena -Extreme (combi) -Constant stress due to fungal attack 
+*15347699-Psychic phenomena -Reg. Deficiency -Constant stress due to mental health problems 
+*47411713-Psychic phenomena -Regulation-Constant stress due to mental health problems 
+*9143135-Psychic phenomena -Reg. Deficiency -Constant stress due to heavy metal contamination 
+*4776965-Psychic phenomena -Regulation-Constant stress due to heavy metal contamination 
+*15316965-Psychic phenomena -Cause (Combined)-Long-term stress from environmental toxins 
+*73202151-Psychic phenomena -Extreme (combi) -Constant stress due to virus attack 
+*47513973-Psychic phenomena -Regulation-Constant stress due to vitamin or mineral deficit 
+*70191043-Psychic phenomena -Extreme (combi) -delirium 
+*64361414-Psychic phenomena -Degeneration State-Delirium tremens 
+*81811187-Psychic phenomena -Regulation-Delirium tremens 
+*12151918-Psychic phenomena -Extreme (combi) -Thinking ability, diminished 
+*10231613-Psychic phenomena -Regulation-depression 
+*24127165-Psychic phenomena -Affirmation-Depression (code against ...) 
+*37179497-Psychic phenomena -Degeneration State-Depression, endogenous 
+*3105877-Psychic phenomena -Regulation-Depression, exogenous 
+*4841110-Psychic phenomena -Extreme (combi) -Depression, reactive 
+*16061211-Psychic phenomena -Degeneration State-disorientation 
+*61411106-Psychic phenomena -Extreme (combi) -disorientation 
+*21043747-Psychic phenomena -Regulation-disorientation 
+*58231513-Psychic phenomena -Affirmation-Joy of discussion (code for ...) 
+*71061487-Psychic phenomena -Mix-Code-Drug problems (Council in code) 
+*21108910-Psychic phenomena -Affirmation-Thin-skinned (code against ...) 
+*22971392-Psychic phenomena -Affirmation-Perseverance (code for ...) 
+*10161393-Psychic phenomena -Affirmation-Assertiveness (code for ...) 
+*9615446-Psychic phenomena -Degeneration State-Dystonia, vegetative 
+*51210812-Psychic phenomena -Extreme (combi) -Dystonia, vegetative 
+*16181010-Psychic phenomena -Gov. deficiency -Dystonia, vegetative 
+*9510818-Psychic phenomena -Regulation-Dystonia, vegetative 
+*15314106-Psychic phenomena -Affirmation-Honesty (code for ...) 
+*11683214-Psychic phenomena -Extreme (combi) -Jealousy (also: sexuality) 
+*31629128-Psychic phenomena -Affirmation-Jealousy (code against ...) (also: sexuality) 
+*9109143-Psychic phenomena -Affirmation-Have your own opinion (code for ...) 
+*91043310-Psychic phenomena -Affirmation-Own opinion represented (code for ...) 
+*1410208-Psychic phenomena -Regulation-lonliness 
+*62121135-Psychic phenomena -Regulation-Loneliness, addiction 
+*31771117-Psychic phenomena -Affirmation-Vanity (code against ...) 
+*93123499-Psychic phenomena -Affirmation-Emotional stability (code for ...) 
+*16835168-Psychic phenomena -Affirmation-Sensitivity and annoyance 
+*21013202-Psychic phenomena -Regulation-Sensitivity and annoyance 
+*98241619-Psychic phenomena -Affirmation-Endogenous psychosis 
+*15512320-Psychic phenomena -Affirmation-Decision-making pleasure (code for ...) 
+*3839498-Psychic phenomena -Affirmation-Determination (code for ...) 
+*3312404-Psychic phenomena -Affirmation-Disappointment (code against ...) 
+*24621661-Psychic phenomena -Degeneration State-withdrawal symptoms 
+*81210888-Psychic phenomena -Extreme (combi) -withdrawal symptoms 
+*8314159-Psychic phenomena -Regulation-withdrawal symptoms 
+*7210897-Psychic phenomena -Affirmation-Restful sleep 
+*3121397-Psychic phenomena -Regulation-Exhaustion, mental 
+*15991226-Psychic phenomena -Affirmation-food addiction 
+*59471010-Psychic phenomena -Extreme (combi) -food addiction 
+*9551159-Psychic phenomena -Cause (Combined)-food addiction 
+*1320687-Psychic phenomena -Regulation-Eager to eat, lasting 
+*6201857-Psychic phenomena -Extreme (combi) -test anxiety 
+*16176165-Psychic phenomena -Affirmation-Fanaticism (code against ...) 
+*88917136-Psychic phenomena -Affirmation-Laziness (code against ...) 
+*96209848-Psychic phenomena -Degeneration State-Laziness, mental 
+*18117136-Psychic phenomena -Affirmation-Cowardice (code against ...) 
+*10337611-Psychic phenomena -Extreme (combi) -Fixed ideas 
+*71610227-Psychic phenomena -Affirmation-Joy (code for ...) 
+*12101237-Psychic phenomena -Affirmation-Happiness (code for ...) 
+*53121112-Psychic phenomena -Affirmation-Relieve frustration 
+*41415111-Psychic phenomena -Affirmation-Functional aberration (code against ...) 
+*5127417-Psychic phenomena -Affirmation-Patience (code for ...) 
+*1474388-Psychic phenomena -Affirmation-Feeling of under-demand (code against ...) 
+*81523118-Psychic phenomena -Affirmation-Insensitivity (code against ...) 
+*1220138-Psychic phenomena -Affirmation-Stinginess (code against ...) 
+*1012337-Psychic phenomena -Affirmation-Serenity (code for ...) 
+*1021188-Psychic phenomena -Affirmation-Looseness (code for ...) 
+*4811107-Psychic phenomena -Affirmation-Need for validity (code against ...) 
+*1035188-Psychic phenomena -Affirmation-Vulgarity (code against ...) 
+*1815128-Psychic phenomena -Cause (Combined)-Mood, annoying 
+*13144677-Psychic phenomena -Condition -Mood, worried 
+*2949135-Psychic phenomena -Regulation-Moody mood, aroused with irritability 
+*10812119-Psychic phenomena -Gov. deficiency -Mood, depressed, with anxiety, restlessness and irritability 
+*10153618-Psychic phenomena -Cause (Combined)-Mood, indifferent, apathetic 
+*2913358-Psychic phenomena -Regulation-Mood, sad, whiny 
+*2933617-Psychic phenomena -Regulation-Mood, unbearable 
+*1013919-Psychic phenomena -Cause (Combined)-Mood, dissatisfied, impatient 
+*18155995-Psychic phenomena -Cause (Combined)-Mood, morose 
+*23191310-Psychic phenomena -Cause (Combined)-Mood, closed, silent, cloudy, melancholic 
+*91523797-Psychic phenomena -Regulation-sound sensitivity 
+*13299128-Psychic phenomena -Affirmation-Justice addiction (code against ...) 
+*10616688-Psychic phenomena -Affirmation-Split personality (code against ...) 
+*91877185-Psychic phenomena -Affirmation-Being driven (code against ...) 
+*31871297-Psychic phenomena -Affirmation-Greed (code against ...) 
+*10483298-Psychic phenomena -Affirmation-Indifference (code against ...) 
+*89119136-Psychic phenomena -Affirmation-Bliss (code for ...) 
+*10541218-Psychic phenomena -Affirmation-Harmonic self-expression (code for ...) 
+*2810108-Psychic phenomena -Affirmation-Homesickness (code against ...) 
+*59141413-Psychic phenomena -Extreme (combi) -cravings 
+*11218723-Psychic phenomena -Regulation-Cravings for chocolate 
+*41082112-Psychic phenomena -Regulation-Cravings for sweets of all kinds 
+*1272498-Psychic phenomena -Affirmation-Serene serenity (code for ...) 
+*8619288-Psychic phenomena -Regulation-Inhibition, mental 
+*21614117-Psychic phenomena -Affirmation-Helplessness (code against ...) 
+*12410724-Psychic phenomena -Affirmation-Helpfulness (code for ...) 
+*2585313-Psychic phenomena -Affirmation-Ulterior motives (code against ...) 
+*2561148-Psychic phenomena -Affirmation-Hinterlist (code against ...) 
+*91191626-Psychic phenomena -Affirmation-Haughtiness (code against ...) 
+*54481042-Psychic phenomena -Affirmation-Hopelessness (code against ...) 
+*66121053-Psychic phenomena -Regulation-fear of heights 
+*4291117-Psychic phenomena -Affirmation-Bondage (code against ...) (also: sexuality) 
+*11141607-Psychic phenomena -Affirmation-Humor (code for ...) 
+*4716133-Psychic phenomena -Extreme (combi) -Feeling hungry during headache 
+*1511531-Psychic phenomena -Affirmation-Hunger-feeling oppression 
+*15413115-Psychic phenomena -Affirmation-Hunger sensation reduction 
+*37914107-Psychic phenomena -Affirmation-Hypertension, symptomatic-psychogenic (code against ...) 
+*58714109-Psychic phenomena -Affirmation-Deepen hypnosis 
+*79111112-Psychic phenomena -Affirmation-Increase hypnotizability 
+*21912211-Psychic phenomena -Regulation-hysteria 
+*81014137-Psychic phenomena -Affirmation-Hysteria (code against ...) 
+*1441011-Psychic phenomena -Cause (Combined)-Hysterical convulsions 
+*7361216-Psychic phenomena -Regulation-Hysterical moodiness 
+*5221096-Psychic phenomena -Degeneration State-hystero 
+*4419124-Psychic phenomena -Regulation-hystero 
+*81121764-Psychic phenomena -Organ / Spec. -Immune system, mental (see also brainwashing) 
+*83104591-Psychic phenomena -Regulation-Immune system, mental (see also brainwashing) 
+*41510108-Psychic phenomena -Affirmation-Inner stability (code for ...) 
+*61012682-Psychic phenomena -Extreme (combi) -Insomnia (insomnia) 
+*9810987-Psychic phenomena -Cause (Combined)-Insomnia (insomnia) 
+*5114159-Psychic phenomena -Affirmation-Hot temper, inclination too 
+*11410922-Psychic phenomena -Cause (Combined)-Hot temper, inclination too 
+*1669611-Psychic phenomena -Gov. deficiency -coffee abuse 
+*48884123-Psychic phenomena -Regulation-Catatonia (psychic, with disorders of voluntary power) 
+*10127106-Psychic phenomena -Affirmation-Shopping addiction (code against ...) (Kaufrausch, Kaufwut) 
+*21161847-Psychic phenomena -Affirmation-Child love (code for ...) 
+*51197156-Psychic phenomena -Regulation-claustrophobia 
+*93161837-Psychic phenomena -Affirmation-Claustrophobia (code against ...) 
+*10152314-Psychic phenomena -Affirmation-Communicativity (code for ...) 
+*89101610-Psychic phenomena -Affirmation-Focus on love, tenderness and sexuality 
+*77151111-Psychic phenomena -Regulation-Head dizziness 
+*11710109-Psychic phenomena -Cause (Combined)-Head dizziness 
+*50121511-Psychic phenomena -Affirmation-Morbid instinct (code against ...) (also: sexuality) 
+*7701132-Psychic phenomena -Affirmation-Creativity (code for ...) 
+*1721616-Psychic phenomena -Affirmation-Criticism (code against ...) 
+*80121018-Psychic phenomena -Cause (Combined)-moodiness 
+*10171216-Psychic phenomena -Affirmation-Moodiness (code against ...) 
+*35121631-Psychic phenomena -Affirmation-Life affirmation (code for ...) 
+*33122102-Psychic phenomena -Affirmation-Recognize meaning of life (code for ...) 
+*1010178-Psychic phenomena -Degeneration State-dyslexia 
+*5253114-Psychic phenomena -Affirmation-Willingness to learn (code for ...) 
+*72206126-Psychic phenomena -Degeneration State-Logorrhoe 
+*91891155-Psychic phenomena -Cause (Combined)-Logorrhoe 
+*2213939-Psychic phenomena -Affirmation-Let go (code for ...) 
+*21105712-Psychic phenomena -Affirmation-Let go (code against ...) 
+*11311144-Psychic phenomena -Affirmation-Enhance woman's lust life (at the genetic level) (sexuality F) 
+*3171013-Psychic phenomena -Affirmation-Increase man's boisterous life (at the genetic level) (Sexuality M) 
+*79111114-Psychic phenomena -Affirmation-Funnyness (code for ...) 
+*7449146-Psychic phenomena -Degeneration State-anorexia 
+*18129216-Psychic phenomena -Cause (Combined)-Anorexia, mental 
+*62024235-Psychic phenomena -Organ / Spec. -Masochistic ambitions (in daily life and in sexuality) 
+*18181013-Psychic phenomena -Affirmation-Reduce material thinking (code for ...) 
+*31715137-Psychic phenomena -Affirmation-Melancholy (code against ...) 
+*51621210-Psychic phenomena -Affirmation-Inferiority complex (code against ...) 
+*3941076-Psychic phenomena -Affirmation-Disgust (code against ...) 
+*37314717-Psychic phenomena -Affirmation-Compassion (code for ...) 
+*31021039-Psychic phenomena -Organ / Spec. -Bullied 
+*61755178-Psychic phenomena -Regulation-Bullied 
+*3101061-Psychic phenomena -Organ / Spec. -Bullying Movers 
+*1045542-Psychic phenomena -Affirmation-Moonstalking (code against ...) 
+*5155249-Psychic phenomena -Affirmation-Motor restlessness 
+*6475132-Psychic phenomena -Regulation-Motor restlessness and anxiety 
+*44311117-Psychic phenomena -Affirmation-Despondency (code against ...) 
+*25174145-Psychic phenomena -Affirmation-Chewing finger nails 
+*71553413-Psychic phenomena -Regulation-Nahrungsmittelabscheu 
+*16612132-Psychic phenomena -Affirmation-Envy (code against ...) 
+*88321310-Psychic phenomena -Affirmation-Dejection (code against ...) 
+*88121137-Psychic phenomena -Affirmation-Wickedness (code against ...) 
+*20141994-Psychic phenomena -Regulation-powerlessness 
+*8616157-Psychic phenomena -Regulation-Fainting and collapse states 
+*97225836-Psychic phenomena -Affirmation-Surgical fear, reasoned or unfounded (code against ... 
+*9947138-Psychic phenomena -Affirmation-Sense of order (code for ...) 
+*30232917-Psychic phenomena -Affirmation-Panic (code against ...) 
+*26851112-Psychic phenomena -Regulation-Pavor nocturnus (night fear) 
+*3109568-Psychic phenomena -Affirmation-Claustrophobia (code against ...) 
+*5511943-Psychic phenomena -Affirmation-Positive thinking (code for ...) 
+*10614108-Psychic phenomena -Extreme (combi) -Posttraumatic stress syndrome 
+*1284105-Psychic phenomena -Cause (Combined)-Posttraumatic stress syndrome 
+*72043568-Psychic phenomena -Affirmation-Test anxiety (code against ...) 
+*13171810-Psychic phenomena -Mix-Code-Reduce Test Anxiety (Council in Code) 
+*1610503-Psychic phenomena -Affirmation-Psychopathic lying (code against ...) 
+*24531155-Psychic phenomena -Cause (Combined)-psychosis 
+*8117101-Psychic phenomena -Affirmation-Psycho-psych-exeption (psyche) 
+*65421212-Psychic phenomena -Regulation-Adolescent obesity 
+*71921610-Psychic phenomena -Cause (Combined)-Adolescent obesity 
+*61316910-Psychic phenomena -Regulation-puberty crisis 
+*81691013-Psychic phenomena -Extreme (combi) -anorexia nervosa 
+*65331314-Psychic phenomena -Regulation-anorexia nervosa 
+*15643188-Psychic phenomena -Affirmation-Punctuality (code for ...) 
+*20131042-Psychic phenomena -Affirmation-Cleaning addiction (code against ...) 
+*18122177-Psychic phenomena -Mix-Code-Smoking Cessation, Help for (Rates in Code) 
+*11105410-Psychic phenomena -Affirmation-Redeangst (code against ...) 
+*91179711-Psychic phenomena -Regulation-travel sickness 
+*16319385-Psychic phenomena -Affirmation-Religious mania (code against ...) 
+*29121723-Psychic phenomena -Affirmation-Calm Force (code for ...) 
+*10524235-Psychic phenomena -Organ / Spec. -Sadistic ambitions (in daily life and in sexuality) 
+*65915106-Psychic phenomena -Affirmation-Gentleness (code for ...) 
+*1011219-Psychic phenomena -Cause (Combined)-Infants, hypersensitivity of the 
+*95101299-Psychic phenomena -Affirmation-Glee (code against ...) 
+*15167324-Psychic phenomena -Extreme (combi) -Schizoid states 
+*9587149-Psychic phenomena -Affirmation-schizophrenia 
+*11581873-Psychic phenomena -Regulation-schizophrenia 
+*53141519-Psychic phenomena -Cause (Combined)-schizophrenia 
+*69211364-Psychic phenomena -Regulation-insomnia 
+*2104444-Psychic phenomena -Degeneration State-lethargy 
+*69215968-Psychic phenomena -Regulation-lethargy 
+*51661057-Psychic phenomena -Cause (Combined)-lethargy 
+*18101102-Psychic phenomena -Affirmation-Normalize sleep-wake rhythm 
+*1455237-Psychic phenomena -Affirmation-Being insulted quickly (code against ...) 
+*91231128-Psychic phenomena -Affirmation-Fright, consequences of 
+*99121012-Psychic phenomena -Affirmation-Horror (code against ...) 
+*2077911-Psychic phenomena -Extreme (combi) -jumpiness 
+*11210116-Psychic phenomena -Affirmation-Shyness (code against ...) 
+*91287179-Psychic phenomena -Affirmation-Guilt feelings (code against ...) 
+*98246109-Psychic phenomena -Affirmation-Weakness of the will (code against ...) 
+*15615137-Psychic phenomena -Extreme (combi) -seasickness 
+*11147165-Psychic phenomena -Affirmation-Self-confidence (code for ...) 
+*14639184-Psychic phenomena -Affirmation-Self-pity (code against ...) 
+*11281022-Psychic phenomena -Affirmation-Suicidal thoughts (code against ...) 
+*11122517-Psychic phenomena -Affirmation-Self-assurance (code for ...) 
+*1465742-Psychic phenomena -Affirmation-Self-contempt (code against ...) 
+*14656971-Psychic phenomena -Affirmation-Self-denial (code against ...) 
+*14652022-Psychic phenomena -Affirmation-Self-confidence (code for ...) 
+*11213645-Psychic phenomena -Affirmation-Increase self-esteem (code for ...) 
+*4113155-Psychic phenomena -Affirmation-Normalize self-esteem (code for ...) 
+*1094215-Psychic phenomena -Affirmation-Sensitivity (code for ...) 
+*11121572-Psychic phenomena -Condition -Sensorium, Depression of the 
+*79910199-Psychic phenomena -Cause (Combined)-Sensorium, Depression of the 
+*1684956-Psychic phenomena -Regulation-Sensorium, depression of (by exogenous stress) 
+*17110109-Psychic phenomena -Cause (Combined)-Sensorium, depression of (by exogenous stress) 
+*16843110-Psychic phenomena -Regulation-Sensorium, depression of the (through grief) 
+*10724723-Psychic phenomena -Affirmation-Sex drive increase of woman (at genetic level) (sexuality F) 
+*10724201-Psychic phenomena -Affirmation-Sex drive increase of man (at genetic level) (sexuality M) 
+*12409125-Psychic phenomena -Affirmation-Open (code for ...) 
+*12614913-Psychic phenomena -Affirmation-Forgive yourself (code for ...) 
+*30168216-Psychic phenomena -Affirmation-Unscrupulousness (code against ...) 
+*1391017-Psychic phenomena -Regulation-Sunday migraine 
+*9161510-Psychic phenomena -Cause (Combined)-Sunday migraine 
+*14572105-Psychic phenomena -Affirmation-Gambling addiction (general) (code against ...) 
+*1456911-Psychic phenomena -Affirmation-Gambling addiction (machines) (code against ...) 
+*14122611-Psychic phenomena -Affirmation-Gambling addiction (cards) (code against ...) 
+*14431725-Psychic phenomena -Affirmation-Gambling addiction (roulette) (code against ...) 
+*6111875-Psychic phenomena -Cause (Combined)-speech disorders 
+*10121213-Psychic phenomena -Affirmation-Stability, inner 
+*24916178-Psychic phenomena -Organ / Spec. -Stability, inner 
+*91421311-Psychic phenomena -Affirmation-Strengthening code for office workers (occupation-related) 
+*98861311-Psychic phenomena -Affirmation-Strengthening code for craftsmen (occupation-related) 
+*97122014-Psychic phenomena -Affirmation-Strengthening code for teachers (occupation-related) 
+*97719315-Psychic phenomena -Affirmation-Strengthening code for therapists (professional) 
+*9335195-Psychic phenomena -Affirmation-Strengthening code for sellers (occupation-related) 
+*9395611-Psychic phenomena -Affirmation-Strengthening code for sales assistants (occupation-related) 
+*21129128-Psychic phenomena -Affirmation-catalepsy 
+*52151470-Psychic phenomena -Degeneration State-catalepsy 
+*15181421-Psychic phenomena -Affirmation-Silent joy (code for ...) 
+*15213152-Psychic phenomena -Affirmation-Voice Listening (Psychology) 
+*5991314-Psychic phenomena -Regulation-Voice Listening (Psychology) 
+*7213255-Psychic phenomena -Cause (Combined)-Voice Listening (Psychology) 
+*85181364-Psychic phenomena -Affirmation-Accepting voice (psychology) 
+*85876512-Psychic phenomena -Affirmation-Making voice hearings bearable (Psychology) 
+*85913103-Psychic phenomena -Affirmation-Suppress voice hearing (psychology) 
+*81981239-Psychic phenomena -Organ / Spec. -Voice listener (psychology) 
+*51614936-Psychic phenomena -Regulation-Mood, aggressive 
+*5310146-Psychic phenomena -Degeneration State-Mood, depressive 
+*16262232-Psychic phenomena -Extreme (combi) -Mood, depressive 
+*51611965-Psychic phenomena -Regulation-Mood, depressive 
+*10815619-Psychic phenomena -Cause (Combined)-Mood, depressive 
+*11101593-Psychic phenomena -Affirmation-stutter 
+*61211247-Psychic phenomena -Regulation-stutter 
+*3223122-Psychic phenomena -Affirmation-Stress management (code for ...) 
+*98102113-Psychic phenomena -Affirmation-Addiction (general) (code against ...) 
+*15611147-Psychic phenomena -Affirmation-Looking for recognition (code against ...) (also: sexuality) 
+*9241237-Psychic phenomena -Affirmation-Looking for work (code against ...) 
+*92474312-Psychic phenomena -Affirmation-Looking for drugs (code against ...) 
+*92416159-Psychic phenomena -Affirmation-- for hashish (code against ...) 
+*1583043-Psychic phenomena -Affirmation-Look for heroin (code against ...) 
+*92418916-Psychic phenomena -Affirmation-Looking for coffee (code against ...) 
+*9241284-Psychic phenomena -Affirmation-Look for cocaine (code against ...) 
+*92439104-Psychic phenomena -Affirmation-Look for marijuana (code against ...) 
+*15101712-Psychic phenomena -Affirmation-Looking for nicotine (code against ...) 
+"*12951355-Psychic phenomena -Cause (Combined)-Looking for sex (""excessive sex drive"" does not exist) (sexuality) "
+*1581194-Psychic phenomena -Affirmation-Look for sweets (code against ...) 
+*92413363-Psychic phenomena -Affirmation-Looking for tablets (code against ...) 
+*92421016-Psychic phenomena -Affirmation-Looking for tea (code against ...) 
+*92462014-Psychic phenomena -Affirmation-Looking for sugar (code against ...) 
+*9224651-Psychic phenomena -Affirmation-Addiction (code against ...) 
+*4482217-Psychic phenomena -Cause (Combined)-Addiction (code against ...) 
+*31443119-Psychic phenomena -Affirmation-indifference 
+*4711813-Psychic phenomena -Regulation-Indifference, spiritual 
+*10712813-Psychic phenomena -Degeneration State-Deep depression due to the loss of a life partner 
+*74108418-Psychic phenomena -Extreme (combi) -Deep depression due to the loss of a life partner 
+*1182137-Psychic phenomena -Affirmation-Deep inner peace (code for ...) 
+*99134287-Psychic phenomena -Degeneration State-Tinnitus aurium 
+*1061692-Psychic phenomena -Regulation-Tinnitus aurium 
+*20151514-Psychic phenomena -Cause (Combined)-Tinnitus aurium 
+*71011819-Psychic phenomena -Regulation-Tinnitus aurium, due to mental influences 
+*15845187-Psychic phenomena -Cause (Combined)-Tinnitus aurium, due to mental influences 
+*7109891-Psychic phenomena -Regulation-Tinnitus aurium, by overreaching syndrome 
+*98810106-Psychic phenomena -Affirmation-madness 
+*1214137-Psychic phenomena -Degeneration State-madness 
+*58561057-Psychic phenomena -Cause (Combined)-madness 
+*62057779-Psychic phenomena -Cause (Combined)-thoughts of death 
+*10733116-Psychic phenomena -Cause (Combined)-Death thoughts in desperate, depressed mood 
+*5513949-Psychic phenomena -Regulation-inertia 
+*16117136-Psychic phenomena -Affirmation-Inertia (code against ...) 
+*3381115-Psychic phenomena -Cause (Combined)-Inertia, mental 
+*61516157-Psychic phenomena -Cause (Combined)-sadness 
+*2411836-Psychic phenomena -Affirmation-Sadness (code against ...) 
+*9172568-Psychic phenomena -Affirmation-Overactivity (code against ...) 
+*10599312-Psychic phenomena -Affirmation-Discomfort (code against ...) 
+*7101437-Psychic phenomena -Affirmation-Lightheartedness (code for ...) 
+*10104226-Psychic phenomena -Affirmation-Unrest (code against ...) 
+*7466119-Psychic phenomena -Regulation-unrest 
+*10108827-Psychic phenomena -Affirmation-Restlessness (code against ...) 
+*12917857-Psychic phenomena -Cause (Combined)-Restlessness and anxiety 
+*18132278-Psychic phenomena -Degeneration State-Restlessness, nocturnal 
+*10791041-Psychic phenomena -Condition -Restlessness, nocturnal with screaming 
+*9412717-Psychic phenomena -Affirmation-Uncertainty (code against ...) 
+*44911042-Psychic phenomena -Affirmation-Oppression, mental (code against ...) 
+*93971015-Psychic phenomena -Organ / Spec. -underweight 
+*41281020-Psychic phenomena -Affirmation-Enterprising (code for ...) 
+*1010211-Psychic phenomena -Regulation-discontent 
+*25353317-Psychic phenomena -Affirmation-Dissatisfaction (code against ...) 
+*15115109-Psychic phenomena -Cause (Combined)-Vaginal spasm (vaginismus) 
+*7091119-Psychic phenomena -Condition -St. Vitus Dance (Chorea minor) 
+*18151236-Psychic phenomena -Affirmation-Responsibility (code for ...) 
+*57871051-Psychic phenomena -Affirmation-Delusion (code against ...) 
+*5131085-Psychic phenomena -Affirmation-Persecution mania (code against ...) 
+*11206492-Psychic phenomena -Regulation-fear of failure 
+*1140169-Psychic phenomena -Extreme (combi) -Tension, inner 
+*54881012-Psychic phenomena -Affirmation-Trust (code for ...) 
+*71215145-Psychic phenomena -Degeneration State-confusion 
+*3172195-Psychic phenomena -Extreme (combi) -confusion 
+*1217463-Psychic phenomena -Gov. deficiency -confusion 
+*38620823-Psychic phenomena -Affirmation-Delusion (code against ...) 
+*12421094-Psychic phenomena -Affirmation-Delusion (code against ...) 
+*19171289-Psychic phenomena -Affirmation-Warm-heartedness (code for ...) 
+*8418185-Psychic phenomena -Affirmation-Feel good (code for ...) 
+*-Psychic phenomena --http://drs-codesystem.privatverlag.org/drs-codesystem.html Page 74 
+*81089185-Psychic phenomena -Affirmation-Benevolence (code for ...) 
+*6951912-Psychic phenomena -Affirmation-Desire to die (code against ...) 
+*6181313-Psychic phenomena -Affirmation-Being centered (code for ...) 
+*3371593-Psychic phenomena -Affirmation-Anger (code against ...) 
+*60109129-Psychic phenomena -Regulation-sugar addiction 
+*51215317-Psychic phenomena -Affirmation-Satisfaction (code for ...) 
+*1116705-Psychic phenomena -Affirmation-Fear of the future (code against ..) 
+*89102112-Psychic phenomena -Extreme (combi) -obsessive compulsive disorder 
+*7613176-Psychic phenomena -Affirmation-compulsive presentation (code against ...) 

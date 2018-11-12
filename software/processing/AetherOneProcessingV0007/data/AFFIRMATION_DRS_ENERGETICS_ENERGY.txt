@@ -1,0 +1,578 @@
+*61172672-Energetics & energy -Affirmation-Reduction of strong healing reactions 
+*14111115-Energetics & energy -Regulation-Deviation, functional 
+*15964612-Energetics & energy -Degeneration State-adynamia 
+*1136695-Energetics & energy -Gov. deficiency -adynamia 
+*10410275-Energetics & energy -Regulation-adynamia 
+*6151113-Energetics & energy -Organ / Spec. -Allergy meridian (after full) 
+*52181347-Energetics & energy -Condition -Aging, premature / premature 
+*16102787-Energetics & energy -Organ / Spec. -amino acids 
+*10861015-Energetics & energy -Organ / Spec. -Amino acids, essential 
+*93151462-Energetics & energy -Regulation-Argentum D 60 (for Chakra 6 = front chakra) 
+*7525104-Energetics & energy -Affirmation-aura strengthening 
+*93741657-Energetics & energy -Regulation-Aurum D 60 (for Chakra 4 = Heart Chakra) 
+*99111293-Energetics & energy -Affirmation-Excision of pathogenic earth rays I 
+*37219111-Energetics & energy -Special code -Excision of pathogenic earth rays II 
+*61412149-Energetics & energy -Extreme (combi) -Exposure to frequencies I: extremely low frequency waves (ELF) 
+*8165412-Energetics & energy -Extreme (combi) -Exposure to frequencies II: low frequency range 
+*10101142-Energetics & energy -Extreme (combi) -Exposure to frequencies III: long waves 
+*72191115-Energetics & energy -Extreme (combi) -Strain through frequencies IV: medium waves 
+*51294662-Energetics & energy -Extreme (combi) -Exposure to frequencies IX: infrared waves 
+*16121438-Energetics & energy -Extreme (combi) -Load through frequencies V: Shortwave 
+*1351614-Energetics & energy -Extreme (combi) -Exposure to frequencies VI: ultrashort waves 
+*11188136-Energetics & energy -Extreme (combi) -Strain through frequencies VII: decimeter waves 
+*4659111-Energetics & energy -Extreme (combi) -Exposure to frequencies VIII: microwaves 
+*84138121-Energetics & energy -Extreme (combi) -Exposure to frequencies X: light waves (visible) 
+*61515910-Energetics & energy -Extreme (combi) -Exposure to frequencies XI: ultraviolet waves 
+*89119104-Energetics & energy -Extreme (combi) -Exposure to frequencies XII: X-rays 
+*99797159-Energetics & energy -Extreme (combi) -Exposure to frequencies XIII: gamma radiation 
+*34920107-Energetics & energy -Organ / Spec. -Connective tissue degenerative meridian (after full) 
+*10121817-Energetics & energy -Organ / Spec. -Bladder 
+*1031154-Energetics & energy -Organ / Spec. -Blockade of a meridian (filter) 
+*12158137-Energetics & energy -Affirmation-Chakra energy, blockade-free conduction in the energy channels (nadis) 
+*??4556114 -Energetics & energy -Affirmation-Chakra energy, blockade-free conduction from the endocrine system into the bl 
+*45121824-Energetics & energy -Affirmation-Chakra energy, blockade-free conduction from the NS into the endocrine system 
+*4510888-Energetics & energy -Affirmation-Chakra energy, blockade-free conduction from the energy channels to the NS 
+*7516179-Energetics & energy -Affirmation-Chakra energy, primary incoming (code for ...) 
+*12111110-Energetics & energy -Organ / Spec. -Chakra energy, secondary effluent 
+*71310823-Energetics & energy -Mix-Code-Chakra harmonization, complete (Council in code) 
+*67103165-Energetics & energy -Regulation-Chromatic scale from base note A (all octaves) 
+*68313173-Energetics & energy -Regulation-Chromatic scale from base note Ais / B (Bb) (all octaves) 
+*67103812-Energetics & energy -Regulation-Chromatic scale from base tone C (all octaves) 
+*68341011-Energetics & energy -Regulation-Chromatic scale from base note Cis / Des (all octaves) 
+*67103123-Energetics & energy -Regulation-Chromatic scale from base tone D (all octaves) 
+*67103889-Energetics & energy -Regulation-Chromatic scale from base note Dis / Es (all octaves) 
+*67103136-Energetics & energy -Regulation-Chromatic scale from base note E (all octaves) 
+*6831216-Energetics & energy -Regulation-Chromatic scale from base note F (all octaves) 
+*6839107-Energetics & energy -Regulation-Chromatic scale from base note Fis / Ges (all octaves) 
+*-Energetics & energy --Page 37 
+*67103143-Energetics & energy -Regulation-Chromatic scale from base tone G (all octaves) 
+*6833125-Energetics & energy -Regulation-Chromatic scale from base tone Gis / As (all octaves) 
+*67103561-Energetics & energy -Regulation-Chromatic scale from base note H (B) (all octaves) 
+*9310118-Energetics & energy -Regulation-Cuprum D 60 (for Chakra 3 = Milky Chakra) 
+*1397720-Energetics & energy -Affirmation-Deblocking of damaged respiratory enzymes 
+*91435667-Energetics & energy -Organ / Spec. -Colon Meridian 
+*36132310-Energetics & energy -Organ / Spec. -Three-heater meridian 
+*2496667-Energetics & energy -Organ / Spec. -Small Intestine Meridian 
+*61311149-Energetics & energy -Organ / Spec. -Level, emotional (level 3) 
+*7831420-Energetics & energy -Organ / Spec. -Plane, divine (Level 8) 
+*6172313-Energetics & energy -Organ / Spec. -Level, intuitive (level 5) 
+*74816132-Energetics & energy -Organ / Spec. -Level, mental (level 4) 
+*78017135-Energetics & energy -Organ / Spec. -Plain, monadic (level 7) 
+*65161365-Energetics & energy -Organ / Spec. -Plane, physical-etheric (Level 2) 
+*12101563-Energetics & energy -Organ / Spec. -Plane, physical-etheric, chemical ether (level 2b) 
+*12108934-Energetics & energy -Organ / Spec. -Plane, physical-etheric, life-ether (level 2a) 
+*12101212-Energetics & energy -Organ / Spec. -Plane, physical-etheric, light-ether (level 2c) 
+*1210725-Energetics & energy -Organ / Spec. -Plane, physical-etheric, heat-ether (level 2d) 
+*65811203-Energetics & energy -Organ / Spec. -Level, physical-fixed (level 1 a) 
+*6514755-Energetics & energy -Organ / Spec. -Level, physical-fluid (level 1 b) 
+*6578631-Energetics & energy -Organ / Spec. -Plane, physical-gaseous (level 1 c) 
+*6584713-Energetics & energy -Organ / Spec. -Level, physical-material (level 1) 
+*1851111-Energetics & energy -Organ / Spec. -Plane, physical-photon-shaped (level 1 d) 
+*61221112-Energetics & energy -Organ / Spec. -Level, Spiritual (Level 6) 
+*14152358-Energetics & energy -Extreme (combi) -electrosmog 
+*3114512-Energetics & energy -Regulation-electrosmog 
+*11141077-Energetics & energy -Affirmation-Electrosmog, protection against 
+*36951614-Energetics & energy -Regulation-Electrosmog load 
+*16171615-Energetics & energy -Degeneration State-Electrosmog exposure due to heavy metal deposition 
+*7191220-Energetics & energy -Extreme (combi) -Electrosmog exposure due to heavy metal deposition 
+*81385712-Energetics & energy -Gov. deficiency -Electrosmog exposure due to heavy metal deposition 
+*60114136-Energetics & energy -Organ / Spec. -Energy of life 
+*36104136-Energetics & energy -Extreme (combi) -energy blockade 
+*41712353-Energetics & energy -Affirmation-Energy field: balance apana (for chakra diagnostics) 
+*41196353-Energetics & energy -Affirmation-Energy Field: Balance Prana (for chakra diagnostics) 
+*41179412-Energetics & energy -Affirmation-Energy field: balance samana (for chakra diagnostics) 
+*41224263-Energetics & energy -Affirmation-Energy Field: Balance Upana (for Chakradiagnostik) 
+*41544263-Energetics & energy -Affirmation-Energy field: Vyana balance (for Chakradiagnostik) 
+*41773144-Energetics & energy -Affirmation-Energy flow, more concentrated (code for ...) 
+*89561513-Energetics & energy -Regulation-Energy flow improvement 
+*86131623-Energetics & energy -Degeneration State-Energy deficiency 
+*72176124-Energetics & energy -Gov. deficiency -Energy deficiency 
+*8931116-Energetics & energy -Regulation-Energy deficiency 
+*12815635-Energetics & energy -Mix-Code-Energy optimization, general (Council in Code) 
+*16916493-Energetics & energy -Mix-Code-Suppression of electrical appliances (Council in code) 
+*16106144-Energetics & energy -Mix-Code-Suppression of televisions (Council in Code) 
+*1618912-Energetics & energy -Mix-Code-Suppression of monitors (rates in code) 
+*16268117-Energetics & energy -Mix-Code-Suppression of potting soil (Council in code) 
+*17165173-Energetics & energy -Regulation-Earth Rays: Load from offloading field 
+*15599073-Energetics & energy -Extreme (combi) -Earth Rays: Loading by charging field 
+*14721310-Energetics & energy -Gov. deficiency -Earth Rays: Loading by charging field 
+*91415118-Energetics & energy -Cause (Combined)-Earth rays: stress due to breakage 
+*17165140-Energetics & energy -Regulation-Earth Rays: Exposure to curry network 
+*14151410-Energetics & energy -Reg. Deficiency -Earth Rays: Exposure to ore deposits 
+*1716557-Energetics & energy -Regulation-Earth Rays: Exposure to ore deposits 
+*1355126-Energetics & energy -Degeneration State-Earth Rays: Exposure to geopathogenic disorder, common 
+*12661011-Energetics & energy -Extreme (combi) -Earth Rays: Exposure to geopathogenic disorder, common 
+*14751335-Energetics & energy -Gov. deficiency -Earth Rays: Exposure to geopathogenic disorder, common 
+*14751336-Energetics & energy -Cause (Combined)-Earth Rays: Exposure to geopathogenic disorder, common 
+*9613122-Energetics & energy -Regulation-Earth Rays: Exposure to Global Grid Network 
+*14151845-Energetics & energy -Cause (Combined)-Earth radiation: load through cavern 
+*13577257-Energetics & energy -Degeneration State-Earth Rays: Exposure by crossing curry and global grid 
+*8511140-Energetics & energy -Extreme (combi) -Earth Rays: Burden by Fault 
+*1350311-Energetics & energy -Condition -Earth radiation: load through water vein 
+*17165172-Energetics & energy -Regulation-Earth radiation: load through water vein 
+*9311442-Energetics & energy -Regulation-Ferrum D 60 (for Chakra 1 = root chakra) 
+*23211215-Energetics & energy -Organ / Spec. -Adipose tissue degenerative meridian (after full) 
+*12312811-Energetics & energy -Affirmation-Fat burning, accelerated 
+*9561360-Energetics & energy -Degeneration State-Fokalerkrankungen 
+*10051513-Energetics & energy -Gov. deficiency -Fokalerkrankungen 
+*1595113-Energetics & energy -Regulation-Frequency band: 0.1 hertz to 3.0 hertz 
+*15212124-Energetics & energy -Regulation-Frequency band: 40.0 hertz to 60.0 hertz 
+*15751434-Energetics & energy -Regulation-Frequency band: 80.0 hertz to 99.0 hertz 
+*14231597-Energetics & energy -Regulation-Frequency information (A): 2600 angstroms 
+*14231394-Energetics & energy -Regulation-Frequency information (A): 10000 angstroms 
+*14171887-Energetics & energy -Regulation-Frequency information (A): 156000 angstroms 
+*14208884-Energetics & energy -Regulation-Frequency information (A): 178000 angstroms 
+*14233911-Energetics & energy -Regulation-Frequency information (A): 205000 angstroms 
+*14206911-Energetics & energy -Regulation-Frequency Information (A): 250000 angstroms 
+*14238132-Energetics & energy -Regulation-Frequency information (A): 300000 angstroms 
+*1423445-Energetics & energy -Regulation-Frequency Information (GHz): 1.0 Gigahertz 
+*1423711-Energetics & energy -Regulation-Frequency Information (GHz): 100.0 Gigahertz 
+*14237316-Energetics & energy -Regulation-Frequency information (kHz): 10.0 kilohertz 
+*14236944-Energetics & energy -Regulation-Frequency information (kHz): 11.0 kilohertz 
+*14231044-Energetics & energy -Regulation-Frequency information (kHz): 12.0 kilohertz 
+*14231410-Energetics & energy -Regulation-Frequency information (kHz): 18,688 kilohertz 
+*14171344-Energetics & energy -Regulation-Frequency information (kHz): 45.0 kilohertz 
+*14175599-Energetics & energy -Regulation-Frequency information (kHz): 76.0 kilohertz 
+*14231131-Energetics & energy -Regulation-Frequency information (kHz): 100.0 kilohertz 
+*14233106-Energetics & energy -Regulation-Frequency information (kHz): 130.2238 kilohertz 
+*14231317-Energetics & energy -Regulation-Frequency information (kHz): 131.106192 kilohertz 
+*1417637-Energetics & energy -Regulation-Frequency information (kHz): 150.0 kilohertz 
+*14231416-Energetics & energy -Regulation-Frequency information (kHz): 362.04 kilohertz 
+*14231111-Energetics & energy -Regulation-Frequency information (kHz): 383.57 kilohertz 
+*14175483-Energetics & energy -Regulation-Frequency information (kHz): 406.37 kilohertz 
+*14178572-Energetics & energy -Regulation-Frequency information (kHz): 430.54 kilohertz 
+*14171012-Energetics & energy -Regulation-Frequency information (kHz): 456.14 kilohertz 
+*14171159-Energetics & energy -Regulation-Frequency information (kHz): 483.26 kilohertz 
+*14239119-Energetics & energy -Regulation-Frequency information (kHz): 512.0 kilohertz 
+*14201135-Energetics & energy -Regulation-Frequency information (kHz): 542.45 kilohertz 
+*14206133-Energetics & energy -Regulation-Frequency information (kHz): 574.7 kilohertz 
+*1423113-Energetics & energy -Regulation-Frequency information (kHz): 608.87 kilohertz 
+*1423350-Energetics & energy -Regulation-Frequency information (kHz): 645.08 kilohertz 
+*14233474-Energetics & energy -Regulation-Frequency information (kHz): 683.44 kilohertz 
+*14175289-Energetics & energy -Regulation-Frequency information (kHz): 724.08 kilohertz 
+*14178111-Energetics & energy -Regulation-Frequency information (kHz): 767.13 kilohertz 
+*14201111-Energetics & energy -Regulation-Frequency information (kHz): 812.75 kilohertz 
+*14205834-Energetics & energy -Regulation-Frequency information (kHz): 861.08 kilohertz 
+*1423735-Energetics & energy -Regulation-Frequency information (kHz): 912.28 kilohertz 
+*14235947-Energetics & energy -Regulation-Frequency information (kHz): 966.53 kilohertz 
+*14231013-Energetics & energy -Regulation-Frequency Information (MHz): 1.0 Mega Hertz 
+*14236832-Energetics & energy -Regulation-Frequency Information (MHz): 1.08 megahertz 
+*14233455-Energetics & energy -Regulation-Frequency Information (MHz): 1.92221 megahertz 
+*14171320-Energetics & energy -Regulation-Frequency information (MHz): 4.911100 megahertz 
+*14237493-Energetics & energy -Regulation-Frequency information (MHz): 19.0 megahertz 
+*1423812-Energetics & energy -Regulation-Frequency Information (MHz): 30.0 Mega Hertz 
+*1420718-Energetics & energy -Regulation-Frequency Information (MHz): 80.0 megahertz 
+*1423274-Energetics & energy -Regulation-Frequency Information (THz): 1.0 Tera-Hertz 
+*14237544-Energetics & energy -Regulation-Frequency Information (THz): 10.0 Tera-Hertz 
+*1423111-Energetics & energy -Regulation-Frequency Information (THz): 100000.0 Tera-Hertz 
+*30100710-Energetics & energy -Special Code -Frequency Information (THz): 1000000000.0 Tera Hertz 
+*14231710-Energetics & energy -Regulation-Frequency Information (THz): 100000000000.0 Tera Hertz 
+*14231012-Energetics & energy -Regulation-Frequency information: 0.1 Hertz 
+*14231019-Energetics & energy -Regulation-Frequency information: 0.5 Hertz 
+*14231012-Energetics & energy -Regulation-Frequency Information: 1.0 Hertz 
+*14887159-Energetics & energy -Regulation-Frequency Information: 1.05 Hertz 
+*14231310-Energetics & energy -Regulation-Frequency information: 1.2 Hertz 
+*14887711-Energetics & energy -Regulation-Frequency information: 1.3 Hertz 
+*14887103-Energetics & energy -Regulation-Frequency information: 1.4 Hertz 
+*14887215-Energetics & energy -Regulation-Frequency Information: 2.0 Hertz 
+*1423315-Energetics & energy -Regulation-Frequency information: 2.281 Hertz 
+*14231111-Energetics & energy -Regulation-Frequency information: 2.3 Hertz 
+*14887831-Energetics & energy -Regulation-Frequency information: 2.5 Hertz 
+*14887147-Energetics & energy -Regulation-Frequency Information: 3.0 Hertz 
+*14887910-Energetics & energy -Regulation-Frequency Information: 3.04 Hertz 
+*14887211-Energetics & energy -Regulation-Frequency information: 3.2 Hertz 
+*14231210-Energetics & energy -Regulation-Frequency Information: 3.29 Hertz 
+*14887241-Energetics & energy -Regulation-Frequency information: 3.5 Hertz 
+*14887774-Energetics & energy -Regulation-Frequency information: 3.55 hertz 
+*14887642-Energetics & energy -Regulation-Frequency Information: 3.94 Hertz 
+*1417211-Energetics & energy -Regulation-Frequency Information: 4.0 Hertz 
+*1417241-Energetics & energy -Regulation-Frequency information: 4.25 Hertz 
+*14172114-Energetics & energy -Regulation-Frequency information: 4,563 Hertz 
+*14170147-Energetics & energy -Regulation-Frequency Information: 4.6 Hertz 
+*1417110-Energetics & energy -Regulation-Frequency information: 4.62 hertz 
+*14170654-Energetics & energy -Regulation-Frequency Information: 4.99 Hertz 
+*14884914-Energetics & energy -Regulation-Frequency Information: 5.0 Hertz 
+*14884555-Energetics & energy -Regulation-Frequency information: 5.38 Hertz 
+*14884735-Energetics & energy -Regulation-Frequency information: 5.74 Hertz 
+*14231212-Energetics & energy -Regulation-Frequency Information: 6.0 Hertz 
+*14887812-Energetics & energy -Regulation-Frequency information: 6.3 Hertz 
+*14170214-Energetics & energy -Regulation-Frequency Information: 7.0 Hertz 
+*14170119-Energetics & energy -Regulation-Frequency information: 7.5 Hertz 
+*1417410-Energetics & energy -Regulation-Frequency Information: 7.8 Hertz 
+*1417242-Energetics & energy -Regulation-Frequency information: 7.83 Hertz 
+*14884314-Energetics & energy -Regulation-Frequency Information: 8.0 Hertz 
+*14884513-Energetics & energy -Regulation-Frequency information: 8.2 Hertz 
+*14884913-Energetics & energy -Regulation-Frequency Information: 8.3 Hertz 
+*14884813-Energetics & energy -Regulation-Frequency Information: 8.5 Hertz 
+*14884214-Energetics & energy -Regulation-Frequency information: 8.6 Hertz 
+*14887315-Energetics & energy -Regulation-Frequency Information: 9.0 Hertz 
+*14887114-Energetics & energy -Regulation-Frequency information: 9.1 Hertz 
+*14231096-Energetics & energy -Regulation-Frequency information: 9,125 hertz 
+*14237103-Energetics & energy -Regulation-Frequency information: 10.0 Hertz 
+*14231011-Energetics & energy -Regulation-Frequency information: 10.2 Hertz 
+*14231041-Energetics & energy -Regulation-Frequency information: 10.5 Hertz 
+*14887361-Energetics & energy -Regulation-Frequency Information: 10.6 Hertz 
+*14887611-Energetics & energy -Regulation-Frequency Information: 11.0 Hertz 
+*14231011-Energetics & energy -Regulation-Frequency Information: 12.0 Hertz 
+*14887511-Energetics & energy -Regulation-Frequency Information: 13.0 Hertz 
+*14887812-Energetics & energy -Regulation-Frequency information: 14.0 Hertz 
+*14171911-Energetics & energy -Regulation-Frequency information: 15.0 Hertz 
+*14884769-Energetics & energy -Regulation-Frequency Information: 16.0 Hertz 
+*14201169-Energetics & energy -Regulation-Frequency Information: 17.0 Hertz 
+*14887432-Energetics & energy -Regulation-Frequency Information: 18.0 Hertz 
+*14887615-Energetics & energy -Regulation-Frequency Information: 18:25 Hertz 
+*14888167-Energetics & energy -Regulation-Frequency Information: 20.0 Hertz 
+*14888811-Energetics & energy -Regulation-Frequency Information: 23.0 Hertz 
+*14884369-Energetics & energy -Regulation-Frequency information: 24.0 Hertz 
+*14231174-Energetics & energy -Regulation-Frequency information: 27.5 Hertz 
+*14887832-Energetics & energy -Regulation-Frequency information: 28.0 Hertz 
+*14887415-Energetics & energy -Regulation-Frequency Information: 30.0 Hertz 
+*14888311-Energetics & energy -Regulation-Frequency Information: 33.0 Hertz 
+*14231031-Energetics & energy -Regulation-Frequency Information: 35.0 Hertz 
+*14231174-Energetics & energy -Regulation-Frequency information: 36.5 Hertz 
+*14170515-Energetics & energy -Regulation-Frequency Information: 40.0 Hertz 
+*14170411-Energetics & energy -Regulation-Frequency Information: 45.0 Hertz 
+*14884318-Energetics & energy -Regulation-Frequency Information: 50.0 Hertz 
+*14887319-Energetics & energy -Regulation-Frequency Information: 60.0 Hertz 
+*14170631-Energetics & energy -Regulation-Frequency information: 73.0 Hertz 
+*1417710-Energetics & energy -Regulation-Frequency Information: 78.3 Hertz 
+*14233105-Energetics & energy -Regulation-Frequency Information: 100.0 Hertz 
+*14887481-Energetics & energy -Regulation-Frequency Information: 105.0 Hertz 
+*14887881-Energetics & energy -Regulation-Frequency Information: 106.0 Hertz 
+*14887159-Energetics & energy -Regulation-Frequency Information: 110.0 Hertz 
+*14887149-Energetics & energy -Regulation-Frequency Information: 125.0 Hertz 
+*14231223-Energetics & energy -Regulation-Frequency information: 146.0 Hertz 
+*14231123-Energetics & energy -Regulation-Frequency information: 148.0 Hertz 
+*1423318-Energetics & energy -Regulation-Frequency information: 149,875 Hertz 
+*14884173-Energetics & energy -Regulation-Frequency Information: 160.0 Hertz 
+*14888615-Energetics & energy -Regulation-Frequency Information: 200.0 Hertz 
+*14887199-Energetics & energy -Regulation-Frequency information: 210.0 Hertz 
+*14231013-Energetics & energy -Regulation-Frequency Information: 220.0 Hertz 
+*14888179-Energetics & energy -Regulation-Frequency information: 230.0 Hertz 
+*14204120-Energetics & energy -Regulation-Frequency information: 240.0 Hertz 
+*14201181-Energetics & energy -Regulation-Frequency Information: 250.0 Hertz 
+*14884495-Energetics & energy -Regulation-Frequency information: 258.0 Hertz 
+*14884981-Energetics & energy -Regulation-Frequency information: 290.0 Hertz 
+*14884334-Energetics & energy -Regulation-Frequency Information: 292.0 Hertz 
+*1420313-Energetics & energy -Regulation-Frequency information: 299.75 Hertz 
+*14888813-Energetics & energy -Regulation-Frequency Information: 330.0 Hertz 
+*14239123-Energetics & energy -Regulation-Frequency information: 380.0 Hertz 
+*1417504-Energetics & energy -Regulation-Frequency Information: 400.0 Hertz 
+*14884552-Energetics & energy -Regulation-Frequency Information: 410.0 Hertz 
+*14170189-Energetics & energy -Regulation-Frequency information: 440.0 Hertz 
+*1417510-Energetics & energy -Regulation-Frequency information: 441.0 Hertz 
+*14170118-Energetics & energy -Regulation-Frequency information: 442.0 Hertz 
+*14170158-Energetics & energy -Regulation-Frequency information: 443.0 Hertz 
+*14881099-Energetics & energy -Regulation-Frequency Information: 444.0 Hertz 
+*14170139-Energetics & energy -Regulation-Frequency information: 445.0 Hertz 
+*14170913-Energetics & energy -Regulation-Frequency Information: 450.0 Hertz 
+*14204105-Energetics & energy -Regulation-Frequency Information: 500.0 Hertz 
+*14884179-Energetics & energy -Regulation-Frequency information: 584.0 Hertz 
+*14206138-Energetics & energy -Regulation-Frequency information: 599.5 Hertz 
+*14239119-Energetics & energy -Regulation-Frequency information: 600.0 Hertz 
+*14887189-Energetics & energy -Regulation-Frequency Information: 666.0 Hertz 
+*14232110-Energetics & energy -Regulation-Frequency information: 690.0 Hertz 
+*1417804-Energetics & energy -Regulation-Frequency Information: 700.0 Hertz 
+*14170119-Energetics & energy -Regulation-Frequency Information: 728.0 Hertz 
+*14170813-Energetics & energy -Regulation-Frequency Information: 740.0 Hertz 
+*1423910-Energetics & energy -Extra Code-Frequency Information: 1000.0 Hertz 
+*14242312-Energetics & energy -Extra Code-Frequency Information: 1168.0 Hertz 
+*14241032-Energetics & energy -Extra Code-Frequency Information: 1199.0 Hertz 
+*14231099-Energetics & energy -Extra Code-Frequency Information: 2336.0 Hertz 
+*14238133-Energetics & energy -Extra Code-Frequency Information: 2398.0 Hertz 
+*14239113-Energetics & energy -Extra Code-Frequency information: 2850.0 Hertz 
+*1423499-Energetics & energy -Regulation-Frequency information: 3500.0 Hertz 
+*14178613-Energetics & energy -Extra Code-Frequency Information: 4672.0 Hertz 
+*14175572-Energetics & energy -Extra Code-Frequency Information: 4796.0 Hertz 
+*14235533-Energetics & energy -Extra Code-Frequency Information: 9344.0 Hertz 
+*14231017-Energetics & energy -Regulation-Frequency Information: 9592.0 Hertz 
+*8811795-Energetics & energy -Regulation-Frequency swing: 0.0 Hertz to 1000.0 Hertz 
+*88117125-Energetics & energy -Regulation-Frequency swing: 0.0 Hertz to 1000000.0 Hertz 
+*1691597-Energetics & energy -Regulation-Frequency wave: rectangle 
+*16914944-Energetics & energy -Regulation-Frequency wave: sawtooth 
+*16141416-Energetics & energy -Regulation-Frequency wave: Schumann 
+*16914919-Energetics & energy -Regulation-Frequency wave: sine wave 
+*10141017-Energetics & energy -Affirmation-Radiotelephone interference suppression (analog device) 
+*10914696-Energetics & energy -Affirmation-Radio telephone suppression (digital device) 
+*10212311-Energetics & energy -Organ / Spec. -Foot chakra, left 
+*3121031-Energetics & energy -Organ / Spec. -Foot chakra, right 
+*52157737-Energetics & energy -Organ / Spec. -Gallen-Meridian 
+*2514861-Energetics & energy -Organ / Spec. -Joint degenerative meridian (after full) 
+*23101549-Energetics & energy -Mix-Code-General protection (Council in code) 
+*7125724-Energetics & energy -Mix-Code-Weight loss (rates in code) 
+*22619463-Energetics & energy -Organ / Spec. -Throat chakra (neck center) 
+*25198810-Energetics & energy -Organ / Spec. -Hand chakra, left 
+*25191466-Energetics & energy -Organ / Spec. -Hand chakra, right 
+*62310198-Energetics & energy -Affirmation-Harmonious course of healing reactions 
+*26106177-Energetics & energy -Organ / Spec. -Skin Degenerative Meridian (after full) 
+*11119463-Energetics & energy -Organ / Spec. -Heart Chakra (Heart Center) 
+*11147510-Energetics & energy -Organ / Spec. -Heart Meridian 
+*91149445-Energetics & energy -Gov. deficiency -Homeostasis (body maintenance) 
+*8106574-Energetics & energy -Regulation-Homeostasis (body maintenance) 
+*14121486-Energetics & energy -Degeneration State-immunodeficiencies 
+*7613146-Energetics & energy -Extreme (combi) -immunodeficiencies 
+*81121764-Energetics & energy -Organ / Spec. -Immune system, mental (see also brainwashing) 
+*83104591-Energetics & energy -Regulation-Immune system, mental (see also brainwashing) 
+*12181085-Energetics & energy -Extreme (combi) -Immune system, weakened (immune deficiency) 
+*13121075-Energetics & energy -Affirmation-Immune system, stimulating the 
+*12381789-Energetics & energy -Affirmation-Imperative: Absorb! 
+*12417816-Energetics & energy -Affirmation-Imperative: astringents! 
+*1273167-Energetics & energy -Affirmation-Imperative: Activate! 
+*12141314-Energetics & energy -Affirmation-Imperative: Accept! 
+*41731197-Energetics & energy -Affirmation-Imperative: Build up! 
+*1257015-Energetics & energy -Affirmation-Imperative: Build again! 
+*41735141-Energetics & energy -Affirmation-Imperative: Finish! 
+*41735726-Energetics & energy -Affirmation-Imperative: moisten! 
+*1292116-Energetics & energy -Affirmation-Imperative: Promote! 
+*12312129-Energetics & energy -Affirmation-Imperative: Start! 
+*41735710-Energetics & energy -Affirmation-Imperative: Belebe! 
+*12357419-Energetics & energy -Affirmation-Imperative: correct! 
+*12351319-Energetics & energy -Affirmation-Imperative: Calm down! 
+*41735886-Energetics & energy -Affirmation-Imperative: Summon! 
+*1290513-Energetics & energy -Affirmation-Imperative: better off! 
+*41735922-Energetics & energy -Affirmation-Imperative: bend over! 
+*12313291-Energetics & energy -Affirmation-Imperative: master! 
+*1295208-Energetics & energy -Affirmation-Imperative: Make Power! 
+*41735867-Energetics & energy -Affirmation-Imperative: picture! 
+*12731413-Energetics & energy -Affirmation-Imperative: Spread yourself! 
+*1211119-Energetics & energy -Affirmation-Imperative: unmask yourself! 
+*1216616-Energetics & energy -Affirmation-Imperative: Disinfect! 
+*12516176-Energetics & energy -Affirmation-Imperative: Eliminate blockages! 
+*1252689-Energetics & energy -Affirmation-Imperative: Eliminate! 
+*41731915-Energetics & energy -Affirmation-Imperative: Receive! 
+*1250117-Energetics & energy -Affirmation-Imperative: Feel! 
+*1267513-Energetics & energy -Affirmation-Imperative: Energize! 
+*41732847-Energetics & energy -Affirmation-Imperative: Discover! 
+*1261127-Energetics & energy -Affirmation-Imperative: Remove! 
+*41732587-Energetics & energy -Affirmation-Imperative: detoxify! 
+*41732367-Energetics & energy -Affirmation-Imperative: Relieve! 
+*12328102-Energetics & energy -Affirmation-Imperative: Relax! 
+*12326139-Energetics & energy -Affirmation-Imperative: Develop! 
+*12317412-Energetics & energy -Affirmation-Imperative: complete! 
+*12310137-Energetics & energy -Affirmation-Imperative: Increase! 
+*1245512-Energetics & energy -Affirmation-Imperative: relax! 
+*1241618-Energetics & energy -Affirmation-Imperative: Remember! 
+*12310717-Energetics & energy -Affirmation-Imperative: recognize! 
+*12486513-Energetics & energy -Affirmation-Imperative: Explain yourself! 
+*12310179-Energetics & energy -Affirmation-Imperative: Allow! 
+*12486616-Energetics & energy -Affirmation-Imperative: easier! 
+*12414312-Energetics & energy -Affirmation-Imperative: enable! 
+*12310315-Energetics & energy -Affirmation-Imperative: Nutrition! 
+*1245147-Energetics & energy -Affirmation-Imperative: Renew! 
+*12318215-Energetics & energy -Affirmation-Imperative: warm! 
+*12123176-Energetics & energy -Affirmation-Imperative: Expand! 
+*7210211-Energetics & energy -Affirmation-Imperative: Create life energy! 
+*41732698-Energetics & energy -Affirmation-Imperative: lie down! 
+*1266816-Energetics & energy -Affirmation-Imperative: Win back! 
+*41730311-Energetics & energy -Affirmation-Imperative: Give! 
+*1261413-Energetics & energy -Affirmation-Imperative: same thing! 
+*91014311-Energetics & energy -Affirmation-Imperative: the same again to normal! 
+*12321495-Energetics & energy -Affirmation-Imperative: limit one! 
+*41731108-Energetics & energy -Affirmation-Imperative: Heal! 
+*41733512-Energetics & energy -Affirmation-Imperative: Stop! 
+*12811214-Energetics & energy -Affirmation-Imperative: Integrate! 
+*12311515-Energetics & energy -Affirmation-Imperative: turn back! 
+*41739266-Energetics & energy -Affirmation-Imperative: clear up! 
+*12426162-Energetics & energy -Affirmation-Imperative: Control consciously! 
+*12425106-Energetics & energy -Affirmation-Imperative: Control! 
+*1245124-Energetics & energy -Affirmation-Imperative: coordinate! 
+*7810917-Energetics & energy -Affirmation-Imperative: correct the energy flow! 
+*71013187-Energetics & energy -Affirmation-Imperative: Correct metabolic fluctuations! 
+*12413414-Energetics & energy -Affirmation-Imperative: correct! 
+*12391717-Energetics & energy -Affirmation-Imperative: strong! 
+*41733311-Energetics & energy -Affirmation-Imperative: cool off! 
+*12537104-Energetics & energy -Affirmation-Imperative: let germinate! 
+*1263975-Energetics & energy -Affirmation-Imperative: Live in the present! 
+*1261916-Energetics & energy -Affirmation-Imperative: continue to lead! 
+*12321114-Energetics & energy -Affirmation-Imperative: Lindere! 
+*11741726-Energetics & energy -Affirmation-Imperative: Delete stressful memories! 
+*11127101-Energetics & energy -Affirmation-Imperative: Delete stressful childlike educational elements! 
+*1155176-Energetics & energy -Affirmation-Imperative: clear mental blocks! 
+*11141866-Energetics & energy -Affirmation-Imperative: Delete bad posthypnotic commands! 
+*11119119-Energetics & energy -Affirmation-Imperative: Delete unwarranted guilt! 
+*41734147-Energetics & energy -Affirmation-Imperative: delete! 
+*12809114-Energetics & energy -Affirmation-Imperative: dissolve! 
+*4173489-Energetics & energy -Affirmation-Imperative: solve! 
+*12104597-Energetics & energy -Affirmation-Imperative: make progress! 
+*12321514-Energetics & energy -Affirmation-Imperative: Milder! 
+*12509187-Energetics & energy -Affirmation-Imperative: Mobilize! 
+*12101416-Energetics & energy -Affirmation-Imperative: motivate! 
+*12131214-Energetics & energy -Affirmation-Imperative: Neutralize! 
+*12128559-Energetics & energy -Affirmation-Imperative: Remove weight! Take weight off!
+*12121815-Energetics & energy -Affirmation-Imperative: Add weight! Take weight!
+*41738917-Energetics & energy -Affirmation-Imperative: Take it! 
+*1214637-Energetics & energy -Affirmation-Imperative: Normalize! 
+*12771313-Energetics & energy -Affirmation-Imperative: reveal yourself! 
+*41731935-Energetics & energy -Affirmation-Imperative: open yourself! 
+*4173197-Energetics & energy -Affirmation-Imperative: Open! 
+*12114196-Energetics & energy -Affirmation-Imperative: Optimize! 
+*41738785-Energetics & energy -Affirmation-Imperative: Passe on! 
+*12141624-Energetics & energy -Affirmation-Imperative: Polarize! 
+*1265513-Energetics & energy -Affirmation-Imperative: erase! 
+*12114187-Energetics & energy -Affirmation-Imperative: reactivate! 
+*4173176-Energetics & energy -Affirmation-Imperative: Listen! 
+*1211624-Energetics & energy -Affirmation-Imperative: Regenerate! 
+*12310169-Energetics & energy -Affirmation-Imperative: Clean! 
+*12454513-Energetics & energy -Affirmation-Imperative: Reconstruct! 
+*12121416-Energetics & energy -Affirmation-Imperative: Repay! 
+*12418513-Energetics & energy -Affirmation-Imperative: Resorb! 
+*41737411-Energetics & energy -Affirmation-Imperative: Give! 
+*1214542-Energetics & energy -Affirmation-Imperative: close yourself! 
+*12112898-Energetics & energy -Affirmation-Imperative: Protect yourself! 
+*12122778-Energetics & energy -Affirmation-Imperative: Be attractive! 
+*12125353-Energetics & energy -Affirmation-Imperative: Be balanced! 
+*41738168-Energetics & energy -Affirmation-Imperative: Be free! 
+*1212816-Energetics & energy -Affirmation-Imperative: Be fruitful! 
+*12382019-Energetics & energy -Affirmation-Imperative: Be banned! 
+*12121080-Energetics & energy -Affirmation-Imperative: Be able! 
+*12127109-Energetics & energy -Affirmation-Imperative: be creative! 
+*41738952-Energetics & energy -Affirmation-Imperative: be quiet! 
+*12201415-Energetics & energy -Affirmation-Imperative: Be insensitive! 
+*12122818-Energetics & energy -Affirmation-Imperative: Be banished! 
+*41738514-Energetics & energy -Affirmation-Imperative: Safe! 
+*41737852-Energetics & energy -Affirmation-Imperative: special off! 
+*12810136-Energetics & energy -Affirmation-Imperative: Stabilize! 
+*41738156-Energetics & energy -Affirmation-Imperative: strength! 
+*12386104-Energetics & energy -Affirmation-Imperative: Get up! 
+*12386119-Energetics & energy -Affirmation-Imperative: Get in! 
+*12129115-Energetics & energy -Affirmation-Imperative: Restore! 
+*41738682-Energetics & energy -Affirmation-Imperative: push off! 
+*41738417-Energetics & energy -Affirmation-Imperative: support! 
+*41739142-Energetics & energy -Affirmation-Imperative: part! 
+*12391111-Energetics & energy -Affirmation-Imperative: dry! 
+*12399101-Energetics & energy -Affirmation-Imperative: overcome! 
+*12514410-Energetics & energy -Affirmation-Imperative: support! 
+*12348716-Energetics & energy -Affirmation-Imperative: cause! 
+*12161014-Energetics & energy -Affirmation-Imperative: Improve! 
+*12349107-Energetics & energy -Affirmation-Imperative: forbid! 
+*12349117-Energetics & energy -Affirmation-Imperative: connect! 
+*1280153-Energetics & energy -Affirmation-Imperative: evaporate! 
+*12831643-Energetics & energy -Affirmation-Imperative: Dilute yourself! 
+*12341322-Energetics & energy -Affirmation-Imperative: dilute! 
+*12341286-Energetics & energy -Affirmation-Imperative: Evil! 
+*12346630-Energetics & energy -Affirmation-Imperative: Unite! 
+*1284419-Energetics & energy -Affirmation-Imperative: solidify! 
+*12821577-Energetics & energy -Affirmation-Imperative: liquefy! 
+*12131616-Energetics & energy -Affirmation-Imperative: Zoom in! 
+*12346679-Energetics & energy -Affirmation-Imperative: enlarge! 
+*12341118-Energetics & energy -Affirmation-Imperative: rejuvenations! 
+*1284616-Energetics & energy -Affirmation-Imperative: Decrease! 
+*12346589-Energetics & energy -Affirmation-Imperative: Extend! 
+*12131016-Energetics & energy -Affirmation-Imperative: lose! 
+*12136119-Energetics & energy -Affirmation-Imperative: Decrease! 
+*1284814-Energetics & energy -Affirmation-Imperative: Decrease! 
+*12817117-Energetics & energy -Affirmation-Imperative: Get lost! 
+*1282157-Energetics & energy -Affirmation-Imperative: reinforce! 
+*12341277-Energetics & energy -Affirmation-Imperative: Understand! 
+*12341397-Energetics & energy -Affirmation-Imperative: Trust! 
+*12814913-Energetics & energy -Affirmation-Imperative: drive out of the body! 
+*12341383-Energetics & energy -Affirmation-Imperative: drive away! 
+*12161578-Energetics & energy -Affirmation-Imperative: Realize! 
+*12346118-Energetics & energy -Affirmation-Imperative: Forgive! 
+*4173896-Energetics & energy -Affirmation-Imperative: Wake up! 
+*4173831-Energetics & energy -Affirmation-Imperative: waxes! 
+*12351615-Energetics & energy -Affirmation-Imperative: way too! 
+*12951414-Energetics & energy -Affirmation-Imperative: repeat! 
+*1215675-Energetics & energy -Affirmation-Imperative: work against! 
+*12727442-Energetics & energy -Affirmation-Imperative: Destroy yourself! 
+*12714118-Energetics & energy -Affirmation-Imperative: Disperse yourself! 
+*12766113-Energetics & energy -Affirmation-Imperative: pull back! 
+*12146513-Energetics & energy -Affirmation-Imperative: circulate! 
+*76611166-Energetics & energy -Organ / Spec. -Individually weakest meridian, due to the system (filter) 
+*14537211-Energetics & energy -Affirmation-Defense against infection-enhancing 
+*51551217-Energetics & energy -Regulation-Defense against infection-enhancing 
+*1115136-Energetics & energy -Regulation-Jet lag problem 
+*14544722-Energetics & energy -Extreme (combi) -Cachexia (wasting, general dystrophy: various causes) 
+*81612147-Energetics & energy -Affirmation-Catalyst, protection against motor vehicle 
+*1513461-Energetics & energy -Organ / Spec. -Conception vessel (Meridian) 
+*91113892-Energetics & energy -Cause (Combined)-Coord. Deficiency between etheric body and astral body (for chakra diagnostics) 
+*9111388-Energetics & energy -Cause (Combined)-Coord. Deficiency between phys. and etheric body (eg Chakradiagnostik) 
+*31519818-Energetics & energy -Extreme (combi) -Headache (3-heating meridian type) 
+*12461256-Energetics & energy -Cause (Combined)-Headache (bladder meridian type) 
+*7385121-Energetics & energy -Cause (Combined)-Headache (gallbladder meridian type) 
+*35369960-Energetics & energy -Regulation-Headache (stomach meridian type) 
+*61615161-Energetics & energy -Special Code -Power triangle I (spiritual will to live) (for Chakradiagnostik) 
+*91914191-Energetics & energy -Special Code -Power triangle II (physical will to live) (for Chakradiagnostik) 
+*11761130-Energetics & energy -Organ / Spec. -Circulatory Sexuality Meridian 
+*19611322-Energetics & energy -Organ / Spec. -Crystal system amorphous (also: human type equivalent) 
+*19809412-Energetics & energy -Organ / Spec. -Crystal system hexagonal (also: human type equivalent) 
+*1990810-Energetics & energy -Organ / Spec. -Crystal system cubic (also: human type equivalent) 
+*1984811-Energetics & energy -Organ / Spec. -Crystal system monoclinic (also: human type equivalent) 
+*19895164-Energetics & energy -Organ / Spec. -Crystal system orthorhombic (also: human type equivalent) 
+*19941610-Energetics & energy -Organ / Spec. -Crystal system tetragonal (also: human type equivalent) 
+*1989109-Energetics & energy -Organ / Spec. -Crystal system trigonal (also: human type equivalent) 
+*1989101-Energetics & energy -Organ / Spec. -Crystal system triklin (also: human type equivalent) 
+*3411466-Energetics & energy -Affirmation-Life energy (code for more ...) 
+*3773312-Energetics & energy -Affirmation-Increase vitality 
+*2525667-Energetics & energy -Organ / Spec. -Liver Meridian 
+*6155852-Energetics & energy -Mix-Code-Tap water improvement (Council in code) 
+*12100177-Energetics & energy -Organ / Spec. -Handlebar vessel (Meridian) 
+*31311100-Energetics & energy -Organ / Spec. -Links (filters) 
+*34117414-Energetics & energy -Affirmation-Left spin (left-turn postulate as conditioning additive) 
+*12818737-Energetics & energy -Organ / Spec. -Lung meridian 
+*25205667-Energetics & energy -Organ / Spec. -Lymph meridian (after full) 
+*1495667-Energetics & energy -Organ / Spec. -Stomach Meridian 
+*1111661-Energetics & energy -Organ / Spec. -Maximum disturbed meridian (filter) 
+*32223206-Energetics & energy -Organ / Spec. -Maximum disturbing meridian (filter) 
+*13147437-Energetics & energy -Regulation-Mercurius D 60 (for Chakra 2 = navel chakra) 
+*18121121-Energetics & energy -Affirmation-Balance Meridian (Filter) 
+*1829777-Energetics & energy -Affirmation-Sedate meridian (filter) 
+*18311405-Energetics & energy -Affirmation-Toning Meridian (Filter) 
+*18104335-Energetics & energy -Affirmation-Meridian harmonization, general 
+*13056687-Energetics & energy -Mix-Code-Meridian harmonization, complete (Council in Code) 
+*1021617-Energetics & energy -Organ / Spec. -Meridian short circuit (filter) 
+*6119463-Energetics & energy -Organ / Spec. -Spleen chakra 
+*15231817-Energetics & energy -Organ / Spec. -Spleen Meridian 
+*82019729-Energetics & energy -Extreme (combi) -Fatigue syndrome, chronic (CFS) 
+*44616299-Energetics & energy -Regulation-Fatigue syndrome, chronic (CFS) 
+*81710823-Energetics & energy -Organ / Spec. -Navel Chakra (Vitality Center) 
+*49141130-Energetics & energy -Organ / Spec. -Nerve degeneration meridian (after full) 
+*11818737-Energetics & energy -Organ / Spec. -Kidney Meridian 
+*31010127-Energetics & energy -Organ / Spec. -Organ regeneration meridian (after full) 
+*75211706-Energetics & energy -Organ / Spec. -Personal constitution meridian (filter) 
+*93811427-Energetics & energy -Regulation-Platinum D 60 (for Chakra 7 = crown chakra) 
+*93891712-Energetics & energy -Regulation-Plumbum D 60 (for Chakra 5 = Chakra) 
+*3016539-Energetics & energy -Organ / Spec. -Pranic Triangle I (Pranic Triangle) (base: Milky Chakra) 
+*84444448-Energetics & energy -Special Code -Pranic Triangle II (base: spleen chakra) 
+*4914767-Energetics & energy -Extreme (combi) -progeria 
+*91671595-Energetics & energy -Gov. deficiency -progeria 
+*77230724-Energetics & energy -Mix-Code-Rate Mix: Human (Council in Code) 
+*1036279-Energetics & energy -Organ / Spec. -Right (filter) 
+*12216125-Energetics & energy -Affirmation-Right spin (right turn postulate as conditioning additive) 
+*1012787-Energetics & energy -Affirmation-revitalization code 
+*88203144-Energetics & energy -Regulation-loss of fluids 
+*17111912-Energetics & energy -Affirmation-Gentle lifting of blockages in the throat chakra 
+*1734118-Energetics & energy -Affirmation-Gentle lifting of blockages in the heart chakra 
+*35911587-Energetics & energy -Affirmation-Gentle lifting of blockages in the spleen chakra 
+*17111312-Energetics & energy -Affirmation-Gentle lifting of blockages in the navel chakra 
+*17311411-Energetics & energy -Affirmation-Gentle lifting of blockages in the crown chakra 
+*17111295-Energetics & energy -Affirmation-Gentle lifting of blockages in the forehead chakra 
+*17118117-Energetics & energy -Affirmation-Gentle lifting of blockages in the root chakra 
+*16101795-Energetics & energy -Organ / Spec. -Crested Chakra (Head Center) 
+*18101102-Energetics & energy -Affirmation-Normalize sleep-wake rhythm 
+*82010187-Energetics & energy -Mix-Code-Pain of all kinds (Council in Code) 
+*1097912-Energetics & energy -Degeneration State-weakness 
+*61621976-Energetics & energy -Regulation-weakness 
+*13412153-Energetics & energy -Regulation-weakness 
+*35117124-Energetics & energy -Extreme (combi) -debility 
+*18016116-Energetics & energy -Affirmation-Mental and physical balance 
+*12125827-Energetics & energy -Affirmation-Smog, protection against 
+*14103125-Energetics & energy -Extreme (combi) -Stowage in the etheric body (for chakra diagnostics) 
+*8910823-Energetics & energy -Organ / Spec. -Forehead chakra (forehead center) 
+*15771522-Energetics & energy -Cause (Combined)-Tinnitus aurium, by radio telephone use 
+*5513949-Energetics & energy -Regulation-inertia 
+*2766109-Energetics & energy -Organ / Spec. -Overfunction (filter) 
+*91481012-Energetics & energy -Regulation-Overstimulation of the etheric body (for chakra diagnostics) 
+*9382376-Energetics & energy -Organ / Spec. -Subfunction (filter) 
+*93971015-Energetics & energy -Organ / Spec. -underweight 
+*1663310-Energetics & energy -Cause (Combined)-Vasomotorenkollaps 
+*16101693-Energetics & energy -Affirmation-Reinforcement of all physiological bodily functions 
+*43121146-Energetics & energy -Regulation-Reinforcement of all physiological bodily functions 
+*12801273-Energetics & energy -Organ / Spec. -Root chakra (base center) 
+*17361712-Energetics & energy -Organ / Spec. -Yang level of a meridian (filter) 
+*98111314-Energetics & energy -Organ / Spec. -Yin level of a meridian (filter) 
+*36405148-Energetics & energy -Affirmation-Yin-Yang energy balance 
+*93932122-Energetics & energy -Organ / Spec. -cell control 
+*15131118-Energetics & energy -Affirmation-Normalize cell control 
+*7213155-Energetics & energy -Affirmation-Normalize cell metabolism 
+*59395812-Energetics & energy -Affirmation-For the best of the whole! 

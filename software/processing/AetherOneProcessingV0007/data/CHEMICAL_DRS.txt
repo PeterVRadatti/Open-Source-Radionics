@@ -1,0 +1,198 @@
+*18010128-chem-Organ / Spec. -Actinium (Ac) (RADIOAKTIV) (chem. Element)-
+*11141617-chem-Reg. Deficiency -Allergy by food chemistry-
+*11624254-chem-Reg. Deficiency -Allergy by products of the chemical industry-
+*14578619-chem-Degeneration State-Allergies to chemicals-
+*22142010-chem-Regulation-Allergies to chemicals-
+*83105648-chem-Organ / Spec. -Aluminum (Al) (chem. Element)-
+*11115213-chem-Degeneration State-Aluminum (Al) (excess) (Chem. Elements)-
+*13167362-chem-Regulation-Aluminum (Al) (excess) (Chem. Elements)-
+*13511620-chem-Reg. Deficiency -Aluminum (Al) (excess) (Chem. Elements)-
+*2119876-chem-Affirmation-Aluminum (Al) (careful handling) (Chem. Elements)-
+*15101781-chem-Organ / Spec. -Americum (I) (RADIOAKTIV) (chem. Element)-
+*31355911-chem-Organ / Spec. -Antimon (Sb) (chem. Elemente)-
+*52470320-chem-Organ / Spec. -Argon (Ar) (chem. Element)-
+*56870324-chem-Organ / Spec. -Arsenic (As) (Chem. Elements)-
+*12719206-chem-Organ / Spec. -Astatinum (At) (RADIOAKTIV) (chem. Element)-
+*75561603-chem-Organ / Spec. -Barium (Ba) (chem. Element)-
+*11680158-chem-Affirmation-Barium (Ba) (careful handling) (Chem. Elements)-
+*13283394-chem-Affirmation-Bendamustine-Recovery (chemotherapy)-
+*62201622-chem-Organ / Spec. -Berkelium (Bk) (radioactive) (Chem. Elements)-
+*26175687-chem-Organ / Spec. -Beryllium (Be) (chem. Elemente)-
+*13161578-chem-Affirmation-Beryllium (Be) (careful handling) (Chem. Elements)-
+*16128859-chem-Organ / Spec. -biochemical metabolism-
+*8165616-chem-Organ / Spec. -Lead (Pb) (Chem. Elements)-
+*8671416-chem-Affirmation-Lead (Pb) (careful handling) (Chem. Elements)-
+*3453102-chem-Affirmation-Bleomycin-Recovery (chemotherapy)-
+*8165616-chem-Organ / Spec. -Bor (B) (chem. Elemente)-
+*9298258-chem-Affirmation-Boron (B) (careful handling) (Chem. Elements)-
+*94011620-chem-Organ / Spec. -Brom (Br) (Chem. Elemente)-
+*2073416-chem-Affirmation-Bromine (Br) (careful handling) (Chem. Elements)-
+*61583384-chem-Affirmation-Busulfan Recovery (chemotherapy)-
+*91188115-chem-Organ / Spec. -Caesium (Cs) (chem. Elemente)-
+*4010104-chem-Organ / Spec. -Calcium / Kalzium (Ca) (chem. Element)-
+*43851658-chem-Organ / Spec. -Californium (Cf) (RADIOAKTIV) (chem. Element)-
+*16126395-chem-Affirmation-Carboplatin Recovery (chemotherapy)-
+*82921021-chem-Affirmation-Carmustine-Recovery (chemotherapy)-
+*10956107-chem-Organ / Spec. -Cerium (Ce) (chem. Element)-
+*44617195-chem-Additional code-Chemical elements (analysis pretest)-
+*24151212-chem-Degeneration State-Chemotherapeutics lesions (cancer)-
+*13107882-chem-Affirmation-Chemotherapy, collecting side effects (cancer)-
+*10186918-chem-Organ / Spec. -Chlor (Cl) (chem. Elemente)-
+*5101941-chem-Affirmation-Chlorine (Cl) (careful handling) (Chem. Elements)-
+*51361031-chem-Affirmation-Chlorambucil Recovery (chemotherapy)-
+*10114102-chem-Organ / Spec. -Chromium (Cr) (Chem. Elements)-
+*3101941-chem-Affirmation-Chromium (Cr) (careful handling) (Chem. Elements)-
+*62921021-chem-Affirmation-Cisplatin-Recovery (chemotherapy)-
+*91141494-chem-Organ / Spec. -Cobalt (Co) (chem. Element)-
+*71011266-chem-Affirmation-Cobalt (Co) (careful handling) (chem. Elements)-
+*21181622-chem-Organ / Spec. -Curium (Cm) (radioaktiv) (chem. Elements)-
+*7121141-chem-Affirmation-Cyclophosphamide Recovery (chemotherapy)-
+*10141021-chem-Affirmation-Cytarabine Recovery (chemotherapy)-
+*73253102-chem-Affirmation-Dactinomycin-Recovery (chemotherapy)-
+*11412031-chem-Affirmation-Daunorubicin Recovery (chemotherapy)-
+*63983394-chem-Affirmation-Doxorubicin Recovery (chemotherapy)-
+*98488310-chem-Organ / Spec. -Dysprosium (Dy) (chem. Elemente)-
+*12101563-chem-Organ / Spec. -Level physical etheric, chemical ether (Level 2b)-
+*1987128-chem-Organ / Spec. -Einsteinium (Es) (radioactive) (Chem. Elements)-
+*1098917-chem-Organ / Spec. -Iron (Fe) (Chem. Elements)-
+*11198258-chem-Affirmation-Iron (Fe) (careful handling) (Chem. Elements)-
+*14348129-chem-Organ / Spec. -Element 104 (Unnilquad.) (UNQ) (radioactive) (Chem. Elements)-
+*9354161-chem-Organ / Spec. -Element 105 (Unnilp.) (Unp) (radioactive) (Chem. Elements)-
+*10111010-chem-Organ / Spec. -Element 106 (Unnilhex.) (Unh) (radioactive) (Chem. Elements)-
+*11344161-chem-Organ / Spec. -Element 107 (Unnilsept.) (Us) (radioactive) (Chem. Elements)-
+*12104212-chem-Organ / Spec. -Item 108 (Unnilocti.) (Uno) (RADIOAKTIV) (chem. Element)-
+*14842713-chem-Organ / Spec. -Element 109 (Unnilennium) (Une) (radioactive) (Chem. Elements)-
+*6362101-chem-Affirmation-Epirubicin Recovery (chemotherapy)-
+*10756100-chem-Organ / Spec. -Erbium (Er) (chem. Elements)-
+*87411595-chem-Organ / Spec. -Europium (Eu) (chem. Elemente)-
+*7214143-chem-Organ / Spec. -Fermium (Fm) (radioactive) (Chem. Elements)-
+*3136011-chem-Organ / Spec. -Fluorine (F) (Chem. Elements)-
+*77711416-chem-Affirmation-Fluorine (F) (careful handling) (Chem. Elements)-
+*7761031-chem-Affirmation-Fluorouracil Recovery (chemotherapy)-
+*60101781-chem-Organ / Spec. -Francium (Fr) (radioactive) (Chem. Elements)-
+*7011214-chem-Regulation-Lady's mantle (Alchemilla) (Heilpfl.)-
+*14139816-chem-Organ / Spec. -Gadolinium (Gd) (chem. Element)-
+*21211815-chem-Organ / Spec. -Gallium (Ga) (chem. Elemente)-
+*1295427-chem-Affirmation-Gallium (Ga) (careful handling) (Chem. Elements)-
+*21191086-chem-Affirmation-Gemcitabine Recovery (chemotherapy)-
+*91523797-chem-Regulation-sound sensitivity-
+*13105637-chem-Organ / Spec. -Germanium (Ge) (Chem. Elements)-
+*20151077-chem-Affirmation-Germanium (Ge) (careful handling) (Chem. Elements)-
+*2134305-chem-Organ / Spec. -Gold (Au) (chem. Element)-
+*1394227-chem-Affirmation-Gold (Au) (careful handling) (chem. Elements)-
+*10598211-chem-Organ / Spec. -Hafnium (Hf) (Chem. Elements)-
+*3656117-chem-Organ / Spec. -Helium (He) (chem. Elemente)-
+*2338213-chem-Organ / Spec. -Holmium (Ho) (chem. Element)-
+*19114510-chem-Affirmation-Idarubicin Recovery (chemotherapy)-
+*11131021-chem-Affirmation-Ifosfamide Recovery (chemotherapy)-
+*5115657-chem-Organ / Spec. -Indium (In) (chem. Elements)-
+*81111266-chem-Affirmation-Indium (In) (careful handling) (chem. Elements)-
+*75683320-chem-Organ / Spec. -Iridium (Ir) (chem. Element)-
+*9235427-chem-Affirmation-Iridium (Ir) (careful handling) (Chem. Elements)-
+*75683320-chem-Organ / Spec. -Iodine (J) (chem. Element)-
+*6298258-chem-Affirmation-Iodine (I) (careful handling) (chem. Elements)-
+*57381922-chem-Organ / Spec. -Kadmium (Cd) (chem. Elements)-
+*14147616-chem-Affirmation-Cadmium (Cd) (careful handling) (Chem. Elements)-
+*5125614-chem-Organ / Spec. -Potassium (K) (chem. Elemente)-
+*1918123-chem-Affirmation-Potassium (K) (careful handling) (Chem. Elements)-
+*10220310-chem-Organ / Spec. -Carbon (C) (Chem. Elements)-
+*9111388-chem-Cause (Combined)-Coord deficiency Zvi.Êphys. and essential body (eg. Chakradiagnostik)-
+*78798420-chem-Organ / Spec. -Krypton (Kr) (chem. Elemente)-
+*5113995-chem-Organ / Spec. -Kupfer (Cu) (chem. Element)-
+*1477258-chem-Affirmation-Copper (Cu) (careful handling) (Chem. Elements)-
+*10712811-chem-Organ / Spec. -Lanthan (La) (chem. Elemente)-
+*1551973-chem-Organ / Spec. -Lawrencium (Lr) (radioactive) (Chem. Elements)-
+*11128213-chem-Organ / Spec. -Lithium (Li) (chem. Elemente)-
+*12165427-chem-Affirmation-Lithium (Li) (careful handling) (chem. Elements)-
+*27283384-chem-Affirmation-Lomustine-Recovery (chemotherapy)-
+*11105105-chem-Organ / Spec. -Lutetium (Lu) (chem. Element)-
+*10231915-chem-Affirmation-Lutetium (Lu) (careful handling) (chem. Elements)-
+*14135612-chem-Organ / Spec. -Magnesium (Mg) (chem. Elemente)-
+*31166121-chem-Affirmation-Magnesium (Mg) (careful handling) (chem. Elements)-
+*11021017-chem-Organ / Spec. -Mangan (Mn) (chem. Elemente)-
+*2054158-chem-Affirmation-Manganese (Mn) (careful handling) (Chem. Elements)-
+*11653102-chem-Affirmation-Melphalan-Recovery (chemotherapy)-
+*10111658-chem-Organ / Spec. -Mendelevium (Md) (radioactive) (Chem. Elements)-
+*6810401-chem-Affirmation-Mercaptopurine Recovery (chemotherapy)-
+*9693394-chem-Affirmation-Methotrexate Recovery (chemotherapy)-
+*1010321-chem-Affirmation-Mitomycin-Recovery (chemotherapy)-
+*5910284-chem-Organ / Spec. -Molybdenum (Mo) (Chem. Elements)-
+*81473176-chem-Affirmation-Molybdenum (Mo) (careful handling) (chem. Elements)-
+*79481703-chem-Organ / Spec. -Natrium (Na) (chem. Element)-
+*1413557-chem-Affirmation-Sodium (Na) (careful handling) (chem. Elements)-
+*8114992-chem-Organ / Spec. -Neodym (Nd) (chem. Elemente)-
+*8117717-chem-Organ / Spec. -Neon (Ne) (chem. Elemente)-
+*12110206-chem-Organ / Spec. -Neptunium (Np) (radioactive) (Chem. Elements)-
+*91261693-chem-Organ / Spec. -Nickel (Ni) (Chem. Elements)-
+*51410761-chem-Affirmation-Nickel (Ni) (careful handling) (Chem. Elements)-
+*16346395-chem-Affirmation-Nimustine-Recovery (chemotherapy)-
+*97981716-chem-Organ / Spec. -Niobium (Nb) (chem. Elements)-
+*61373416-chem-Affirmation-Niobium (Nb) (careful handling) (Chem. Elements)-
+*13191658-chem-Organ / Spec. -Nobelium (No) (radioactive) (Chem. Elements)-
+*65560424-chem-Organ / Spec. -Osmium (Os) (Chem. Elemente)-
+*9975682-chem-Organ / Spec. -Palladium (Pd) (chem. Elemente)-
+*9187258-chem-Affirmation-Palladium (Pd) (careful handling) (Chem. Elements)-
+*71361666-chem-Organ / Spec. -Phosphor (P) (chem. Elemente)-
+*71181075-chem-Organ / Spec. -Platinum (Pt) (chem. Element)-
+*14116121-chem-Affirmation-Platinum (Pt) (careful handling) (Chem. Elements)-
+*1099206-chem-Organ / Spec. -Plutonium (Pu) (radioactive) (Chem. Elements)-
+*8181658-chem-Organ / Spec. -Polonium (Po) (radioaktiv) (chem. Elemente)-
+*18114980-chem-Organ / Spec. -Praseodym (Pr) (chem. Elemente)-
+*1036184-chem-Organ / Spec. -Promethium (Pm) (radioactive) (Chem. Elements)-
+*1098914-chem-Organ / Spec. -Protaktinium (Pa) (radioaktiv) (chem. Elemente)-
+*12276102-chem-Organ / Spec. -Mercury (Hg) (Chem. Elements)-
+*20315123-chem-Affirmation-Mercury (Hg) (careful handling) (Chem. Elements)-
+*14131622-chem-Organ / Spec. -Radium (Ra) (radioactive) (Chem. Elements)-
+*13211781-chem-Organ / Spec. -Radon (Rn) (radioactive) (Chem. Elements)-
+*3179838-chem-Organ / Spec. -Rhenium (Re) (Chem. Elements)-
+*31368310-chem-Organ / Spec. -Rhodium (Rh) (chem. Elemente)-
+*5106766-chem-Affirmation-Rhodium (Rh) (careful handling) (Chem. Elements)-
+*21277537-chem-Organ / Spec. -Rubidium (Rb) (Chem. Elements)-
+*4345625-chem-Organ / Spec. -Ruthenium (Ru) (chem. Element)-
+*64555701-chem-Organ / Spec. -Samarium (Sm) (chem. Elemente)-
+*15066624-chem-Organ / Spec. -Oxygen (O) (Chem. Elements)-
+*6521062-chem-Regulation-Colds, bacterial (DD to allergic rhinitis)-
+*14154973-chem-Regulation-Colds, viral (DD to allergic rhinitis)-
+*61949914-chem-Organ / Spec. -Sulfur (S) (Chem. Elements)-
+*71681317-chem-Organ / Spec. -Selen (Se) (chem. Elemente)-
+*6101941-chem-Affirmation-Selenium (Se) (careful handling) (Chem. Elements)-
+*8128932-chem-Organ / Spec. -Silver (Ag) (Chem. Elements)-
+*81265575-chem-Organ / Spec. -Silicon (Si) (Chem. Elements)-
+*12119614-chem-Affirmation-Silicon (Si) (careful handling) (Chem. Elements)-
+*77975709-chem-Organ / Spec. -Scandium (Sc) (Chem. Elements)-
+*8206627-chem-Organ / Spec. -Nitrogen (N) (Chem. Elements)-
+*18135680-chem-Organ / Spec. -Strontium (Sr) (chem. Elemente)-
+*61061263-chem-Organ / Spec. -Tantalum (Ta) (chem. Element)-
+*71014143-chem-Organ / Spec. -Technetium (Tc) (radioactive) (Chem. Elements)-
+*7169777-chem-Organ / Spec. -Tellurium (Te) (chem. Elements)-
+*79982516-chem-Organ / Spec. -Terbium (Tb) (Chem. Elements)-
+*1023579-chem-Organ / Spec. -Thallium (Tl) (Chem. Elements)-
+*10553384-chem-Affirmation-Thiotepa Recovery (chemotherapy)-
+*3481973-chem-Organ / Spec. -Thorium (Th) (radioactive) (Chem. Elements)-
+*71411826-chem-Organ / Spec. -Thulium (Tm) (chem. Element)-
+*91253102-chem-Affirmation-Thioguanine-Recovery (chemotherapy)-
+*89371523-chem-Organ / Spec. -Titan (Ti) (chem. Elemente)-
+*4176176-chem-Affirmation-Titanium (Ti) (careful handling) (Chem. Elements)-
+*81314510-chem-Affirmation-Treosulfan Recovery (chemotherapy)-
+*5973384-chem-Affirmation-Trofosfamide Recovery (chemotherapy)-
+*17194886-chem-Organ / Spec. -Uranium (U) (radioactive) (Chem. Elements)-
+*3105754-chem-Organ / Spec. -Vanadium (V) (chem. Elemente)-
+*20105100-chem-Affirmation-Vinblastine-Recovery (chemotherapy)-
+*69114510-chem-Affirmation-Vincristine Recovery (chemotherapy)-
+*71410394-chem-Affirmation-Vindesine-Recovery (chemotherapy)-
+*8177101-chem-Affirmation-Vinorelbine Recovery (chemotherapy)-
+*19979311-chem-Organ / Spec. -Hydrogen (H) (Chem. Elements)-
+*5911193-chem-Organ / Spec. -Bismuth (Bi) (Chem. Elements)-
+*22177161-chem-Affirmation-Bismuth (Bi) (careful handling) (Chem. Elements)-
+*3134322-chem-Organ / Spec. -Tungsten (W) (chem. Element)-
+*81441417-chem-Organ / Spec. -Xenon (Xe) (chem. ELEMENTE)-
+*1185696-chem-Organ / Spec. -Ytterbium (Yb) (chem. Elemente)-
+*9114818-chem-Organ / Spec. -Yttrium (Y) (Chem. Elements)-
+*31297161-chem-Affirmation-Yttrium (Y) (careful handling) (Chem. Elements)-
+*3106007-chem-Organ / Spec. -Zinc (Zn) (Chem. Elemente)-
+*1494227-chem-Affirmation-Zinc (Zn) (careful handling) (Chem. Elements)-
+*3109407-chem-Organ / Spec. -Tin (Sn) (Chem. Elements)-
+*14671416-chem-Affirmation-Tin (Sn) (careful handling) (Chem. Elements)-
+*13115630-chem-Organ / Spec. -Zirconium (Zr) (Chem. Elements)-
+*11741412-chem-Degeneration State-Tongue paralysis with blurry Talk-
+*4861920-chem-Cause (Combined)-Tongue paralysis with blurry Talk-
