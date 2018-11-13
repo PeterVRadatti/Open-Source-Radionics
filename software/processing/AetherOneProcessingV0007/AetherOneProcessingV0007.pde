@@ -199,6 +199,9 @@ void draw() {
         noStroke();
         rect(0, yRate - 16, 540, 20);
       }
+      
+      fill(rateObject.level * 25);
+      text(rateObject.level, 10,yRate);
 
       if (rateObject.gv == 0) {
         fill(150);
@@ -212,7 +215,7 @@ void draw() {
         fill(12, 134, 178);
       }
       
-      text(rateObject.rate, 10, yRate);
+      text(rateObject.rate, 40, yRate);
       
       if (rateObject.gv != 0) {
         fill(208, 147, 255);
