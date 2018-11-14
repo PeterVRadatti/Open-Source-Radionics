@@ -345,14 +345,22 @@ public void controlEvent(ControlEvent theEvent) {
   if ("grounding".equals(command)) {
         
     String [] signatures = loadStrings(sketchPath() + "/data/FUNCTION_GROUNDING.txt");
+    selectedDatabase = new File(sketchPath() + "/data/FUNCTION_GROUNDING.txt");
     println(signatures.length);
     println(core.getRandomNumber(signatures.length));
-    String groundingSignature = signatures[core.getRandomNumber(signatures.length)]
-    + " " + signatures[core.getRandomNumber(signatures.length)]
-    + " " + signatures[core.getRandomNumber(signatures.length)];
     
-    monitorText = "GROUNDING signature:\n" + groundingSignature;
+    rateList.clear();
     
+    String groundingSignature = "";
+    
+    for (int i=0; i<3; i++) {
+      RateObject rate = new RateObject();
+      rate.rate = signatures[core.getRandomNumber(signatures.length)];
+      rateList.add(rate);
+      groundingSignature += rate.rate;
+    }
+    
+    cp5.get(Textfield.class, "Output").setText(groundingSignature);
     arduinoConnection.grounding = true;
     broadcast(groundingSignature);
     return;
