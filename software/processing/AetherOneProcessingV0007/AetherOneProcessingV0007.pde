@@ -201,7 +201,7 @@ void draw() {
       }
       
       fill(rateObject.level * 25);
-      text(rateObject.level, 10,yRate);
+      text(rateObject.level, 60,yRate);
 
       if (rateObject.gv == 0) {
         fill(150);
@@ -215,11 +215,11 @@ void draw() {
         fill(12, 134, 178);
       }
       
-      text(rateObject.rate, 40, yRate);
+      text(rateObject.rate, 85, yRate);
       
       if (rateObject.gv != 0) {
         fill(208, 147, 255);
-        text(rateObject.gv, 480, yRate);
+        text(rateObject.gv, 10, yRate);
       }
       
       yRate += 20;
