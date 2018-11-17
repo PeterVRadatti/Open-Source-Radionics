@@ -251,6 +251,7 @@ public void controlEvent(ControlEvent theEvent) {
     generalVitality = null;
     gvCounter = 0;
     rateList.clear();
+    ratesDoubles.clear();
   }
 
   if ("broadcast".equals(command)) {
