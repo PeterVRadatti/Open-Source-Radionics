@@ -1,0 +1,636 @@
+*1683013-food-Reg. Deficiency -2-4-5-T (Pestizid) -
+*15010113-food-Reg. Deficiency -Aal -
+*51112911-food-Reg. Deficiency -Exhaust gases from gasoline engines -
+*51267136-food-Reg. Deficiency -Exhaust gases from diesel engines -
+*51192521-food-Reg. Deficiency -Exhaust gases from two-stroke engines -
+*11151511-food-Reg. Deficiency -Acetylsalicylic acid (ASA) -
+*55121813-food-Reg. Deficiency -Acrilan (Polyacryl) -
+*2398155-food-Reg. Deficiency -Aflatoxin -
+*71010148-food-Reg. Deficiency -Ahorn-Sirup -
+*10620194-food-Reg. Deficiency -Aldrin (pesticide) -
+*26781613-food-Reg. Deficiency -Alkohol -
+*15812147-food-Reg. Deficiency -Alternaria tenius (nonfood) (mold)-
+*28515118-food-Reg. Deficiency -Aluminium -
+*26150121-food-Reg. Deficiency -Ananas -
+*2144915-food-Reg. Deficiency -Aniline (krebsbegünstigend) -
+*21437111-food-Reg. Deficiency -Anis -
+*27060513-food-Reg. Deficiency -Apfel -
+*6685107-food-Reg. Deficiency -Apple cider vinegar -
+*6661010-food-Reg. Deficiency -Apfelsine -
+*10105951-food-Reg. Deficiency -Aprikosenaroma -
+*14222117-food-Reg. Deficiency -Flavors, nature identical -
+*14951164-food-Reg. Deficiency -Flavorings, natural -
+*14206613-food-Reg. Deficiency -Flavorings, synthetic -
+*6312217-food-Reg. Deficiency -Aster, neubelgische -
+*61110723-food-Reg. Deficiency -Atrazin (Pestizid) -
+*14161010-food-Reg. Deficiency -Aubergine -
+*36220519-food-Reg. Deficiency -Auster -
+*3113516-food-Reg. Deficiency -Avocado -
+*2431365-food-Reg. Deficiency -Backhefe -
+*11781325-food-Reg. Deficiency -Backzusatzstoffe -
+*12105772-food-Reg. Deficiency -Back additives (not declarable) -
+*10161197-food-Reg. Deficiency -Balsamico-Essig -
+*27011505-food-Reg. Deficiency -Bnne -
+*24101258-food-Reg. Deficiency -Basilikum -
+*2661256-food-Reg. Deficiency -Baumnüsse -
+*15816107-food-Reg. Deficiency -Cotton -
+*2148342-food-Reg. Deficiency -Beifuß -
+*42101386-food-Reg. Deficiency -Benzinkraftstoff -
+*13949412-food-Reg. Deficiency -Betamethason -
+*7882105-food-Reg. Deficiency -Bees hairs -
+*78511313-food-Reg. Deficiency -Bee stings -
+*7101169-food-Reg. Deficiency -Beer -
+*29191205-food-Reg. Deficiency -Birke -
+*29191505-food-Reg. Deficiency -Pear -
+*34576905-food-Reg. Deficiency -Blaubeere -
+*16114144-food-Reg. Deficiency -Cauliflower -
+*86118166-food-Reg. Deficiency -Beans, green -
+*86111110-food-Reg. Deficiency -Beans, red -
+*29105133-food-Reg. Deficiency -Bordetella pertussis (Bakterie) -
+*3164949-food-Reg. Deficiency -Brokkoli -
+*1023114-food-Reg. Deficiency -Brühwürfel -
+*71116119-food-Degeneration State-Brühwürfel, fleischextraktfrei -
+*11111136-food-Reg. Deficiency -Buckwheat -
+*47220519-food-Reg. Deficiency -Butter -
+*15111338-food-Reg. Deficiency -Buttermilk -
+*36666922-food-Reg. Deficiency -Camembert -
+*13955186-food-Reg. Deficiency -Cayenne Pfeffer (gemahlene Chilli-Schoten) -
+*31191321-food-Reg. Deficiency -Cenovis -
+*1161713-food-Reg. Deficiency -Chaetomium globosum (nonfood) (mold)-
+*18168126-food-Reg. Deficiency -Champignon -
+*11852224-food-Reg. Deficiency -Chilli-Schoten (ganz) -
+*12811813-food-Reg. Deficiency -Chromoxid -
+*12481069-food-Reg. Deficiency -Chrysantheme -
+*18161322-food-Reg. Deficiency -CKW-Mix (Pestizid) -
+*5982316-food-Reg. Deficiency -CLADOSPORIUM yellow (Nonfood) (Schimmelpilz)-
+*17114155-food-Reg. Deficiency -Clementine -
+*5451577-food-Reg. Deficiency -Cola drinks -
+*41469411-food-Reg. Deficiency -Crevetten -
+*14315616-food-Reg. Deficiency -Curry (Würzmischung) -
+*9679186-food-Reg. Deficiency -Cyfluthrin (pyrethrum derivative, pyrethroids) (insecticide) -
+*49130905-food-Reg. Deficiency -Dahlie -
+*45220513-food-Reg. Deficiency -Dattel -
+*11211285-food-Degeneration State-DDT (Pestizid) -
+*48040422-food-Reg. Deficiency -DDT (Pestizid) -
+*71046824-food-Reg. Deficiency -Dichlorvos (Pestizid) -
+*99215374-food-Reg. Deficiency -Dieldrin (pesticide) -
+*91691126-food-Reg. Deficiency -Diesel fuel -
+*4153513-food-Reg. Deficiency -Dinkel -
+*4124943-food-Reg. Deficiency -Distelöl -
+*20101068-food-Reg. Deficiency -Dosenmilch -
+*77117515-food-Reg. Deficiency -E 100 Curcumin -
+*17152876-food-Reg. Deficiency -E 101 Lactoflavin (Riboflavin) -
+*1066176-food-Reg. Deficiency -E 102 Tartrazin -
+*91091242-food-Reg. Deficiency -E 103 Cholingelb -
+*77910778-food-Reg. Deficiency -E 110 Gelborange S -
+*18856177-food-Reg. Deficiency -E 120 cochineal (cochineal carminic acid) -
+*1010715-food-Reg. Deficiency -E 122 Azorubin -
+*1190810-food-Reg. Deficiency -E 123 Amaranth -
+*7108153-food-Reg. Deficiency -And Cochenillerot 124 A -
+*1572116-food-Reg. Deficiency -E 127 Erythrosin -
+*11131139-food-Reg. Deficiency -E 131 Patentblau V -
+*37144255-food-Reg. Deficiency -E 132 Indigotin I (Indigo-Karmin) -
+*8157123-food-Reg. Deficiency -E 140 Chlorophylle a + b -
+*41515712-food-Reg. Deficiency -E 141 Kupferchlorophylle -
+*7913244-food-Reg. Deficiency -E 142 Brillantsäuregrün -
+*13897611-food-Reg. Deficiency -E 150 Zuckerkulör -
+*7913928-food-Reg. Deficiency -E 151 Brillantschwarz BN -
+*10651146-food-Reg. Deficiency -E 153 Carbon medicinal plant -
+*4312107-food-Reg. Deficiency -E 160 a - f Carotine und Carotinoide -
+*6310210-food-Reg. Deficiency -E 161 a - g Xantophylle -
+*71141585-food-Reg. Deficiency -E 162 Beetenrot, Betanin -
+*15121865-food-Reg. Deficiency -E 163 Anthocyane -
+*13915418-food-Reg. Deficiency -E 170 Calciumcarbonat -
+*16679154-food-Reg. Deficiency -E 171 Titanoxid -
+*14387105-food-Reg. Deficiency -E 172 iron oxides and hydroxides -
+*83686132-food-Reg. Deficiency -E 173 Aluminium (als LM-Farbstoff) -
+*15168163-food-Reg. Deficiency -E 174 silver (as LM-dye) -
+*1883109-food-Reg. Deficiency -E 175 Gold (als LM-Farbstoff) -
+*13694365-food-Reg. Deficiency -E 180 Rubinpigment BK (Litholrubin) -
+*71521611-food-Reg. Deficiency -E 200 - 203 Sorbinsäure -
+*81314205-food-Reg. Deficiency -E 210-213, benzoic acid -
+*12488415-food-Reg. Deficiency -E 214 - 219 PHB-Ester -
+*17811222-food-Reg. Deficiency -E 220-227 Sulfur Compounds -
+*2361633-food-Reg. Deficiency -E 230 Biphenyl (Diphenyl) -
+*46110111-food-Reg. Deficiency -E 231-232 Othophenylphenol and sodium salt -
+*15101894-food-Reg. Deficiency -E 233 Thiabendazol -
+*81949168-food-Reg. Deficiency -E 236-238 formic acid (connections) -
+*1176611-food-Reg. Deficiency -E 239 Hexamethylentetramin -
+*5215243-food-Reg. Deficiency -E 250 Natriumnitrit -
+*51201065-food-Reg. Deficiency -E 251 - 252 Salpeter (Nitrate) -
+*6215262-food-Reg. Deficiency -E 251 Natriumnitrat -
+*51081157-food-Reg. Deficiency -E 260-263 acetic acid and acetates -
+*88728168-food-Reg. Deficiency -E 280-283 propionic acid (connections) -
+*94285445-food-Reg. Deficiency -E 310 - 312 Gallate -
+*37361713-food-Reg. Deficiency -E 320 BHA (Butylhydroxianisol) -
+*77361174-food-Reg. Deficiency -E 321 BHT (Butylhydroxitoluol) -
+*20102318-food-Reg. Deficiency -E 339 - 341 Phosphate -
+*1491283-food-Reg. Deficiency -E 400-405 alginic acid (connections) -
+*15110711-food-Reg. Deficiency -E 406 agar-agar -
+*1668106-food-Reg. Deficiency -E 407 Carrageen -
+*1259118-food-Reg. Deficiency -E 412 Guarkernmehl -
+*1548810-food-Reg. Deficiency -E 413 Traganth -
+*1496394-food-Reg. Deficiency -E 414 Arabic gum -
+*17781025-food-Reg. Deficiency -E 415 Xanthan -
+*13810114-food-Reg. Deficiency -E 420 Sorbit -
+*56257144-food-Reg. Deficiency -E 421 Mannit -
+*12122119-food-Reg. Deficiency -E 461 Methylcellulose -
+*8952148-food-Reg. Deficiency -E 466 Carboximethylcellulose -
+*8221182-food-Reg. Deficiency -E 514 Natriumsulfat -
+*13141155-food-Reg. Deficiency -E 620 - 625 Glutamat -
+*59651813-food-Reg. Deficiency -Stainless steel -
+*59030805-food-Reg. Deficiency -Oak -
+*8681064-food-Reg. Deficiency -Eisenkraut -
+*12111381-food-Reg. Deficiency -Protein from soy -
+*12111666-food-Reg. Deficiency -Protein, generally -
+*1211938-food-Reg. Deficiency -Protein, dairy -
+*4198716-food-Reg. Deficiency -Protein, vegetable -
+*12119266-food-Reg. Deficiency -Protein, animal -
+*7710723-food-Reg. Deficiency -Endosulfan (pesticide) -
+*1030101-food-Reg. Deficiency -Entenfedern -
+*21614311-food-Reg. Deficiency -Entenfleisch -
+*2194415-food-Reg. Deficiency -Enterobakter (Bacterial) -
+*21164956-food-Reg. Deficiency -Enterococcus/Enterokokkus (Bakterie) -
+*6113515-food-Reg. Deficiency -Peas -
+*1032185-food-Reg. Deficiency -Erdbeeraroma -
+*1031011-food-Reg. Deficiency -Strawberries -
+*6138342-food-Reg. Deficiency -Peanut / peanuts (legume) -
+*6138943-food-Reg. Deficiency -Peanut oil -
+*61351545-food-Reg. Deficiency -Erle -
+*71030805-food-Reg. Deficiency -Esche -
+*71210907-food-Reg. Deficiency -Essig -
+*15912178-food-Reg. Deficiency -Dyes (100 U - 180) in food -
+*15922713-food-Reg. Deficiency -Coloring, artificial -
+*15131015-food-Reg. Deficiency -Dyes, natural -
+*8396969-food-Reg. Deficiency -Fäuselfeder -
+*65090705-food-Reg. Deficiency -Feige -
+*8762511-food-Reg. Deficiency -Fenchelsamen -
+*86561045-food-Reg. Deficiency -Fenvalerate (Pyrethrum-Derivat, Pyrethroide) (Insektizid) -
+*6941162-food-Reg. Deficiency -Fett -
+*61210205-food-Reg. Deficiency -Fichte -
+*8125864-food-Reg. Deficiency -Fischpyrogen (mixture: live in fresh and salt water) -
+*18915914-food-Degeneration State-Meat extract from fish -
+*18111016-food-Degeneration State-Meat extract from poultry -
+*1898315-food-Degeneration State-Meat extract of beef -
+*1891894-food-Degeneration State-Meat extract of pig -
+*1894136-food-Degeneration State-Fleischextrakte -
+*78796519-food-Reg. Deficiency -Oat -
+*78640519-food-Reg. Deficiency -Flunder -
+*7166705-food-Reg. Deficiency -Forelle -
+*1478146-food-Reg. Deficiency -Forsythien -
+*16414125-food-Reg. Deficiency -Fritieröl -
+*10616784-food-Organ / Spec. -Fruit acids -
+*12651011-food-Reg. Deficiency -Fruit acids -
+*1269315-food-Reg. Deficiency -Fructose -
+*86218678-food-Reg. Deficiency -Fusarium sp. (Non-food) (mold)-
+*10891624-food-Reg. Deficiency -Gamma-2-amalgam (older material) -
+*10559115-food-Reg. Deficiency -Goose down -
+*71231192-food-Reg. Deficiency -Goosefoot -
+*7116905-food-Reg. Deficiency -Garnele -
+*7931165-food-Reg. Deficiency -Gelatine -
+*7155205-food-Reg. Deficiency -Barley -
+*13577993-food-Reg. Deficiency -Gerstenmehl -
+*8441237-food-Reg. Deficiency -Glass Kraut -
+*1821110-food-Reg. Deficiency -Glatthafer -
+*51321565-food-Degeneration State-Gliadin (Food) (sh. Also gluten, celiac sprue)-
+*3106790-food-Reg. Deficiency -Glutamate (flavor enhancer) -
+*2091557-food-Reg. Deficiency -Gluten (barley) (Food) (sh. Also gliadin, celiac sprue)-
+*2096011-food-Reg. Deficiency -Gluten (wheat) (Food) (sh. Also gliadin, celiac sprue)-
+*81041444-food-Reg. Deficiency -Gold -
+*11128914-food-Reg. Deficiency -Goldhamsterhaare -
+*1149109-food-Reg. Deficiency -Goldhamsterkot -
+*8105442-food-Reg. Deficiency -Goldlack -
+*9514711-food-Reg. Deficiency -Goldregen -
+*81051445-food-Reg. Deficiency -Goldrute -
+*91012124-food-Reg. Deficiency -Grapefruit -
+*1471666-food-Reg. Deficiency -Grasses pollen, in general -
+*15123532-food-Reg. Deficiency -Green salad -
+*81677115-food-Reg. Deficiency -Grünkern -
+*8167993-food-Reg. Deficiency -Kale -
+*22203985-food-Reg. Deficiency -Gum-Arabic -
+*93191205-food-Reg. Deficiency -Cucumber / cucumber -
+*81060519-food-Reg. Deficiency -Hafer -
+*87614512-food-Reg. Deficiency -Hafermehl -
+*88576205-food-Reg. Deficiency -Hagebutte -
+*8961189-food-Reg. Deficiency -Hahnenfuß -
+*81067313-food-Reg. Deficiency -Hainbuche -
+*19241148-food-Reg. Deficiency -Hammelfleisch -
+*84692342-food-Reg. Deficiency -Hazelnut / Hazelnut -
+*18191565-food-Reg. Deficiency -Hazel pollen -
+*18589114-food-Reg. Deficiency -Hasenhaare (Feldhase) -
+*86413476-food-Reg. Deficiency -House mites -
+*86553302-food-Reg. Deficiency -Hausstaub -
+*13481064-food-Reg. Deficiency -Heidekraut -
+*1315205-food-Reg. Deficiency -Heidelbeere -
+*8144762-food-Reg. Deficiency -Heilbutt -
+*81526214-food-Reg. Deficiency -Herbamare -
+*14211199-food-Reg. Deficiency -Hering (also matjes) -
+*8105352-food-Reg. Deficiency -Heustaub -
+*6451394-food-Reg. Deficiency -Hexachlorophene (pesticide) -
+*1332185-food-Reg. Deficiency -Himbeeraroma -
+*10117102-food-Reg. Deficiency -UHT milk 3.5% (boiled) -
+*91341135-food-Reg. Deficiency -H-Milch 3,5% -
+*3168169-food-Reg. Deficiency -Elderberry, black -
+*1021410-food-Reg. Deficiency -Elderberry juice -
+*10783164-food-Reg. Deficiency -Wood preservatives -
+*96150907-food-Reg. Deficiency -Honig -
+*12914104-food-Reg. Deficiency -Honiggras -
+*9146515-food-Reg. Deficiency -Hopfen -
+*91661235-food-Reg. Deficiency -Hornisse -
+*21011665-food-Reg. Deficiency -Chicken egg yolk -
+*2101171-food-Reg. Deficiency -Chicken egg white -
+*33210114-food-Reg. Deficiency -Chicken feathers -
+*2102068-food-Reg. Deficiency -Chicken meat -
+*1085519-food-Reg. Deficiency -Hummer -
+*1081115-food-Reg. Deficiency -Hundehaare -
+*1086572-food-Reg. Deficiency -Hundszahnkraut -
+*91015413-food-Reg. Deficiency -Hyazinthe -
+*1836955-food-Reg. Deficiency -Insects / invertebrates -
+*2171221-food-Reg. Deficiency -Isopropyl-Alkohol -
+*5012210-food-Reg. Deficiency -Jakobskreuzkraut -
+*11129169-food-Reg. Deficiency -Jasmin, incorrect -
+*3103528-food-Reg. Deficiency -Jodsalz -
+*31310134-food-Reg. Deficiency -Joghurt -
+*8455155-food-Reg. Deficiency -Currant -
+*8461064-food-Reg. Deficiency -St. John's wort -
+*33650123-food-Reg. Deficiency -Cod -
+*37060505-food-Reg. Deficiency -Coffee -
+*14151656-food-Reg. Deficiency -Coffee substitutes (rye coffee, C .... o) -
+*31120116-food-Reg. Deficiency -Cocoa -
+*1061238-food-Reg. Deficiency -Kalbfleisch -
+*91611217-food-Reg. Deficiency -Kamelhaare (Kamelhaarprodukte) -
+*3610705-food-Reg. Deficiency -Chamomile -
+*3651731-food-Reg. Deficiency -Kammgras -
+*42110114-food-Reg. Deficiency -Kanarienvogelfedern -
+*3691012-food-Reg. Deficiency -Rabbit meat -
+*11161035-food-Reg. Deficiency -Rabbit hair -
+*31171612-food-Reg. Deficiency -Kapok -
+*31181115-food-Reg. Deficiency -Carp -
+*31151269-food-Reg. Deficiency -Potato -
+*17812312-food-Reg. Deficiency -Cheese (mixed) -
+*39591922-food-Reg. Deficiency -Käse Heart -
+*39710911-food-Reg. Deficiency -Cheese soft -
+*92112109-food-Reg. Deficiency -Cat hair -
+*35060919-food-Reg. Deficiency -Kefir -
+*39382317-food-Reg. Deficiency -Ketchup -
+*3146519-food-Reg. Deficiency -Pine (tree, nonfood)-
+*13572515-food-Reg. Deficiency -Cherry, sour -
+*13311786-food-Reg. Deficiency -Cherry, fresh -
+*10101179-food-Reg. Deficiency -Kiwi -
+*48660505-food-Reg. Deficiency -Klee -
+*6598103-food-Reg. Deficiency -Orchard grass -
+*41234511-food-Reg. Deficiency -Knoblauch -
+*14143105-food-Reg. Deficiency -Kobaltnitrat -
+*96211055-food-Reg. Deficiency -Carbohydrates -
+*41451029-food-Reg. Deficiency -Kohlrabi -
+*49972342-food-Reg. Deficiency -Kokosnuss / Kokosnüsse -
+*76413411-food-Reg. Deficiency -Could Milch -
+*11269669-food-Reg. Deficiency -Korbblütler -
+*41610985-food-Reg. Deficiency -Corinth -
+*4102205-food-Reg. Deficiency -Krabbe -
+*10152268-food-Reg. Deficiency -Herbal Salt -
+*51151338-food-Reg. Deficiency -Cow Milk -
+*19111013-food-Reg. Deficiency -Kunstseide (Rayon) -
+*59555126-food-Reg. Deficiency -Plastic -
+*11114195-food-Reg. Deficiency -Plastic dental fillings -
+*5116519-food-Reg. Deficiency -Kupfer -
+*5152921-food-Reg. Deficiency -Pumpkin -
+*11531565-food-Reg. Deficiency -Pumpkin seeds -
+*41030821-food-Reg. Deficiency -Lachs -
+*90781458-food-Reg. Deficiency -Lachsforelle -
+*3212107-food-Reg. Deficiency -Lamahare (Nonfa_d)-
+*41220526-food-Reg. Deficiency -Latex -
+*41230308-food-Reg. Deficiency -Lauch -
+*82212156-food-Reg. Deficiency -Legumes, general -
+*4146515-food-Reg. Deficiency -Cap -
+*9398103-food-Reg. Deficiency -Lieselgras -
+*4167569-food-Reg. Deficiency -Liguster -
+*10191322-food-Reg. Deficiency -Lindane (pesticide) -
+*49150405-food-Reg. Deficiency -Linde -
+*10631045-food-Reg. Deficiency -Lindenblüte -
+*49152105-food-Reg. Deficiency -Linse -
+*12378669-food-Reg. Deficiency -Bay leaves -
+*68615114-food-Reg. Deficiency -Dandelion -
+*61110505-food-Reg. Deficiency -Lupine -
+*61361505-food-Reg. Deficiency -Luzerne -
+*10111635-food-Reg. Deficiency -Macadamia-Nüsse -
+*51045111-food-Reg. Deficiency -Mais -
+*6471074-food-Reg. Deficiency -Maiskeimöl -
+*5104993-food-Reg. Deficiency -Maismehl -
+*53890115-food-Reg. Deficiency -Majoran -
+*6320194-food-Reg. Deficiency -Malathion (Pestizid) -
+*16111010-food-Reg. Deficiency -Mandarine -
+*16111010-food-Reg. Deficiency -Mandarine -
+*57451315-food-Reg. Deficiency -Almonds -
+*51150716-food-Reg. Deficiency -Mango -
+*77111010-food-Reg. Deficiency -Margarine -
+*7715117-food-Reg. Deficiency -Margerite -
+*7101725-food-Reg. Deficiency -Marzipan -
+*15617159-food-Reg. Deficiency -Mate, brown (roasted) -
+*5551785-food-Reg. Deficiency -Mate, grün -
+*73131115-food-Reg. Deficiency -Mäusehaare -
+*72017100-food-Reg. Deficiency -Mäusekot -
+*51012268-food-Reg. Deficiency -Sea Salt -
+*15117116-food-Reg. Deficiency -Guinea pig hairs -
+*15968107-food-Reg. Deficiency -Meerschweinchenkot -
+*9513476-food-Reg. Deficiency -Mehlmilben -
+*55130405-food-Reg. Deficiency -Melde -
+*59161505-food-Reg. Deficiency -Melone -
+*75101115-food-Reg. Deficiency -Human hair -
+*58391507-food-Reg. Deficiency -Messing -
+*16177106-food-Reg. Deficiency -Metals, in general -
+*61251322-food-Reg. Deficiency -Methoxychlor (Pestizid) -
+*10161163-food-Reg. Deficiency -Mussels -
+*59130205-food-Reg. Deficiency -Milbe -
+*10614811-food-Reg. Deficiency -Dairy products, general -
+*93185669-food-Reg. Deficiency -Lactose -
+*61471195-food-Reg. Deficiency -Mohn -
+*11111625-food-Reg. Deficiency -Carrot / carrot -
+*61631313-food-Reg. Deficiency -Morchel -
+*75031205-food-Reg. Deficiency -Mosquito -
+*21145856-food-Reg. Deficiency -Mucor mucedo (Nonfood) (Schimmelpilz)-
+*76120122-food-Reg. Deficiency -Muskat -
+*8101235-food-Reg. Deficiency -Daffodil -
+*12561394-food-Reg. Deficiency -Natriumfluorid -
+*18111010-food-Reg. Deficiency -Nectarines -
+*69120515-food-Reg. Deficiency -Nelken -
+*69120515-food-Reg. Deficiency -Nelken -
+*68210513-food-Reg. Deficiency -Nessel -
+*91110121-food-Reg. Deficiency -Neurospora sitophila (Nonfood) (Schimmelpilz)-
+*6123513-food-Reg. Deficiency -Nickel -
+*9395765-food-Reg. Deficiency -Nickelsulfat -
+*61291115-food-Reg. Deficiency -Nicotine (Food) (sh. And tobacco smoke)-
+*4171010-food-Reg. Deficiency -Non-Gamma-amalgam (newer material) -
+*1997114-food-Reg. Deficiency -Nuts mixed -
+*87131615-food-Reg. Deficiency -Nylon -
+*81261143-food-Reg. Deficiency -Olive oil -
+*8106705-food-Reg. Deficiency -Orange -
+*9961185-food-Reg. Deficiency -Orangenaroma -
+*91571685-food-Reg. Deficiency -Ozon -
+*8551162-food-Reg. Deficiency -Palmfett -
+*1011108-food-Reg. Deficiency -Papageienfedern -
+*89011101-food-Reg. Deficiency -Papaya -
+*89101201-food-Reg. Deficiency -Paprika -
+*81121042-food-Reg. Deficiency -Paranuss / Paranüsse -
+*10641394-food-Reg. Deficiency -Paraquat (Pestizid) -
+*52181413-food-Reg. Deficiency -Parathion (Pestizid) -
+*1050105-food-Reg. Deficiency -Perfume and fragrances -
+*10611152-food-Reg. Deficiency -PCB - Mix (Wohngift) -
+*21619210-food-Reg. Deficiency -Pentachlorphenol (PCP) (Wohngift) -
+*81361669-food-Reg. Deficiency -Peppers -
+*14599186-food-Reg. Deficiency -Permethrin (Pyrethrum-Derivat, Pyrethroide) (Insektizid) -
+*81553625-food-Reg. Deficiency -Perubalsam -
+*8841999-food-Reg. Deficiency -Pesticides -
+*2340125-food-Reg. Deficiency -Parsley -
+*81161119-food-Reg. Deficiency -Pfeffer -
+*10833813-food-Reg. Deficiency -Peppermint -
+*10101105-food-Reg. Deficiency -Horsehair (= horsehair) -
+*14121038-food-Reg. Deficiency -Peach -
+*8137613-food-Reg. Deficiency -Phenol -
+*81371005-food-Reg. Deficiency -Phenols -
+*41274134-food-Reg. Deficiency -Phenylquecksilberacetat (Wohngift) -
+*1231810-food-Reg. Deficiency -Pheromone -
+*6011912-food-Reg. Deficiency -Phosphatallergie -
+*94520912-food-Reg. Deficiency -Plastik -
+*94411505-food-Reg. Deficiency -Platane -
+*5665126-food-Reg. Deficiency -Pökelstoff -
+*10616615-food-Reg. Deficiency -Pollen, in general -
+*9185513-food-Reg. Deficiency -Primel -
+*91631015-food-Reg. Deficiency -Procain -
+*91641021-food-Reg. Deficiency -Proteus (Bakterie) -
+*16592118-food-Reg. Deficiency -Proteus rettgeri (Bakterie) -
+*14118193-food-Reg. Deficiency -Pullularia pullulans (nonfood) (mold)-
+*88414311-food-Reg. Deficiency -Turkey / Turkey -
+*21521545-food-Reg. Deficiency -Pyrethroids (nonfood) (insecticide)-
+*8316113-food-Reg. Deficiency -Pyrethrum extracts (non-food) (insecticide)-
+*6801162-food-Reg. Deficiency -Quark (40% Fett) -
+*6948511-food-Reg. Deficiency -Quark (Magerstufe) -
+*65669105-food-Reg. Deficiency -Quark, general -
+*1184205-food-Reg. Deficiency -Quecke -
+*6983136-food-Reg. Deficiency -Radishes -
+*10871004-food-Reg. Deficiency -Ragweed -
+*10410101-food-Reg. Deficiency -Raps -
+*1095113-food-Reg. Deficiency -Rapeseed oil -
+*66112109-food-Reg. Deficiency -Rattenhaare -
+*66510114-food-Reg. Deficiency -Rattenkot -
+*10108103-food-Reg. Deficiency -Raygras (Lolch) -
+*24414111-food-Reg. Deficiency -Reis -
+*10941208-food-Reg. Deficiency -Rettich -
+*29124953-food-Reg. Deficiency -Rhizopus arrhizus (nonfood) (mold)-
+*12217209-food-Reg. Deficiency -Rhizopus nigricans (nonfood) (mold)-
+*29121195-food-Reg. Deficiency -Rhizopus oryzae (non-food) (mold)-
+*12318112-food-Reg. Deficiency -Rhizopus rhizopodiformis (nonfood) (mold)-
+*2106238-food-Reg. Deficiency -Beef -
+*21118103-food-Reg. Deficiency -Rispengras -
+*11810145-food-Reg. Deficiency -Robinie -
+*11137515-food-Reg. Deficiency -Rays -
+*3111151-food-Reg. Deficiency -Rye Pollen -
+*11961635-food-Reg. Deficiency -Rose -
+*11968712-food-Reg. Deficiency -Brussels sprouts -
+*11910505-food-Reg. Deficiency -Rosine -
+*11511105-food-Reg. Deficiency -Rosmarin -
+*32344795-food-Reg. Deficiency -Rosskastanie -
+*11104685-food-Reg. Deficiency -Rotbuche -
+*11105745-food-Reg. Deficiency -Rote Bete -
+*11104144-food-Reg. Deficiency -Rotkohl -
+*12681731-food-Reg. Deficiency -Ruchgras -
+*37190115-food-Reg. Deficiency -Safran -
+*31081505-food-Reg. Deficiency -Stage -
+*35020509-food-Reg. Deficiency -Sage -
+*91379115-food-Reg. Deficiency -Saltwater fish -
+*31141505-food-Reg. Deficiency -Sardine -
+*35531401-food-Reg. Deficiency -Satsuma -
+*1571369-food-Reg. Deficiency -Sorrel -
+*15121064-food-Reg. Deficiency -Sauerkraut -
+*15141068-food-Reg. Deficiency -Sauermilch -
+*36613516-food-Reg. Deficiency -Sourdough -
+*31119395-food-Reg. Deficiency -Feta cheese -
+*51951338-food-Reg. Deficiency -Sheep's Milk -
+*12010712-food-Reg. Deficiency -Wool processed -
+*12217894-food-Reg. Deficiency -Sheep wool, unprocessed -
+*31110306-food-Reg. Deficiency -Reed -
+*5108235-food-Reg. Deficiency -Molds -
+*31189455-food-Reg. Deficiency -Chocolate -
+*3118705-food-Reg. Deficiency -Flounder -
+*81291210-food-Reg. Deficiency -Lard / sausages -
+*51289311-food-Reg. Deficiency -Pork -
+*51324103-food-Reg. Deficiency -Schwingelgras -
+*31012975-food-Reg. Deficiency -Seezunge -
+*35070705-food-Reg. Deficiency -Ass -
+*35090405-food-Reg. Deficiency -Seide -
+*38591622-food-Reg. Deficiency -Section (root) -
+*38610132-food-Reg. Deficiency -Sparkling wine (White) -
+*3941595-food-Reg. Deficiency -Sellerie -
+*3118666-food-Reg. Deficiency -Senf -
+*31810417-food-Reg. Deficiency -Shrimp -
+*3132519-food-Reg. Deficiency -Silber -
+*16107106-food-Reg. Deficiency -Silver amalgam, in general -
+*13101045-food-Reg. Deficiency -Sojagranulat -
+*48290813-food-Reg. Deficiency -Sojamehl -
+*48213411-food-Reg. Deficiency -Soy Milk -
+*48325305-food-Reg. Deficiency -Soy sauce -
+*46151505-food-Reg. Deficiency -Sun allergy -
+*78161143-food-Reg. Deficiency -Sunflower oil -
+*48101213-food-Reg. Deficiency -Asparagus -
+*78122975-food-Reg. Deficiency -Mushrooms (mixed) -
+*4166122-food-Reg. Deficiency -Spinat -
+*1187614-food-Reg. Deficiency -Stachelbeere -
+*1341013-food-Reg. Deficiency -Steinpilz -
+*8398103-food-Reg. Deficiency -Bentgrass -
+*1671338-food-Reg. Deficiency -Mare's Milk -
+*7111489-food-Reg. Deficiency -Styropor -
+*18151105-food-Reg. Deficiency -Sulfadiazin -
+*18209136-food-Reg. Deficiency -Sulfaguanidin -
+*51191028-food-Reg. Deficiency -Süßholz -
+*7105265-food-Reg. Deficiency -Süßhülsenbaum -
+*72025254-food-Reg. Deficiency -Süßstoff (Cyclamat) -
+*71412613-food-Reg. Deficiency -Freshwater fish -
+*43212368-food-Reg. Deficiency -Tabakrauch -
+*43310316-food-Reg. Deficiency -Tabasco -
+*1183107-food-Reg. Deficiency -Pigeon feathers -
+*5816615-food-Reg. Deficiency -Tea, Grüner -
+*5591015-food-Reg. Deficiency -Tee, Schwarzer -
+*4115615-food-Reg. Deficiency -Teflon -
+*41510865-food-Reg. Deficiency -Terylene -
+*14132015-food-Reg. Deficiency -Tetramethrin (Pyrethrum-Derivat, Pyrethroide) (Insektizid) -
+*8615311-food-Reg. Deficiency -Tuna -
+*41751015-food-Reg. Deficiency -Thymian -
+*91071666-food-Reg. Deficiency -Animal hair, in general -
+*10162156-food-Reg. Deficiency -Pet hair / fur / feathers -
+*5127983-food-Reg. Deficiency -Tofu -
+*5113715-food-Reg. Deficiency -Tomatoes -
+*65771237-food-Reg. Deficiency -Traubenkraut -
+*6208710-food-Reg. Deficiency -Dextrose -
+*5144705-food-Reg. Deficiency -Trespe -
+*6835120-food-Reg. Deficiency -Tributylzinnoxyd (Wohngift) -
+*12411214-food-Reg. Deficiency -Trocomare -
+*63131705-food-Reg. Deficiency -Tulpe -
+*68771405-food-Reg. Deficiency -Science -
+*61211205-food-Reg. Deficiency -Ursüße -
+*8513411-food-Reg. Deficiency -Whole milk -
+*14453411-food-Reg. Deficiency -Fat milk -
+*74910415-food-Reg. Deficiency -Wacholder -
+*75152342-food-Reg. Deficiency -Walnut / walnut -
+*10562212-food-Reg. Deficiency -Detergent / personal care -
+*14109149-food-Regulation-Hydrogen peroxide / hydrogen peroxide -
+*71261838-food-Reg. Deficiency -Wegerich -
+*75090405-food-Reg. Deficiency -Weide -
+*12673136-food-Reg. Deficiency -Weidenröschen -
+*71471622-food-Reg. Deficiency -Wein, rot -
+*12810132-food-Reg. Deficiency -Wine, white -
+*71468316-food-Reg. Deficiency -Wine vinegar -
+*12812355-food-Reg. Deficiency -Weintraube -
+*12611115-food-Reg. Deficiency -Weißdorn -
+*7147993-food-Reg. Deficiency -Cabbage -
+*7147993-food-Reg. Deficiency -White flour (finely ground) -
+*71410515-food-Reg. Deficiency -Wheat -
+*71410515-food-Reg. Deficiency -Wheat -
+*12214895-food-Reg. Deficiency -Wheat bran -
+*12215134-food-Reg. Deficiency -Wheat flour -
+*71010114-food-Reg. Deficiency -Budgerigar springs -
+*71115914-food-Reg. Deficiency -Wellensittichkot -
+*51681376-food-Reg. Deficiency -Materials in the artificial teeth -
+*7157322-food-Reg. Deficiency -Wormwood -
+*75211705-food-Reg. Deficiency -Wespe -
+*15615479-food-Reg. Deficiency -Whisky/Whiskey -
+*12515786-food-Reg. Deficiency -Wiesenfuchsschwanz -
+*1258103-food-Reg. Deficiency -Wiesengras -
+*71931507-food-Reg. Deficiency -Wirsing -
+*86131305-food-Reg. Deficiency -Wolle -
+*8151014-food-Reg. Deficiency -Seasoning, liquid (M .... i) -
+*21211105-food-Reg. Deficiency -Goat hair -
+*24711395-food-Reg. Deficiency -Goat Cheese -
+*2127338-food-Reg. Deficiency -Goat Milk -
+*2461772-food-Reg. Deficiency -Cinnamon -
+*2551772-food-Reg. Deficiency -Zink -
+*2581775-food-Reg. Deficiency -Zinn -
+*2598111-food-Reg. Deficiency -Lemon flavor -
+*25971256-food-Reg. Deficiency -Lemon balm -
+*95141913-food-Reg. Deficiency -Citrus fruits, treats -
+*95186177-food-Reg. Deficiency -Citrus fruits, untreated -
+*12631769-food-Reg. Deficiency -Zucchini -
+*9912939-food-Reg. Deficiency -Sugar (white / brown) -
+*99101558-food-Reg. Deficiency -Zuckerrübensirup -
+*4217105-food-Reg. Deficiency -Two-stroke mixture -
+*4064812-food-Reg. Deficiency -Plum -
+*12145713-food-Reg. Deficiency -Onion -
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

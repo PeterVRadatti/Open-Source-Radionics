@@ -1,0 +1,637 @@
+*91112141-BAKTERIA & PARASITES-Extrem-Actinomyces israelii (see actinomycosis) (bacterium)
+"*9371096-BAKTERIA & PARASITES-Reg. Deficiency-Actinomycosis (radiation ""fungus"" disease; bacterium)"
+*93717795-BAKTERIA & PARASITES-Reg. Deficiency-Actinomycetoma (by bacteria)
+*8167513-BAKTERIA & PARASITES-Degeneration State-Amöbenleberabszess
+*31024102-BAKTERIA & PARASITES-Regulation-Amöbenleberabszess
+*1441211-BAKTERIA & PARASITES-Degeneration State-Ancylostoma caninum (parasite hookworm) (Clark biofield test)
+*12131027-BAKTERIA & PARASITES-Degeneration State-Bacillus anthracis (anthrax bacterium)
+*10718114-BAKTERIA & PARASITES-Reg. Deficiency-Bacterium proteus (bacterium) (Clark biofield test)
+*9663206-BAKTERIA & PARASITES-Regulation-Bacterium proteus (bacterium) (Clark biofield test)
+*8141051-BAKTERIA & PARASITES-Reg. Deficiency-Bacterium subtilis (bacteria)
+*31110730-BAKTERIA & PARASITES-Degeneration State-Bacterium X (bacteria) (carcinogenic)
+*10151188-BAKTERIA & PARASITES-Reg. Deficiency-Bacterium X (bacteria) (carcinogenic)
+*21632689-BAKTERIA & PARASITES-Regulation-Bacterium X (bacteria) (carcinogenic)
+*31150510-BAKTERIA & PARASITES-Degeneration State-Bacteroides (bacteria)
+*1191111-BAKTERIA & PARASITES-Extrem-bacterial infection
+*1015447-BAKTERIA & PARASITES-Reg. Deficiency-bacterial infection
+*92771453-BAKTERIA & PARASITES-Regulation-bacterial infection
+*10153410-BAKTERIA & PARASITES-Reg. Deficiency-dysentery
+*1712734-BAKTERIA & PARASITES-Regulation-Bacteriuria (laboratory)
+*4718116-BAKTERIA & PARASITES-Degeneration State-Balantidium coli (colonic parasite) (Clark biofield test)
+*6111488-BAKTERIA & PARASITES-Extrem-Balantidium coli (colonic parasite) (Clark biofield test)
+*38101815-BAKTERIA & PARASITES-Degeneration State-Bang Disease (brucellosis) (bacterial)
+*17588144-BAKTERIA & PARASITES-Reg. Deficiency-Bang Disease (brucellosis) (bacterial)
+*11435256-BAKTERIA & PARASITES-Regulation-Bang Disease (brucellosis) (bacterial)
+*66883149-BAKTERIA & PARASITES-Degeneration State-Biovar eltor (African Vibrio cholerae pathogen, common) (bacteria)
+*29105133-BAKTERIA & PARASITES-Reg. Deficiency-Bordetella pertussis (bacteria) (nonfood)
+*14810410-BAKTERIA & PARASITES-Degeneration State-Borrelia burgdorferi (ticks) (Clark biofield test)
+*10616154-BAKTERIA & PARASITES-Extrem-Borreliosis (bacterial)
+*10512820-BAKTERIA & PARASITES-Regulation-Borreliosis (bacterial)
+*4919605-BAKTERIA & PARASITES-Reg. Deficiency-Botulinum toxin (bacterial toxin)
+*14124812-BAKTERIA & PARASITES-Degeneration State-Botulism (bacterial poison)
+*4612493-BAKTERIA & PARASITES-Reg. Deficiency-Botulism (bacterial poison)
+*5119910-BAKTERIA & PARASITES-Regulation-Branhamella catarrhalis (lung, bronchitis, sinusitis) (bacteria)
+*2494124-BAKTERIA & PARASITES-Degeneration State-Brucella abortus (causative agent of bang disease)
+*10191117-BAKTERIA & PARASITES-Extrem-Brucella melitensis (Malta fever) (bacterial)
+"*31591216-BAKTERIA & PARASITES-Reg. Deficiency-Campylobacter pylori (= Helicobacter pylori; bacterium)"
+*66510875-BAKTERIA & PARASITES-Reg. Deficiency-Chlamydia pneumoniae (bacteria)
+*6652939-BAKTERIA & PARASITES-Reg. Deficiency-Chlamydia psittaci (Ornithosis Bacteria)
+*91016837-BAKTERIA & PARASITES-Degeneration State-Chlamydia trachomatis (bacteria)
+*66569112-BAKTERIA & PARASITES-Reg. Deficiency-Chlamydia trachomatis (bacteria)
+*12125824-BAKTERIA & PARASITES-Regulation-Chlamydia trachomatis (bacteria)
+*62134146-BAKTERIA & PARASITES-Reg. Deficiency-Chlamydia (bacteria)
+*12126128-BAKTERIA & PARASITES-Degeneration State-Cholera (bacterial)
+*33599610-BAKTERIA & PARASITES-Degeneration State-Clonorchis sinensis (Opisthorchis) (parasite) (Chinese liver fluke) (Clark)
+*1461215-BAKTERIA & PARASITES-Reg. Deficiency-Clostridium botulinum (spore-forming germ, bacterium)
+*87113157-BAKTERIA & PARASITES-Regulation-Clostridium botulinum (spore-forming germ, bacterium)
+*1242014-BAKTERIA & PARASITES-Degeneration State-Clostridium cadaveris (spore-forming germ, bacterium)
+*14320878-BAKTERIA & PARASITES-Reg. Deficiency-Clostridium coctriatum (spore-forming germ, bacterium)
+*12122128-BAKTERIA & PARASITES-Degeneration State-Clostridium difficile (spore-forming germ, bacterium)
+*14310910-BAKTERIA & PARASITES-Reg. Deficiency-Clostridium inicium (spore-forming germ, bacterium)
+*12243187-BAKTERIA & PARASITES-Degeneration State-Clostridium innocuum (spore-forming germ, bacterium)
+*12751010-BAKTERIA & PARASITES-Degeneration State-Clostridium perfringens (spore-forming germ, bacterium)
+*58132118-BAKTERIA & PARASITES-Reg. Deficiency-Clostridium tetani (spore-forming germ, bacterium)
+*12492134-BAKTERIA & PARASITES-Degeneration State-Clostridium tetani, toxin of (bacterial tetanus trigger)
+*5178146-BAKTERIA & PARASITES-Reg. Deficiency-Coli bacteria
+*11261010-BAKTERIA & PARASITES-Reg. Deficiency-Corynebacterium (bacteria)
+*16114211-BAKTERIA & PARASITES-Degeneration State-Corynebacterium anaerob (bacteria) (tooth)
+*4710149-BAKTERIA & PARASITES-Reg. Deficiency-Corynebacterium anaerob (bacteria) (tooth)
+*30922138-BAKTERIA & PARASITES-Degeneration State-Diofiliaria immitis (parasite, filiaria) (Clark biofield test)
+*12598571-BAKTERIA & PARASITES-Reg. Deficiency-Diplokokkus / Diplococcus (bacteria)
+*1076955-BAKTERIA & PARASITES-Degeneration State-Echinococcus alveolaris (liver parasite: fin of Echinococcus multilocularis)
+*10313642-BAKTERIA & PARASITES-Degeneration State-Echinococcus cysticus (liver parasite: fin of Echinococcus granulosus)
+*1078975-BAKTERIA & PARASITES-Degeneration State-Echinococcus granulosus (parasite: dog tapeworm) (Clark biofield test)
+*10791210-BAKTERIA & PARASITES-Degeneration State-Echinococcus hydatidosus (liver parasite: fin of Echinococcus gran.) (Clark)
+*1076708-BAKTERIA & PARASITES-Degeneration State-Echinococcus multilocularis (parasite: dog / cat tapeworm) (Clark)
+*1075136-BAKTERIA & PARASITES-Degeneration State-Echinococcus unilocularis (liver parasite: fin of Echinococcus gran.) (Clark)
+*10512319-BAKTERIA & PARASITES-Ursache-Echinococcus cyst (Parasite: Liver cyst of Echinococcus granulosus) (Clark)
+*18111958-BAKTERIA & PARASITES-Degeneration State-Echinococcosis (by parasite Echinococcus gran. Or multilocularis)
+*1961086-BAKTERIA & PARASITES-Extrem-Echinostoma (parasite: intestinal gel, belonging to the trematodes) (Clark)
+*23262423-BAKTERIA & PARASITES-Degeneration State-Enteritis infectiosa (bacterial)
+*2194415-BAKTERIA & PARASITES-Reg. Deficiency-Enterobacter (bacteria) (nonfood)
+*21164956-BAKTERIA & PARASITES-Reg. Deficiency-Enterococcus / enterococcus (bacteria) (nonfood)
+*13121230-BAKTERIA & PARASITES-Extrem-Encephalitis, bacterial
+*91171552-BAKTERIA & PARASITES-Mix-Code-Cold and flu infection I (Council in Code)
+*89972302-BAKTERIA & PARASITES-Mix-Code-Cold and flu infection II (Council in code)
+*11511132-BAKTERIA & PARASITES-Reg. Deficiency-Escherichia coli (bacteria)
+*14169913-BAKTERIA & PARASITES-Degeneration State-Eurytrema pancreaticum (parasite) (pancreatic gel) (Clark biofield test)
+*62101339-BAKTERIA & PARASITES-Degeneration State-Fasciola hepatica (large liver fluke) (Clark biofield test)
+*6261418-BAKTERIA & PARASITES-Degeneration State-Fasciolopsis buski (buscii) (parasite) (giant martini) (Clark)
+*6941196-BAKTERIA & PARASITES-Degeneration State-Fasciolopsis buski (eggs) (buscii) (parasite) (giant martini) (Clark)
+*2046244-BAKTERIA & PARASITES-Degeneration State-Typhus (bacterial)
+*61917111-BAKTERIA & PARASITES-Degeneration State-Typhus, endemic (murine typhus, rat-flea) (bacterial)
+*61436125-BAKTERIA & PARASITES-Degeneration State-Typhus, epidemic (typhus, lice spotting fever) (bacterial)
+*18615252-BAKTERIA & PARASITES-Reg. Deficiency-Francisella tularensis (see Tularemia) (bacteria)
+*1631371-BAKTERIA & PARASITES-Reg. Deficiency-Gardnerella vaginalis (formerly: Haemophilus vaginalis) (bacterium)
+*1066131-BAKTERIA & PARASITES-Degeneration State-Gasoedema disease / gas gangrene (Clostridium perfringens) (bacterial)
+*3511116-BAKTERIA & PARASITES-Reg. Deficiency-Haemophilus ducreyi (see soft chancre, ulcer molle) (bacteria)
+*33117636-BAKTERIA & PARASITES-Reg. Deficiency-Haemophilus influenzae (bacteria)
+*3516158-BAKTERIA & PARASITES-Reg. Deficiency-Haemophilus influenzae serotype B (bacterium)
+*3548255-BAKTERIA & PARASITES-Reg. Deficiency-Haemophilus parainfluenzae (bacteria)
+*5861185-BAKTERIA & PARASITES-Regulation-Infect, flu
+*14537211-BAKTERIA & PARASITES-Affirmation-Defense against infection-enhancing
+*51551217-BAKTERIA & PARASITES-Regulation-Defense against infection-enhancing
+*62712136-BAKTERIA & PARASITES-Reg. Deficiency-infectious diseases
+*56891419-BAKTERIA & PARASITES-Regulation-infectious diseases
+*4830119-BAKTERIA & PARASITES-Regulation-catarrh
+*11137152-BAKTERIA & PARASITES-Reg. Deficiency-Laryngeal and tracheal catarrh
+*10515113-BAKTERIA & PARASITES-Regulation-Laryngeal, nasal and pharyngeal catarrh
+*18110417-BAKTERIA & PARASITES-Regulation-laryngeal catarrh
+*10221314-BAKTERIA & PARASITES-Reg. Deficiency-Teething: diphtheria (bacterial)
+*10224116-BAKTERIA & PARASITES-Reg. Deficiency-Teething problems: whooping cough (bacterial)
+*10229115-BAKTERIA & PARASITES-Reg. Deficiency-Teething problems: scarlet fever (bacterial)
+*18187132-BAKTERIA & PARASITES-Degeneration State-Klebsiella ozaenae (bacteria)
+*1671087-BAKTERIA & PARASITES-Reg. Deficiency-Klebsiella ozaenae (bacteria)
+*71517149-BAKTERIA & PARASITES-Regulation-Klebsiella ozaenae (bacteria)
+*18138133-BAKTERIA & PARASITES-Degeneration State-Klebsiella pneumoniae (bacteria)
+*1428136-BAKTERIA & PARASITES-Reg. Deficiency-Klebsiella pneumoniae (bacteria)
+*71581325-BAKTERIA & PARASITES-Regulation-Klebsiella pneumoniae (bacteria)
+*1288236-BAKTERIA & PARASITES-Organ/Spec.-Lactobacillus (bacteria)
+*14251821-BAKTERIA & PARASITES-Regulation-Lactobacillus (bacteria)
+*11111237-BAKTERIA & PARASITES-Organ/Spec.-Lactobacillus Döderlein (Bacteria)
+*1345115-BAKTERIA & PARASITES-Regulation-Lactobacillus Döderlein (Bacteria)
+*2618715-BAKTERIA & PARASITES-Extrem-Food poisoning, microbial (bacterial)
+*6124105-BAKTERIA & PARASITES-Extrem-Legionnaires' disease
+*72107863-BAKTERIA & PARASITES-Reg. Deficiency-Legionnaires' disease
+*14131394-BAKTERIA & PARASITES-Regulation-Legionnaires' disease
+*1013609-BAKTERIA & PARASITES-Degeneration State-Legionella (bacteria)
+*71012671-BAKTERIA & PARASITES-Reg. Deficiency-Legionella (bacteria)
+*1713118-BAKTERIA & PARASITES-Regulation-Leprosy (bacterial)
+*6386113-BAKTERIA & PARASITES-Degeneration State-Leptospira (Bacteria)
+*2614710-BAKTERIA & PARASITES-Degeneration State-Leptospira icterohaemorrhagiae (sh. Morbus Weil) (Bacteria)
+*63861312-BAKTERIA & PARASITES-Degeneration State-Leptospirose (bacterial)
+*63159785-BAKTERIA & PARASITES-Degeneration State-Leptospirosis canicola (Bacteria)
+*1191012-BAKTERIA & PARASITES-Degeneration State-Listeria (Bacteria)
+*41241591-BAKTERIA & PARASITES-Reg. Deficiency-Listeria (Bacteria)
+*61151016-BAKTERIA & PARASITES-Extrem-Listeriosis (bacterial)
+*71010969-BAKTERIA & PARASITES-Ursache-Listeriosis (bacterial)
+*11220517-BAKTERIA & PARASITES-Degeneration State-Listeriosis, connatal (bacterial)
+*31114157-BAKTERIA & PARASITES-Degeneration State-Pulmonary tuberculosis (Bacteria)
+*7114108-BAKTERIA & PARASITES-Extrem-Lyme-Borreliose (Zecken) (bacterial)
+*91561135-BAKTERIA & PARASITES-Reg. Deficiency-Lyme-Borreliose (Zecken) (bacterial)
+*55290901-BAKTERIA & PARASITES-Reg. Deficiency-Malaria (general) (Parasit)
+*91115107-BAKTERIA & PARASITES-Regulation-Malaria (general) (Parasit)
+*85399454-BAKTERIA & PARASITES-Degeneration State-Malaria quartana (Parasit)
+*85310848-BAKTERIA & PARASITES-Degeneration State-Malaria tertiana (Parasit)
+*85310101-BAKTERIA & PARASITES-Degeneration State-Malaria tropica (Parasit)
+*20181457-BAKTERIA & PARASITES-Affirmation-Malariaprophylaxe
+*85412126-BAKTERIA & PARASITES-Degeneration State-Maltafieber (bacterial brucellosis)
+*71011583-BAKTERIA & PARASITES-Degeneration State-Meningitis tuberculosis (bacterial)
+*7619215-BAKTERIA & PARASITES-Degeneration State-Meningococcal Enzephalitis (bacterial)
+*10921310-BAKTERIA & PARASITES-Extrem-Meningococcal Enzephalitis (bacterial)
+*10221115-BAKTERIA & PARASITES-Extrem-Miliartuberculosis (Bacteria)
+*9101229-BAKTERIA & PARASITES-Reg. Deficiency-Milburn (bacterial)
+*15151117-BAKTERIA & PARASITES-Degeneration State-Morbus Weil (Weil-Krankheit) (bacterial)
+*82019729-BAKTERIA & PARASITES-Extrem-Müdigkeitssyndrom, chronisches (CFS)
+*44616299-BAKTERIA & PARASITES-Regulation-Müdigkeitssyndrom, chronisches (CFS)
+*1064356-BAKTERIA & PARASITES-Degeneration State-Mycobacterium (Bacteria)
+*13101816-BAKTERIA & PARASITES-Extrem-Mycobacterium (Bacteria)
+*8158145-BAKTERIA & PARASITES-Reg. Deficiency-Mycobacterium (Bacteria)
+*72371092-BAKTERIA & PARASITES-Regulation-Mycobacterium (Bacteria)
+*7431523-BAKTERIA & PARASITES-Degeneration State-Mycobacterium bovis (Tuberculosis Bacteria, Seltener Erreger)
+*7438414-BAKTERIA & PARASITES-Degeneration State-Mycobacterium leprae (Bacteria)
+*74376685-BAKTERIA & PARASITES-Degeneration State-Mycobacterium tuberculosis (Tuberculosis Bacteria)
+*10121373-BAKTERIA & PARASITES-Degeneration State-Mycoplasma (Bacteria)
+*71110830-BAKTERIA & PARASITES-Extrem-Mycoplasma (Bacteria)
+*8811361-BAKTERIA & PARASITES-Reg. Deficiency-Mycoplasma (Bacteria)
+*17121133-BAKTERIA & PARASITES-Degeneration State-Naegleria fowleri (Amöbe, Gehirnparasit) (Clark Biofeldtest)
+*67691012-BAKTERIA & PARASITES-Degeneration State-Necator americanus (Dünndarmparasit) (Clark Biofeldtest)
+*3481445-BAKTERIA & PARASITES-Degeneration State-Neisseria (Bacteria)
+*11561010-BAKTERIA & PARASITES-Reg. Deficiency-Neisseria (Bacteria)
+*34118116-BAKTERIA & PARASITES-Reg. Deficiency-Neisseria gonorrhoeae (Tripper) (Bacteria)
+*4410912-BAKTERIA & PARASITES-Degeneration State-Ornithosis (bacterial)
+*17398747-BAKTERIA & PARASITES-Degeneration State-Parasitenbefall
+*14101414-BAKTERIA & PARASITES-Extrem-Parasitenbefall
+*6992117-BAKTERIA & PARASITES-Regulation-Parasitenvaller durch Läuse
+*5111369-BAKTERIA & PARASITES-Reg. Deficiency-Parasitenbefall durch Würmer
+*1042572-BAKTERIA & PARASITES-Reg. Deficiency-Parathyphus A (bacterial)
+*1042573-BAKTERIA & PARASITES-Reg. Deficiency-Parathyphus B (bacterial)
+*1042574-BAKTERIA & PARASITES-Reg. Deficiency-Parathyphus C (bacterial)
+*1058133-BAKTERIA & PARASITES-Reg. Deficiency-Paratyphus
+*16141299-BAKTERIA & PARASITES-Degeneration State-Pasteurellosis (Wound infection) (bacterial)
+*74121611-BAKTERIA & PARASITES-Regulation-Pasteurellosis (Wound infection) (bacterial)
+*4165149-BAKTERIA & PARASITES-Reg. Deficiency-Peptostreptococcus (anaerobic) (Bacteria)
+*1234264-BAKTERIA & PARASITES-Regulation-Pest (bacterial)
+*7116657-BAKTERIA & PARASITES-Organ/Spec.-plasmid
+*68177184-BAKTERIA & PARASITES-Degeneration State-Plasmodium falciparum (sh. Malaria tropica) (Parasit) (Clark)
+*68146212-BAKTERIA & PARASITES-Degeneration State-Plasmodium malariae (sh. Malaria quartana) (Parasit) (Clark)
+*51081861-BAKTERIA & PARASITES-Degeneration State-Plasmodium oval (sh. Malaria tertiana) (Parasit)
+*5108189-BAKTERIA & PARASITES-Degeneration State-Plasmodium vivax (sh. Malaria tertiana) (Parasit) (Clark)
+*10867515-BAKTERIA & PARASITES-Reg. Deficiency-Pneumocystis carnii (Parasit - Protozoe / Pilz ???) (Clark Biofeldtest)
+*12141817-BAKTERIA & PARASITES-Degeneration State-pneumococcal
+*10849311-BAKTERIA & PARASITES-Reg. Deficiency-pneumococcal
+*91641021-BAKTERIA & PARASITES-Reg. Deficiency-Proteus (Bacteria) (Nonfood)
+*16592118-BAKTERIA & PARASITES-Reg. Deficiency-Proteus Dishes (Bacteria) (Nonfood)
+*7761231-BAKTERIA & PARASITES-Reg. Deficiency-Pseudomonas (Bacteria)
+*2332152-BAKTERIA & PARASITES-Reg. Deficiency-Pseudomonas aeruginosa (Pyozyanus bacteria)
+*77911759-BAKTERIA & PARASITES-Reg. Deficiency-Pseudomonas mallei (sh. Rotz) (Bacteria)
+*23156421-BAKTERIA & PARASITES-Reg. Deficiency-Pseudomonas pseudomallei (sh. Rotz) (Bacteria)
+*11167148-BAKTERIA & PARASITES-Regulation-Puerperalfieber (Wöchnerinnenfieber / Kindbettfieber) (bacterial)
+*9769710-BAKTERIA & PARASITES-Degeneration State-Puerperalsepsis (Complication of Puerperal / Wöchnerinnenfiebers)
+*12141185-BAKTERIA & PARASITES-Extrem-Q-Fieber (Pneumorickettsiose, Balkan Strip) (bacterial)
+*30111668-BAKTERIA & PARASITES-Reg. Deficiency-Rotz (Malleus / Maliasmus) (durch Pseudomonas mallei) (Bacteria)
+*8912574-BAKTERIA & PARASITES-Degeneration State-Rückfallfieber (durch Borrelien) (bacterial)
+*12104498-BAKTERIA & PARASITES-Degeneration State-Salmonella (Bacteria)
+*13168218-BAKTERIA & PARASITES-Extrem-Salmonella (Bacteria)
+*35612671-BAKTERIA & PARASITES-Reg. Deficiency-Salmonella (Bacteria)
+*77137107-BAKTERIA & PARASITES-Regulation-Salmonella (Bacteria)
+*1461714-BAKTERIA & PARASITES-Reg. Deficiency-Salmon Ellen-infektion
+*12109576-BAKTERIA & PARASITES-Degeneration State-Salmonellosis (bacterial)
+*6735993-BAKTERIA & PARASITES-Degeneration State-Sarcocystis (Parasit) (Clark Biofeldtest)
+*5213111-BAKTERIA & PARASITES-Reg. Deficiency-Scharlach (bacterial)
+*12151825-BAKTERIA & PARASITES-Degeneration State-Schistosoma haemotobium (Parasit) (Pärcheegel) (Clark Biofeldtest)
+*86855106-BAKTERIA & PARASITES-Reg. Deficiency-Seitenstrangangina (bacterial pharyngitis)
+*3177941-BAKTERIA & PARASITES-Reg. Deficiency-Shigella / Shigellen (Erreger der Bakterienruhr)
+*1130124-BAKTERIA & PARASITES-Affirmation-Sofortige Neutralization Infectiöser Tröpfchen und ....
+*87111056-BAKTERIA & PARASITES-Reg. Deficiency-Staphylococcinum (Bacterial toxin)
+*8715121-BAKTERIA & PARASITES-Reg. Deficiency-Staphylococcus aureus
+*11105712-BAKTERIA & PARASITES-Degeneration State-Staphylococcus Koagulase Positive
+*16132265-BAKTERIA & PARASITES-Reg. Deficiency-Staphylococci (Bacteria)
+*24151517-BAKTERIA & PARASITES-Reg. Deficiency-Streptococcinum (Bacterial toxin)
+*24668183-BAKTERIA & PARASITES-Reg. Deficiency-Streptococcus haemolyticus (Bacteria)
+*24165410-BAKTERIA & PARASITES-Reg. Deficiency-Streptococcus viridans (Bacteria)
+*94921590-BAKTERIA & PARASITES-Regulation-Streptococcus viridans (Bacteria)
+*8889476-BAKTERIA & PARASITES-Reg. Deficiency-Streptococcus (Bacteria)
+*21911614-BAKTERIA & PARASITES-Degeneration State-Strongyloids stercoralis (Parasite, Zwergfadenworm) (Clark Biofeldtest)
+*11717984-BAKTERIA & PARASITES-Regulation-Taenia pisiformis (Parasite: Cat Bandworm) (Clark Biofeldtest)
+*1161967-BAKTERIA & PARASITES-Regulation-Taeniae cysticercus (Parasit) (Bandwurmfinne) (Clark Biofeldtest)
+*14149547-BAKTERIA & PARASITES-Degeneration State-Taeniae cysticercus (Parasit) (Bandwurmfinne) (Clark Biofeldtest)
+*32134184-BAKTERIA & PARASITES-Regulation-Tetanus (Wundstarrkrampf) (bacterial)
+*9116128-BAKTERIA & PARASITES-Degeneration State-Toxoplasma gondii (Parasit) (Clark Biofeldtest)
+*10103696-BAKTERIA & PARASITES-Reg. Deficiency-Toxoplasmosis (Parasit)
+*9158108-BAKTERIA & PARASITES-Degeneration State-Toxoplasmosis, Konnatal (Parasite)
+*1871073-BAKTERIA & PARASITES-Degeneration State-Trachom (Auge) (bacterial Chlamydian cancer)
+*5713612-BAKTERIA & PARASITES-Regulation-Trachom (Auge) (bacterial Chlamydian cancer)
+*17111116-BAKTERIA & PARASITES-Degeneration State-Treponema pallidum (Lues- / Syphilis-Erreger) (Bacteria)
+*1775105-BAKTERIA & PARASITES-Degeneration State-Trichinella spiralis (Parasite, Nematodes) (Clark Biofeldtest)
+*15651014-BAKTERIA & PARASITES-Degeneration State-Trichinella spiralis, City. Muskeltrichine (Parasit, Nematodes) (Clark)
+*11103114-BAKTERIA & PARASITES-Extrem-Trichinella spiralis, City. Wandertrichine (Parasit, Nematodes) (Clark)
+*61153330-BAKTERIA & PARASITES-Extra-Code-Trichinella spiralis, Stage Bowel Trichin (Parasite, Nematodes) (Clark)
+*4124259-BAKTERIA & PARASITES-Degeneration State-Trichinosis (Parasit)
+*9111014-BAKTERIA & PARASITES-Extrem-Trichuris trichiura (Bowel Parasite) (Wurm) (Clark Biofeldtest)
+*53161277-BAKTERIA & PARASITES-Degeneration State-Tuberculosis, active
+*13194137-BAKTERIA & PARASITES-Degeneration State-Tularamie (bacterial)
+*1271752-BAKTERIA & PARASITES-Extrem-Tularamie, äußere Form (bacterial)
+*57591058-BAKTERIA & PARASITES-Degeneration State-Tularamy, Inner Form (bacterial)
+*61510321-BAKTERIA & PARASITES-Reg. Deficiency-Typhus (abdominalis)
+*3122532-BAKTERIA & PARASITES-Degeneration State-Vibrio cholerae (Cholera Vibrion) (Bacterial Compound)
+*5125106-BAKTERIA & PARASITES-Degeneration State-Waterhouse-Friderichsen-Syndrome (Compl. The bacterial Meningitis)
+*9808999-BAKTERIA & PARASITES-Degeneration State-Yersinia Enterocolitica (Bacteria)
+*12615407-BAKTERIA & PARASITES-Degeneration State-Yersinia Pestis (Bacteria)
+*15968223-BAKTERIA & PARASITES-Reg. Deficiency-Yersinia pseudotuberculosis (Bacteria)
+*9131242-BAKTERIA & PARASITES-Degeneration State-Yersinia-Arthritis (nach Yersiniendurchfall) (bacterial)
+*22201011-BAKTERIA & PARASITES-Reg. Deficiency-Zeckenbiss-Borreliosen (bacterial)
+*95192469-BAKTERIA & PARASITES-Reg. Deficiency-Zeckenfleckfieber
+*81711712-BAKTERIA & PARASITES-Regulation-Zeckenfleckfieber
+*13150775-BAKTERIA & PARASITES-Degeneration State-Zecken-Rückfallfieber (bacterial)
+*81754112-BAKTERIA & PARASITES-Regulation-Zecken-Rückfallfieber (bacterial)
+*81712129-BAKTERIA & PARASITES-Regulation-Zeckenstich-Folgen
+*-VIRUS & VIRUSFAMILY, PRIONS--VIREN UND VIRENFAMILIEN, PRIONEN
+*Code-VIRUS & VIRUSFAMILY, PRIONS-Kategorie-Bezeichnung
+*10351727-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Adenoassoziiertes Virus
+*1740146-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Adenoviren (human)
+*17401846-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Adenoviridae (Virus Family)
+*48710143-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Alphavirus (Virusgattung einer Virus-Familie)
+*81061971-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Aphthovirus (virus genus of a virus family) (aphthous)
+*71401846-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Arenaviridae (virus family)
+*76710143-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Arenavirus (virus genus of a virus family)
+*32638214-VIRUS & VIRUSFAMILY, PRIONS-Regulation-Arenavirus (virus genus of a virus family)
+*21061971-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-B-19 virus
+*7101221-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Behcet's disease (herpes or other virus ??) (aphthous ulcers)
+*32201968-VIRUS & VIRUSFAMILY, PRIONS-Extrem-Behcet's disease (herpes or other virus ??) (aphthous ulcers)
+*17132031-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-BK virus
+*2281846-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Bunyaviridae (virus family)
+*15171855-VIRUS & VIRUSFAMILY, PRIONS-Regulation-Bunyaviridae (virus family)
+*22710143-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Bunya virus (virus genus of a virus family)
+*31311349-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Burkitt's tumor (malignant lymphoma, the Epstein-Barr virus (EBV ??) (cancer)
+*17919955-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Caliciviridae (virus family)
+*1791971-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Calicivirus (virus genus of a virus family)
+*51161971-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Cardiovirus (virus genus of a virus family)
+*11113148-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Choriomeningitis lymphocytaria virus (LCMV)
+*5154163-VIRUS & VIRUSFAMILY, PRIONS-Regulation-Choriomeningitis lymphocytaria virus (LCMV)
+*59621171-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Colorado tick virus
+*11201955-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coronaviridae (virus family)
+*11201971-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coronavirus (virus genus of a virus family)
+*91011165-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie viruses
+*91011166-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie viruses A
+*91011167-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie viruses B
+*91011173-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus A 1
+*1037510-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus A 2
+*1037813-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus A 3
+*10111795-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus A 4
+*1037117-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus A 5
+*1037132-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus A 6
+*1037671-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus A 7
+*10111710-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus A 8
+*10111711-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus A 9
+*1037310-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus A 10
+*10111717-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus A 11
+*1037518-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus A 12
+*10321135-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus A 13
+*10323135-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus A 14
+*10391017-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus A 15
+*10311217-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus A 16
+*10111710-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus A 17
+*10111711-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus A 18
+*10111712-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus A 19
+*10313514-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus A 20
+*4171013-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus A 21
+*4141513-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus A 22
+*10323153-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus A24
+*91011174-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus B 1
+*91011175-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus B 2
+*91011176-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus B 3
+*91011177-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus B 4
+*91011178-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus B 5
+*91011179-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Coxsackie virus B 6
+*71081924-VIRUS & VIRUSFAMILY, PRIONS-Mix-Code-Creutzfeld-Jakob (LM decontamination) (Council in code)
+*73159699-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Creutzfeld-Jakob Disease (CJD) is not a virus but prions
+*10918116-VIRUS & VIRUSFAMILY, PRIONS-Extrem-Creutzfeld-Jakob Disease (CJD) is not a virus but prions
+*7241566-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Cytomegalovirus (viral genus of a virus family)
+*41187129-VIRUS & VIRUSFAMILY, PRIONS-Regulation-Dengue fever (Arbovirose, 7-day fever)
+*31180612-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Dengue virus (see Dengue fever, Dengue haemorrhagic fever)
+*82413126-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Dependovirus (virus genus of a virus family)
+*6114143-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-DNA virus
+*5661971-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-DNA virus
+*1349412-VIRUS & VIRUSFAMILY, PRIONS-Regulation-DNA virus
+*71161612-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Ebola virus
+*18710143-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Ebola virus
+*71391312-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-ECHO virus group
+*6761971-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-EMC virus
+*21131971-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-enterovirus
+*21131971-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Enterovirus (viral genus of a virus family)
+*86899297-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Encephalomyocarditis virus
+*46258927-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Encephalomyocarditis virus
+*10139116-VIRUS & VIRUSFAMILY, PRIONS-Extrem-Epstein-Barr virus (EBV) (possibly carcinogenic)
+*79107243-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Epstein-Barr virus (EBV) (possibly carcinogenic)
+*79361618-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Fever, argentinian haemorrhagic (virus)
+*8116106-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Fever, bolivian haemorrhagic (virus)
+*71454715-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Fever, dengue haemorrhagic (dengue virus)
+*71482324-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Fever, haemorrhagic (virus)
+*11713266-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Fever, hemorrhagic with renal syndrome (virus)
+*1770143-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Flavivirus (virus genus of a virus family)
+*4217142-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Early-summer meningoencephalitis (TBE) (virus)
+*3245414-VIRUS & VIRUSFAMILY, PRIONS-Extrem-Early-summer meningoencephalitis (TBE) (virus)
+*14811276-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Early-summer meningoencephalitis (TBE) (virus)
+*86713126-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-TBE virus (tick-borne encephalitis)
+*13164815-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Yellow fever (virus disease)
+*18111058-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Yellow fever virus
+*54197614-VIRUS & VIRUSFAMILY, PRIONS-Ursache-Gingiviostomatitis herpetica (herpes) (aphthous ulcers)
+*81891278-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Flu 78 (virus)
+*81891279-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Flu 79 (virus)
+*81891280-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Flu 80 (virus)
+*81891283-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Flu 83 (virus)
+*81891284-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Flu 84 (virus)
+*81891286-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Flu 86 (virus)
+*81891287-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Flu 87 (virus)
+*81891288-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Flu 88 (virus)
+*81891289-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Flu 89 (virus)
+*81891290-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Flu 90 (virus)
+*81891293-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Flu 93 (virus)
+*81891295-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Flu 95 (virus)
+*81891296-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Flu 96 (virus)
+*81891297-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Flu 97 (virus)
+*81891298-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Flu 98 (virus)
+*81891299-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Flu 99 (virus)
+*19922874-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Hand-Foot-Mouth Disease (Coxsackie Virus A) (Aphthae)
+*19113126-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Hantaan virus (see haemorrhagic fever with renal syndrome)
+*12272315-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Hepadnaviridae (virus family)
+*95141820-VIRUS & VIRUSFAMILY, PRIONS-Regulation-Hepadnaviridae (virus family)
+*1227126-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Hepadnavirus (virus genus of a virus family)
+*9514218-VIRUS & VIRUSFAMILY, PRIONS-Regulation-Hepadnavirus (virus genus of a virus family)
+*5215127-VIRUS & VIRUSFAMILY, PRIONS-Extrem-Hepatitis A (virus)
+*12577126-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Hepatitis A virus
+*1046119-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Hepatitis B (carcinogenic) (virus)
+*12578126-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Hepatitis B virus (carcinogenic)
+*1046115-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Hepatitis C (formerly: Non-A-Non-B hepatitis) (virus)
+*12912887-VIRUS & VIRUSFAMILY, PRIONS-Extrem-Hepatitis C (formerly: Non-A-Non-B hepatitis) (virus)
+*10481374-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Hepatitis C virus (formerly: Non-A-Non-B hepatitis virus)
+*10461114-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Hepatitis D (only in association with hepatitis B) (virus)
+*10481212-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Hepatitis D virus (only in association with hepatitis B)
+*77157105-VIRUS & VIRUSFAMILY, PRIONS-Extrem-Hepatitis D virus (only in combination with hepatitis B)
+*1046119-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Hepatitis E (formerly: Non-A-Non-B hepatitis) (virus)
+*1048721-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Hepatitis E virus (formerly: Non-A-Non-B hepatitis virus)
+*7864112-VIRUS & VIRUSFAMILY, PRIONS-Extrem-Hepatitis, acute (virus-related)
+*7312102-VIRUS & VIRUSFAMILY, PRIONS-Extrem-Hepatitis, anicteric (virus-related)
+*5845166-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Hepatitis, chronic (after virus-related illness)
+*5165114-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Hepatitis, persistent (virus-related)
+*10108101-VIRUS & VIRUSFAMILY, PRIONS-Regulation-Herpes circinatus (virus)
+*14233812-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Genital herpes (virus)
+*14191488-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Herpes simplex (virus)
+*14171415-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Herpes zoster (virus)
+*7651214-VIRUS & VIRUSFAMILY, PRIONS-Affirmation-Herpes zoster, mitigate long-term consequences (virus)
+*15165673-VIRUS & VIRUSFAMILY, PRIONS-Affirmation-Herpes zoster, healing late effects (virus)
+*15165243-VIRUS & VIRUSFAMILY, PRIONS-Affirmation-Herpes zoster, deal with late effects (virus)
+*61495148-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Herpes simplex virus type 2 (cancer promoting)
+*14221955-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Herpesviridae (virus family)
+*10641177-VIRUS & VIRUSFAMILY, PRIONS-Regulation-Herpesviridae (virus family)
+*15151747-VIRUS & VIRUSFAMILY, PRIONS-Extrem-Herpetiform efflorescences on the penis
+*38151498-VIRUS & VIRUSFAMILY, PRIONS-Regulation-Herpetiform efflorescences on the penis
+*1063612-VIRUS & VIRUSFAMILY, PRIONS-Ursache-Herpetiform efflorescences on the penis
+*91310143-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-HP virus
+*14516154-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Human Immunodeficiency Virus (HIV)
+*48631145-VIRUS & VIRUSFAMILY, PRIONS-Extrem-Human Immunodeficiency Virus (HIV)
+*7646117-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Human herpes virus type 6 (HHV6)
+*16105714-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Human herpes virus type 6 (HHV6)
+*62511106-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Immunodeficiency virus (carcinogenic)
+*62712136-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-infectious diseases
+*56891419-VIRUS & VIRUSFAMILY, PRIONS-Regulation-infectious diseases
+*21523171-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Influenza virus (viral genus of a virus family)
+*86711105-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Influenza virus group
+*16714913-VIRUS & VIRUSFAMILY, PRIONS-Regulation-Influenza virus group
+*21431846-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Iridoviridae (virus family)
+*2143143-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Iridovirus (virus genus of a virus family)
+*81416831-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-JC virus (Jakob Creutzfeld virus) not confused with CJK!
+*29101421-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-JC virus (Jakob Creutzfeld virus) not confused with CJK!
+*12581612-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Junin virus (see Argentinian haemorrhagic fever)
+*10198147-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Teething problems: Kinderlähm
+*10227106-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Teething: measles (virus)
+*10589793-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Teething: Mumps (virus)
+*15915134-VIRUS & VIRUSFAMILY, PRIONS-Extrem-Teething: Smallpox (virus)
+*1022475-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Teething: Rubella (virus)
+*1022105-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Teething: Chickenpox (virus)
+*11710143-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Lassa virus
+*81521627-VIRUS & VIRUSFAMILY, PRIONS-Regulation-Lassa virus
+*61010143-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Lentivirus (virus genus of a virus family)
+*11251179-VIRUS & VIRUSFAMILY, PRIONS-Regulation-Lentivirus (virus genus of a virus family)
+*1450168-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Lymphocryptovirus (virus genus of a virus family)
+*73710143-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Lyssavirus (virus genus of a virus family)
+*10212243-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Machuppo virus (see Bolivian haemorrhagic fever)
+*15711526-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Maedi / Visna virus
+*12174814-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Marburg virus
+*6365611-VIRUS & VIRUSFAMILY, PRIONS-Regulation-Marburg virus
+*15121971-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Measles virus
+*13129971-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Mastadenovirus (virus genus of a virus family)
+*1010443-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Foot-and-mouth disease (FMD) (aphthous ulcers)
+*2012146-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Foot-and-mouth disease virus (FMDV)
+*1555727-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Molluscum contagiosum virus
+*13610243-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Morbillivirus (virus genus of a virus family)
+*1680143-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Mumps virus
+*73210143-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Nairovirus (virus genus of a virus family)
+*1251119-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Newcastle disease virus
+*88913126-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Oncovirus (viral family of a virus family) (cancer promoting)
+*1033126-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Orbivirus (virus genus of a virus family)
+*12141227-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Orthopoxvirus (virus genus of a virus family)
+*4551175-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Orthomyxoviridae (virus family)
+*2621379-VIRUS & VIRUSFAMILY, PRIONS-Regulation-Orthomyxoviridae (virus family)
+*18151217-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Papillomavirus (virus genus of a virus family)
+*26129955-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Papovaviridae (virus family)
+*10612218-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Paramyxoviridae (virus family)
+*91415684-VIRUS & VIRUSFAMILY, PRIONS-Regulation-Paramyxoviridae (virus family)
+*10612243-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Paramyxovirus (viral genus of a virus family)
+*10723126-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Parapoxvirus (virus genus of a virus family)
+*2197171-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Paravaccinia virus
+*10102846-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Parvoviridae (virus family)
+*1010243-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Parvovirus (virus genus of a virus family)
+*9565713-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Pfeiffer's glandular fever (virus)
+*21811118-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Pfeiffer's glandular fever (virus)
+*21811119-VIRUS & VIRUSFAMILY, PRIONS-Ursache-Pfeiffer's glandular fever (virus)
+*11201971-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Phlebovirus (viral genus of a virus family)
+*91336183-VIRUS & VIRUSFAMILY, PRIONS-Regulation-Phlebovirus (viral genus of a virus family)
+*18614113-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Picornaviridae (virus family)
+*1114729-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Picornaviridae (virus family)
+*6539916-VIRUS & VIRUSFAMILY, PRIONS-Regulation-Picornaviridae (virus family)
+*9718944-VIRUS & VIRUSFAMILY, PRIONS-Regulation-Plasmids, infectious (see Virus, Prions) (carcinogenic)
+*71210946-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Plasmids, infectious (see Virus, Prions) (carcinogenic)
+*10861971-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Pneumovirus (virus genus of a virus family)
+*2181971-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Smallpox virus (Orthopoxvirus variola / Orthopoxvirus alastrim)
+*10219313-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Poliomyelitis (virus)
+*1023143-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Polio virus (poliomyelitis virus)
+*10253126-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Polyomavirus (virus genus of a virus family)
+*14619955-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Poxviridae (virus family)
+*61210895-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Prions, infectious (eg CJK, BSE, see virus, plasmids)
+*1848615-VIRUS & VIRUSFAMILY, PRIONS-Ursache-Prions, infectious (eg CJK, BSE, see virus, plasmids)
+*41411351-VIRUS & VIRUSFAMILY, PRIONS-Extrem-Puumula virus (see haemorrhagic fever with renal syndrome)
+*10261971-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-RA-1 virus
+*22619955-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Reoviridae (virus family)
+*2261971-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Reovirus (virus genus of a virus family)
+*18714666-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Respiratory corona virus
+*18713227-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Respiratory Syncytial Virus
+*10331846-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Retroviridae (virus family)
+*12812129-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Rhabdoviridae (virus family)
+*10416955-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Rhabdoviridae (virus family)
+*9121268-VIRUS & VIRUSFAMILY, PRIONS-Regulation-Rheumatism, viral condition (virus)
+*2153143-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Rhinovirus (virus genus of a virus family)
+*71312111-VIRUS & VIRUSFAMILY, PRIONS-Regulation-Rhinovirus (virus genus of a virus family)
+*8381411-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Rhinovirus group
+*11411398-VIRUS & VIRUSFAMILY, PRIONS-Regulation-Rhinovirus group
+*15810612-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-RNA virus
+*11661971-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-RNA virus
+*30313126-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Rotavirus (virus genus of a virus family)
+*1256315-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Rubella (viral disease)
+*61131985-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-congenital rubella syndrome
+*86961971-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Rubella virus
+*3811119-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Rous sarcoma virus (carcinogenic)
+*13712814-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-RSSE virus (see tick encephalitis, Russian)
+*81113126-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Rubivirus (virus genus of a virus family)
+*8822753-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Swine fever virus (possibly human pathogen?)
+*8184126-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Simplex virus (virus genus of a virus family)
+*11141747-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-T lymphocyte neoplasm virus (HTLV) (carcinogenic)
+*97101315-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Togaviridae (virus family)
+*12176850-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Rabies (Lyssa, Rabies, Hydrophobia, Hundswut)
+*67613126-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Rabies virus (rabies virus)
+*69101785-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-V2 flu (virus)
+*7101785-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-V3 flu (virus)
+*8101785-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-V4 flu (virus)
+*9101785-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-V5 flu (virus)
+*9818912-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-V75 flu (virus)
+*10818912-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-V76 flu (virus)
+*63818912-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-VA2 flu (virus)
+*1390155-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-VA2L flu (virus)
+*13158143-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Vaccinia virus
+*14151016-VIRUS & VIRUSFAMILY, PRIONS-Regulation-Vaccinia virus
+*18701785-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-VAPCH flu (virus)
+*82211971-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Varicella virus (virus genus of a virus family)
+*23143143-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Vesiculovirus (virus genus of a virus family)
+*76188927-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Vesicular stomatitis virus
+*61710155-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-V-flu (virus)
+*1066059-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Virion (virus, infectious for the host cell) (carcinogenic)
+*61910615-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Virion (virus, infectious for the host cell) (carcinogenic)
+*1069812-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Viroid (mini virus) (carcinogenic)
+*2116780-VIRUS & VIRUSFAMILY, PRIONS-Regulation-Viroid (mini virus) (carcinogenic)
+*1688785-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-viral infection
+*81391613-VIRUS & VIRUSFAMILY, PRIONS-Regulation-viral infection
+*13514476-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Chickenpox (virus)
+*4478179-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-X viruses (carcinogenic)
+*10131011-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-X viruses (carcinogenic)
+*10613916-VIRUS & VIRUSFAMILY, PRIONS-Regulation-X viruses (carcinogenic)
+*1261618-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-tick-borne encephalitis
+*56451614-VIRUS & VIRUSFAMILY, PRIONS-Extrem-tick-borne encephalitis
+*95121257-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-tick-borne encephalitis
+*1578797-VIRUS & VIRUSFAMILY, PRIONS-Extrem-Tick __encephalitis, Russian
+*15557967-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Tick __encephalitis, Russian
+*14915999-VIRUS & VIRUSFAMILY, PRIONS-Regulation-Tick __encephalitis, Russian
+*81712129-VIRUS & VIRUSFAMILY, PRIONS-Regulation-Tick __bite sequences
+*8998557-VIRUS & VIRUSFAMILY, PRIONS-Degeneration State-Cytomegaly, congenital (CMV)
+*5129212-VIRUS & VIRUSFAMILY, PRIONS-Extra-Code-Cytomegalovirus disease (CMV)
+*41821353-VIRUS & VIRUSFAMILY, PRIONS-Reg. Deficiency-Cytomegalovirus (CMV)
+*-MUSHROOMS AND MYCOSES--MUSHROOMS AND MYCOSES
+*Code-MUSHROOMS AND MYCOSES-Kategorie-designation
+*73917539-MUSHROOMS AND MYCOSES-Degeneration State-Aflatoxin (fungal toxin, carcinogenic)
+*2398155-MUSHROOMS AND MYCOSES-Reg. Deficiency-Aflatoxins (nonfood)
+*15812147-MUSHROOMS AND MYCOSES-Reg. Deficiency-Alternaria tenius (Nonfood) (mold)
+*18814188-MUSHROOMS AND MYCOSES-Reg. Deficiency-Aspergillus flavus (fungus)
+*1713710-MUSHROOMS AND MYCOSES-Reg. Deficiency-Aspergillus frequentans (fungus)
+*17142514-MUSHROOMS AND MYCOSES-Reg. Deficiency-Aspergillus nidulans (fungus)
+*18814173-MUSHROOMS AND MYCOSES-Reg. Deficiency-Aspergillus niger (fungus)
+*17641266-MUSHROOMS AND MYCOSES-Reg. Deficiency-Aspergillus versicolor (fungus)
+*1458228-MUSHROOMS AND MYCOSES-Reg. Deficiency-Candida albicans (fungus)
+*26126917-MUSHROOMS AND MYCOSES-Organ/Spec.-Candida albicans IgG IFT (fungal indicator) (blood / laboratory)
+*26126916-MUSHROOMS AND MYCOSES-Organ/Spec.-Candida albicans IgM IFT (fungal indicator) (blood / laboratory)
+*14531233-MUSHROOMS AND MYCOSES-Reg. Deficiency-Candida glabrata (mushroom)
+*10111279-MUSHROOMS AND MYCOSES-Reg. Deficiency-Candida guilliermondii (fungus)
+*1467619-MUSHROOMS AND MYCOSES-Reg. Deficiency-Candida kefir (fungus)
+*14612769-MUSHROOMS AND MYCOSES-Reg. Deficiency-Candida krusei (mushroom)
+*11913133-MUSHROOMS AND MYCOSES-Reg. Deficiency-Candida parapsilosis (fungus)
+*14611641-MUSHROOMS AND MYCOSES-Reg. Deficiency-Candida robusta (fungus)
+*14614891-MUSHROOMS AND MYCOSES-Reg. Deficiency-Candida rugosa (fungus)
+*12182110-MUSHROOMS AND MYCOSES-Reg. Deficiency-Candida stellatoidea (fungus)
+*12511108-MUSHROOMS AND MYCOSES-Reg. Deficiency-Candida zeytanoides (fungus)
+*1161713-MUSHROOMS AND MYCOSES-Reg. Deficiency-Chaetomium globosum (Nonfood) (mold fungus)
+*16218129-MUSHROOMS AND MYCOSES-Regulation-Chromomycosis (fungus)
+*5982316-MUSHROOMS AND MYCOSES-Reg. Deficiency-Cladosporium fulvum (Nonfood) (mold)
+*59817811-MUSHROOMS AND MYCOSES-Reg. Deficiency-Cladosporium herbarum (fungus)
+*5915820-MUSHROOMS AND MYCOSES-Reg. Deficiency-Cryptococcus (yeast fungus)
+*41161668-MUSHROOMS AND MYCOSES-Reg. Deficiency-intestinal yeast
+*38111149-MUSHROOMS AND MYCOSES-Degeneration State-dermatomycoses
+*10188965-MUSHROOMS AND MYCOSES-Reg. Deficiency-dermatomycoses
+*2523109-MUSHROOMS AND MYCOSES-Regulation-dermatomycoses
+*8159935-MUSHROOMS AND MYCOSES-Regulation-Purulent dermatitis caused by mycoses (fungus)
+*52315194-MUSHROOMS AND MYCOSES-Reg. Deficiency-Epidermophyton floccosum (fungus)
+*86218678-MUSHROOMS AND MYCOSES-Reg. Deficiency-Fusarium sp. (Nonfood) (mold)
+*24715108-MUSHROOMS AND MYCOSES-Reg. Deficiency-Geotrichum cand
+*8651668-MUSHROOMS AND MYCOSES-Reg. Deficiency-skin fungus
+*10103879-MUSHROOMS AND MYCOSES-Regulation-skin fungus
+*3729156-MUSHROOMS AND MYCOSES-Reg. Deficiency-Skin cysts by mycoses (fungus)
+*11137152-MUSHROOMS AND MYCOSES-Reg. Deficiency-Laryngeal and tracheal catarrh
+*10515113-MUSHROOMS AND MYCOSES-Regulation-Laryngeal, nasal and pharyngeal catarrh
+*18110417-MUSHROOMS AND MYCOSES-Regulation-laryngeal catarrh
+*81116158-MUSHROOMS AND MYCOSES-Reg. Deficiency-Microsporum canis (fungus)
+*10168215-MUSHROOMS AND MYCOSES-Reg. Deficiency-Microsporum gypseum (fungus)
+*21145856-MUSHROOMS AND MYCOSES-Reg. Deficiency-Mucor mucedo (nonfood) (mold)
+*21112371-MUSHROOMS AND MYCOSES-Reg. Deficiency-Mucor racemosus (fungus)
+*82019729-MUSHROOMS AND MYCOSES-Extrem-Fatigue syndrome, chronic (CFS)
+*44616299-MUSHROOMS AND MYCOSES-Regulation-Fatigue syndrome, chronic (CFS)
+*21115821-MUSHROOMS AND MYCOSES-Regulation-Oral fungus, general (Mycosis oris)
+*79681619-MUSHROOMS AND MYCOSES-Reg. Deficiency-Oral thrush (fungus, candida mycosis))
+*81575122-MUSHROOMS AND MYCOSES-Reg. Deficiency-Muscle cysts due to mycoses (fungus)
+*22715139-MUSHROOMS AND MYCOSES-Extrem-Mycid (skin exanthemin through mushroom toxin flushing)
+*77120904-MUSHROOMS AND MYCOSES-Reg. Deficiency-Mycid (skin exanthemin through mushroom toxin flushing)
+*7109725-MUSHROOMS AND MYCOSES-Ursache-Mycid (skin exanthemin through mushroom toxin flushing)
+*12713313-MUSHROOMS AND MYCOSES-Affirmation-Mitigate mycid (skin exanthemin caused by mushroom toxin flushing)
+*1381458-MUSHROOMS AND MYCOSES-Degeneration State-Mycosis, systemic (systemic mycosis)
+*6510880-MUSHROOMS AND MYCOSES-Extrem-Mycosis, systemic (systemic mycosis)
+*20181211-MUSHROOMS AND MYCOSES-Ursache-Nail bed fungal
+*20111013-MUSHROOMS AND MYCOSES-Reg. Deficiency-nail fungus
+*91110121-MUSHROOMS AND MYCOSES-Reg. Deficiency-Neurospora sitophila (Nonfood) (mold fungus)
+*85630915-MUSHROOMS AND MYCOSES-Reg. Deficiency-Patulin (fungal toxin, carcinogenic)
+*21152141-MUSHROOMS AND MYCOSES-Reg. Deficiency-Penicillium camemberti (mushroom)
+*2173123-MUSHROOMS AND MYCOSES-Reg. Deficiency-Penicillium frequentans (fungus)
+*2287188-MUSHROOMS AND MYCOSES-Reg. Deficiency-Penicillium notatum (fungus)
+*2114941-MUSHROOMS AND MYCOSES-Reg. Deficiency-Penicillium roqueforti (mushroom)
+*10131664-MUSHROOMS AND MYCOSES-Reg. Deficiency-Phialophora verrucosa (fungus)
+*62314679-MUSHROOMS AND MYCOSES-Degeneration State-Mushroom, unidentifiable
+*46111311-MUSHROOMS AND MYCOSES-Extrem-Mushroom, unidentifiable
+*61026154-MUSHROOMS AND MYCOSES-Reg. Deficiency-Mushroom, unidentifiable
+*1261387-MUSHROOMS AND MYCOSES-Regulation-Fungal infection of the respiratory tract
+*93161113-MUSHROOMS AND MYCOSES-Ursache-Fungal infection of the respiratory tract with yeasts
+*9322936-MUSHROOMS AND MYCOSES-Ursache-Fungal infection of the respiratory tract with mold fungi
+*11731378-MUSHROOMS AND MYCOSES-Reg. Deficiency-Fungus of the colon
+*9712105-MUSHROOMS AND MYCOSES-Reg. Deficiency-Fungus of the colon with yeasts
+*91014712-MUSHROOMS AND MYCOSES-Reg. Deficiency-Fungus of the colon with molds
+*11731778-MUSHROOMS AND MYCOSES-Reg. Deficiency-Fungal attack of the small intestine
+*91112105-MUSHROOMS AND MYCOSES-Reg. Deficiency-Fungal attack of the small intestine with yeasts
+*93214712-MUSHROOMS AND MYCOSES-Reg. Deficiency-Fungal infection of the small intestine with mold fungi
+*66416116-MUSHROOMS AND MYCOSES-Degeneration State-Fungus of the gastrointestinal tract
+*1172373-MUSHROOMS AND MYCOSES-Reg. Deficiency-Fungus of the gastrointestinal tract
+*92371752-MUSHROOMS AND MYCOSES-Reg. Deficiency-Fungal infection of the gastrointestinal tract with yeasts
+*91216350-MUSHROOMS AND MYCOSES-Reg. Deficiency-Fungal infection of the gastrointestinal tract with mold fungi
+*82371515-MUSHROOMS AND MYCOSES-Mix-Code-Mushrooms and mycoses (Council in code)
+*14166174-MUSHROOMS AND MYCOSES-Degeneration State-Mushroom spores in the blood (fungus)
+*10315108-MUSHROOMS AND MYCOSES-Extrem-Mushroom spores in the blood (fungus)
+*6661138-MUSHROOMS AND MYCOSES-Degeneration State-Mushroom spores in pus (fungus)
+*4611915-MUSHROOMS AND MYCOSES-Reg. Deficiency-Mushroom spores in pus (fungus)
+*12616135-MUSHROOMS AND MYCOSES-Degeneration State-Mushroom toxins in pus (fungus)
+*4710915-MUSHROOMS AND MYCOSES-Reg. Deficiency-Mushroom toxins in pus (fungus)
+*14118193-MUSHROOMS AND MYCOSES-Reg. Deficiency-Pullularia pullulans (Nonfood) (mold)
+*29124953-MUSHROOMS AND MYCOSES-Reg. Deficiency-Rhizopus arrhizus (Nonfood) (mold)
+*12217209-MUSHROOMS AND MYCOSES-Reg. Deficiency-Rhizopus nigricans (Nonfood) (mold fungus)
+*29121195-MUSHROOMS AND MYCOSES-Reg. Deficiency-Rhizopus oryzae (Nonfood) (mold fungus)
+*12318112-MUSHROOMS AND MYCOSES-Reg. Deficiency-Rhizopus rhizopodiformis (Nonfood) (mold)
+*20844207-MUSHROOMS AND MYCOSES-Organ/Spec.-Saccharomyces cerevisiae (brewer's yeast, yeast)
+*62017124-MUSHROOMS AND MYCOSES-Regulation-mold
+*5108235-MUSHROOMS AND MYCOSES-Reg. Deficiency-Molds (nonfood)
+*1315793-MUSHROOMS AND MYCOSES-Reg. Deficiency-Scopulariopsis brevicaulis (fungus)
+*15131754-MUSHROOMS AND MYCOSES-Degeneration State-Thrush (fungus, candida mycosis)
+*41312889-MUSHROOMS AND MYCOSES-Reg. Deficiency-Thrush (fungus, candida mycosis)
+*5961617-MUSHROOMS AND MYCOSES-Regulation-Thrush (fungus, candida mycosis)
+*14916512-MUSHROOMS AND MYCOSES-Reg. Deficiency-Trichophyton (fungus)
+*14151474-MUSHROOMS AND MYCOSES-Reg. Deficiency-Trichophyton cutaneum (fungus)
+*14151117-MUSHROOMS AND MYCOSES-Reg. Deficiency-Trichophyton mentagrophytes (fungus)
+*14168811-MUSHROOMS AND MYCOSES-Reg. Deficiency-Trichophyton rubrum (mushroom)
+*6681413-MUSHROOMS AND MYCOSES-Reg. Deficiency-Trichophyton superficialis capillitii (fungus)
+*14151010-MUSHROOMS AND MYCOSES-Reg. Deficiency-Trichophyton terrestre (fungus)
+*14151813-MUSHROOMS AND MYCOSES-Reg. Deficiency-Trichophyton tonsurenis (fungus)
+*14151220-MUSHROOMS AND MYCOSES-Reg. Deficiency-Trichophyton verrucosum (fungus)
+"*14132110-MUSHROOMS AND MYCOSES-Reg. Deficiency-Trichosporon hortai (also: Piedraia / Mikrosporum hortai; mushroom)"
+*15111668-MUSHROOMS AND MYCOSES-Reg. Deficiency-vaginal mycosis

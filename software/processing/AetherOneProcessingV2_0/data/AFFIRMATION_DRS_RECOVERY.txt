@@ -1,0 +1,200 @@
+*31814510-recovery-Affirmation-2-4-5-T-Recovery (pesticide)-
+*1051031-recovery-Affirmation-Acesulfame Recovery-
+*67983394-recovery-Affirmation-Aclarubicin-Recovery (chemotherapy)-
+*1211305-recovery-Affirmation-Acrylamide, Recovery of (krebsbegünstigend, DNA changing?)-
+*21921021-recovery-Affirmation-Aflatoxin-Recovery (fungal toxin krebsbegünstigend)-
+*51453102-recovery-Affirmation-Aldrin-Recovery (pesticide)-
+*13914510-recovery-Affirmation-Alcohol Recovery-
+*14101441-recovery-Affirmation-Alkyl mercury-Recovery (heavy metal)-
+*21921031-recovery-Affirmation-Aluminum Recovery-
+*3913147-recovery-Reg. Deficiency -Amalgam Recovery (tooth)-
+*51412101-recovery-Affirmation-Amalgam Recovery (tooth)-
+*83921021-recovery-Affirmation-Aniline Recovery (krebsbegünstigend)-
+*10103394-recovery-Affirmation-Antibiotic Recovery-
+*10496395-recovery-Affirmation-Antioxidant Recovery-
+*13123384-recovery-Affirmation-Flavors-rejection-
+*4633904-recovery-Affirmation-Arsenic Recovery-
+*9353102-recovery-Affirmation-Asbestos Recovery (Wohngift)-
+*9811395-recovery-Affirmation-Aspartame Recovery-
+*11191086-recovery-Affirmation-Atrazine Recovery (pesticide)-
+*1120916-recovery-Mix-Code-Recovery of aluminum (Council Code)-
+*61558916-recovery-Mix-Code-Recovery of amalgam (Council Code)-
+*10101115-recovery-Mix-Code-Recovery of formaldehyde (Council Code) (Wohngift)-
+*1771117-recovery-Affirmation-Recovery of cationic softeners-
+*73382302-recovery-Mix-Code-Recovery of palladium (Council Code)-
+*71220711-recovery-Mix-Code-Recovery of environmental pollutants (Council Code) (Wohngift)-
+*90374788-recovery-Affirmation-Recovery, accelerated-
+*66910395-recovery-Affirmation-Barbiturates-Recovery-
+*13283394-recovery-Affirmation-Bendamustine-Recovery (chemotherapy)-
+*74921021-recovery-Affirmation-Gasoline Recovery (Wohngift) (sh. And benzene Recovery)-
+*11021021-recovery-Affirmation-Benzene Recovery (Wohngift) (sh. And gasoline-Recovery)-
+*8391086-recovery-Affirmation-Benzopyrene-Recovery (krebsbegünstigend)-
+*3114510-recovery-Affirmation-Lead Recovery (heavy metal)-
+*3453102-recovery-Affirmation-Bleomycin-Recovery (chemotherapy)-
+*61583384-recovery-Affirmation-Busulfan Recovery (chemotherapy)-
+*9115395-recovery-Affirmation-Butane Recovery (Wohngift)-
+*11914510-recovery-Affirmation-Cadmium Recovery / cadmium Recovery (heavy metal)-
+*13131086-recovery-Affirmation-Cesium Recovery-
+*16514917-recovery-Affirmation-Carbendazim-Recovery (Wohngift)-
+*16126395-recovery-Affirmation-Carboplatin Recovery (chemotherapy)-
+*82921021-recovery-Affirmation-Carmustine-Recovery (chemotherapy)-
+*51361031-recovery-Affirmation-Chlorambucil Recovery (chemotherapy)-
+*13163384-recovery-Affirmation-Chloro-Recovery-
+*3148021-recovery-Affirmation-Chromium (6-valent) outtake-
+*11183384-recovery-Affirmation-Chrome Recovery-
+*62921021-recovery-Affirmation-Cisplatin-Recovery (chemotherapy)-
+*16453102-recovery-Affirmation-CFC-Mix Recovery (pesticide)-
+*31421144-recovery-Affirmation-Cortisone / corticosteroid Recovery-
+*15129395-recovery-Affirmation-Cyclamate Recovery-
+*7121141-recovery-Affirmation-Cyclophosphamide Recovery (chemotherapy)-
+*14991086-recovery-Affirmation-Cyfluthrin Recovery (pyrethrum derivative, pyrethroids) (insecticide)-
+*10141021-recovery-Affirmation-Cytarabine Recovery (chemotherapy)-
+*73253102-recovery-Affirmation-Dactinomycin-Recovery (chemotherapy)-
+*11412031-recovery-Affirmation-Daunorubicin Recovery (chemotherapy)-
+*75310101-recovery-Affirmation-DDT-Recovery (pesticide)-
+*31111510-recovery-Affirmation-Dichlorvos-Recovery (pesticide)-
+*7183394-recovery-Affirmation-Dieldrin Recovery (pesticide)-
+*17431021-recovery-Affirmation-Di-isocyanates-Recovery (DHI) (Wohngift)-
+*9221542-recovery-Affirmation-Dimethylnitrosamine-Recovery (krebsbegünstigend)-
+*10921021-recovery-Affirmation-Dioxin Recovery-
+*63983394-recovery-Affirmation-Doxorubicin Recovery (chemotherapy)-
+*1893394-recovery-Affirmation-Fertilizer Recovery-
+*36639104-recovery-Affirmation-Iron excretion-
+*11178684-recovery-Affirmation-Electric currents Recovery-
+*10103394-recovery-Affirmation-Emulsifier Recovery-
+*14114510-recovery-Affirmation-Endosulfan-Recovery (pesticide)-
+*6362101-recovery-Affirmation-Epirubicin Recovery (chemotherapy)-
+*3121031-recovery-Affirmation-Natural Gas Recovery (Wohngift)-
+*41133904-recovery-Affirmation-Eulan-Recovery (pesticide)-
+*42914510-recovery-Affirmation-Dyes-Recovery-
+*11161086-recovery-Affirmation-CFC Recovery-
+*41193384-recovery-Affirmation-Fenvalerate-Recovery (pyrethrum derivative, pyrethroids) (insecticide)-
+*15163384-recovery-Affirmation-Fluoro-Recovery-
+*7761031-recovery-Affirmation-Fluorouracil Recovery (chemotherapy)-
+*6127101-recovery-Affirmation-LPG Recovery (Wohngift)-
+*43103384-recovery-Affirmation-Formaldehyde Recovery (Wohngift)-
+*21191086-recovery-Affirmation-Gemcitabine Recovery (chemotherapy)-
+*4921031-recovery-Affirmation-Fiber Recovery (Wohngift)-
+*54727283-recovery-Affirmation-Influenza 2000 (rejection of late charges)-
+*55727283-recovery-Affirmation-Influenza 2001 (rejection of late charges)-
+*7727283-recovery-Affirmation-Influenza 2002 (rejection of late charges)-
+*15810106-recovery-Affirmation-Influenza 78 (Recovery of late charges) (virus)-
+*12810106-recovery-Affirmation-Influenza 79 (Recovery of late charges) (virus)-
+*51523414-recovery-Affirmation-Influenza 80 (Recovery of late charges) (virus)-
+*1679123-recovery-Without Code-Influenza 83 (rejection of late loads) (Virus)-
+*91810106-recovery-Affirmation-Influenza 84 (Recovery of late charges) (virus)-
+*14810106-recovery-Affirmation-Influenza 86 (rejection of late loads) (Virus)-
+*10724115-recovery-Without Code-Influenza 87 (Recovery of late charges) (virus)-
+*15717314-recovery-Without Code-Influenza 88 (Recovery of late charges) (virus)-
+*11810106-recovery-Affirmation-Influenza 89 (Recovery of late charges) (virus)-
+*51223414-recovery-Affirmation-Influenza 90 (Recovery of late charges) (virus)-
+*14623414-recovery-Without Code-Influenza 93 (rejection of late loads) (Virus)-
+*51423414-recovery-Affirmation-Influenza 95 (Recovery of late charges) (virus)-
+*1857311-recovery-Without Code-Influenza 96 (rejection of late loads) (Virus)-
+*10121516-recovery-Without Code-Influenza 97 (Recovery of late charges) (virus)-
+*11441698-recovery-Without Code-Influenza 98 (rejection of late loads) (Virus)-
+*98617314-recovery-Without Code-Influenza 99 (rejection of late loads) (Virus)-
+*56116395-recovery-Affirmation-Hexachlorophene-Recovery (pesticide)-
+*19114510-recovery-Affirmation-Idarubicin Recovery (chemotherapy)-
+*11131021-recovery-Affirmation-Ifosfamide Recovery (chemotherapy)-
+*59812686-recovery-Affirmation-Impfnosode: Cholera active (Recovery)-
+*11103205-recovery-Affirmation-Impfnosode: diphtheria e active (Recovery)-
+*11102205-recovery-Affirmation-Impfnosode: diphtheria K active (Recovery)-
+*11146815-recovery-Affirmation-Impfnosode: diphtheria passive (Recovery)-
+*11141654-recovery-Affirmation-Impfnosode: diphtheria-tetanus-pertussis (DPT) active (Recovery)-
+*11101272-recovery-Affirmation-Impfnosode: diphtheria-tetanus (DT) active (Recovery)-
+*51119714-recovery-Affirmation-Impfnosode: TBE active (Recovery)-
+*51138394-recovery-Affirmation-Impfnosode: TBE passive (Recovery)-
+*58411394-recovery-Affirmation-Impfnosode: Yellow fever (Recovery)-
+*11121217-recovery-Affirmation-Impfnosode: Flu 88 active (Recovery)-
+*1210135-recovery-Affirmation-Impfnosode: Haemophilus influenzae type b (HIB) (Recovery)-
+*58148272-recovery-Affirmation-Impfnosode: Hepatitis B active (Recovery)-
+*14487144-recovery-Affirmation-Impfnosode: Hepatitis B passively (Recovery)-
+*51310321-recovery-Affirmation-Impfnosode: Ig passive (Recovery)-
+*59161031-recovery-Affirmation-Impfnosode: Measles active (Recovery)-
+*5910466-recovery-Affirmation-Impfnosode: Measles passive (Recovery)-
+*23171414-recovery-Affirmation-Impfnosode: measles, mumps active (Recovery)-
+*2385815-recovery-Affirmation-Impfnosode: measles-mumps-rubella active (Recovery)-
+*12161012-recovery-Affirmation-Impfnosode: active mumps (Recovery)-
+*5942872-recovery-Affirmation-Impfnosode: Pertussis passive (whooping cough) (Recovery)-
+*59714510-recovery-Affirmation-Impfnosode: smallpox (Recovery)-
+*59168384-recovery-Affirmation-Impfnosode: Polio active (polio) (Recovery)-
+*5891741-recovery-Affirmation-Impfnosode: Rubella active (Recovery)-
+*5898631-recovery-Affirmation-Impfnosode: rubella passive (Recovery)-
+*6161596-recovery-Affirmation-Impfnosode: Tetanus active (Recovery)-
+*61310154-recovery-Affirmation-Impfnosode: Tetanus passive (Recovery)-
+*61410101-recovery-Affirmation-Impfnosode: rabies active (Recovery)-
+*51078205-recovery-Affirmation-Impfnosode: rabies passive (Recovery)-
+*14681013-recovery-Affirmation-Impfnosode: tuberculosis (BCG) active (Recovery)-
+*5121394-recovery-Affirmation-Impfnosode: Typhus active (Recovery)-
+*21111114-recovery-Affirmation-Vaccination adverse effects-Recovery-
+*52321031-recovery-Affirmation-Insecticide Recovery (insecticides)-
+*4613105-recovery-Affirmation-Isopropyl alcohol rejection of (Clark biofield, Wohngift)-
+*45310101-recovery-Affirmation-Iodine-rejection (eg. As in hyperthyroidism) (thyroid)-
+*80921031-recovery-Affirmation-Kanamycin Recovery-
+*67070803-recovery-Organ / Spec. -Kenya (supporting Ausleitungskuren)-
+*31613516-recovery-Affirmation-Preservatives-Recovery-
+*12171010-recovery-Affirmation-Cancer toxin Recovery-
+*91453102-recovery-Affirmation-Copper Recovery-
+*1362101-recovery-Affirmation-Nitrous Oxide Recovery-
+*6814495-recovery-Affirmation-Alloying additions-Recovery-
+*31453102-recovery-Affirmation-Lindane Recovery (pesticide)-
+*27283384-recovery-Affirmation-Lomustine-Recovery (chemotherapy)-
+*1243431-recovery-Affirmation-Solvents and diluents-Recovery (Wohngift)-
+*15121021-recovery-Affirmation-Solder vapors-Recovery (Wohngift)-
+*66314237-recovery-Organ / Spec. -M 13 Recovery of toxins (Rostock essences)-
+*94621021-recovery-Affirmation-Malathion Recovery (pesticide)-
+*97253102-recovery-Affirmation-Measles vaccine Recovery-
+*11653102-recovery-Affirmation-Melphalan-Recovery (chemotherapy)-
+*6810401-recovery-Affirmation-Mercaptopurine Recovery (chemotherapy)-
+*9693394-recovery-Affirmation-Methotrexate Recovery (chemotherapy)-
+*98821031-recovery-Affirmation-Methoxychlor-Recovery (pesticide)-
+*81863394-recovery-Affirmation-Microwave Recovery-
+*1010321-recovery-Affirmation-Mitomycin-Recovery (chemotherapy)-
+*7311401-recovery-Affirmation-Anesthetic agent Recovery-
+*16346395-recovery-Affirmation-Nimustine-Recovery (chemotherapy)-
+*73163384-recovery-Affirmation-Nitrosamines-Recovery (krebsbegünstigend)-
+*15191086-recovery-Affirmation-Ozone Recovery-
+*9953102-recovery-Affirmation-Palladium Recovery-
+*11183394-recovery-Affirmation-Paraquat-Recovery (pesticide)-
+*10453102-recovery-Affirmation-Parathion-Recovery (pesticide)-
+*5903993-recovery-Affirmation-PCB - Mix Recovery (Wohngift)-
+*12111010-recovery-Affirmation-Penicillin Recovery-
+*9441413-recovery-Affirmation-Pentachlorophenol Recovery (PCP) (Wohngift)-
+*13814510-recovery-Affirmation-Permethrin-Recovery (pyrethrum derivative, pyrethroids) (insecticide)-
+*22151021-recovery-Affirmation-Plant poison-Recovery (Wohngift)-
+*2253102-recovery-Affirmation-Phenol Recovery-
+*3151498-recovery-Affirmation-Phenylmercuric-Recovery (Wohngift)-
+*8189395-recovery-Affirmation-Phosphate Recovery-
+*1770395-recovery-Affirmation-Phthalic Recovery-
+*1259021-recovery-Affirmation-Smallpox Vaccine Recovery-
+*11431396-recovery-Affirmation-Polychlorinated biphenyl Recovery-
+*26914510-recovery-Affirmation-Polystyrene Recovery-
+*1053394-recovery-Affirmation-Polyurethane Recovery-
+*12128101-recovery-Affirmation-Polyvinyl chloride rejection (PVC)-
+*81021021-recovery-Affirmation-Propane Recovery (Wohngift)-
+*8117101-recovery-Affirmation-Psychosmog-Recovery (psyche)-
+*11881086-recovery-Affirmation-Pyrethroid Recovery-
+*20183394-recovery-Affirmation-Mercury Recovery (heavy metal)-
+*13953102-recovery-Affirmation-Radium Recovery-
+*21639104-recovery-Affirmation-Radon Recovery-
+*21163394-recovery-Affirmation-Flue Gas Recovery-
+*1017996-recovery-Affirmation-An X-ray Recovery-
+*11104510-recovery-Affirmation-Silicon Recovery-
+*66314510-recovery-Affirmation-Smog accompanying fabric Recovery-
+*81453102-recovery-Affirmation-Styrene Recovery-
+*22214510-recovery-Affirmation-Tar Recovery-
+*25621031-recovery-Affirmation-Teflon Recovery-
+*68921021-recovery-Affirmation-Tetramethrin-Recovery (pyrethrum derivative, pyrethroids) (insecticide)-
+*10191010-recovery-Affirmation-Thimerosal-Recovery-
+*10553384-recovery-Affirmation-Thiotepa Recovery (chemotherapy)-
+*91253102-recovery-Affirmation-Thioguanine-Recovery (chemotherapy)-
+*81314510-recovery-Affirmation-Treosulfan Recovery (chemotherapy)-
+*1489135-recovery-Affirmation-Tributylzinnoxyd-Recovery (Wohngift)-
+*5973384-recovery-Affirmation-Trofosfamide Recovery (chemotherapy)-
+*20105100-recovery-Affirmation-Vinblastine-Recovery (chemotherapy)-
+*69114510-recovery-Affirmation-Vincristine Recovery (chemotherapy)-
+*71410394-recovery-Affirmation-Vindesine-Recovery (chemotherapy)-
+*8177101-recovery-Affirmation-Vinorelbine Recovery (chemotherapy)-
+*1510113-recovery-Affirmation-Vinyl chloride excretion (PVC precursor, chlorine gas)-
+*12361086-recovery-Affirmation-Wool Toxin Recovery (insecticide)-

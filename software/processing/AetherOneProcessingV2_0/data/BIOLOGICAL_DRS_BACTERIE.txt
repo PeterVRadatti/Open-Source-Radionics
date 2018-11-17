@@ -1,0 +1,202 @@
+*91112141-bacterie-Extreme (combi) -Actinomyces israelii (sh. Aktinomykose) (Bakterie)-
+"*9371096-bacterie-Reg. Deficiency -Actinomycosis (ray fungus disease; bacterium)-"
+*93717795-bacterie-Reg. Deficiency -Actinomycetoma (by bacteria)-
+*11591212-bacterie-Reg. Deficiency -Allergy by bacterial influences-
+*7931370-bacterie-Degeneration State-Asthma caused by bacteria-
+*12131027-bacterie-Degeneration State-Bacillus anthracis (Milzbrandbakterie)-
+*10718114-bacterie-Reg. Deficiency -Bacterium proteus (Bakterie) (Clark Biofeldtest)-
+*9663206-bacterie-Regulation-Bacterium proteus (Bakterie) (Clark Biofeldtest)-
+*8141051-bacterie-Reg. Deficiency -Bacterium subtilis (Bakterie)-
+*10151188-bacterie-Reg. Deficiency -Bacterium X (bacterium) (krebsbegünstigend)-
+*21632689-bacterie-Regulation-Bacterium X (bacterium) (krebsbegünstigend)-
+*31110730-bacterie-Degeneration State-Bacterium X (bacterium) (krebsbegünstigend)-
+*31150510-bacterie-Degeneration State-Bacteroides (Bakterie)-
+*21418258-bacterie-Reg. Deficiency -Bacteria and parasites (analysis pre-test)-
+*1015447-bacterie-Reg. Deficiency -Bakterienbefall-
+*1191111-bacterie-Extreme (combi) -Bakterienbefall-
+*92771453-bacterie-Regulation-Bakterienbefall-
+*10153410-bacterie-Reg. Deficiency -dysentery-
+*11435256-bacterie-Regulation-Bang's disease (brucellosis) (bacterial)-
+*17588144-bacterie-Reg. Deficiency -Bang's disease (brucellosis) (bacterial)-
+*38101815-bacterie-Degeneration State-Bang's disease (brucellosis) (bacterial)-
+*11184153-bacterie-Regulation-Bifidobacterium (bacteria, lactic acid, acetic acid)-
+*21141856-bacterie-Organ / Spec. -Bifidobacterium (bacteria, lactic acid, acetic acid)-
+*41314117-bacterie-Organ / Spec. -Bifidobacterium adolescentis (bacteria, lactic acid, acetic acid, breast milk)-
+*41320191-bacterie-Organ / Spec. -Bifidobacterium bifidum (bacteria, lactic acid, acetic acid, breast milk)-
+*31767107-bacterie-Affirmation-Bifidobacterium breve (bacteria, lactic acid, acetic acid, breast milk)-
+*52133102-bacterie-Degeneration State-Bifidobacterium infantis (bacteria, lactic acid, acetic acid, breast milk)-
+*3810468-bacterie-Regulation-Bifidobacterium infantis (bacteria, lactic acid, acetic acid, breast milk)-
+*4138314-bacterie-Organ / Spec. -Bifidobacterium infantis (bacteria, lactic acid, acetic acid, breast milk)-
+*33956565-bacterie-Affirmation-Bifidobacterium longum (bacteria, lactic acid, acetic acid, breast milk)-
+*21771063-bacterie-Organ / Spec. -Bifidus flora (bacteria, lactic acid, acetic acid, digestive tract)-
+*66883149-bacterie-Degeneration State-Biovar eltor (afrikan. Vibrio cholerae pathogens, often) (bacteria)-
+*29105133-bacterie-Reg. Deficiency -Bordetella pertussis (Bakterie) -
+*2115217-bacterie-Reg. Deficiency -Disease, elapsed (ticks) (bacterial)-
+*61117468-bacterie-Regulation-Disease, acute (ticks) (bacterial)-
+*15112109-bacterie-Extreme (combi) -Disease, acute (ticks) (bacterial)-
+*14457129-bacterie-Extreme (combi) -Disease, chronic (ticks) (bacterial)-
+*21734207-bacterie-Cause (Combined)-Disease, chronic (ticks) (bacterial)-
+*61116226-bacterie-Regulation-Disease, subacute (ticks) (bacterial)-
+*10512820-bacterie-Regulation-Lyme disease (ticks) (bacterial)-
+*10616154-bacterie-Extreme (combi) -Lyme disease (ticks) (bacterial)-
+*4919605-bacterie-Reg. Deficiency -Botulinum toxin (bacterial toxin)-
+*14124812-bacterie-Degeneration State-Botulism (bacterial toxin)-
+*4612493-bacterie-Reg. Deficiency -Botulism (bacterial toxin)-
+*5119910-bacterie-Regulation-Branhamella catarrhalis (Lunge, Bronchitis, Sinusitis) (Bakterie)-
+*10191117-bacterie-Extreme (combi) -Brucella melitensis (Maltafieber) (bacterial)-
+"*14115144-bacterie-Regulation-Campylobacter Coli (= Helicobacter coli; Bakterie) (krebsbegünstigend)-"
+"*1910988-bacterie-Degeneration State-Campylobacter Coli (= Helicobacter coli; Bakterie) (krebsbegünstigend)-"
+*66510875-bacterie-Reg. Deficiency -Chlamydia pneumoniae (Bacteria)-
+*6652939-bacterie-Reg. Deficiency -Chlamydia psittaci (Ornithosebakterie)-
+*12125824-bacterie-Regulation-Chlamydia trachomatis (Bacteria)-
+*66569112-bacterie-Reg. Deficiency -Chlamydia trachomatis (Bacteria)-
+*91016837-bacterie-Degeneration State-Chlamydia trachomatis (Bacteria)-
+*62134146-bacterie-Reg. Deficiency -Chlamydia (bacteria)-
+*12126128-bacterie-Degeneration State-Cholera (bacterial)-
+"*1461215-bacterie-Reg. Deficiency -Clostridium botulinum (trace bildenden more Keim; bacteria)-"
+"*87113157-bacterie-Regulation-Clostridium botulinum (trace bildenden more Keim; bacteria)-"
+"*1242014-bacterie-Degeneration State-Clostridium cadaveris (trace bildenden more Keim; bacteria)-"
+"*14320878-bacterie-Reg. Deficiency -Clostridium coctriatum (trace bildenden more Keim; bacteria)-"
+"*12122128-bacterie-Degeneration State-Clostridium difficile (spores bildenden more Keim; bacteria)-"
+"*14310910-bacterie-Reg. Deficiency -Clostridium inicium (trace bildenden more Keim; bacteria)-"
+"*12243187-bacterie-Degeneration State-Clostridium innocuum (trace bildenden more Keim; bacteria)-"
+"*12751010-bacterie-Degeneration State-Clostridium perfringens (trace bildenden more Keim; bacteria)-"
+"*58132118-bacterie-Reg. Deficiency -Clostridium tetani (trace bildenden more Keim; bacteria)-"
+*12492134-bacterie-Degeneration State-Clostridium tetani toxin (bacterial Tetanus-timer)-
+*5178146-bacterie-Reg. Deficiency -Coli bacteria-
+*11261010-bacterie-Reg. Deficiency -Corynebacterium (Bakterie)-
+*16114211-bacterie-Degeneration State-Corynebacterium anaerobic (bacterium) (tooth)-
+*4710149-bacterie-Reg. Deficiency -Corynebacterium anaerobic (bacterium) (tooth)-
+*9131020-bacterie-Cause (Combined)-Constant stress caused by bacteria infestation-
+*12598571-bacterie-Reg. Deficiency -Diplokokkus / Diplococcus (Bakterie)-
+*8826782-bacterie-Reg. Deficiency -Dysbacteria (sh. And intestinal flora)-
+*23262423-bacterie-Degeneration State-Enteritis infectiosa (bacterial)-
+*2194415-bacterie-Reg. Deficiency -Enterobakter (Bacterial) -
+*21164956-bacterie-Reg. Deficiency -Enterococcus/Enterokokkus (Bakterie) -
+*13121230-bacterie-Extreme (combi) -Encephalitis, bacterial-
+*11511132-bacterie-Reg. Deficiency -Escherichia coli (Bakterie)-
+*2046244-bacterie-Degeneration State-Fleckfieber (bacterial)-
+*61917111-bacterie-Degeneration State-Fleckfieber, endemisches (murine Fleckf., D. Rattenfloh) (bacterial)-
+*61436125-bacterie-Degeneration State-Fleckfieber, epidemisches (Fleck Typhus, Läusefleckf.) (Bacterial)-
+*18615252-bacterie-Reg. Deficiency -Francisella tularensis (sh. Tularämie) (Bakterie)-
+*1631371-bacterie-Reg. Deficiency -Gardnerella vaginalis (formerly Haemophilus vaginalis) (bacteria)-
+*1066131-bacterie-Degeneration State-Gasoedemerkrankung / Gas fire (d. Clostridium perfringens) (bakteriell)-
+*3511116-bacterie-Reg. Deficiency -Haemophilus ducreyi (sh soft chancre. Chancroid) (bacteria)-
+*33117636-bacterie-Reg. Deficiency -Haemophilus influenzae (Bakterie)-
+*3516158-bacterie-Reg. Deficiency -Haemophilus influenzae Serotype B (Bakterie)-
+*3548255-bacterie-Reg. Deficiency -Haemophilus parainfluenzae (Bakterie)-
+*9138617-bacterie-Regulation-Helicobacter pylori (bacterium) (krebsbegünstigend)-
+*13311116-bacterie-Degeneration State-Helicobacter pylori (bacterium) (krebsbegünstigend)-
+*16371692-bacterie-Regulation-Kieferostitis, chronic bacterial (dental)-
+*10221314-bacterie-Reg. Deficiency -Childhood diseases: diphtheria (bacterial)-
+*10224116-bacterie-Reg. Deficiency -Childhood diseases: pertussis (bacterial)-
+*10229115-bacterie-Reg. Deficiency -Childhood diseases: scarlet fever (bacterial)-
+*1671087-bacterie-Reg. Deficiency -Klebsiella ozaenae (Bacteria)-
+*18187132-bacterie-Degeneration State-Klebsiella ozaenae (Bacteria)-
+*71517149-bacterie-Regulation-Klebsiella ozaenae (Bacteria)-
+*1428136-bacterie-Reg. Deficiency -Klebsiella pneumoniae (Bacteria)-
+*18138133-bacterie-Degeneration State-Klebsiella pneumoniae (Bacteria)-
+*71581325-bacterie-Regulation-Klebsiella pneumoniae (Bacteria)-
+*1288236-bacterie-Organ / Spec. -Lactobacillus (bacteria, lactic acid)-
+*14251821-bacterie-Regulation-Lactobacillus (bacteria, lactic acid)-
+*13128187-bacterie-Regulation-Lactobacillus acidophilus (bacteria, lactic acid)-
+*1111641-bacterie-Organ / Spec. -Lactobacillus acidophilus (bacteria, lactic acid)-
+*11110102-bacterie-Organ / Spec. -Lactobacillus casei (bacteria, lactic acid)-
+*1481265-bacterie-Regulation-Lactobacillus casei (bacteria, lactic acid)-
+*1111184-bacterie-Organ / Spec. -Lactobacillus casei defensis (bacteria, lactic acid, Actimel)-
+*11101587-bacterie-Extreme (combi) -Lactobacillus casei defensis (bacteria, lactic acid, Actimel)-
+*11111237-bacterie-Organ / Spec. -Lactobacillus Döderlein (bacteria, lactic acid) (also: L. cellobiosus)-
+*1345115-bacterie-Regulation-Lactobacillus Döderlein (bacteria, lactic acid) (also: L. cellobiosus)-
+*11119192-bacterie-Organ / Spec. -Lactobacillus fermentum (bacteria, lactic acid)-
+*16791514-bacterie-Affirmation-Lactobacillus fermentum (bacteria, lactic acid)-
+*56511219-bacterie-Cause (Combined)-Lactobacillus fermentum (bacteria, lactic acid)-
+*84710123-bacterie-Extreme (combi) -Lactobacillus fermentum (bacteria, lactic acid)-
+*2618715-bacterie-Extreme (combi) -Food poisoning, microbial (bacterial)-
+*1013609-bacterie-Degeneration State-Legionella (bacteria)-
+*71012671-bacterie-Reg. Deficiency -Legionella (bacteria)-
+*1713118-bacterie-Regulation-Leprosy (bacterial)-
+*6386113-bacterie-Degeneration State-Leptospira (Bakterie)-
+*2614710-bacterie-Degeneration State-Leptospira icterohaemorrhagiae (sh. Because Crohn) (bacteria)-
+*63861312-bacterie-Degeneration State-Leptospirosis (bacterial)-
+*63159785-bacterie-Degeneration State-Leptospirosis canicola (Bakterie)-
+*1191012-bacterie-Degeneration State-Listeria (bacteria)-
+*41241591-bacterie-Reg. Deficiency -Listeria (bacteria)-
+*61151016-bacterie-Extreme (combi) -Listeriosis (bacterial)-
+*71010969-bacterie-Cause (Combined)-Listeriosis (bacterial)-
+*11220517-bacterie-Degeneration State-Listeriosis konnatal (bacterial)-
+*2281298-bacterie-Reg. Deficiency -Pulmonary tuberculosis (bacteria)-
+*31114157-bacterie-Degeneration State-Pulmonary tuberculosis (bacteria)-
+*7114108-bacterie-Extreme (combi) -Lyme disease (ticks) (bacterial)-
+*91561135-bacterie-Reg. Deficiency -Lyme disease (ticks) (bacterial)-
+*85412126-bacterie-Degeneration State-Maltafieber (Bakterielle Brucellosis)-
+*92361610-bacterie-Cause (Combined)-Mastitis, granulomatous (virus / bacteria / fungus ???) (Mamma)-
+*71011583-bacterie-Degeneration State-Tuberculosa meningitis (bacterial)-
+*10921310-bacterie-Extreme (combi) -Meningococcal encephalitis (bacterial)-
+*7619215-bacterie-Degeneration State-Meningococcal encephalitis (bacterial)-
+*10221115-bacterie-Extreme (combi) -Miliartuberkulose (Bacteria)-
+*9101229-bacterie-Reg. Deficiency -Milzbrand (bacterial)-
+*15151117-bacterie-Degeneration State-Crohn Weil (Weil's disease) (bacterial)-
+*1064356-bacterie-Degeneration State-Mycobacterium (Bakterie)-
+*13101816-bacterie-Extreme (combi) -Mycobacterium (Bakterie)-
+*72371092-bacterie-Regulation-Mycobacterium (Bakterie)-
+*8158145-bacterie-Reg. Deficiency -Mycobacterium (Bakterie)-
+*7431523-bacterie-Degeneration State-Mycobacterium bovis (TB bacterium rare pathogen))-
+*7438414-bacterie-Degeneration State-Mycobacterium leprae (Bakterie)-
+*74376685-bacterie-Degeneration State-Mycobacterium tuberculosis (Tuberkulose-Bakterie)-
+*10121373-bacterie-Degeneration State-Mycoplasma (bacteria)-
+*71110830-bacterie-Extreme (combi) -Mycoplasma (bacteria)-
+*8811361-bacterie-Reg. Deficiency -Mycoplasma (bacteria)-
+*11561010-bacterie-Reg. Deficiency -Neisseria (bacteria)-
+*3481445-bacterie-Degeneration State-Neisseria (bacteria)-
+*34118116-bacterie-Reg. Deficiency -Neisseria gonorrhoeae (Tripper) (bacteria)-
+*4410912-bacterie-Degeneration State-Ornithose (bacterial)-
+*1042572-bacterie-Reg. Deficiency -Parathyphus A (bacterial)-
+*1042573-bacterie-Reg. Deficiency -Parathyphus B (bacterial)-
+*1042574-bacterie-Reg. Deficiency -Parathyphus C (bacterial)-
+*16141299-bacterie-Degeneration State-Pasteurellosis (Wundinfektion) (bacterial)-
+*74121611-bacterie-Regulation-Pasteurellosis (Wundinfektion) (bacterial)-
+*4165149-bacterie-Reg. Deficiency -Peptostreptococcus (anaerob) (Bakterie)-
+*1234264-bacterie-Regulation-Pest (bacterial)-
+*8461374-bacterie-Organ / Spec. -Propolis (for fungal, viral, bacterial diseases)-
+*91641021-bacterie-Reg. Deficiency -Proteus (Bakterie) -
+*16592118-bacterie-Reg. Deficiency -Proteus rettgeri (Bakterie) -
+*7761231-bacterie-Reg. Deficiency -Pseudomonas (bacteria)-
+*2332152-bacterie-Reg. Deficiency -Pseudomonas aeruginosa (Pyozyanusbakterien)-
+*77911759-bacterie-Reg. Deficiency -Pseudomonas mallei (sh. Snot) (bacteria)-
+*23156421-bacterie-Reg. Deficiency -Pseudomonas pseudomallei (sh. Rotz) (Bakterie)-
+*11167148-bacterie-Regulation-Puerperalfieber (Wöchnerinnenfieber / Kindbettfieber) (bacterial)-
+*12141185-bacterie-Extreme (combi) -Q fever (rickettsial disease, Balkan flu) (bacterial)-
+*30111668-bacterie-Reg. Deficiency -Glanders (malleus / Mali Asmus) (by Pseudomonas mallei) (bacteria)-
+*8912574-bacterie-Degeneration State-Relapsing fever (Borrelia by) (bacterial)-
+*12104498-bacterie-Degeneration State-Salmonella (Bacteria)-
+*13168218-bacterie-Extreme (combi) -Salmonella (Bacteria)-
+*35612671-bacterie-Reg. Deficiency -Salmonella (Bacteria)-
+*77137107-bacterie-Regulation-Salmonella (Bacteria)-
+*12109576-bacterie-Degeneration State-Salmonellose (bacterial)-
+*5213111-bacterie-Reg. Deficiency -Scarlet (bacterial)-
+*6521062-bacterie-Regulation-Colds, bacterial (DD to allergic rhinitis)-
+*86855106-bacterie-Reg. Deficiency -Side strand angina (bacterial pharyngitis)-
+*3177941-bacterie-Reg. Deficiency -Shigella / Shigella (causative agent of dysentery)-
+*87111056-bacterie-Reg. Deficiency -Staphylococcinum (Bakterientoxin)-
+*16132265-bacterie-Reg. Deficiency -Staphylococci (bacteria)-
+*24151517-bacterie-Reg. Deficiency -Streptococcinum (Bakterientoxin)-
+*24668183-bacterie-Reg. Deficiency -Streptococcus haemolyticus (Bakterie)-
+*24165410-bacterie-Reg. Deficiency -Streptococcus viridans (Bakterie)-
+*94921590-bacterie-Regulation-Streptococcus viridans (Bakterie)-
+*8889476-bacterie-Reg. Deficiency -Streptococci (bacteria)-
+*32134184-bacterie-Regulation-Tetanus (Wundstarrkrampf) (bacterial)-
+*1871073-bacterie-Degeneration State-Trachoma (eye) (bacterial disease chlamydia)-
+*5713612-bacterie-Regulation-Trachoma (eye) (bacterial disease chlamydia)-
+*17111116-bacterie-Degeneration State-Treponema pallidum (Lues- / Syphilis-pathogen) (bacteria)-
+*13194137-bacterie-Degeneration State-Tularämie (bacterial)-
+*1271752-bacterie-Extreme (combi) -Tularemia, outer shapes (bacterial)-
+*57591058-bacterie-Degeneration State-Tularämie, inner shape (bacterial)-
+*3122532-bacterie-Degeneration State-Vibrio cholerae (Cholera-Vibrionen) (Bakteriensammelbezeichnung)-
+*5125106-bacterie-Degeneration State-Waterhouse-Friderichsen syndrome (Compl. Bakteriellen which meningitis)-
+*9808999-bacterie-Degeneration State-Yersinia enterocolitica (Bakterie)-
+*12615407-bacterie-Degeneration State-Yersinia pestis (Bakterie)-
+*15968223-bacterie-Reg. Deficiency -Yersinia pseudotuberculosis (Bakterie)-
+*9131242-bacterie-Degeneration State-Yersinia arthritis (after Yersiniendurchfall) (bacterial)-
+*22201011-bacterie-Reg. Deficiency -Tick-Lyme disease (bacterial)-
+*13150775-bacterie-Degeneration State-Tick-borne relapsing fever (bacterial)-
+*81754112-bacterie-Regulation-Tick-borne relapsing fever (bacterial)-

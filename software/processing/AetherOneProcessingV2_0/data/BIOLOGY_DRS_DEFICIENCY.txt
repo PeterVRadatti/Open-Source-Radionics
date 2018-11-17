@@ -1,0 +1,79 @@
+*13663179-deficiency-Reg. Deficiency -Adrenalin function, lack of (blood / lab)-
+*1433920-deficiency-Degeneration State-Allergy by enzyme deficiency-
+*7136823-deficiency-Reg. Deficiency -Allergy by enzyme deficiency-
+*11166152-deficiency-Reg. Deficiency -Allergy (II stress) due to lack of regeneration-
+*1125987-deficiency-Regulation-Anazidität (Säuremangel)-
+*56471314-deficiency-Regulation-Biotin (Vitamin B Komplex) (Lack)-
+*1042117-deficiency-Regulation-Carotin (Provitamin A) (Mangel)-
+*98171187-deficiency-Regulation-Chromium (deficiency) (minerals)-
+*89141183-deficiency-Extreme (combi) -Diuresis, defective (kidney jam)-
+*95138123-deficiency-Regulation-Diuresis, defective (kidney jam)-
+*13111016-deficiency-Regulation-Iron (deficiency) (minerals)-
+*72176124-deficiency-Reg. Deficiency -Energy deficiency-
+*86131623-deficiency-Degeneration State-Energy deficiency-
+*8931116-deficiency-Regulation-Energy deficiency-
+*48115160-deficiency-Regulation-Folic acid (vitamin B complex) (deficiency)-
+*51714168-deficiency-Regulation-Germanium (deficiency) (minerals)-
+*1011316-deficiency-Cause (Combined)-immunoglobulin deficiency-
+*11109158-deficiency-Extreme (combi) -immunoglobulin deficiency-
+*42461233-deficiency-Regulation-Inosit (Vitamin B Komplex) (Lack)-
+*9814138-deficiency-Regulation-Iodine (deficiency) (minerals)-
+*12410176-deficiency-Regulation-Jodmangelerscheinungen-
+*7223106-deficiency-Regulation-Potassium (deficiency) (minerals)-
+*14789449-deficiency-Regulation-Calcium (deficiency) (minerals)-
+*4171187-deficiency-Regulation-Cobalt (deficiency) (minerals)-
+*51395814-deficiency-Organ / Spec. -Collagen 7 (lack z. B. at epidermolysis bullosa)-
+*54861255-deficiency-Cause (Combined)-Collagen 7 (lack z. B. at epidermolysis bullosa)-
+*79181014-deficiency-Extreme (combi) -Collagen 7 (lack z. B. at epidermolysis bullosa)-
+*91113892-deficiency-Cause (Combined)-Coord deficiency betw. Etheric body and astral body (for Chakradiagnostik)-
+*9111388-deficiency-Cause (Combined)-Coord deficiency Zvi. phys. and essential body (eg. Chakradiagnostik)-
+*51314873-deficiency-Extreme (combi) -Liver detoxification, lack and liver damage-
+*57010247-deficiency-Degeneration State-Liver detoxification, lack and liver damage-
+*12166275-deficiency-Regulation-Lithium (deficiency) (minerals)-
+*15791013-deficiency-Regulation-Magnesium (deficiency) (minerals)-
+*85141105-deficiency-Regulation-Molybdenum (deficiency) (minerals)-
+*15166275-deficiency-Regulation-Sodium (deficiency) (minerals)-
+*1157563-deficiency-Reg. Deficiency -Estrogen deficiency-
+*11575667-deficiency-Cause (Combined)-Estrogen deficiency-
+*1361069-deficiency-Degeneration State-Estrogen deficiency-
+*1786512-deficiency-Regulation-Estrogen deficiency-
+*81012514-deficiency-Regulation-PABA (Paraaminobenzoesäure) (Vitamin B Komplex) (Mangel)-
+*12121710-deficiency-Cause (Combined)-Pellagra the skin (due to deficiency of nicotinic acid / nicotinamide)-
+*12131215-deficiency-Cause (Combined)-Pellagra, intestinal (by lack of nicotinic acid / nicotinamide)-
+*21988587-deficiency-Cause (Combined)-Pellagra, cerebral (by lack of nicotinic acid / nicotinamide)-
+*31791013-deficiency-Regulation-Phosphorus (deficiency) (minerals)-
+*21518128-deficiency-Regulation-Lack of oxygen, general-
+*1251098-deficiency-Degeneration State-Lack of oxygen, cellular-
+*28168476-deficiency-Regulation-Lack of oxygen, cellular-
+*81171311-deficiency-Regulation-Sulfur (deficiency) (minerals)-
+*14983159-deficiency-Regulation-Selenium (deficiency) (minerals)-
+*15618153-deficiency-Regulation-Silicon (deficiency) (minerals)-
+*18151615-deficiency-Degeneration State-Synoviamangel (joints)-
+*4349864-deficiency-Degeneration State-Testosterone Mangel-
+*7107207-deficiency-Regulation-The ringing of the ears, dureh vitamin B 12-Mangel-
+*2521122-deficiency-Extreme (combi) -Vaginal dryness (lack of Lubrifikation) (sexuality F)-
+*31912109-deficiency-Regulation-Vanadium (deficiency) (minerals)-
+*12121917-deficiency-Regulation-Vitamin A (manganese)-
+*12771735-deficiency-Regulation-Vitamin B1 (thiamine) (deficiency)-
+*95012161-deficiency-Regulation-Vitamin B12 (Cyanocobalamin) (Mangel)-
+*10406160-deficiency-Regulation-Vitamin B13 (orotic acid) (deficiency)-
+*12101535-deficiency-Regulation-Vitamin B15 (Pangamic acid) (deficiency)-
+*61431215-deficiency-Regulation-Vitamin B2 (Riboflavin) (Mangel)-
+*6121398-deficiency-Regulation-Vitamin B3 (Nicotinamid) (Mangel)-
+*86141217-deficiency-Regulation-Vitamin B5 (pantothenic acid) (deficiency)-
+*8132098-deficiency-Regulation-Vitamin B6 (Pyridoxin) (Mangel)-
+*12961233-deficiency-Regulation-Vitamin B-Komplex (Lack)-
+*4291853-deficiency-Regulation-Vitamin C (ascorbic acid) (deficiency)-
+*7342715-deficiency-Regulation-Vitamin D (Calciferole) (Mangel)-
+*7128733-deficiency-Regulation-Vitamin E (Tocopherole) (Mangel)-
+*78392697-deficiency-Regulation-Vitamin F (essential fatty acids) (deficiency)-
+*10193125-deficiency-Regulation-Vitamin K (Phyllochinone) (Mangel)-
+*40185874-deficiency-Regulation-Vitamin P (Bioflavonoide) (Mangel)-
+*1041099-deficiency-Regulation-Vitamin Q (coenzyme Q10) (deficiency)-
+*1269369-deficiency-Regulation-Vitamin T (Carnitin) (Mangel)-
+*20981109-deficiency-Regulation-Leg cramps as a result of calcium deficiency-
+*20993140-deficiency-Regulation-Leg cramps due to magnesium deficiency-
+*1259229-deficiency-Regulation-Zinc (deficiency) (minerals)-
+*1059229-deficiency-Regulation-Tin (deficiency) (minerals)-
+*17051484-deficiency-Regulation-Cyanosis (blue-red skin color, lack of oxygen, hemoglobin deficiency)-
+*73212104-deficiency-Extreme (combi) -Cyanosis (blue-red skin color, lack of oxygen, hemoglobin deficiency)-

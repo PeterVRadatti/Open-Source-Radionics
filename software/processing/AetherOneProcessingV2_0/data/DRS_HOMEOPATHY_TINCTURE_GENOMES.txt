@@ -1,0 +1,265 @@
+*51312848-Homeopathy (tincture genomes) -Regulation-Abies nigra ¯ 
+*31497226-Homeopathy (tincture genomes) -Regulation-Abrotanum ¯ 
+*86691017-Homeopathy (tincture genomes) -Regulation-Acalypha indica ¯ 
+*91231537-Homeopathy (tincture genomes) -Regulation-Acidum benzoicum ¯ 
+*91014146-Homeopathy (tincture genomes) -Regulation-Acidum fluoricum ¯ 
+*96724138-Homeopathy (tincture genomes) -Regulation-Acidum hydrochloricum ¯ 
+*96772316-Homeopathy (tincture genomes) -Regulation-Acidum hydrocyanicum ¯ 
+*9371068-Homeopathy (tincture genomes) -Regulation-Acidum nitricum ¯ 
+*91112284-Homeopathy (tincture genomes) -Regulation-Acidum phosphoricum ¯ 
+*9123690-Homeopathy (tincture genomes) -Regulation-Acidum picrinicum ¯ 
+*9835149-Homeopathy (tincture genomes) -Regulation-Acidum sulphicum ¯ 
+*76225153-Homeopathy (tincture genomes) -Regulation-Aconitum napellus ¯ 
+*5877128-Homeopathy (tincture genomes) -Regulation-Aesculus hippocastanum ¯ 
+*51024321-Homeopathy (tincture genomes) -Regulation-Agaricus muscarius ¯ 
+*34411145-Homeopathy (tincture genomes) -Regulation-Agnus castus ¯ 
+*11173157-Homeopathy (tincture genomes) -Regulation-Ailanthus glandulosa ¯ 
+*11531288-Homeopathy (tincture genomes) -Regulation-Aletris farinosa ¯ 
+*38410145-Homeopathy (tincture genomes) -Regulation-Allium sativum ¯ 
+*1111779-Homeopathy (tincture genomes) -Regulation-Aloe ¯ 
+*11277497-Homeopathy (tincture genomes) -Regulation-Alumina ¯ 
+*1199607-Homeopathy (tincture genomes) -Regulation-Ambra ¯ 
+*61457137-Homeopathy (tincture genomes) -Regulation-Ammonium bromate ¯ 
+*61913968-Homeopathy (tincture genomes) -Regulation-Ammonium carbonicum ¯ 
+*3651166-Homeopathy (tincture genomes) -Regulation-Anacardium oriental ¯ 
+*38165817-Homeopathy (tincture genomes) -Regulation-Antimonium arsenicosum ¯ 
+*38813830-Homeopathy (tincture genomes) -Regulation-Antimonium crudum ¯ 
+*12128479-Homeopathy (tincture genomes) -Regulation-Antimonium sulfuratum aurantiacum ¯ 
+*81138940-Homeopathy (tincture genomes) -Regulation-Apis mellifica ¯ 
+*1918129-Homeopathy (tincture genomes) -Regulation-Apocynum cannabinum ¯ 
+*67131010-Homeopathy (tincture genomes) -Regulation-Apomorphinum hydrochloric ¯ 
+*12111212-Homeopathy (tincture genomes) -Regulation-Aralia racemosa ¯ 
+*5478179-Homeopathy (tincture genomes) -Regulation-Aranea diadema ¯ 
+*1618147-Homeopathy (tincture genomes) -Regulation-Argentum metallicum ¯ 
+*16874129-Homeopathy (tincture genomes) -Regulation-Argentum nitricum ¯ 
+*51081814-Homeopathy (tincture genomes) -Regulation-Arnica montana ¯ 
+*66128319-Homeopathy (tincture genomes) -Regulation-Arsenicum album ¯ 
+*6981168-Homeopathy (tincture genomes) -Regulation-Arsenicum iodatum ¯ 
+*13911219-Homeopathy (tincture genomes) -Regulation-Artemisia Cina ¯ 
+*16114200-Homeopathy (tincture genomes) -Regulation-Arum triphyllum ¯ 
+*8261212-Homeopathy (tincture genomes) -Regulation-Asa foetida ¯ 
+*3314661-Homeopathy (tincture genomes) -Regulation-Asarum ¯ 
+*15663967-Homeopathy (tincture genomes) -Regulation-Asclepias tuberosa ¯ 
+*47143361-Homeopathy (tincture genomes) -Regulation-Atropinum ¯ 
+*1471110-Homeopathy (tincture genomes) -Regulation-Aurum cloratum natronatum ¯ 
+*71517310-Homeopathy (tincture genomes) -Regulation-Aurum colloidal ¯ 
+*7227192-Homeopathy (tincture genomes) -Regulation-Aurum iodatum ¯ 
+*19712148-Homeopathy (tincture genomes) -Regulation-Baptisia ¯ 
+*10224546-Homeopathy (tincture genomes) -Regulation-Baryum carbonicum ¯ 
+*10910100-Homeopathy (tincture genomes) -Regulation-Baryum chloratum ¯ 
+*1026157-Homeopathy (tincture genomes) -Regulation-Baryum iodatum ¯ 
+*2187115-Homeopathy (tincture genomes) -Regulation-Belladonna ¯ 
+*1127777-Homeopathy (tincture genomes) -Regulation-Bellis perennis ¯ 
+*15161289-Homeopathy (tincture genomes) -Regulation-Berberis ¯ 
+*71771091-Homeopathy (tincture genomes) -Regulation-Bismuthum subnitrate ¯ 
+*51413199-Homeopathy (tincture genomes) -Regulation-Borax ¯ 
+*1060211-Homeopathy (tincture genomes) -Regulation-Bovista ¯ 
+*51512662-Homeopathy (tincture genomes) -Regulation-Bromum ¯ 
+*11124107-Homeopathy (tincture genomes) -Regulation-Bryonia ¯ 
+*1811139-Homeopathy (tincture genomes) -Regulation-Bufo rana ¯ 
+*7151095-Homeopathy (tincture genomes) -Regulation-Cactus grandiflorus ¯ 
+*7721121-Homeopathy (tincture genomes) -Regulation-Caladium seguinum ¯ 
+*7212910-Homeopathy (tincture genomes) -Regulation-Calcium arsenicosum ¯ 
+*7227215-Homeopathy (tincture genomes) -Regulation-Calcium carbonicum ¯ 
+*71310127-Homeopathy (tincture genomes) -Regulation-Calcium fluoratum ¯ 
+*7210167-Homeopathy (tincture genomes) -Regulation-Calcium iodatum ¯ 
+*76813138-Homeopathy (tincture genomes) -Regulation-Calcium phosphoricum ¯ 
+*7117779-Homeopathy (tincture genomes) -Regulation-Calcium sulphuricum ¯ 
+*51391010-Homeopathy (tincture genomes) -Regulation-Calendula officinalis ¯ 
+*3341267-Homeopathy (tincture genomes) -Regulation-Camphora ¯ 
+*3133788-Homeopathy (tincture genomes) -Regulation-Cantharis ¯ 
+*31331062-Homeopathy (tincture genomes) -Regulation-Capsicum ¯ 
+*12101657-Homeopathy (tincture genomes) -Regulation-Carbo animalis ¯ 
+*12119114-Homeopathy (tincture genomes) -Regulation-Carbo Vegetable ¯ 
+*8231524-Homeopathy (tincture genomes) -Regulation-Carduus marianus ¯ 
+*35814116-Homeopathy (tincture genomes) -Regulation-Caulophyllum ¯ 
+*91510527-Homeopathy (tincture genomes) -Regulation-Causticum Hahnemanni ¯ 
+*1495148-Homeopathy (tincture genomes) -Regulation-Ceanothus americanus ¯ 
+*57101110-Homeopathy (tincture genomes) -Regulation-Cedron ¯ 
+*11366910-Homeopathy (tincture genomes) -Regulation-Cepa ¯ 
+*16151614-Homeopathy (tincture genomes) -Regulation-Chamomilla ¯ 
+*91714148-Homeopathy (tincture genomes) -Regulation-Chelidonium majus ¯ 
+*10204116-Homeopathy (tincture genomes) -Regulation-Chimaphilia umbellata ¯ 
+*19613171-Homeopathy (tincture genomes) -Regulation-China ¯ 
+*86122214-Homeopathy (tincture genomes) -Regulation-Chininum arsenicosum ¯ 
+*8611513-Homeopathy (tincture genomes) -Regulation-Chininum sulphuricum ¯ 
+*7171414-Homeopathy (tincture genomes) -Regulation-Chionanthus virginica ¯ 
+*16516677-Homeopathy (tincture genomes) -Regulation-Cholesterol ¯ 
+*9391311-Homeopathy (tincture genomes) -Regulation-Cicuta virosa ¯ 
+*71113170-Homeopathy (tincture genomes) -Regulation-Cimicifuga racemosa ¯ 
+*5957103-Homeopathy (tincture genomes) -Regulation-Cinnbaris ¯ 
+*71541263-Homeopathy (tincture genomes) -Regulation-Clematis recta ¯ 
+*6871362-Homeopathy (tincture genomes) -Regulation-Cobaltum metallicum ¯ 
+*11331510-Homeopathy (tincture genomes) -Regulation-Cocculus ¯ 
+*5313732-Homeopathy (tincture genomes) -Regulation-Coccus cacti ¯ 
+*3521412-Homeopathy (tincture genomes) -Regulation-Coffea cruda ¯ 
+*11315358-Homeopathy (tincture genomes) -Regulation-Colchicum autumnale ¯ 
+*12214146-Homeopathy (tincture genomes) -Regulation-Collinsonia canadensis ¯ 
+*11142205-Homeopathy (tincture genomes) -Regulation-Colocynthis ¯ 
+*3113107-Homeopathy (tincture genomes) -Regulation-Condurango ¯ 
+*8139100-Homeopathy (tincture genomes) -Regulation-Conium maculatum ¯ 
+*65747818-Homeopathy (tincture genomes) -Regulation-Convallaria majalis ¯ 
+*31711882-Homeopathy (tincture genomes) -Regulation-Corallium rubrum ¯ 
+*34879155-Homeopathy (tincture genomes) -Regulation-Crocus sativus ¯ 
+*11101517-Homeopathy (tincture genomes) -Regulation-Crotalus durissus ¯ 
+*11175892-Homeopathy (tincture genomes) -Regulation-Croton tiglium ¯ 
+*91491047-Homeopathy (tincture genomes) -Regulation-Cuprum aceticum ¯ 
+*91386171-Homeopathy (tincture genomes) -Regulation-Cuprum arsenicosum ¯ 
+*96191066-Homeopathy (tincture genomes) -Regulation-Cuprum metallicum ¯ 
+*92111486-Homeopathy (tincture genomes) -Regulation-Cyclamen ¯ 
+*18531016-Homeopathy (tincture genomes) -Regulation-Cypripedium pubescens ¯ 
+*1211712-Homeopathy (tincture genomes) -Regulation-Digitalis ¯ 
+*71014311-Homeopathy (tincture genomes) -Regulation-Dioscorea villosa ¯ 
+*79879539-Homeopathy (tincture genomes) -Regulation-Dolichos pruriens ¯ 
+*11131222-Homeopathy (tincture genomes) -Regulation-Drosera rotundifolia ¯ 
+*14331108-Homeopathy (tincture genomes) -Regulation-Dulcamara ¯ 
+*8134563-Homeopathy (tincture genomes) -Regulation-Echinacea angustifolia ¯ 
+*11617711-Homeopathy (tincture genomes) -Regulation-Equisetum arvense ¯ 
+*81769153-Homeopathy (tincture genomes) -Regulation-Erigeron canadensis ¯ 
+*16961183-Homeopathy (tincture genomes) -Regulation-Eucalyptus ¯ 
+*6107516-Homeopathy (tincture genomes) -Regulation-Eupatorium perfoliatum ¯ 
+*61085742-Homeopathy (tincture genomes) -Regulation-Eupatorium purpureum ¯ 
+*4016173-Homeopathy (tincture genomes) -Regulation-Euphorbium ¯ 
+*12189810-Homeopathy (tincture genomes) -Regulation-Euphrasia ¯ 
+*22717690-Homeopathy (tincture genomes) -Regulation-Fagopyrum esculentum ¯ 
+*14128129-Homeopathy (tincture genomes) -Regulation-Ferrum arsenicosum ¯ 
+*14781648-Homeopathy (tincture genomes) -Regulation-Ferrum metallicum ¯ 
+*1417876-Homeopathy (tincture genomes) -Regulation-Ferrum phosphoricum ¯ 
+*14134122-Homeopathy (tincture genomes) -Regulation-Ferrum picrinicum ¯ 
+*7161441-Homeopathy (tincture genomes) -Regulation-Formica rufa ¯ 
+*18133122-Homeopathy (tincture genomes) -Regulation-Gelsemium ¯ 
+*1221695-Homeopathy (tincture genomes) -Regulation-Ginseng ¯ 
+*87493362-Homeopathy (tincture genomes) -Regulation-Glonoinum ¯ 
+*1376145-Homeopathy (tincture genomes) -Regulation-Gnaphalium polycephalum ¯ 
+*81037811-Homeopathy (tincture genomes) -Regulation-Graphites ¯ 
+*11811111-Homeopathy (tincture genomes) -Regulation-Grindelia robusta ¯ 
+*10131412-Homeopathy (tincture genomes) -Regulation-Guajacum ¯ 
+*12145171-Homeopathy (tincture genomes) -Regulation-Hamamelis virginiana ¯ 
+*12593151-Homeopathy (tincture genomes) -Regulation-Hekla lava ¯ 
+*9124014-Homeopathy (tincture genomes) -Regulation-Helleborus niger ¯ 
+*14961637-Homeopathy (tincture genomes) -Regulation-Helonias dioica ¯ 
+*1651159-Homeopathy (tincture genomes) -Regulation-Hepar sulfuris calcareum ¯ 
+*8146811-Homeopathy (tincture genomes) -Regulation-Hydrastis canadensis ¯ 
+*1314849-Homeopathy (tincture genomes) -Regulation-Hydrocotyle asiatica ¯ 
+*16151091-Homeopathy (tincture genomes) -Regulation-Hyoscyamus ¯ 
+*10158111-Homeopathy (tincture genomes) -Regulation-Hypericum perforatum ¯ 
+*14258318-Homeopathy (tincture genomes) -Regulation-Iberis amara ¯ 
+*12014108-Homeopathy (tincture genomes) -Regulation-Ignatia ¯ 
+*5210730-Homeopathy (tincture genomes) -Regulation-Ipecacuanha ¯ 
+*66101714-Homeopathy (tincture genomes) -Regulation-Iris versicolor ¯ 
+*16721095-Homeopathy (tincture genomes) -Regulation-Jaborandi ¯ 
+*81888866-Homeopathy (tincture genomes) -Regulation-Iodine ¯ 
+*12351390-Homeopathy (tincture genomes) -Regulation-Potassium bichromicum ¯ 
+*47108898-Homeopathy (tincture genomes) -Regulation-Potassium bromate ¯ 
+*12725316-Homeopathy (tincture genomes) -Regulation-Potassium carbonicum ¯ 
+*12791238-Homeopathy (tincture genomes) -Regulation-Potassium chloratum ¯ 
+*1211416-Homeopathy (tincture genomes) -Regulation-Potassium iodatum ¯ 
+*1269215-Homeopathy (tincture genomes) -Regulation-Potassium nitricum ¯ 
+*12116180-Homeopathy (tincture genomes) -Regulation-Potassium phosphoricum ¯ 
+*12551215-Homeopathy (tincture genomes) -Regulation-Potassium sulphuricum ¯ 
+*51161579-Homeopathy (tincture genomes) -Regulation-Kalmia latifolia ¯ 
+*1115762-Homeopathy (tincture genomes) -Regulation-Creosote ¯ 
+*15728916-Homeopathy (tincture genomes) -Regulation-Lachesis ¯ 
+*81116827-Homeopathy (tincture genomes) -Regulation-Latrodectus mactans ¯ 
+*11896912-Homeopathy (tincture genomes) -Regulation-Laurocerasus ¯ 
+*15351586-Homeopathy (tincture genomes) -Regulation-Ledum palustre ¯ 
+*17961294-Homeopathy (tincture genomes) -Regulation-Lilium tigrinum ¯ 
+*7605148-Homeopathy (tincture genomes) -Regulation-Lobelia inflata ¯ 
+*8225264-Homeopathy (tincture genomes) -Regulation-Lupulus ¯ 
+*1551469-Homeopathy (tincture genomes) -Regulation-Lycopodium ¯ 
+*11727748-Homeopathy (tincture genomes) -Regulation-Lycopus virginicus ¯ 
+*24106524-Homeopathy (tincture genomes) -Regulation-Magnesium carbonicum ¯ 
+*24189573-Homeopathy (tincture genomes) -Regulation-Magnesium chloratum ¯ 
+*24911216-Homeopathy (tincture genomes) -Regulation-Magnesium phosphoricum ¯ 
+*24414103-Homeopathy (tincture genomes) -Regulation-Magnesium sulphuricum ¯ 
+*13191648-Homeopathy (tincture genomes) -Regulation-Manganum metallicum ¯ 
+*15556149-Homeopathy (tincture genomes) -Regulation-Mephistis mephistis ¯ 
+*12163715-Homeopathy (tincture genomes) -Regulation-Mercurius cyanatus ¯ 
+*12181252-Homeopathy (tincture genomes) -Regulation-Mercurius dulcis ¯ 
+*4413653-Homeopathy (tincture genomes) -Regulation-Mercurius jodatus ruber ¯ 
+*4104636-Homeopathy (tincture genomes) -Regulation-Mercurius sublimatus corrosive ¯ 
+*1216985-Homeopathy (tincture genomes) -Regulation-Mercurius sulfuricus ¯ 
+*22891742-Homeopathy (tincture genomes) -Regulation-Mercurius vivus ¯ 
+*11197962-Homeopathy (tincture genomes) -Regulation-Mezereum ¯ 
+*1692102-Homeopathy (tincture genomes) -Regulation-Millefolium ¯ 
+*1012659-Homeopathy (tincture genomes) -Regulation-Myrica cerifera ¯ 
+*43181297-Homeopathy (tincture genomes) -Regulation-Myristica sebifera ¯ 
+*22610969-Homeopathy (tincture genomes) -Regulation-Well tripudians ¯ 
+*24720322-Homeopathy (tincture genomes) -Regulation-Naphthalene ¯ 
+*1597872-Homeopathy (tincture genomes) -Regulation-Sodium carbonicum ¯ 
+*15152279-Homeopathy (tincture genomes) -Regulation-Sodium muriaticum ¯ 
+*15193616-Homeopathy (tincture genomes) -Regulation-Sodium phosphoricum ¯ 
+*15821791-Homeopathy (tincture genomes) -Regulation-Sodium sulfuricum ¯ 
+*78895100-Homeopathy (tincture genomes) -Regulation-Nux moschata ¯ 
+*7813587-Homeopathy (tincture genomes) -Regulation-Nux vomica ¯ 
+*5105134-Homeopathy (tincture genomes) -Regulation-Oenanthe crocata ¯ 
+*7299596-Homeopathy (tincture genomes) -Regulation-Oleander ¯ 
+*49825533-Homeopathy (tincture genomes) -Regulation-Paeonia officinalis ¯ 
+*48218751-Homeopathy (tincture genomes) -Regulation-Pareira brava ¯ 
+*51142229-Homeopathy (tincture genomes) -Regulation-Petroleum ¯ 
+*51113139-Homeopathy (tincture genomes) -Regulation-Petroselinum ¯ 
+*13165148-Homeopathy (tincture genomes) -Regulation-Phelandrium aquaticum ¯ 
+*37107214-Homeopathy (tincture genomes) -Regulation-Phosphorus ¯ 
+*5010129-Homeopathy (tincture genomes) -Regulation-Phytolacca decandra ¯ 
+*31021813-Homeopathy (tincture genomes) -Regulation-Plantago major ¯ 
+*31813952-Homeopathy (tincture genomes) -Regulation-Platinum metallicum ¯ 
+*11160109-Homeopathy (tincture genomes) -Regulation-Plumbum metallicum ¯ 
+*11131020-Homeopathy (tincture genomes) -Regulation-Podophyllum peltatum ¯ 
+*13714284-Homeopathy (tincture genomes) -Regulation-Populus tremuloides ¯ 
+*1110613-Homeopathy (tincture genomes) -Regulation-Psorinum ¯ 
+*10161028-Homeopathy (tincture genomes) -Regulation-Pulsatilla ¯ 
+*57144226-Homeopathy (tincture genomes) -Regulation-Pyrogenium ¯ 
+*7127983-Homeopathy (tincture genomes) -Regulation-Ranunculus bulbosus ¯ 
+*10768866-Homeopathy (tincture genomes) -Regulation-Rheum ¯ 
+*15016611-Homeopathy (tincture genomes) -Regulation-Rhododendron ¯ 
+*8154512-Homeopathy (tincture genomes) -Regulation-Rhus toxicodendron ¯ 
+*14135750-Homeopathy (tincture genomes) -Regulation-Robinia pseudoacacia ¯ 
+*93781011-Homeopathy (tincture genomes) -Regulation-Rumex crispus ¯ 
+*31209810-Homeopathy (tincture genomes) -Regulation-Ruta graveolens ¯ 
+*78819710-Homeopathy (tincture genomes) -Regulation-Sabadilla ¯ 
+*24466167-Homeopathy (tincture genomes) -Regulation-Sabal serrulatum ¯ 
+*1426338-Homeopathy (tincture genomes) -Regulation-Sabina ¯ 
+*13961117-Homeopathy (tincture genomes) -Regulation-Sambucus nigra ¯ 
+*55131110-Homeopathy (tincture genomes) -Regulation-Sanguinaria canadensis ¯ 
+*71183111-Homeopathy (tincture genomes) -Regulation-Sarsaparilla ¯ 
+*10101416-Homeopathy (tincture genomes) -Regulation-Scilla maritima ¯ 
+*18351012-Homeopathy (tincture genomes) -Regulation-Secale cornutum ¯ 
+*1499122-Homeopathy (tincture genomes) -Regulation-Selenium ¯ 
+*81171578-Homeopathy (tincture genomes) -Regulation-Senecio aureus ¯ 
+*10212181-Homeopathy (tincture genomes) -Regulation-Senega ¯ 
+*6134473-Homeopathy (tincture genomes) -Regulation-Sepia officinalis ¯ 
+*14211377-Homeopathy (tincture genomes) -Regulation-Silicea ¯ 
+*12209160-Homeopathy (tincture genomes) -Regulation-Solidago virga aurea ¯ 
+*1073210-Homeopathy (tincture genomes) -Regulation-Spigelia ¯ 
+*32812124-Homeopathy (tincture genomes) -Regulation-Spongia tosta ¯ 
+*1219147-Homeopathy (tincture genomes) -Regulation-Stannum metallicum ¯ 
+*15212130-Homeopathy (tincture genomes) -Regulation-Staphysagria ¯ 
+*51611312-Homeopathy (tincture genomes) -Regulation-Sticta pulmonaria ¯ 
+*6108939-Homeopathy (tincture genomes) -Regulation-Stramonium ¯ 
+*14141269-Homeopathy (tincture genomes) -Regulation-Strontium carbonicum ¯ 
+*1686415-Homeopathy (tincture genomes) -Regulation-Strophanthus gratus ¯ 
+*50716180-Homeopathy (tincture genomes) -Regulation-Strychninum phosphoricum ¯ 
+*9571162-Homeopathy (tincture genomes) -Regulation-Sulfur iodatum ¯ 
+*12213162-Homeopathy (tincture genomes) -Regulation-Sulfur ¯ 
+*17151879-Homeopathy (tincture genomes) -Regulation-Symphytum officinale ¯ 
+*41881620-Homeopathy (tincture genomes) -Regulation-Tabacum ¯ 
+*3310160-Homeopathy (tincture genomes) -Regulation-Tarantula fasciiventris ¯ 
+*1393719-Homeopathy (tincture genomes) -Regulation-Taraxacum officinale ¯ 
+*31089415-Homeopathy (tincture genomes) -Regulation-Terebinthina ¯ 
+*71414124-Homeopathy (tincture genomes) -Regulation-Teucrium scorodonia ¯ 
+*5129437-Homeopathy (tincture genomes) -Regulation-Thallium sulphuricum ¯ 
+*11111026-Homeopathy (tincture genomes) -Regulation-Thuja occidentalis ¯ 
+*21409911-Homeopathy (tincture genomes) -Regulation-Trillium pendulum ¯ 
+*11123138-Homeopathy (tincture genomes) -Regulation-Tuberculinum ¯ 
+*85415864-Homeopathy (tincture genomes) -Regulation-Urtica urens ¯ 
+*66512128-Homeopathy (tincture genomes) -Regulation-Ustilago maydi ¯ 
+*13231015-Homeopathy (tincture genomes) -Regulation-Valeriana ¯ 
+*3431240-Homeopathy (tincture genomes) -Regulation-Veratrum album ¯ 
+*3431469-Homeopathy (tincture genomes) -Regulation-Veratrum viride ¯ 
+*38104506-Homeopathy (tincture genomes) -Regulation-Verbascum thapsiforme ¯ 
+*9610812-Homeopathy (tincture genomes) -Regulation-Viburnum opulus ¯ 
+*15161543-Homeopathy (tincture genomes) -Regulation-Viola tricolor ¯ 
+*43201121-Homeopathy (tincture genomes) -Regulation-Vipera berus ¯ 
+*88151461-Homeopathy (tincture genomes) -Regulation-Viscum album ¯ 
+*4271362-Homeopathy (tincture genomes) -Regulation-Zincum metallicum ¯ 
+*4691548-Homeopathy (tincture genomes) -Regulation-Zincum valerianicum ¯ 
