@@ -10,6 +10,11 @@ public void controlEvent(ControlEvent theEvent) {
   
   if ("hotbits".equals(command)) return;
   
+  if ("stop broadcast".equals(command)) {
+    stopBroadcasting = true;
+    return;
+  }
+  
   if ("select data".equals(command)) {
     println(dataPath(""));
     JFileChooser chooser = new JFileChooser(dataPath(""));
@@ -255,6 +260,7 @@ public void controlEvent(ControlEvent theEvent) {
   }
 
   if ("broadcast".equals(command)) {
+    arduinoConnection.broadcasting = true;
     String manualRate = cp5.get(Textfield.class, "Input").getText();
     String outputRate = cp5.get(Textfield.class, "Output").getText();
     String broadcastSignature = manualRate  + " " + outputRate;

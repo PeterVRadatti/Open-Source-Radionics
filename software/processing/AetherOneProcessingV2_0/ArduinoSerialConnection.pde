@@ -13,6 +13,8 @@ class ArduinoSerialConnection {
   String[] portList;
   String arduinoInputString;
   AetherOneCore core;
+  String stream = "";
+  int iDelay = 20;
 
   public ArduinoSerialConnection(PApplet _app, int _baud, AetherOneCore _core) {
     app = _app;
@@ -24,18 +26,48 @@ class ArduinoSerialConnection {
     return arduinoFound;
   }
 
-  public void broadCast(String signature, int repeat, int iDelay) {
+  public void broadCast(String signature, int repeat) {
     
     signature = signature.replaceAll(" ","");
+    signature = signature.replaceAll("-","");
     
-    String broadCastSignature = "BROADCAST " 
-    + repeat + " "  
-    + signature
-    + " " + iDelay;
-    
-    println("broadCastSignature = " + broadCastSignature);
-    serialPort.write(broadCastSignature);
     broadcasting = true;
+    
+    for (int i=0; i<repeat; i++) {
+      stream += signature;
+    }
+   
+    serialPort.write("#1#");
+    continueBroadcast();
+    
+    broadcasting = false;
+  }
+  
+  public void continueBroadcast() {
+    if (stopBroadcasting) {
+      stream = "";
+      stopBroadcasting = false;
+      broadcasting = false;
+      start_trng();
+    } else if (stream.length() > 0) {
+        String broadCastSignature = "B ";
+        int pos = 60 - String.valueOf(iDelay).length();
+        if (pos > stream.length()) {
+          broadCastSignature += stream;
+          stream = "";
+        } else {
+          broadCastSignature += stream.substring(0,pos);
+          stream = stream.substring(pos);
+        }
+        
+        broadCastSignature += " " + iDelay;
+        
+        println("broadCastSignature = " + broadCastSignature);
+        broadcasting = true;
+        serialPort.write(broadCastSignature);
+     } else {
+       start_trng();
+     }
   }
 
   public void clear() {
@@ -97,6 +129,7 @@ class ArduinoSerialConnection {
     if ("BROADCAST FINISHED".equals(arduinoInputString)) {
       broadcasting = false;
       grounding = false;
+      continueBroadcast();
     }
 
     if ("ARDUINO_OK".equals(arduinoInputString)) {

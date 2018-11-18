@@ -42,6 +42,7 @@ boolean trngMode = true;
 List<RateObject> rateList = new ArrayList<RateObject>();
 Map<String, Integer> ratesDoubles = new HashMap<String, Integer>();
 int gvCounter = 0;
+boolean stopBroadcasting = false;
 
 //PWindow win;
 
@@ -60,6 +61,7 @@ long getTimeMillis() {
 void setup() {
   fullScreen();
   //size(1920, 1000);
+  backgroundImage = loadImage("aetherOneBackground001.jpg");
   surface.setTitle("AetherOne V2.0 - Open Source Radionics");
   noStroke();
   smooth();
@@ -67,15 +69,12 @@ void setup() {
   arduinoConnection = new ArduinoSerialConnection(this, 9600, core);
   arduinoConnectionMillis = millis();
   arduinoConnection.getPort();
-
-  backgroundImage = loadImage("aetherOneBackground001.jpg");
-
   initConfiguration();
   
   radionicsElements = new RadionicsElements(this);
   radionicsElements.startAtX = 308;
   radionicsElements.startAtY = 62;
-  radionicsElements.usualWidth = 120;
+  radionicsElements.usualWidth = 122;
   radionicsElements.usualHeight = 18;
   radionicsElements
     .addButton("clear")
@@ -85,6 +84,7 @@ void setup() {
     .addButton("analyze")
     .addButton("general vitality")
     .addButton("broadcast")
+    .addButton("stop broadcast")
     .addButton("disconnect")
     .addButton("TRNG / PRNG")
     .addTextField("Input", 80, 10, 515, 20, true)
@@ -164,14 +164,14 @@ void broadcast(String broadcastSignature) {
   int broadcastRepeats = fBroadcastRepeats.intValue();
   Float fDelay = cp5.get(Knob.class, "Delay").getValue();
   println(fDelay);
-  int iDelay = fDelay.intValue();
-  println(iDelay);
+  arduinoConnection.iDelay = fDelay.intValue();
+  println(arduinoConnection.iDelay);
 
   println("broadcastSignature = " + broadcastSignature);
   byte[] data = broadcastSignature.getBytes();
   String b64 = Base64.getEncoder().encodeToString(data);
   println("broadcastSignature encoded = " + b64);
-  arduinoConnection.broadCast(b64, broadcastRepeats, iDelay);
+  arduinoConnection.broadCast(b64, broadcastRepeats);
 }
 
 /**
