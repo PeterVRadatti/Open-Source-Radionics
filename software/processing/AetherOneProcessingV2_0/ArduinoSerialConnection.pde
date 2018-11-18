@@ -71,6 +71,7 @@ class ArduinoSerialConnection {
   }
 
   public void clear() {
+    serialPort.write("#1#");
     serialPort.write("CLEAR#");
     clearing = true;
   }

@@ -140,6 +140,7 @@ class AetherOneForArduino {
         trng_generation = false;
       } else if (command == "CLEAR") {
         clear();
+        Serial.println("BROADCAST FINISHED");
       } else if (getValue(command, ' ', 0) == "B") {
         // BROADCAST JUST ONCE FOR BIGGER STREAMS
         wait_millis = 0;
