@@ -72,9 +72,9 @@ class ArduinoSerialConnection {
   }
   
   public void copy() {
+    copy = true;
     serialPort.write("#1#");
     serialPort.write("COPY#");
-    clearing = true;
   }
 
   public void clear() {
@@ -138,6 +138,7 @@ class ArduinoSerialConnection {
       broadcasting = false;
       grounding = false;
       copy = false;
+      clearing = false;
       continueBroadcast();
     }
 
