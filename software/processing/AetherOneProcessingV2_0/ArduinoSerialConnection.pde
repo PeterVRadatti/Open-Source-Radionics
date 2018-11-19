@@ -10,6 +10,7 @@ class ArduinoSerialConnection {
   boolean clearing = false;
   boolean broadcasting = false;
   boolean grounding = false;
+  boolean copy = false;
   String[] portList;
   String arduinoInputString;
   AetherOneCore core;
@@ -68,6 +69,12 @@ class ArduinoSerialConnection {
      } else {
        start_trng();
      }
+  }
+  
+  public void copy() {
+    serialPort.write("#1#");
+    serialPort.write("COPY#");
+    clearing = true;
   }
 
   public void clear() {
@@ -130,6 +137,7 @@ class ArduinoSerialConnection {
     if ("BROADCAST FINISHED".equals(arduinoInputString)) {
       broadcasting = false;
       grounding = false;
+      copy = false;
       continueBroadcast();
     }
 
@@ -167,6 +175,11 @@ class ArduinoSerialConnection {
 
       collectingHotbits = true;
       core.addHotBitSeed(seed);
+      
+      broadcasting = false;
+      grounding = false;
+      copy = false;
+      
       return;
     } 
     catch(Exception e) {

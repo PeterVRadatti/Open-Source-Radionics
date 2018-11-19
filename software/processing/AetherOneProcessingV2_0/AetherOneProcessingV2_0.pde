@@ -89,6 +89,11 @@ void setup() {
     .addButton("TRNG / PRNG")
     .addTextField("Input", 80, 10, 515, 20, true)
     .addTextField("Output", 80, 40, 515, 20, false);
+    
+  radionicsElements.startAtX = 432;
+  radionicsElements.startAtY = 62;
+  radionicsElements
+    .addButton("copy");
   
   radionicsElements.addSlider("progress", 10, 274, 540, 10, 100);
   radionicsElements.addSlider("hotbits", 10, 290, 540, 10, 100);

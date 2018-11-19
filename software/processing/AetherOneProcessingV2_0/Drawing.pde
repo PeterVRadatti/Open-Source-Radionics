@@ -24,7 +24,7 @@ void draw() {
   drawBlueLED("CLEARING", x + 70, y, 20, arduinoConnection.clearing);
   drawGreenLED("ANALYSING", x + 140, y, 23, false);
   drawGreenLED("BROADCASTING", x, y + 70, 20, arduinoConnection.broadcasting);
-  drawGreenLED("COPY", x + 70, y + 70, 10, false);
+  drawGreenLED("COPY", x + 70, y + 70, 10, arduinoConnection.copy);
   drawBlueLED("GROUNDING", x + 140, y + 70, 25, arduinoConnection.grounding);
   drawRedLED("HOTBITS", x, y + 130, 20, arduinoConnection.collectingHotbits);
   drawBlueLED("SIMULATION", x + 70, y + 130, 26, !arduinoConnection.arduinoFound);

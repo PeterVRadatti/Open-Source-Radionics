@@ -69,6 +69,20 @@ class AetherOneForArduino {
       Serial.println("CLEARED");
     }
 
+    void copy() {
+
+      digitalWrite(CONTROL_LED, LOW);
+
+      for (int x = 0; x < 40; x++) {
+        digitalWrite(RED_LED, HIGH);
+        delay(500);
+        digitalWrite(RED_LED, LOW);
+        delay(500);
+      }
+
+      digitalWrite(CONTROL_LED, HIGH);
+    }
+
     int getWaitMillis() {
       return wait_millis;
     }
@@ -140,6 +154,9 @@ class AetherOneForArduino {
         trng_generation = false;
       } else if (command == "CLEAR") {
         clear();
+        Serial.println("BROADCAST FINISHED");
+      } else if (command == "COPY") {
+        copy();
         Serial.println("BROADCAST FINISHED");
       } else if (getValue(command, ' ', 0) == "B") {
         // BROADCAST JUST ONCE FOR BIGGER STREAMS

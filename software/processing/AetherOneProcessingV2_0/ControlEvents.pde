@@ -15,6 +15,11 @@ public void controlEvent(ControlEvent theEvent) {
     return;
   }
   
+  if ("copy".equals(command)) {
+    arduinoConnection.copy();
+    return;
+  }
+  
   if ("select data".equals(command)) {
     println(dataPath(""));
     JFileChooser chooser = new JFileChooser(dataPath(""));
