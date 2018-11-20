@@ -267,6 +267,7 @@ public void controlEvent(ControlEvent theEvent) {
     gvCounter = 0;
     rateList.clear();
     ratesDoubles.clear();
+    tile = null;
   }
 
   if ("broadcast".equals(command)) {
