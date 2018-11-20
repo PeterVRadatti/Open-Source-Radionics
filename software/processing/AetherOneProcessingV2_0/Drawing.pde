@@ -9,6 +9,7 @@ void draw() {
   fill(0,150);
   rect(0,0,600,555);
   rect(0,560,600,200);
+  rect(610,0,440,555);
   
   fill(255);
   // 531x305
@@ -16,7 +17,7 @@ void draw() {
   stroke(255);
   text("INPUT", 10, 25);
   text("OUTPUT", 10, 55);
-  //text("x: "+mouseX+" y: "+mouseY, 320, 495);
+  text("x: "+mouseX+" y: "+mouseY, 320, 495);
 
   int x = 30;
   int y = 90;
@@ -126,6 +127,13 @@ void draw() {
   } else if (selectedDatabase != null && rateList.size() == 0) {
     fill(66, 214, 47);
     text("Focus and then click on ANALYZE", 10, yRate);
+  }
+  
+  // PHOTOGRAPHY
+  if (tile != null) {
+    fill(0);
+    rect(620,40,420,460);
+    tile.drawTile();
   }
   
   if (connectMode || disconnectMode) {

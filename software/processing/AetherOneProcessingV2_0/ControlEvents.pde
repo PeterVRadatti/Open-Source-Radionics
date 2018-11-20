@@ -10,6 +10,11 @@ public void controlEvent(ControlEvent theEvent) {
   
   if ("hotbits".equals(command)) return;
   
+  if ("photography".equals(command)) {
+    tile = new Tile(630,50,400,400,0);
+    return;
+  }
+  
   if ("stop broadcast".equals(command)) {
     stopBroadcasting = true;
     return;

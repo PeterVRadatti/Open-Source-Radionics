@@ -24,6 +24,7 @@ import java.util.*;
 RadionicsElements radionicsElements;
 ArduinoSerialConnection arduinoConnection;
 AetherOneCore core;
+Tile tile;
 
 boolean initFinished = false;
 int maxEntries = 10;
@@ -64,7 +65,7 @@ void setup() {
   backgroundImage = loadImage("aetherOneBackground001.jpg");
   surface.setTitle("AetherOne V2.0 - Open Source Radionics");
   noStroke();
-  smooth();
+  noSmooth();
   core = new AetherOneCore();
   arduinoConnection = new ArduinoSerialConnection(this, 9600, core);
   arduinoConnectionMillis = millis();
@@ -94,6 +95,11 @@ void setup() {
   radionicsElements.startAtY = 62;
   radionicsElements
     .addButton("copy");
+    
+  radionicsElements.startAtX = 620;
+  radionicsElements.startAtY = 10;
+  radionicsElements
+    .addButton("photography");  
   
   radionicsElements.addSlider("progress", 10, 274, 540, 10, 100);
   radionicsElements.addSlider("hotbits", 10, 290, 540, 10, 100);
