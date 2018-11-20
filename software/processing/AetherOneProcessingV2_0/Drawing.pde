@@ -17,7 +17,7 @@ void draw() {
   stroke(255);
   text("INPUT", 10, 25);
   text("OUTPUT", 10, 55);
-  text("x: "+mouseX+" y: "+mouseY, 320, 495);
+  //text("x: "+mouseX+" y: "+mouseY, 320, 495);
 
   int x = 30;
   int y = 90;
