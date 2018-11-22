@@ -44,6 +44,12 @@ public class RadionicsElements {
     startAtY += usualHeight + 3;
     return this;
   }
+  
+  public RadionicsElements addButtonHorizontal(String text) {
+    addButton(text, 0, startAtX, startAtY, usualWidth, usualHeight);
+    startAtX += usualWidth + 3;
+    return this;
+  }
 
   public void addButton(String text, int value, int x, int y, int w, int h) {
     cp5.addButton(text)

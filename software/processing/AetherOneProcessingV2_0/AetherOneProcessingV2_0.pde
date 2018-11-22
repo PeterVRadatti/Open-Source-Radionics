@@ -41,6 +41,8 @@ boolean connectMode = false;
 boolean disconnectMode = false;
 boolean trngMode = true;
 List<RateObject> rateList = new ArrayList<RateObject>();
+List<ImagePixel> imagePixels = new ArrayList<ImagePixel>();
+List<ImagePixel> broadcastedImagePixels = new ArrayList<ImagePixel>();
 Map<String, Integer> ratesDoubles = new HashMap<String, Integer>();
 int gvCounter = 0;
 boolean stopBroadcasting = false;
@@ -99,7 +101,14 @@ void setup() {
   radionicsElements.startAtX = 620;
   radionicsElements.startAtY = 10;
   radionicsElements
-    .addButton("photography");  
+    .addButtonHorizontal("photography")
+    .addButtonHorizontal("paste image")
+    .addButtonHorizontal("clear image");
+    
+  radionicsElements.startAtX = 620;
+  radionicsElements.startAtY = 32;
+  radionicsElements
+    .addButtonHorizontal("broadcast image");  
   
   radionicsElements.addSlider("progress", 10, 274, 540, 10, 100);
   radionicsElements.addSlider("hotbits", 10, 290, 540, 10, 100);

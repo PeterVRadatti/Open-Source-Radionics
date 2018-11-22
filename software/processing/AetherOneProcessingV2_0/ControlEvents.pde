@@ -1,30 +1,33 @@
 /**
-* ControlP5 event listener
-*/
+ * ControlP5 event listener
+ */
 public void controlEvent(ControlEvent theEvent) {
-  println("controlEvent " + theEvent.getController().getName());
 
   if (!initFinished) return;
 
   String command = theEvent.getController().getName();
-  
+
   if ("hotbits".equals(command)) return;
-  
+
+  println("controlEvent " + theEvent.getController().getName());
+
   if ("photography".equals(command)) {
-    tile = new Tile(630,50,400,400,0);
+    tile = new Tile(630, 50, 400, 400, 0);
     return;
   }
-  
+
   if ("stop broadcast".equals(command)) {
     stopBroadcasting = true;
+    imagePixels.clear();
+    broadcastedImagePixels.clear();
     return;
   }
-  
+
   if ("copy".equals(command)) {
     arduinoConnection.copy();
     return;
   }
-  
+
   if ("select data".equals(command)) {
     println(dataPath(""));
     JFileChooser chooser = new JFileChooser(dataPath(""));
@@ -44,68 +47,68 @@ public void controlEvent(ControlEvent theEvent) {
     }
     return;
   }
-  
+
   if ("grounding".equals(command)) {
-        
+
     String [] signatures = loadStrings(sketchPath() + "/data/FUNCTION_GROUNDING.txt");
     selectedDatabase = new File(sketchPath() + "/data/FUNCTION_GROUNDING.txt");
     println(signatures.length);
     println(core.getRandomNumber(signatures.length));
-    
+
     rateList.clear();
-    
+
     String groundingSignature = "";
-    
+
     for (int i=0; i<3; i++) {
       RateObject rate = new RateObject();
       rate.rate = signatures[core.getRandomNumber(signatures.length)];
       rateList.add(rate);
       groundingSignature += rate.rate;
     }
-    
+
     cp5.get(Textfield.class, "Output").setText(groundingSignature);
     arduinoConnection.grounding = true;
     broadcast(groundingSignature);
     return;
   }
-  
+
   if ("connect".equals(command)) {
     connectMode = true;
     progress = 0;
     return;
   }
-  
+
   if ("disconnect".equals(command)) {
     disconnectMode = true;
     progress = 0;
     return;
   }
-  
+
   if ("general vitality".equals(command)) {
-    
+
     if (gvCounter > maxEntries) {
       return;
     }
-    
+
     List<Integer> list = new ArrayList<Integer>();
-    
+
     for (int x=0; x<3; x++) {
       list.add(core.getRandomNumber(1000));
     }
-    
+
     Collections.sort(list, Collections.reverseOrder());
-    
+
     Integer gv = list.get(0);
-    
+
     if (gv > 950) {
       int randomDice = core.getRandomNumber(100);
-      
-      while(randomDice >= 50) {
+
+      while (randomDice >= 50) {
         gv += randomDice;
         randomDice = core.getRandomNumber(100);
       }
     }
-    
+
     if (gvCounter == 0) {
       monitorText += "\nGeneral vitality = " + gv;
       generalVitality = gv;
@@ -113,15 +116,15 @@ public void controlEvent(ControlEvent theEvent) {
       RateObject rateObject = rateList.get(gvCounter - 1);
       rateObject.gv = gv;
     }
-    
+
     gvCounter += 1;
-    
+
     return;
   }
 
   if ("analyze".equals(command)) {
     if (selectedDatabase == null) return;
-    
+
     rateList.clear();
     generalVitality = null;
     gvCounter = 0;
@@ -181,7 +184,7 @@ public void controlEvent(ControlEvent theEvent) {
       JSONObject protocolEntry = new JSONObject();
       protocolEntry.setInt(rateObject.rate, rateObject.level);
       protocolArray.setJSONObject(x, protocolEntry);
-      
+
       rateList.add(rateObject);
       monitorText += rateObject.level + "  | " + rateObject.rate + "\n";
 
@@ -198,7 +201,7 @@ public void controlEvent(ControlEvent theEvent) {
 
     JSONObject protocol = new JSONObject();
     protocol.setJSONArray("result", protocolArray);
-    
+
     if (selectedDatabase != null) {
       protocol.setString("database", selectedDatabase.getName());
     }
@@ -216,7 +219,7 @@ public void controlEvent(ControlEvent theEvent) {
     }
 
     println("[" + inputText + "]");
-    
+
     if (inputText != null && inputText.trim().length() > 0) {
       saveJSONObject(protocol, filePath);
     }
@@ -247,7 +250,7 @@ public void controlEvent(ControlEvent theEvent) {
     PImage photo = getImageFromClipboard();
 
     if (photo != null) {
-      photo.resize(615, 490);
+      photo.resize(400, 400);
       photos.add(photo);
     }
     return;
@@ -255,6 +258,9 @@ public void controlEvent(ControlEvent theEvent) {
 
   if ("clear image".equals(command)) {
     photos.clear();
+    imagePixels.clear();
+    broadcastedImagePixels.clear();
+    tile = null;
     return;
   }
 
@@ -267,6 +273,7 @@ public void controlEvent(ControlEvent theEvent) {
     gvCounter = 0;
     rateList.clear();
     ratesDoubles.clear();
+    imagePixels.clear();
     tile = null;
   }
 
@@ -278,7 +285,29 @@ public void controlEvent(ControlEvent theEvent) {
     broadcast(broadcastSignature);
     return;
   }
-  
+
+  if ("broadcast image".equals(command)) {
+
+    imagePixels.clear();
+    broadcastedImagePixels.clear();
+
+    for (int y=50; y<450; y++) {
+      for (int x=630; x<1030; x++) {
+        color c = get(x, y);
+        ImagePixel img = new ImagePixel();
+        img.x = x;
+        img.y = y;
+        img.r = red(c);
+        img.g = green(c);
+        img.b = blue(c);
+        imagePixels.add(img);
+      }
+    }
+
+    broadcastOneLineOfImage();
+    return;
+  }
+
   // Switch Simulation Mode
   if ("TRNG / PRNG".equals(command)) {
     if (trngMode) {
@@ -286,35 +315,89 @@ public void controlEvent(ControlEvent theEvent) {
     } else {
       trngMode = true;
     }
-    
+
     core.trngMode = trngMode;
     return;
   }
-  
+
   println("NO EVENT FOUND FOR " + command);
+}
+
+/**
+ * Take one line of the image and broadcast it
+ */
+synchronized void broadcastOneLineOfImage() {
+
+  if (imagePixels.size() == 0) {
+    return;
+  }
+
+  if (arduinoConnection.stream.length() > 0) {
+    return;
+  }
+
+  String signature = "";
+
+  for (int x=0; x<400; x++) {
+    ImagePixel img = imagePixels.remove(0);
+    float multiplied = img.r * img.g * img.b;
+    println(multiplied);
+    // digit sum
+    int num = (int) multiplied;
+    int sum = 0;
+    while (num > 0) {
+      sum = sum + num % 10;
+      num = num / 10;
+    }
+    signature += String.valueOf(sum);
+    broadcastedImagePixels.add(invertPixel(img));
+  }
+
+  println(imagePixels.size());
+
+  broadcast(signature);
+}
+
+ImagePixel invertPixel(ImagePixel p) {
+  
+  p.r = invertColor(p.r);
+  p.g = invertColor(p.g);
+  p.b = invertColor(p.b);
+  
+  return p;
+}
+
+float invertColor(float v) {
+  if (v >= 255) {
+    v = 0;
+  } else {
+    v = 255 - v;
+  }
+  
+  return v;
 }
 
 void mouseClicked() {
   println("CLICK");
   int yRate = 350;
- 
+
   for (int iRate=0; iRate<rateList.size(); iRate++) {
-    
-      RateObject rateObject = rateList.get(iRate);
-      
-      if (mouseY >= yRate - 20 && mouseY < yRate && mouseX < 600) {
-        println(rateObject.rate);
-        cp5.get(Textfield.class, "Output").setText(rateObject.rate);
-      }
-      
-      yRate += 20;
+
+    RateObject rateObject = rateList.get(iRate);
+
+    if (mouseY >= yRate - 20 && mouseY < yRate && mouseX < 600) {
+      println(rateObject.rate);
+      cp5.get(Textfield.class, "Output").setText(rateObject.rate);
+    }
+
+    yRate += 20;
   }
 }
 
 
 /**
-* Get a image from your clipboard
-*/
+ * Get a image from your clipboard
+ */
 PImage getImageFromClipboard() {
 
   java.awt.Image image = (java.awt.Image) getFromClipboard(DataFlavor.imageFlavor);
@@ -329,8 +412,8 @@ PImage getImageFromClipboard() {
 }
 
 /**
-* Subroutine which gets a object from clipboard
-*/
+ * Subroutine which gets a object from clipboard
+ */
 Object getFromClipboard (DataFlavor flavor) {
 
   java.awt.Component component = new java.awt.Canvas();
@@ -361,8 +444,8 @@ Object getFromClipboard (DataFlavor flavor) {
 } 
 
 /**
-* Transforms a Image into a BufferedImage for displaying on screen
-*/
+ * Transforms a Image into a BufferedImage for displaying on screen
+ */
 BufferedImage toBufferedImage(java.awt.Image src) {
 
   int w = src.getWidth(null);

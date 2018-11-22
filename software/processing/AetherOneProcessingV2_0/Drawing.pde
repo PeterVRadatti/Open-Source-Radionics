@@ -2,7 +2,7 @@
 * The draw loop of processing
 */
 void draw() {
- 
+  noTint();
   noStroke();
   background(0);
   image(backgroundImage, 0, 0, width, height);
@@ -17,6 +17,7 @@ void draw() {
   stroke(255);
   text("INPUT", 10, 25);
   text("OUTPUT", 10, 55);
+  // DEBUG show x y coordinates of the mouse
   //text("x: "+mouseX+" y: "+mouseY, 320, 495);
 
   int x = 30;
@@ -129,12 +130,31 @@ void draw() {
     text("Focus and then click on ANALYZE", 10, yRate);
   }
   
-  // PHOTOGRAPHY
+  // PHOTOGRAPHY and IMAGES
+  int countImage = 0;
+  
   if (tile != null) {
     fill(0);
     rect(620,40,420,460);
     tile.drawTile();
+    countImage++;
   }
+  
+  for (PImage img : photos) {
+    if (countImage > 0) {
+      tint(255, 255 / photos.size());
+    }
+    image(img, 630,50);
+    countImage++;
+  }
+  
+  if (photos.size() > 0) {
+    fill(66, 214, 47);
+    noTint();
+    text("Layers of photos: " + photos.size(),630,470);
+  }
+  
+  paintBroadcastedPixel();
   
   if (connectMode || disconnectMode) {
     if (core.getRandomNumber(1000) > 950) {
@@ -156,6 +176,13 @@ void draw() {
       disconnectMode = false;
       core.persistHotBits();
     }
+  }
+}
+
+synchronized void paintBroadcastedPixel() {
+  for (ImagePixel pixel : broadcastedImagePixels) {
+    stroke(color(pixel.b,pixel.g,pixel.r));
+    point(pixel.x,pixel.y);
   }
 }
 

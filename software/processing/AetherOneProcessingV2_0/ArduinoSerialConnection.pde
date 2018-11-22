@@ -44,13 +44,14 @@ class ArduinoSerialConnection {
     broadcasting = false;
   }
   
-  public void continueBroadcast() {
+  synchronized public void continueBroadcast() {
     if (stopBroadcasting) {
       stream = "";
       stopBroadcasting = false;
       broadcasting = false;
       start_trng();
     } else if (stream.length() > 0) {
+        println("stream length " + stream.length());
         String broadCastSignature = "B ";
         int pos = 60 - String.valueOf(iDelay).length();
         if (pos > stream.length()) {
@@ -140,6 +141,7 @@ class ArduinoSerialConnection {
       copy = false;
       clearing = false;
       continueBroadcast();
+      broadcastOneLineOfImage();
     }
 
     if ("ARDUINO_OK".equals(arduinoInputString)) {
@@ -187,7 +189,13 @@ class ArduinoSerialConnection {
       collectingHotbits = false;
     }
 
-    println("[" + arduinoInputString + "]");
+    
+    if (arduinoInputString.contains("1B ")) {
+      continueBroadcast();
+      broadcastOneLineOfImage();
+    } else {
+      println("[" + arduinoInputString + "]");
+    }
   }
 
   public boolean connect(String detectedPort) {

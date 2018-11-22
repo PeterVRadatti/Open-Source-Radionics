@@ -76,3 +76,8 @@ class Tile {
     }
   }
 }
+
+public class ImagePixel {
+  int x,y;
+  float r,g,b;
+}
