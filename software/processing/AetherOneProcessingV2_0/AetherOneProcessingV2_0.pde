@@ -96,7 +96,8 @@ void setup() {
   radionicsElements.startAtX = 432;
   radionicsElements.startAtY = 62;
   radionicsElements
-    .addButton("copy");
+    .addButton("copy")
+    .addButton("check items");
     
   radionicsElements.startAtX = 620;
   radionicsElements.startAtY = 10;

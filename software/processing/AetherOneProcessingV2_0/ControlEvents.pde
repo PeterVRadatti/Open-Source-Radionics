@@ -125,107 +125,16 @@ public void controlEvent(ControlEvent theEvent) {
   if ("analyze".equals(command)) {
     if (selectedDatabase == null) return;
 
-    rateList.clear();
-    generalVitality = null;
-    gvCounter = 0;
-
     String[] lines = loadStrings(selectedDatabase);
-    ratesDoubles.clear();
-
-    Float maxHits = cp5.get(Knob.class, "Max Hits").getValue();
-    int expectedDoubles = maxHits.intValue();
-    int rounds = 0;
-
-    if (lines.length <= 10) {
-      maxEntries = lines.length / 2;
-    }
-
-    while (!reachedSpecifiedHits(ratesDoubles, expectedDoubles)) {
-      String rate = lines[core.getRandomNumber(lines.length)];
-
-      rounds++;
-
-      if (ratesDoubles.get(rate) != null) {
-        Integer count = ratesDoubles.get(rate);
-        count++;
-        ratesDoubles.put(rate, count);
-      } else {
-        ratesDoubles.put(rate, 1);
-      }
-    }
-
-    monitorText = selectedDatabase.getName() + "\n";
-
-    List<RateObject> rateObjects = new ArrayList<RateObject>();
-
-    for (String rateKey : ratesDoubles.keySet()) {
-      RateObject rateObject = new RateObject();
-      rateObject.level = ratesDoubles.get(rateKey);
-      rateObject.rate = rateKey;
-      rateObjects.add(rateObject);
-    }
-
-    Collections.sort(rateObjects, new Comparator<RateObject>() {
-      public int compare(RateObject o1, RateObject o2) {
-        Integer i1 = o1.level;
-        Integer i2 = o2.level;
-        return i2.compareTo(i1);
-      }
-    }    
-    );
-
-    int level = 0;
-
-    JSONArray protocolArray = new JSONArray();
-
-    for (int x=0; x<maxEntries; x++) {
-      RateObject rateObject = rateObjects.get(x);
-
-      JSONObject protocolEntry = new JSONObject();
-      protocolEntry.setInt(rateObject.rate, rateObject.level);
-      protocolArray.setJSONObject(x, protocolEntry);
-
-      rateList.add(rateObject);
-      monitorText += rateObject.level + "  | " + rateObject.rate + "\n";
-
-      level += (10 - rateObject.level);
-    }
-
-    int ratio = rounds / lines.length;
-    String synopsis = "Analysis end reached after " +  rounds + " rounds (rounds / rates ratio = " + ratio + ")\n" ;
-    synopsis += "Level " + level;
-    monitorText += synopsis;
-
-    String inputText = cp5.get(Textfield.class, "Input").getText();
-    String outputText = cp5.get(Textfield.class, "Output").getText();
-
-    JSONObject protocol = new JSONObject();
-    protocol.setJSONArray("result", protocolArray);
-
-    if (selectedDatabase != null) {
-      protocol.setString("database", selectedDatabase.getName());
-    }
-    protocol.setString("synopsis", synopsis);
-    protocol.setString("input", inputText);
-    protocol.setString("output", outputText);
-    protocol.setInt("level", level);
-    protocol.setInt("ratio", ratio);
-    String filePath = System.getProperty("user.home");
-
-    if (inputText != null && inputText.length() > 0) {
-      filePath += "/AetherOne/protocol_" + getTimeMillis() + "_" + inputText.replaceAll(" ", "") + ".txt";
-    } else {
-      filePath += "/AetherOne/protocol_" + getTimeMillis() + ".txt";
-    }
-
-    println("[" + inputText + "]");
-
-    if (inputText != null && inputText.trim().length() > 0) {
-      saveJSONObject(protocol, filePath);
-    }
-
-    core.updateCp5ProgressBar();
-    core.persistHotBits();
+    analyseList(lines);
+    return;
+  }
+  
+  if ("check items".equals(command)) {
+    File databaseDir = new File(dataPath(""));
+    List<String> items = getDatabaseItems(databaseDir);
+    String[] array = items.toArray(new String[0]);
+    analyseList(array);
     return;
   }
 
@@ -321,6 +230,128 @@ public void controlEvent(ControlEvent theEvent) {
   }
 
   println("NO EVENT FOUND FOR " + command);
+}
+
+List<String> getDatabaseItems(File databaseDir) {
+  
+  List<String> items = new ArrayList<String>();
+  
+  for (File file : databaseDir.listFiles()) {
+      if (file.isDirectory()) {
+        items.addAll(getDatabaseItems(file));
+      } else {
+        if (file.getName().startsWith("BROADCASTING")) continue;
+        if (file.getName().startsWith("FUNCTION")) continue;
+        if (file.getName().startsWith("POTENCY")) continue;
+        items.add(file.getName());
+      }
+  }
+  
+  return items;
+}
+
+void analyseList(String[] lines) {
+    rateList.clear();
+    generalVitality = null;
+    gvCounter = 0;
+    ratesDoubles.clear();
+
+    Float maxHits = cp5.get(Knob.class, "Max Hits").getValue();
+    int expectedDoubles = maxHits.intValue();
+    int rounds = 0;
+
+    if (lines.length <= 10) {
+      maxEntries = lines.length / 2;
+    }
+
+    while (!reachedSpecifiedHits(ratesDoubles, expectedDoubles)) {
+      String rate = lines[core.getRandomNumber(lines.length)];
+
+      rounds++;
+
+      if (ratesDoubles.get(rate) != null) {
+        Integer count = ratesDoubles.get(rate);
+        count++;
+        ratesDoubles.put(rate, count);
+      } else {
+        ratesDoubles.put(rate, 1);
+      }
+    }
+
+    if (selectedDatabase != null) {
+      monitorText = selectedDatabase.getName() + "\n";
+    }
+
+    List<RateObject> rateObjects = new ArrayList<RateObject>();
+
+    for (String rateKey : ratesDoubles.keySet()) {
+      RateObject rateObject = new RateObject();
+      rateObject.level = ratesDoubles.get(rateKey);
+      rateObject.rate = rateKey;
+      rateObjects.add(rateObject);
+    }
+
+    Collections.sort(rateObjects, new Comparator<RateObject>() {
+      public int compare(RateObject o1, RateObject o2) {
+        Integer i1 = o1.level;
+        Integer i2 = o2.level;
+        return i2.compareTo(i1);
+      }
+    }    
+    );
+
+    int level = 0;
+
+    JSONArray protocolArray = new JSONArray();
+
+    for (int x=0; x<maxEntries; x++) {
+      RateObject rateObject = rateObjects.get(x);
+
+      JSONObject protocolEntry = new JSONObject();
+      protocolEntry.setInt(rateObject.rate, rateObject.level);
+      protocolArray.setJSONObject(x, protocolEntry);
+
+      rateList.add(rateObject);
+      monitorText += rateObject.level + "  | " + rateObject.rate + "\n";
+
+      level += (10 - rateObject.level);
+    }
+
+    int ratio = rounds / lines.length;
+    String synopsis = "Analysis end reached after " +  rounds + " rounds (rounds / rates ratio = " + ratio + ")\n" ;
+    synopsis += "Level " + level;
+    monitorText += synopsis;
+
+    String inputText = cp5.get(Textfield.class, "Input").getText();
+    String outputText = cp5.get(Textfield.class, "Output").getText();
+
+    JSONObject protocol = new JSONObject();
+    protocol.setJSONArray("result", protocolArray);
+
+    if (selectedDatabase != null) {
+      protocol.setString("database", selectedDatabase.getName());
+    }
+    protocol.setString("synopsis", synopsis);
+    protocol.setString("input", inputText);
+    protocol.setString("output", outputText);
+    protocol.setInt("level", level);
+    protocol.setInt("ratio", ratio);
+    String filePath = System.getProperty("user.home");
+
+    if (inputText != null && inputText.length() > 0) {
+      filePath += "/AetherOne/protocol_" + getTimeMillis() + "_" + inputText.replaceAll(" ", "") + ".txt";
+    } else {
+      filePath += "/AetherOne/protocol_" + getTimeMillis() + ".txt";
+    }
+
+    println("[" + inputText + "]");
+
+    if (inputText != null && inputText.trim().length() > 0) {
+      saveJSONObject(protocol, filePath);
+    }
+
+    core.updateCp5ProgressBar();
+    core.persistHotBits();
 }
 
 /**
