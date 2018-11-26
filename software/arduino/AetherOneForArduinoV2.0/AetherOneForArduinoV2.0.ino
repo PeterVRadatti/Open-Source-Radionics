@@ -2,6 +2,8 @@
 class AetherOneForArduino {
 
   private:
+    const int COIL_1 = 9;
+    const int COIL_2 = 8;
     const int UV_LED = 7;
     const int RED_LED = 6;
     const int GREEN_LED = 5;
@@ -26,6 +28,8 @@ class AetherOneForArduino {
       // --> TEST MODE <--
       boolean testmode = false;
 
+      pinMode(COIL_1, OUTPUT);
+      pinMode(COIL_2, OUTPUT);
       pinMode(UV_LED, OUTPUT);
       pinMode(RED_LED, OUTPUT);
       pinMode(GREEN_LED, OUTPUT);
@@ -229,8 +233,10 @@ class AetherOneForArduino {
           char infrared[2] = {'1', '6'};
 
           blinkLED(RED_LED, reds, stringPart[y]);
+          blinkLED(COIL_1, whites, stringPart[y]);
           blinkLED(GREEN_LED, greens, stringPart[y]);
           blinkLED(BLUE_LED, blues, stringPart[y]);
+          blinkLED(COIL_2, infrared, stringPart[y]);
           blinkLED(WHITE_LED, whites, stringPart[y]);
           blinkLED(IR_LED, infrared, stringPart[y]);
         }
