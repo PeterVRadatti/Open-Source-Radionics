@@ -173,8 +173,16 @@ public void controlEvent(ControlEvent theEvent) {
       MessageDigest md = MessageDigest.getInstance("MD5");
       String data = "";
       
+      // add image data
       for (int i = 0; i < (width*height/2)-width/2; i++) {
         data += pixels[i];
+        md.update(data.getBytes());
+        data = new String(md.digest());
+      }
+      
+      // add hotbits for encoding intention
+      for (int i = 0; i < 144; i++) {
+        data += core.getRandomNumber(1000);
         md.update(data.getBytes());
         data = new String(md.digest());
       }
