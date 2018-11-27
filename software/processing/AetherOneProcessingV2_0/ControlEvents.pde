@@ -164,6 +164,26 @@ public void controlEvent(ControlEvent theEvent) {
     }
     return;
   }
+  
+  if ("generate md5".equals(command)) {
+    // The entire screen including the image is used to generate the signature in md5 format
+    loadPixels();
+    
+    try {
+      MessageDigest md = MessageDigest.getInstance("MD5");
+      String data = "";
+      
+      for (int i = 0; i < (width*height/2)-width/2; i++) {
+        data += pixels[i];
+        md.update(data.getBytes());
+        data = new String(md.digest());
+      }
+      
+      cp5.get(Textfield.class, "Output").setText(data);
+
+    } catch(Exception e) {}
+    return;
+  }
 
   if ("clear image".equals(command)) {
     photos.clear();

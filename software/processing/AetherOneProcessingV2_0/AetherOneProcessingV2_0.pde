@@ -20,6 +20,7 @@ import java.awt.Graphics2D;
 import processing.net.*;
 import processing.serial.*;
 import java.util.*;
+import java.security.*;
 
 RadionicsElements radionicsElements;
 ArduinoSerialConnection arduinoConnection;
@@ -109,7 +110,8 @@ void setup() {
   radionicsElements.startAtX = 620;
   radionicsElements.startAtY = 32;
   radionicsElements
-    .addButtonHorizontal("broadcast image");  
+    .addButtonHorizontal("broadcast image")
+    .addButtonHorizontal("generate md5");  
   
   radionicsElements.addSlider("progress", 10, 274, 540, 10, 100);
   radionicsElements.addSlider("hotbits", 10, 290, 540, 10, 100);
