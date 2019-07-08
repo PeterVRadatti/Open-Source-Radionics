@@ -7,8 +7,6 @@
  * but you need to distribute this license too, letting people know that this project is
  * open source.
  * 
- * https://github.com/radionics
- * https://radionicsnews.wordpress.com
  * https://www.facebook.com/groups/174120139896076
  * 
  */
