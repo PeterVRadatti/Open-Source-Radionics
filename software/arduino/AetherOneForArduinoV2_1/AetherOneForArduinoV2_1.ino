@@ -1,5 +1,7 @@
-#define PIN_LED_RXL          (25u)
-#define PIN_LED_TXL          (26u)
+// You can use this one with the crystal on the arduino it self. 
+//The Arduino-leds are here programmed to broadcast the 'rates'.
+#define PIN_LED_RXL          (25u) // arduino leds
+#define PIN_LED_TXL          (26u) // arduino leds
 
 class AetherOneForArduino {
 
