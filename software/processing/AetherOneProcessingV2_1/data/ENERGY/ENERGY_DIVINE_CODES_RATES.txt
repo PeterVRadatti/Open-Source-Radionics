@@ -1,0 +1,881 @@
+ Seq.3 Headache healing general 23 74 555
+ Seq.4 Headache heal migraine 58 33 554
+ Seq.5 Headache if migraine not respond 58 33 554/headache not responding 23 74 555 Example, flu of cold headache 95 96 562
+ Seq.6 Headache eye irritation, especially associated headache 42 37 346
+ Seq.7 Back Pain 
+ Seq.8 Back Pain general 71 81 533
+ Seq.9 Back Pain lumbago 71 91 334
+ Seq.10 Back Pain problems sciatic nerve 87 47 838
+ Seq.11 Back Pain prolapsed intervertebral disc 78 78 833
+ Seq.12 Back Pain a bulging/herniated intervertebral disc 89 87 438
+ Seq.13 Chronic Pain Chronic Pain 
+ Seq.14 Chronic Pain chronic pain general 23 31 443
+ Seq.15 Chronic Pain complex regional pain syndrome (CRPS) 15 35 991
+ Seq.16 Chronic Pain shingles 45 46 162
+ Seq.17 Chronic Pain addiction pain medications 91 582 7139
+ Seq.18 Chronic Pain obsessive thoughts about managing pain 91 278 596
+ Seq.19 Chronic Pain close pain gate receptors linked complex regional pain syndrome 92 367 9342
+ Seq.20 Chronic Pain shoulder pain general 17 16 911
+ Seq.21 Stroke 
+ Seq.22 Stroke first aid on way definitive treatment at hospital 78 89 535
+ Seq.23 Stroke recovery 54 32 175
+ Seq.24 Stroke remember how eat, chew, swallow after grave neurological injury/long-term intubation 69 78 55123
+ Seq.25 Neurological Deficit, Degeneration Symptoms, Infectious Disease
+ Seq.26 Neurological Deficit, Degeneration Symptoms,Infectious,suffer anoxic brain injury strengthen, if it is their life contract this, it begin 66 51 816
+ Seq.27 Neurological Deficit, Degeneration Symptoms, Infectious Disease herpes viruses 88 21 233
+ Seq.28 Neurological Deficit, Degeneration Symptoms, Infectious Disease cellular damages of any sort 33 45 634
+ Seq.29 Neurological Deficit, Degeneration Symptoms, Infectious Disease hardness of hearing, deafness 88 33 421
+ Seq.30 Neurological Deficit, Degeneration Symptoms, Infectious Disease Amyotrophic Lateral Sclerosis 87 89 114
+ Seq.31 Neurological Deficit, Degeneration Symptoms, Infectious Disease cerebral palsy 55 96 183
+ Seq.32 Neurological Deficit, Degeneration Symptoms, Infectious Disease Limb Girdle Muscular Dystrophy (LGMD) 53 59 816
+ Seq.33 Neurological Deficit, Degeneration Symptoms, Infectious Disease multiple sclerosis 45 96 151
+ Seq.34 Neurological Deficit, Degeneration Symptoms, Infectious Disease Parkinson's Disease 81 23 7961
+ Seq.35 Neurological Deficit, Degeneration Symptoms, Infectious Disease dementia 29 56 932
+ Seq.36 Neurological Deficit, Degeneration Symptoms, Infectious Disease Alzheimers dementia (use together 29 56 932) 25 49 563
+ Seq.37 Neurological Deficit, Degeneration Symptoms, Infectious Disease diabetes insipidus 07 43 131
+ Seq.38 Neurological Deficit, Degeneration Symptoms, Infectious Disease neuropathy, nerve damage all causes 65 57 142
+ Seq.39 Neurological Deficit, Degeneration Symptoms,Infectious Disease remember how eat, chew, swallow after grave neurological injury/long-term intubation 69 78 55123
+ Seq.40 Neurological Deficit, Degeneration Symptoms, Infectious Disease Tinnitus 34 56 879
+ Seq.41 Neurological Deficit, Degeneration Symptoms,Infectious Disease restore grip strength (loss of grip hands) 72 52 594
+ Seq.42 Neurological Deficit, Degeneration Symptoms, Infectious Disease trigeminal neuralgia 98 72 7458
+ Seq.43 Neurological Deficit, Degeneration Symptoms, Infectious Disease insomnia that is of long-standing 11 21 495
+ Seq.44 Neurological Deficit, Degeneration Symptoms,Infectious Disease insomnia that is situational, due noise, travel, heat 56 17 112
+ Seq.45 Neurological Deficit, Degeneration Symptoms,Infectious Disease insomnia that is due overwhelming life stress,worry 46 19 207
+ Seq.46 Neurological Deficit, Degeneration Symptoms, Infectious Disease dyslexia, other learning disorders 33 72 413
+ Seq.47 Neurological Deficit, Degeneration Symptoms, Infectious Disease vertigo (room is spinning) 40 04 100
+ Seq.48 Neurological Deficit, Degeneration Symptoms,Infectious Disease ease dizziness 30 13 103
+ Seq.49 Neurological Deficit, Degeneration Symptoms, Infectious Disease paralysis 23 66 182 973 437 9
+ Seq.50 Neurological Deficit, Degeneration Symptoms,Infectious Disease improve memory 22 11 377
+ Seq.51 Neurological Deficit, Degeneration Symptoms, Infectious Disease everyday forgetfulness, misplacing things 23 22 941 760 9395
+ Seq.52 II A: Psychological Concerns General II A: Psychological Concerns General 
+ Seq.53 Addiction 
+ Seq.54 Addiction 84 72 723
+ Seq.55 Addiction experience anger management issues,,those who are around them (yelling at everybody just think it) 55 65 569
+ Seq.56 Addiction assist breaking bad habits 456 923 8484 79256
+ Seq.57 Addiction eating disorder 78 19 335
+ Seq.58 Addiction morbid obesity, all its sequelae 25 65 993
+ Seq.59 Addiction disease of alcohol, its abuses 25 36 397
+ Seq.60 Addiction heal all dependence on smoking tobacco,non-tobacco options 99 61 553
+ Seq.61 Addiction addiction pain medications 91 582 7139
+ Seq.62 Addiction obsessive thoughts about managing pain 91 278 596
+ Seq.63 Addiction close pain gate receptors linked complex regional pain syndrome 92 367 9342
+ Seq.64 Anxiety, Depression
+ Seq.65 Anxiety, Depression agoraphobia 40 50 666
+ Seq.66 Anxiety, Depression anxiety performance-related 29 38 516
+ Seq.67 Anxiety, Depression anxiety, fear of medical procedures 11 66 767
+ Seq.68 Anxiety, Depression anxiety of hospitals, healthcare general 11 25 612
+" Seq.69 Anxiety,Depression anxiety due separation between mother,child; homesickness 33 49 586"
+ Seq.70 Anxiety, Depression nail biting, hair pulling,, other obsessive-compulsive type anxiety behaviors 64 07 991
+ Seq.71 Anxiety, Depression generalized anxiety disorder (GAD) 25 36 933
+ Seq.72 Anxiety, Depression betrayal, wounds of betrayal 53 14 80853
+ Seq.73 Anxiety,Depression consolation,comfort soul that only Divine Mother can give 99 61 378
+ Seq.74 Anxiety, Depression support grief, loss 116 116 1998
+ Seq.75 Anxiety,Depression inability accept death 96 93 587
+ Seq.76 Anxiety,Depression complete Transition grace,ease 88 75 369
+ Seq.77 Anxiety, Depression guilt/shame 10 22 58 725 49633
+ Seq.78 Anxiety, Depression hypervigilance associated PTSD 11 66 518
+ Seq.79 Anxiety, Depression dissociation associated PTSD 12 31 511
+" Seq.80 Anxiety,Depression memories erase of what is not right you; what brings you down 56 11 213"
+ Seq.81 Anxiety, Depression catastrophizing 10 23 519
+ Seq.82 Anxiety,Depression mitigate shock,terror that comes catastrophes of any sort (natural disasters, personal tragedies, loss, crisis situations, etc.) 11 11 115
+ Seq.83 Anxiety, Depression panic attacks 72 84 555
+ Seq.84 Anxiety, Depression painful memories of past, both conscious, subconscious (PTSD) 25 37 536
+ Seq.85 Anxiety,Depression let go of attachment what is frightening (to stop ruminating,thinking about it) 21 35 619
+ Seq.86 Anxiety, Depression spiritual protection from bullies 55 16 987
+ Seq.87 Anxiety, Depression victims of domestic violence 25 33 698
+ Seq.88 Anxiety,Depression ease energy of cliques, destructive character assassination shown by females other females a social/work setting 996 187
+ Seq.89 Anxiety,Depression those who bully others be filled LOVE instead of desire bully others 56 117 571
+ Seq.90 Anxiety,Depression animosity,strife lessen 81 76 619
+ Seq.91 Anxiety,Depression low selfesteem become healthy selfimage 11 96 888
+ Seq.92 Anxiety, Depression students, employees, parents,, selfemployed who endure overwork 96 15 646
+ Seq.93 Anxiety, Depression depression children, adults 29 63 586
+ Seq.94 Anxiety, Depression pediatric, adolescent depression 22 26 111
+ Seq.95 Anxiety,Depression increase motivation where there is little none 51 56 886
+ Seq.96 Anxiety,Depression situations where parents 'push' their children excel/perform some way, child endure this suffering resilience,strength,, 'pushing' abate 15 28 051
+ Seq.97 Anxiety, Depression demoralization/loss of morale 08 08 316
+ Seq.98 Anxiety,Depression social outcasts feel love,support from rest of humanity 131 294 784 585
+ Seq.99 Anxiety,Depression soo an aching heart 58 963 8114
+ Seq.100 Anxiety, Depression suicidal thoughts, impulses, ideation 443 792 854 61523
+ Seq.101 Anxiety,Depression hope a better life all ways,welcome new 25 39 561 615
+ Seq.102 Psychiatric Imbalance Which Requires Treatment
+ Seq.103 Psychiatric Imbalance bipolar disorder, mania 25 39 579
+ Seq.104 Psychiatric Imbalance borderline personality disorder 96 15 581
+ Seq.105 Psychiatric Imbalance cut themselves/injure themselves any way 51 56 931
+ Seq.106 Psychiatric Imbalance nail biting, hair pulling,, other obsessive-compulsive type anxiety behaviors 64 07 991
+ Seq.107 Psychiatric Imbalance generalized anxiety disorder (GAD) 25 36 933
+ Seq.108 Psychiatric Imbalance narcissistic personality disorder 97 96 533
+ Seq.109 Psychiatric Imbalance neurotransmitter imbalance 22 33 516
+ Seq.110 Psychiatric Imbalance oppositional defiant disorder 06 06 119
+ Seq.111 Psychiatric Imbalance painful memories of past, both conscious, subconscious (PTSD) 25 37 536
+ Seq.112 Psychiatric Imbalance pediatric, adolescent depression 22 26 111
+ Seq.113 Psychiatric Imbalance children remarkable behavioral disorders (see disclaimer) 86 42 789
+ Seq.114 Psychiatric Imbalance severe ADD/ADHD that does not respond treatment (please follow guidelines disclaimer,use 86 42 789 FIRST before using this code) 16 612 485 97895
+ Seq.115 Psychiatric Imbalance schizophrenia 13 31 413
+ Seq.116 Psychiatric Imbalance acute antipsychotic-induced akithesia, other extrapyramidal symptoms 668 725 8114 98725 688986 621
+ Seq.117 selfHelp
+ Seq.118 selfHelp feelings of abandonment 99 69 158
+ Seq.119 selfHelp alertness while staying up late at work 28 34 515
+ Seq.120 selfHelp anger 66 82 121
+ Seq.121 selfHelp those who experience anger management issues,,those who are around them (this can be given someone who is yelling at everybody just think it) 55 65 569
+ Seq.122 selfHelp assist breaking of bad habits 456 923 8484 79256
+ Seq.123 selfHelp betrayal, wounds of betrayal 53 14 80853
+ Seq.124 selfHelp spiritual protection from bullies 55 16 987
+ Seq.125 selfHelp clears negative emotions 45 892 456 7478 69925
+ Seq.126 selfHelp confidence 45 32 246
+ Seq.127 selfHelp consolation,comfort soul that only Divine Mother can give 99 61 378
+ Seq.128 selfHelp courage 11 21 222
+ Seq.129 selfHelp enhance creative flow,inspiration 45 826 9994 5789
+ Seq.130 selfHelp dyslexia, other learning disorders 33 72 413
+ Seq.131 selfHelp rise above chaos, confusion, distraction,delay 16 23 948
+ Seq.132 selfHelp ease adapting what is new to embrace change,welcome it! 16 16 714
+ Seq.133 selfHelp ease interpreting group social dynamics,how navigate them 31 76 981
+ Seq.134 selfHelp fear 42 58 725
+ Seq.135 selfHelp focus 45 88 623
+ Seq.136 selfHelp forgiveness 33 45 10101
+ Seq.137 selfHelp grounding 51 86 923
+ Seq.138 selfHelp guilt and/or shame 10 22 58 725 49633
+ Seq.139 selfHelp harmony, forgiveness, resolution after conflict others 65 62 792
+ Seq.140 selfHelp have fun!,a more positive outlook 25 67 993
+ Seq.141 selfHelp have hope flow from you others a group, no matter how large your energy will not be exhausted as Heaven will support your efforts,deliver hope through you rest,,your own hope will further increase. 96 55 178
+ Seq.142 selfHelp increase motivation 24 824 9625
+ Seq.143 selfHelp increase motivation where there is little none 51 56 886
+ Seq.144 selfHelp indecision 89 76 548
+" Seq.145 selfHelp make steps forward habitual response ingrained by society; release from grip of selfdoubt 23 65 189"
+ Seq.146 selfHelp hesitance of those who wait,linger turn into confidence, assuredness, healthy,balanced will that is egoless 80 80 561
+" Seq.147 selfHelp memories erase of what is not right you; what brings you down 56 11 213"
+ Seq.148 selfHelp jealousy 21 346 922
+ Seq.149 selfHelp assist job loss,job recovery (to heal) 99 61 546
+ Seq.150 selfHelp low selfesteem become healthy selfimage 11 96 888
+ Seq.151 selfHelp nail biting, hair pulling,, other obsessive-compulsive type anxiety behaviors 64 07 991
+ Seq.152 selfHelp nightmares 57 11 936
+ Seq.153 selfHelp students, employees, parents,, selfemployed who endure overwork 96 15 646
+ Seq.154 selfHelp panic attacks 72 84 555
+ Seq.155 selfHelp chronic disorganization, procrastination 29 37 651
+ Seq.156 selfHelp enhanced ability be patient 42 84 899
+ Seq.157 selfHelp patience hardship 96 41 327
+ Seq.158 selfHelp problematic thoughts 76 33 121
+ Seq.159 selfHelp be more professional demeanor,in outlook 18 62 398
+ Seq.160 selfHelp releases excess energy 12 215 987 6412
+ Seq.161 selfHelp help parents whose children are adolescence to cope affect (moods) they present 56 11 926
+ Seq.162 selfHelp lift resentment,to exchange it vibration of peace 22 21 568
+ Seq.163 selfHelp reverse a bad attitude (change negativity love) 1323 498 725
+ Seq.164 selfHelp selflove,selfworth increase optimum healthy levels 84 72 167
+ Seq.165 selfHelp shine one's light brightly no matter what is going on their life experience 51 34 581
+ Seq.166 selfHelp stress relief/relaxation 13 13 514
+ Seq.167 selfHelp hope a better life all ways,welcome new 25 39 561 615
+ Seq.168 selfHelp everything happen best,to trust that this is happening no other reason than this 03 05 791
+ Seq.169 selfHelp well-being 33 96 815
+ Seq.170 selfHelp willingness face new challenges,an interest fully enjoy what Life Experience has offer 21 21 817
+ Seq.171 selfHelp willpower 35 42 888
+ Seq.172 selfHelp your wounded inner child be given grace communicate its needs you so healing may begin 73 75 766
+ Seq.173 selfHelp enhance a spirit of discovery, adventure,zest life 44 70 831
+ Seq.174 selfHelp social outcasts feel Love,support of Divine 22 33 586
+ Seq.175 selfHelp those who are overwhelmed, feel 'everything coming at them at once all directions' 51 56 321
+ Seq.176 selfHelp prevent and/or release emotional attachment others' expressions 32 485 7852
+ Seq.177 selfHelp reverse effects of exposure violence media, television,films 16 36 893
+ Seq.178 Spiritual Toolbox
+ Seq.179 Spiritual Toolbox awaken all things angelic 44 44 444
+ Seq.180 Spiritual Toolbox acceptance contribution your life situation, clearly,,guidance navigate through situation at hand 89 65 215
+ Seq.181 Spiritual Toolbox ease energy cliques, destructive character assassination of females to females social/work setting 996 187
+ Seq.182 Spiritual Toolbox those who bully others be filled LOVE instead of desire bully others 56 117 571
+ Seq.183 Spiritual Toolbox reverse a bad attitude (change negativity love) 1323 498 725
+ Seq.184 Spiritual Toolbox easily identify energy signature of another 56 78 321
+ Seq.185 Spiritual Toolbox harmony, forgiveness, resolution after conflict others 65 62 792
+ Seq.186 Spiritual Toolbox experience happily ever after your personal one,,in couples, if it is desired by both who are couple 08 22 517
+ Seq.187 Spiritual Toolbox KNOW one's heart's desires, free of conflicting thoughts,energy 21 21 653
+ Seq.188 Spiritual Toolbox enhance creative flow,inspiration 45 826 9994 5789
+ Seq.189 Spiritual Toolbox clears negative emotions 45 892 456 7478 69925
+ Seq.190 Spiritual Toolbox releases excess energy 12 215 987 6412
+ Seq.191 Spiritual Toolbox lift resentment,to exchange it vibration of peace 22 21 568
+ Seq.192 Spiritual Toolbox selflove,selfworth increase optimum healthy levels 84 72 167
+ Seq.193 Spiritual Toolbox soo an aching heart 58 963 8114
+" Seq.194 Spiritual Toolbox memories erase of what is not right you; what brings you down 56 11 213"
+ Seq.195 Spiritual Toolbox increase motivation 24 824 9625
+" Seq.196 Spiritual Toolbox make steps forward when there is hesitance as a habitual response which is ingrained by society; release from grip of selfdoubt 23 65 189"
+ Seq.197 Spiritual Toolbox shine one's light brightly no matter what is going on their life experience 51 34 581
+ Seq.198 Spiritual Toolbox filled love,respect come from love (protection people's projections,misinterpretations) 99 25 881
+ Seq.200 Spiritual Toolbox promote a sense of unity All That Is 14 72 896
+ Seq.201 Spiritual Toolbox experience energy of seashore when one is landlocked 18 51 350
+ Seq.202 Energy, sleep
+ Seq.203 Energy,Sleep improve symptoms of chronic fatigue 24 58 972
+ Seq.204 Energy,Sleep increase motivation where there is little none 51 56 886
+ Seq.205 Energy, Sleep students, employees, parents,, selfemployed who endure overwork 96 15 646
+ Seq.206 Energy,Sleep enhance sleep quality 10 42 7896
+ Seq.207 Energy, Sleep insomnia that is of long-standing 11 21 495
+ Seq.208 Energy,Sleep insomnia that is situational, due noise, travel, heat 56 17 112
+ Seq.209 II B: Extreme Psychological Distress: II B: Extreme Psychological Distress: 
+ Seq.210 Extreme Psychological Distress betrayal, wounds of betrayal 53 14 80853
+ Seq.211 Extreme Psychological Distress hopelessness, despair 45 36 812
+ Seq.212 Extreme Psychological Distress suicidal thoughts, impulses, ideation 443 792 854 61523
+ Seq.213 Extreme Psychological Distress suicidal thinking (ideation) 55 69 872
+ Seq.214 Extreme Psychological Distress suicidal plans 51 56 938
+ Seq.215 Extreme Psychological Distress suicide attempt 51 51 517
+ Seq.216 Extreme Psychological Distress cyber bullying victims 82 19 576
+ Seq.217 Extreme Psychological Distress spiritual protection from bullies 55 16 987
+ Seq.218 Extreme Psychological Distress pediatric, adolescent depression 22 26 111
+ Seq.219 Extreme Psychological Distress situations where parents 'push' their children excel/perform some way, child endure this suffering resilience,strength,, 'pushing' abate 15 28 051
+ Seq.220 Extreme Psychological Distress those who witness suicide/discover body 81 87 591
+ Seq.221 Extreme Psychological Distress those who are target of hate because they are 'different' for strength survive, will endure 88 22 531
+ Seq.222 Extreme Psychological Distress those who cut themselves/injure themselves any way 51 56 931
+ Seq.223 Extreme Psychological Distress social outcasts feel Love,support of Divine 22 33 586
+ Seq.224 Extreme Psychological Distress those who are overwhelmed, feel 'everything coming at them at once all directions' 51 56 321
+ Seq.226 Extreme Psychological Distress last six are new from Divine Mother. They can be given by loved ones one who is suffering use your body as a surrogate codes/trace codes on a picture. They can also be used by those who are suffering on themselves ease distress. Divine Mother ADORES all of Her children,wants each one know how MUCH she cares...for them. 
+ Seq.227 III. Head, Neck III. Head, Neck 
+ Seq.228 Dental Dental 
+ Seq.229 Dental optimize airway function 33 89 847
+ Seq.230 Dental align,straighten teeth 45 64 686
+ Seq.231 Dental gingevitis 42 12 993
+ Seq.232 Dental bleeding gums 42 66 953
+ Seq.233 Dental toothache 35 41 553
+ Seq.234 Ear, Nose, Throat Ear, Nose, Throat 
+ Seq.235 Ear, Nose, Throat allergies, general 13 14 335
+ Seq.236 Ear, Nose, Throat herpes virus lesions 88 21 233
+ Seq.237 Ear, Nose, Throat sinuses 22 55 732
+ Seq.238 Ear, Nose, Throat inflammation of middle ear 56 23 899
+ Seq.239 Ear, Nose, Throat pharyngitis (sore throat) 44 88 772
+ Seq.240 Ear, Nose, Throat pharyngitis from post-nasal drip chronic sinus ailment 52 18 913
+ Seq.241 Ear, Nose, Throat tonsillitis 80 13 494
+ Seq.242 Ear, Nose, Throat vocal cord paralysis, vocal cord nodules 52 53 112
+ Seq.243 Neck Neck 
+ Seq.244 Neck torticollis 12 66 523
+ Seq.245 Neck thoracic outlet syndrome 59 89 123
+ Seq.246 IV. Eyes, Vision IV. Eyes, Vision 
+ Seq.247 Eye cataract of lens of eye 77 78 177
+ Seq.248 Eye glaucoma, high pressure inside eye 77 78 176
+ Seq.249 Eye eye irritation, especially that which is associated headache 42 37 346
+ Seq.250 Eye conjunctivitis 44 37 224
+ Seq.251 Eye 'pink eye' conjunctivitis that is severe, recurrent 45 82 531
+ Seq.252 Eye stye 13 78 887
+ Seq.253 Eye eye injury 33 69 878
+ Seq.254 Vision Vision 
+ Seq.255 Vision hyperopia (farsightedness) 24 17 158
+ Seq.256 Vision myopia (nearsightedness) 76 14 182
+ Seq.257 Vision poor eyesight, blindness of all causes 99 65 491
+ Seq.258 Vision improvement vision 29 37 853
+ Seq.259 Vision amblyopia 31 36 407
+ Seq.260 V. Endocrine Sys. Metabolism V. Endocrine Sys. Metabolism 
+ Seq.261 Endocrine Sys. Metabolism adrenal insufficiency of long-standing duration 25 22 36 581
+ Seq.262 Endocrine Sys.Metabolism improve adrenal function 67 13 134
+ Seq.263 Endocrine Sys. Metabolism diabetes, balancing of insulin level 44 34 131
+ Seq.264 Endocrine Sys. Metabolism diabetic ulcer/infection of feet 44 34 135
+ Seq.265 Endocrine Sys. Metabolism pre-diabetic, someone who is at very high risk of developing diabetes,, also those who experience diabetes pregnancy 15 31 916
+ Seq.266 Endocrine Sys.Metabolism lose weight 31 22 778
+ Seq.267 Endocrine Sys. Metabolism morbid obesity, all its sequelae 25 65 993
+ Seq.268 Endocrine Sys.Metabolism increase pituitary function 97 48 784
+ Seq.269 Endocrine Sys. Metabolism Graves disease 52 81 197
+ Seq.270 Endocrine Sys. Metabolism papillary thyroid cancer 33 56 763
+ Seq.271 Endocrine Sys. Metabolism regulation of thyroid gland 86 86 694
+ Seq.272 Endocrine Sys.Metabolism thyroid nodules that have been needle biopsied,shown not be cancer 25 11 216
+ Seq.273 Endocrine Sys. Metabolism minor thyroid enlargement 16 11 219
+ Seq.274 Endocrine Sys. Metabolism low testosterone 56 16 921
+ Seq.275 Endocrine Sys. Metabolism hormonal imbalance 81 63 957
+ Seq.276 Endocrine Sys. Metabolism gout 11 23 526
+ Seq.277 Endocrine Sys. Metabolism optimum pH of human body 55 65 971
+ Seq.278 VI. Heart, Circulation of Blood Pressure VI. Heart, Circulation of Blood Pressure 
+ Seq.279 Circulation of Blood Pressure regulation of blood pressure, use high/low pressures equally 11 84 744
+ Seq.280 Circulation of Blood Pressure high blood pressure (hypertension) 88 63 292
+ Seq.281 Heart
+ Seq.282 Heart myocardial infarction as first line of treatment on way hospital 98 88 119
+ Seq.283 Heart hypertrophc cardiomyopathy 33 59 674
+ Seq.284 Heart cardiac arrhythmia, rhythm disturbance stable hemodynamics (non emergency) 13 48 782
+ Seq.285 Heart improve cardiovascular function 78 94 825
+ Seq.286 Cardiac Surgery
+ Seq.287 Cardiac Surgery sternal wound infection 51 05 623
+ Seq.288 Circulation 
+ Seq.289 Circulation anemia, healthier blood 11 11 171
+ Seq.290 Circulation abdominal aortic aneurysm that is clinically stable, not ruptured 64 825 7493
+ Seq.291 Circulation difficult iv, blood draw veins 99 62 157
+ Seq.292 Circulation hyperlipidemia 22 71 536
+ Seq.293 Circulation swollen legs, pitting edema 55 65 192
+ Seq.294 Circulation varicose veins, mild 40 20 168
+ Seq.295 Circulation varicose veins, moderate severe 96 52 881
+ Seq.296 Blood
+ Seq.297 Blood anemia, healthier blood 11 11 171
+ Seq.298 Blood lymphoma 40 69 997
+ Seq.299 Blood multiple myeloma 51 61 987
+ Seq.300 Blood pernicious anemia 45 16 192
+ Seq.301 Blood difficult iv, blood draw veins 99 62 157
+ Seq.302 Blood improve white blood cell count neutropenia 69 78 551324 69
+ Seq.303 Lungs, Breathing (Pulmonary Disease) 
+ Seq.304 Lungs & Breathing addiction (tobacco) 84 72 723
+ Seq.305 Lungs & Breathing heal all dependence on smoking tobacco,non-tobacco options 99 61 553
+ Seq.306 Lungs & Breathing airborne allergies 13 31 213
+ Seq.307 Lungs & Breathing altitude sickness 31 27 459
+ Seq.308 Lungs & Breathing Asthma 21 22 413
+ Seq.309 Lungs & Breathing bronchitis 53 12 798
+ Seq.310 Lungs & Breathing cat allergy 43 54 565
+ Seq.311 Lungs & Breathing chronic obstructive pulmonary disease (COPD) 27 38 963
+ Seq.312 Lungs & Breathing relieve cough 11 72 844
+ Seq.313 Lungs & Breathing relieve cough from side effect of medication 81 79 623
+ Seq.314 Lungs & Breathing cystic fibrosis 52 48 194
+ Seq.315 Lungs & Breathing inflammation of lungs 88 81 643
+ Seq.316 Lungs & Breathing influenza 72 64 892
+ Seq.317 Lungs & Breathing interstitial lung disease 20 53 961
+ Seq.318 Lungs & Breathing optimize airway function (upper respiratory tract nose, pharynx, trachea, bronchi) 33 89 847
+ Seq.319 Lungs & Breathing respiratory distress 87 65 423
+ Seq.320 Lungs & Breathing lessen sequelae of obstructive sleep apnea 25 56 551
+ Seq.321 Lungs & Breathing thymoma (tumor of thymus gland) 56 19 826
+ Seq.322 Lungs & Breathing improve pulmonary function (bronchioles,lung parenchyma) 57 49 285
+ Seq.323 Lungs & Breathing upper respiratory infection (URI) 25 19 632
+ Seq.324 Digestive Sys.
+ Seq.325 Digestive Sys.nausea 83 33 889
+ Seq.326 Digestive Sys.motion sickness 83 41 783
+ Seq.327 Digestive Sys.post operative nausea, vomiting (PONV) 86 21 510
+ Seq.328 Digestive Sys.hepatitis of viral origin, other reasons 87 47 988
+ Seq.329 Digestive Sys.hepatitis C 22 35 966
+ Seq.330 Digestive Sys.hiatal hernia 56 59 327
+ Seq.331 Digestive Sys.fatty liver 26 11 351
+ Seq.332 Digestive Sys.fatty liver which is on way causing cirrhosis moderate disease condition 81 52 931
+ Seq.333 Digestive Sys.cirrhosis of liver 22 35 297
+ Seq.334 Digestive Sys.esophageal varices, ascites, other symptoms of advanced cirrhosis 25 36 591
+ Seq.335 Digestive Sys.liver cancer that is primary hepatocellular carcinoma 72 48 496
+ Seq.336 Digestive Sys.pancreatitis, its sequelae 45 39 373
+ Seq.337 Digestive Sys.pancreatic cancer 64 47 196
+ Seq.338 Digestive Sys.cholangiocarcinoma 46 99 156
+ Seq.339 Digestive Sys.stomach ache 13 45 899
+ Seq.340 Digestive Sys.diarrhea 45 45 899
+ Seq.341 Digestive Sys.very strong diarrhea 87 45 675
+ Seq.342 Digestive Sys.constipation 45 55 899
+ Seq.343 Digestive Sys.constipation that is chronic, long-standing 25 35 896
+ Seq.344 Digestive Sys.colon cancer 25 39 963
+ Seq.345 Digestive Sys.rectal cancer 25 36 983
+ Seq.346 Digestive Sys.balancing purposes of an irritable bowel 42 53 899
+ Seq.347 Digestive Sys.removal of parasites, worms,, also etheric attachments/parasites 33 37 899
+ Seq.348 Digestive Sys.loss of appetite 35 87 225
+ Seq.349 Digestive Sys.lose weight 31 22 778
+ Seq.350 Digestive Sys.morbid obesity, all its sequelae 25 65 993
+ Seq.351 Digestive Sys.obesity children 12 36 115
+ Seq.352 Digestive Sys.hemorrhoids 78 83 434
+ Seq.353 Digestive Sys.bloating 38 37 684
+ Seq.354 Digestive Sys.flatulence 86 66 431
+ Seq.355 Digestive Sys.enteric fistulas of bowel bladder, vagina, rectum, other bowel,,skin 25 59 963
+ Seq.356 Digestive Sys.gastric reflux 27 55 362
+ Seq.357 Digestive Sys.celiac sprue that is longstanding 38 97 143
+ Seq.358 Digestive Sys.celiac sprue which is new onset 46 11 615
+ Seq.359 Digestive Sys.digestive health 77 74 321
+ Seq.360 Digestive Sys.hiccups 42 53 161
+ Seq.361 Digestive Sys.Crohn's disease 20 05 396
+ Seq.362 Digestive Sys.Ulcerative Colitis 48 69 117
+ Seq.363 Digestive Sys.people suffer pain/nausea from surgery on abdomen long time after surgical incisions are healed 56 59 853
+ Seq.364 Digestive Sys.people ostomies strength,a positive outlook 25 19 831
+ Seq.365 Digestive Sys.ease stomach cramps 14 82 825
+ Seq.366 Digestive Sys.improve gallbladder function 56 72 517
+ Seq.367 Digestive Sys.gallbladder attack (cholecystitis), gallbladder disease (cholelithiasis) 56 78 917
+ Seq.368 Digestive Sys.gain weight 52 82 698
+ Seq.369 Digestive Sys.diverticulosis 15 73 991
+ Seq.370 Digestive Sys.Clostridium Difficile Colitis 59 892 345 78122
+ Seq.371 Digestive Sys.an additional aid appendicitis which is being treated standard medical care 40 22 135
+ Seq.372 Digestive Sys.peptic ulcer 15 35 796
+ Seq.373 Digestive Sys.simple hernia that is easily reduced 16 18 215
+ Seq.374 Renal Sys
+ Seq.375 Kidney kidney stones 68 43 833
+ Seq.376 Kidney pyelitis, inflammation of kidney pelvis 63 34 831
+ Seq.377 Kidney reinforcement of kidney function 76 42 688
+ Seq.378 Kidney inflammation of bladder 87 33 478
+ Seq.379 Kidney interstitial cystitis 25 26 332
+ Seq.380 Kidney renal replacement therapy,hemodialysis, peritoneal dialysis- to less setbacks, side effects moother experience. placement access dialysis, keeping access working, open,, tolerating fluid, electrolyte shifts in dialysis session of either kind hemodialysis/peritoneal dialysis. 20 02 936
+ Seq.381 Kidney people who have ostomies have strength,a positive outlook 25 19 831
+ Seq.382 Kidney benign prostatic hypertrophy 25 37 353
+ Seq.383 Kidney polycystic kidney disease 93 65 897
+ Seq.384 Kidney chronic renal disease 84 93 456
+ Seq.385 Kidney urinary tract infection (UTI) 35 47 375
+ Seq.386 Kidney acute glomerulonephritis 27 42 363
+ Seq.387 Kidney end stage renal disease (ESRD) 14 484 578 96231
+ Seq.388 Kidney bladder cancer 55 63 156
+ Seq.389 Kidney kidney cancer 78 22 938
+ Seq.390 XI. Female Reproductive Organs, Childbirth XI. Female Reproductive Organs, Childbirth 
+ Seq.391 Female Reproductive Organs childbirth 11 12 121
+ Seq.392 Female Reproductive Organs infertility (if it is not Life Contract) 56 11 518
+ Seq.393 Female Reproductive Organs symptoms menstruation, bloating, PMS, pain 11 32 899
+ Seq.394 Female Reproductive Organs menstrual weakness 22 16 911
+ Seq.395 Female Reproductive Organs pre-menopause, peri-menopause,, menopause trouble 31 31 798
+ Seq.396 Female Reproductive Organs endometriosis (severe) 56 11 235
+ Seq.397 Female Reproductive Organs ovarian cysts of all kinds, from simple/dermoid complex 83 83 456
+ Seq.398 Female Reproductive Organs herpes virus 88 21 233
+ Seq.399 Female Reproductive Organs removing warts 38 31 418
+ Seq.400 Female Reproductive Organs polycystic ovary disease, general 56 22 161
+ Seq.401 Female Reproductive Organs ovarian cancer 25 38 576
+ Seq.402 Female Reproductive Organs metastatic ovarian cancer 56 93 787
+ Seq.403 Female Reproductive Organs breast cancer 79 37 854
+ Seq.404 Female Reproductive Organs yeast infection 23 42 197
+ Seq.405 Female Reproductive Organs uterine cancer endometrial 29 35 531
+ Seq.406 Female Reproductive Organs cervical cancer 92 96 144
+ Seq.407 Female Reproductive Organs enhance lactation (only if nursing) 42 21 14444
+ Seq.408 Female Reproductive Organs help premature infants thrive if it is life plan highest good 55 16 112
+ Seq.409 Female Reproductive Organs miscarriage, fetal demise,loss of pregnancy- father, mother, close to couple, grieve, heal past situations also 23 46 721
+ Seq.410 Female Reproductive Organs uterine prolapse/uterine atony childbirth 55 81 766
+ Seq.411 Male Reproductive Organs 
+ Seq.412 Male Reproductive Organs herpes virus 88 21 233
+ Seq.413 Male Reproductive Organs removing warts 38 31 418
+ Seq.414 Male Reproductive Organs benign prostatic hypertrophy 25 37 353
+ Seq.415 Male Reproductive Organs prostate cancer 42 56 102
+ Seq.416 Male Reproductive Organs low testosterone 56 16 921
+ Seq.417 Male Reproductive Organs buried penis 56 92 556
+ Seq.418 Male Reproductive Organs seminoma 56 11 291
+ Seq.419 Male Reproductive Organs simple hernia that is easily reduced 16 18 215
+ Seq.420 XIII. Bones, Joints,, Autoimmune Disorders XIII. Bones, Joints,, Autoimmune Disorders 
+ Seq.421 Bones, Joints
+ Seq.422 Bones, Joints arthritis, arthrosis 34 41 323
+ Seq.423 Bones, Joints arthritis degenerative joint disease (DJD) 26 51 329
+ Seq.424 Bones, Joints equine sarcoids (not sure if this applies human sarcoid too) 53 23 411
+ Seq.425 Bones, Joints rheumatic afflictions 83 73 879
+ Seq.426 Bones, Joints general inflammation 43 14 223
+ Seq.427 Bones, Joints purulent places of inflammation 35 31 223
+ Seq.428 Bones, Joints diabetic ulcer/infection of feet 44 34 135
+ Seq.429 Bones, Joints cellular damages of any sort 33 45 634
+ Seq.430 Bones, Joints sprain 78 43 149
+ Seq.431 Bones, Joints congenital hip dysplasia 29 58 321
+ Seq.432 Bones, Joints bones that are healing poorly 86 47 890
+ Seq.433 Bones,Joints align,straighten spine 57 43 868
+ Seq.434 Bones, Joints conditions caused by presence of extra vertebrae 72 82 145
+ Seq.435 Bones, Joints torn Anterior Cruciate Ligament (ACL) 53 84 992
+ Seq.436 Bones, Joints torn meniscus knee 74 99 845
+ Seq.437 Bones,Joints restore grip strength (loss of grip hands) 72 52 594
+ Seq.438 Bones, Joints shoulder pain general 17 16 911
+ Seq.439 Bones, Joints carpal tunnel 55 35 796
+ Seq.440 Bones,Joints carpal tunnel that does not respond 55 35 796 95 13 332
+ Seq.441 Bones, Joints plantar fasciitis 96 08 126
+ Seq.442 Muscles 
+ Seq.443 Muscles sore muscles, especially after exercise 88 45 363
+ Seq.444 Muscles assist relaxation of stiff muscles 13 81 478
+ Seq.445 Muscles ease leg cramps 13 87 494
+ Seq.446 Muscles atrophy 22 36 991
+ Seq.447 Autoimmune
+ Seq.448 Autoimmune primary amyloidosis 67 15 001
+ Seq.449 Autoimmune psoriasis 33 14 871
+ Seq.450 Autoimmune psoriatic arthritis 20 06 391
+ Seq.451 Autoimmune eczema generally 81 74 311
+ Seq.452 Autoimmune Wegener's granulomatosis 95 66 331
+ Seq.453 Autoimmune chronic fatigue syndrome 56 15 327
+ Seq.454 Autoimmune improve symptoms of chronic fatigue 24 58 972
+ Seq.455 Autoimmune lupus 52 89 134
+ Seq.456 Autoimmune lupus that is early diagnosis for it not progress 19 77 897
+ Seq.457 Autoimmune Graves disease 52 81 197
+ Seq.458 Autoimmune multiple sclerosis 45 96 151
+ Seq.459 Autoimmune myasthenia gravis 57 56 931
+ Seq.460 Autoimmune pemphigus vulgaris, pemphigus follaceus, paraneoplastic pemphigus ,, intraepidermal neutrophilic !gA dermatosis 86 11 105
+ Seq.461 Pinched Nerve Syndromes, other Chronic Painful Syndromes Pinched Nerve Syndromes, other Chronic Painful Syndromes 
+ Seq.462 Pinched Nerve Syndromes, other Chronic Painful Syndromes pinched nerve pain (general) 29 89 596 125
+ Seq.463 Pinched Nerve Syndromes, other Chronic Painful Syndromes ulnar nerve pain 25 69 12 58713
+ Seq.464 Pinched Nerve Syndromes, other Chronic Painful Syndromes vagus nerve pain 59 72 81 5534921
+ Seq.465 Pinched Nerve Syndromes, other Chronic Painful Syndromes carpal tunnel 55 35 796
+ Seq.466 Pinched Nerve Syndromes,other Chronic Painful Syndromes carpal tunnel that does not respond 55 35 796 95 13 332
+ Seq.467 Pinched Nerve Syndromes, other Chronic Painful Syndromes Fibromyalgia 76 76 893
+ Seq.468 Pinched Nerve Syndromes,other Chronic Painful Syndromes Fibromyalgia that is mixed other autoimmune conditions,is difficult diagnose 16 42 647
+ Seq.469 Pinched Nerve Syndromes, other Chronic Painful Syndromes Morgellon's disease 55 56 157
+ Seq.470 XIV. Infectious Disease XIV. Infectious Disease 
+ Seq.471 General
+ Seq.472 General cellular damages of any sort 33 45 634
+ Seq.473 General general inflammation 43 14 223
+ Seq.474 General purulent places of inflammation 35 31 223
+ Seq.475 General lowering of fever 38 89 332
+ Seq.476 General fever children 20 02 351
+ Seq.477 General fever reduction adults 17 84 292
+ Seq.478 Bacterial Bacterial 
+ Seq.479 Bacterial acute cellulitis (to be applied while seeking medical attention) 03 16 246
+ Seq.480 Bacterial bacterial infection 11 89 876
+ Seq.481 Bacterial Clostridium Difficile Colitis 59 892 345 78122
+ Seq.482 Bacterial diabetic ulcer/infection of feet 44 34 135
+ Seq.483 Bacterial leptospirosis 16 99 156
+ Seq.484 Bacterial MRSA (methicillin-resistant staphylococcus aureus) 25 37 661
+ Seq.485 Bacterial antimicrobial effect 57 49 525
+ Seq.486 Bacterial 'pink eye' conjunctivitis that is severe, recurrent 45 82 531
+ Seq.487 Bacterial Q fever 86 21 516
+ Seq.488 Bacterial hasten recovery of strep throat concurrent antibiotic regimen 89 56 997
+ Seq.489 Viral
+ Seq.490 Viral Dengue fever 16 85 973
+ Seq.491 Viral chickenpox 23 31 878
+ Seq.492 Viral typical childhood conditions, illnesses (see disclaimer) 86 42 789
+ Seq.493 Viral easing cold symptoms so you can rest 21 79 865
+ Seq.494 Viral herpes virus 88 21 233
+ Seq.495 Viral HIV (human immunodeficiency virus) 00 10 0010
+ Seq.496 Viral mononucleosis (and Epstein-Barr virus) 64 32 179
+ Seq.497 Viral lessen severity of this measles outbreak,other viruses that are 'going around' January 29, 2014,all 'outbreaks' thereafter 55 76 392
+ Seq.498 Viral removing warts 38 31 418
+ Seq.499 Viral rabies humans, animals when there is no medical/veterinary help available 55 65 792
+ Seq.500 Protozoal/Parasitic Protozoal/Parasitic 
+ Seq.501 Protozoal/Parasitic Giardia infection (giardiasis) 21 798 21 69542
+ Seq.502 Protozoal/Parasitic Life-Threatening 
+ Seq.503 Protozoal/Parasitic sepsis 25 79 512
+ Seq.504 Protozoal/Parasitic septic shock/ ARDS 99 61 542
+ Seq.505 XV. Cancer, Tumors XV. Cancer, Tumors 
+ Seq.506 Cancer, Tumors all cancer, general 14 44 338
+ Seq.507 Cancer, Tumors cellular damages of any sort 33 45 634
+ Seq.508 Cancer, Tumors bladder cancer 55 63 156
+ Seq.509 Cancer, Tumors breast cancer 79 37 854
+ Seq.510 Cancer,Tumors brain tumors general (primary tumors, not metastatic spread from other tumors brain) 16 53 111
+ Seq.511 Cancer, Tumors cervical cancer 92 96 144
+ Seq.512 Cancer, Tumors cholangiocarcinoma 46 99 156
+ Seq.513 Cancer, Tumors gastrointestinal stromal tumor (GIST) 81 01 952
+ Seq.514 Cancer, Tumors colon cancer 25 39 963
+ Seq.515 Cancer, Tumors rectal cancer 25 36 983
+ Seq.516 Cancer, Tumors Hodgkin's disease 22 96 853
+ Seq.517 Cancer, Tumors kidney cancer 78 22 938
+ Seq.518 Cancer, Tumors leukemia general 91 89 319
+ Seq.519 Cancer, Tumors lymphoma 40 69 997
+ Seq.520 Cancer, Tumors Merkel Cell carcinoma 11 47 382
+ Seq.521 Cancer, Tumors ovarian cancer 25 38 576
+ Seq.522 Cancer, Tumors metastatic ovarian cancer 56 93 787
+ Seq.523 Cancer, Tumors pancreatic cancer 64 47 196
+ Seq.524 Cancer, Tumors uterine cancer endometrial 29 35 531
+ Seq.525 Cancer, Tumors sarcoma 25 67 983
+ Seq.526 Cancer, Tumors squamous cell cancer of skin 25 36 573
+ Seq.527 Cancer, Tumors squamous cell cancer that is invasive 91 87 225
+ Seq.528 Cancer, Tumors thymoma (tumor of thymus gland) 56 19 826
+ Seq.529 Cancer Side Effects 
+ Seq.530 Cancer Side Effects cancer pain, suffering to soothe, assist 96 97 521
+ Seq.531 Cancer Side Effects breathing difficulties when cancer is advanced to aid reducing perception of air hunger, its distress 77 53 696
+ Seq.532 Cancer Side Effects lymphedema 89 78 211
+ Seq.533 Cancer Side Effects radiation proctitis 51 66 813
+ Seq.534 Cancer Side Effects dignity, consolation progression of a terminal illness 15 62 556
+ Seq.535 Cancer Side Effects inability accept death 96 93 587
+ Seq.536 Cancer Side Effects complete Transition grace,ease 88 75 369
+ Seq.537 Cancer Side Effects bereavements of those left behind 12 46 861
+ Seq.538 Cancer Side Effects people who have ostomies have strength,a positive outlook 25 19 831
+ Seq.539 Cancer Side Effects those who are denial a serious, life-threatening medical condition, seek help 11 31 561
+ Seq.540 XVII. Trauma, as blunt,penetrating injury due accidents XVII. Trauma, as blunt,penetrating injury due accidents 
+ Seq.541 Trauma, as blunt,penetrating injury due accidents healing of open wounds (write air above wound) 44 56 789
+ Seq.542 Trauma, as blunt,penetrating injury due accidents healing of severe injuries abdomen when surgery is not available 33 78 133
+ Seq.543 Trauma, as blunt,penetrating injury due accidents healing of open fractures when surgery is not immediately available 44 57 678
+ Seq.544 Trauma, as blunt,penetrating injury due accidents sprain 78 43 149
+ Seq.545 Trauma, as blunt,penetrating injury due accidents burns, also sunburn 19 19 311
+ Seq.546 Trauma, as blunt,penetrating injury due accidents first aid heat stroke thought along other measures 18 19 811
+ Seq.547 Trauma, as blunt,penetrating injury due accidents sunstroke 33 14 993
+" Seq.548 Trauma, as blunt,penetrating injury due accidents support tolerance heat as long as there is plenty of rest, shade,,adequate hydration; have less misery hot weather 38 16 751"
+" Seq.549 Trauma, as blunt,penetrating injury due accidents ease surgical emergencies; that all healing will expedite,one will have most positive experience through hospital treatment 56 51 215"
+ Seq.550 Trauma, as blunt,penetrating injury due accidents a smooth,stable anesthetic course while having an operation 72 10 361
+ Seq.551 Trauma, as blunt,penetrating injury due accidents pain location of surgery after everything is healed 25 36 897
+ Seq.552 Trauma, as blunt,penetrating injury due accidents altitude sickness 31 27 459
+ Seq.553 Trauma, as blunt,penetrating injury due accidents ease effect on body from being at high elevation/altitude sickness 15 36 896
+ Seq.554 Trauma, as blunt,penetrating injury due accidents when you bump yourself,it hurts mild blunt trauma 25 33 577
+ Seq.555 Trauma, as blunt,penetrating injury due accidents assist relaxation of stiff muscles 13 81 478
+ Seq.556 Trauma, as blunt,penetrating injury due accidents ease leg cramps 13 87 494
+ Seq.557 Trauma, blunt,penetrating injury,accidents discomfort whiplash, unstable ligamentous injury,unstable fracture of neck have been proven be absent neck injury by CT-scan fine cuts, MRI, flexion,extension films, and/or X-ray by licensed orthopedic trauma experts 89 912 573
+ Seq.558 Trauma, as blunt,penetrating injury due accidents increase muscle flexibility,strength 81 21 596
+ Seq.559 Trauma, as blunt,penetrating injury due accidents increase range of motion (ROM) 69 25 987
+ Seq.560 Trauma, as blunt,penetrating injury due accidents increase proprioception,stabilize gait 21 59 687
+ Seq.561 Trauma, as blunt,penetrating injury due accidents decrease phantom pain due loss of limbs 21 79 721
+ Seq.562 Trauma, as blunt,penetrating injury due accidents relieve prosthetic pain 21 89 233
+ Seq.563 Trauma, as blunt,penetrating injury due accidents increase mobility a prosthetic limb,make mastery of this easier 29 69 589
+ Seq.564 Trauma, as blunt,penetrating injury due accidents hypothermia 61 62 9821
+ Seq.565 Skin Conditions
+ Seq.566 Skin relief from itching 87 68 433
+ Seq.567 Skin insect bites 22 33 311
+ Seq.568 Skin Lyme Disease 91 61 5982
+ Seq.569 Skin assist healing tattoos 72 84 986
+ Seq.570 Skin cat allergy 43 54 565
+ Seq.571 Skin skin sensitivity from friction, loss of fur/hair 81 50 561
+ Seq.572 Skin hair loss 11 23 884
+ Seq.573 Skin nourish hair 33 48 452
+ Seq.574 Skin hyperpigmentation 55 75 986
+ Seq.575 Skin actinic keratosis 17 37 556
+ Seq.576 Skin seborrheic keratosis 56 11 165
+ Seq.577 Skin remove keloid 41 52 896
+" Seq.578 Skin remove moles on body (please note if a mole is cancerous/something else than a common mole this code won't work. It is imperative have right diagnosis that this really IS a common mole by a physician before using this code. There is no time delay if there is a possibility of a diagnosis of skin cancer,""
+particularly if it is melanoma. Have it checked!) 13 20 999"
+ Seq.580 Skin reverse appearance of facial aging 17 29 061
+ Seq.581 Skin acne of all kinds 16 56 821
+ Seq.582 Skin cystic acne 22 12 379
+ Seq.583 Skin vitiligo 35 35 976
+ Seq.584 Skin rosacea 16 25 511
+ Seq.585 Skin acute cellulitis (to be applied while seeking medical attention) 03 16 246
+ Seq.586 Skin pemphigus vulgaris, pemphigus follaceus, paraneoplastic pemphigus ,, intraepidermal neutrophilic !gA dermatosis 86 11 105
+ Seq.587 Skin psoriasis 33 14 871
+ Seq.588 Skin psoriatic arthritis 20 06 391
+ Seq.589 Skin eczema generally 81 74 311
+ Seq.590 Skin rash, non-specific 45 62 156
+ Seq.592 Root Chakra (Red) optimize,balance energy of base/'root' chakra (red) 13 23 251
+ Seq.593 Root Chakra (Red) chronic root chakra blockage/inability ground Gaia 10 010 5856
+ Seq.594 Second Chakra (Orange/Navel)
+ Seq.595 Second Chakra (Orange/Navel) optimize,balance energy of second/'sacral' chakra (orange) 54 28 131
+ Seq.596 Third Chakra (Yellow/Solar Plexus) Third Chakra (Yellow/Solar Plexus) 
+ Seq.597 Third Chakra (Yellow/Solar Plexus) optimize,balance energy of third/'solar plexus' chakra (yellow) 80 03 011
+ Seq.598 Fourth Chakra (Green/Heart) Fourth Chakra (Green/Heart) 
+ Seq.599 Fourth Chakra (Green/Heart) optimize,balance energy of fourth/'heart' chakra (green) 54 56 821
+ Seq.600 Fourth Chakra (Green/Heart) opening heart chakra when it is closed good low selfesteem, lack of selflove, poor selfacceptance,,deep injuries on a soul-level. It will not resolve karmic imbalance but it supports healing process greatly. Use permission from your Higher Self/Inner Guidance you,,also permission on a soul level if used help heal another. 88 76 543
+ Seq.601 Fifth Chakra (Blue/Throat)
+ Seq.602 Fifth Chakra (Blue/Throat) optimize,balance energy of fifth/'throat' chakra (blue) 77 74 089
+ Seq.603 Fifth Chakra (Blue/Throat) opening throat chakra better communication ability (use only permission from your Higher Self,intuitive guide each time it is used there is risk of a side effect of energy 'jam' that might need be released by a Reiki Master person who uses it without this permission. It is powerful, this code.) 88 26 789
+ Seq.604 Sixth Chakra (Indigo/Pituitary)
+ Seq.605 Sixth Chakra (Indigo/Pituitary) optimize,balance energy of sixth/'third eye' chakra (indigo) 82 88 133
+ Seq.606 Seventh Chakra (White/Crown)
+ Seq.607 Seventh Chakra (White/Crown) optimize,balance energy of seventh/'crown' chakra (white) 10 01 688
+ Seq.608 Higher Chakras (Silver, Gold/Master Chakra) Higher Chakras (Silver, Gold/Master Chakra) 
+ Seq.609 Higher Chakras (Silver, Gold/Master Chakra) optimize,balance energy of master chakra (all) 34 50 824
+ Seq.610 Healing Meridians
+ Seq.611 Healing Meridians balance,optimize energy of Liver meridian (wood) 55 68 7321
+ Seq.612 Healing Meridians balance,optimize energy of Gallbladder meridian (wood) 66 78 5931
+ Seq.613 Healing Meridians balance,optimize energy of heart meridian (fire) 71 68 2561
+ Seq.614 Healing Meridians balance,optimize energy of small intestine meridian (fire) 21 34 7980
+ Seq.615 Healing Meridians balance,optimize energy of pericardium meridian (fire) 31 21 8881
+ Seq.616 Healing Meridians balance,optimize energy of triple warmer (fire) 45 67 8921
+ Seq.617 Healing Meridians balance,optimize energy of stomach meridian (earth) 51 21 9122
+ Seq.618 Healing Meridians balance,optimize energy of spleen meridian (earth) 61 81 2959
+ Seq.619 Healing Meridians balance,optimize energy of lung meridian (metal) 78 58 2191
+ Seq.620 Healing Meridians balance,optimize energy of large intestine (metal) 59 61 7982
+ Seq.621 Healing Meridians balance,optimize energy of kidney meridian (water) 81 21 5971
+ Seq.622 Healing Meridians balance,optimize energy of bladder meridian (water) 21 81 9969
+ Seq.623 Removing Unwanted Energy, Programming Removing Unwanted Energy, Programming 
+ Seq.624 Removing Unwanted Energy, Programming removal of parasites, worms,, also etheric attachments/parasites 33 37 899
+ Seq.625 Removing Unwanted Energy, Programming assists removal of psychological programming 113 585 9623 4515
+ Seq.626 Removing Unwanted Energy, Programming clears negative emotions 45 892 456 7478 69925
+" Seq.627 Removing Unwanted Energy,Programming make steps forward when there is hesitance as a habitual response which is ingrained by society; release from grip of selfdoubt 23 65 189"
+ Seq.628 Removing Unwanted Energy,Programming remove etheric implants 131 415 6266 9014 50145
+ Seq.629 Removing Unwanted Energy,Programming release fear-based (3D) mentalities 14 898 7256
+ Seq.630 Removing Unwanted Energy,Programming situations where parents 'push' their children excel/perform some way, child endure this suffering resilience,strength,, 'pushing' abate 15 28 051
+ Seq.631 Removing Unwanted Energy, Programming freedom from forces of darkness, obtain spiritual sovereignty 43 33 551
+ Seq.632 Removing Unwanted Energy,Programming widen cracks,open veil of mystery which is imposed upon those influenced deeply by Those Who Do Not Have Our Best Interest At Heart (also mass hysteria too) 56 99 651
+" Seq.633 Removing Unwanted Energy,Programming people be so full of love,respect you that nothing can come out but love,respect you;,you be so filled love,respect them that nothing can come out of you but love,respect them (this is protection from other people's projections,misinterpretations) 99 25 881"
+ Seq.634 Clairvoyance, Intuition
+ Seq.635 Clairvoyance, Intuition opening third eye but only if it is permitted your current life plan 88 44 242
+ Seq.636 Clairvoyance,Intuition enhance clarity,reception of Divine guidance 52 484 965 1023
+ Seq.637 Clairvoyance,Intuition invite communication your Higher Self 85 31 901
+ Seq.638 Clairvoyance,Intuition spiritual intuition grow 55 76 781
+ Seq.639 Healing
+ Seq.640 Healing Soul selfhealing on soul. quantum healing energies to soul healing process. Higher Self/Inner guidance appropriateness of its use. 88 27 465
+ Seq.641 Healing Soul undo damage that has occurred you over many life experiences great speed 56 82 966
+ Seq.642 Healing Soul hope flow from you others a group, Heaven will support your efforts,deliver hope through you rest,your hope will further increase. 96 55 178
+ Seq.643 Healing Soul strengthen connection Heaven 03 01 556
+ Seq.644 Healing Soul balancing energies your life experience to smooth them, level them so no more 'peaks, valleys' so that overall effect is more pleasant on most days 11 33 517
+ Seq.645 Healing Soul everything happen best,to trust that this is happening no other reason than this 03 05 791
+" Seq.646 Healing Soul memories erase of what is not right you; what brings you down 56 11 213"
+ Seq.647 Healing Soul toxic shame which spans generations to heal, break cycle 16 18 256
+ Seq.648 Healing Soul overwhelming toxic shame 16 15 333
+ Seq.649 Healing Soul overwhelming toxic guilt 15 18 215
+ Seq.650 Healing Soul your wounded inner child be given grace communicate its needs you so healing may begin 73 75 766
+ Seq.651 Healing Soul travel. opportunities arise if you enjoy travel, both work,pleasure 06 11 916
+ Seq.652 Healing Soul activate your True Potential 823 494 7815 72954
+ Seq.653 Healing Soul experience Unconditional Love 56 57 893
+ Seq.654 Grounding
+ Seq.655 Grounding grounding 51 86 923
+ Seq.656 Grounding chronic root chakra blockage/inability ground Gaia 10 010 5856
+ Seq.657 Past Lives
+ Seq.658 Past Lives lift veil on memory of past lives lived 32 27 5427
+ Seq.659 Past Lives past life conflict which is carried us into this life resolve effortlessly 18 61 999
+ Seq.660 Past Lives undo damage that has occurred you over many life experiences great speed 56 82 966
+ Seq.661 Past Lives an Akashic record attunement (if allowed current life plan) 479 626 8554 9723
+ Seq.662 Relationships
+" Seq.663 Relationships recapture 'spark' that was lost relationships, but only if it is Highest Good of all; 'reconnect'. (please note this is very high energy,,has two extra digits at end of healing code) 21 42 14314"
+ Seq.664 Relationships increase libido a loving relationship unless there is a life lesson written into life contract then only after this life lesson is mastered 56 12 147
+ Seq.665 Relationships experience happily ever after your personal one,,in couples, if it is desired by both who are couple 08 22 517
+ Seq.666 Relationships make love new again 01 22 276
+ Seq.667 Relationships forgiveness 33 45 10101
+ Seq.668 Relationships love that flows between hearts be unimpeded,to flow both ways like it does Heaven 34 61 179
+ Seq.669 Spiritual Awakening, Ascension Spiritual Awakening, Ascension 
+ Seq.670 Spiritual Awakening,Ascension reveal our identity at higher levels 111 4823 79777 420 1111
+ Seq.671 Spiritual Awakening,Ascension Ground Crew experience enhanced connection Source 71 65 884
+ Seq.672 Spiritual Awakening,Ascension awaken all things angelic 44 44 444
+ Seq.673 Spiritual Awakening,Ascension easily identify energy signature of another 56 78 321
+ Seq.674 Spiritual Awakening, Ascension harmony, forgiveness, resolution after conflict others 65 62 792
+ Seq.675 Spiritual Awakening,Ascension KNOW one's heart's desires, free of conflicting thoughts,energy 21 21 653
+ Seq.676 Spiritual Awakening,Ascension PEACE, Divine Peace, fill your heart,affect aura of those around you 45 36 010
+ Seq.677 Spiritual Awakening,Ascension lift resentment,to exchange it vibration of peace 22 21 568
+ Seq.678 Spiritual Awakening, Ascension acceptance of hierarchy of Divine Intervention 21 36 521
+ Seq.679 Spiritual Awakening,Ascension experience BLISS 16 57 922
+ Seq.680 Spiritual Awakening, Ascension jubilation 16 57 996
+ Seq.681 Spiritual Awakening,Ascension be carefree 52 60 931
+ Seq.682 Spiritual Awakening, Ascension Bomb of LOVE (to increase love your world beyond imagination!) 00 53 111
+ Seq.683 Spiritual Awakening,Ascension feel joy of ages 24/7 88 88 013
+ Seq.684 Spiritual Awakening,Ascension Reiki Energy upgrade one level higher than last class taken 21 85 006
+ Seq.685 Spiritual Awakening,Ascension selflove,selfworth increase optimum healthy levels 84 72 167
+ Seq.686 Spiritual Awakening,Ascension tighten aura against attack, Divine Assistance, protection of Archangel Michael himself 20 20 228
+ Seq.687 Spiritual Awakening,Ascension advance Full Consciousness (must be taken steps. Repeat once daily maximum effect.) 93 96 557
+ Seq.688 Spiritual Awakening,Ascension focus all energy on Now moment 458 874 6996 8528
+ Seq.689 Spiritual Awakening, Ascension absolution from Karmic debt 1123 4561 8729 11 11 72654
+ Seq.690 Spiritual Awakening, Ascension generosity of spirit 86 85 931
+ Seq.691 Spiritual Awakening,Ascension one who hesitates,doubts their Divine Nature accept it 31 57 825
+ Seq.692 Spiritual Awakening,Ascension shine one's light brightly no matter what is going on their life experience 51 34 581
+ Seq.693 Spiritual Awakening,Ascension willingness be of service humankind 96 71 115
+ Seq.694 Spiritual Awakening,Ascension open eyes of those who spiritually sleep (to get 'sleep' out of their eyes,help them see their purpose, their role as Lightworkers) 51 76 481
+" Seq.695 Spiritual Awakening,Ascension ability awaken further, open as full as possible Divine; 'get over spiritual concerns from past' quickly,completely 56 11 752"
+ Seq.696 Spiritual Awakening,Ascension be filled appreciation,SEE all miracles what they are a gift that is from Heaven 86 12 547
+ Seq.697 Spiritual Awakening, Ascension freedom from forces of darkness, obtain spiritual sovereignty 43 33 551
+ Seq.698 Spiritual Awakening,Ascension strength hold your vibration high as those who have lower vibration around you lash out,'test' you 96 91 771
+ Seq.699 Spiritual Awakening,Ascension accept,allow Galactic ways of doing things welcome way Galactics work,their culture 16 91 405
+ Seq.700 Spiritual Awakening,Ascension experience Unconditional Love 56 57 893
+ Seq.701 Spiritual Healing General
+ Seq.702 Spiritual Healing General forgiveness 33 45 10101
+ Seq.703 Spiritual Healing General courage 11 21 222
+ Seq.704 Spiritual Healing General physical ailment which bothers you most at this time to cope it,accept lesson from malady as quickly as possible as a soul so one may be able heal every way 12 54 681
+ Seq.705 Spiritual Healing General rise above chaos, confusion, distraction,delay 16 23 948
+ Seq.706 Spiritual Healing General ease adapting what is new to embrace change,welcome it! 16 16 714
+ Seq.707 Spiritual Healing General moving forward/overcoming obstacles 13 13 42525
+ Seq.708 Spiritual Healing General increase motivation where there is little none 51 56 886
+ Seq.709 Spiritual Healing General future arrive blessings your life experience something you wish arrive 22 18 609
+ Seq.710 Spiritual Healing General experience happily ever after your personal one,,in couples, if it is desired by both who are couple 08 22 517
+ Seq.711 Spiritual Healing General loved ones who are surgery, highest angelic love,support be given all health providers on team caring them, very best outcome arrive as a result 62 61 715
+ Seq.712 Spiritual Healing General students, employees, parents,, selfemployed who endure overwork 96 15 646
+ Seq.713 Spiritual Healing General acceptance of What Is situation your life that is presented you 13 24 56868
+ Seq.714 Spiritual Healing General acceptance of What Is your contribution your life situation, see this clearly,,guidance navigate your way through situation at hand 89 65 215
+ Seq.716 Spiritual Healing General willingness face new challenges,an interest fully enjoy what Life Experience has offer 21 21 817
+ Seq.717 Spiritual Healing General eliminate one's resistance what is asked of them their life journey 88 66 556
+ Seq.718 Spiritual Healing General a selfhealing attunement 89 96 7899
+ Seq.719 Spiritual Healing General protection attunement 17 94 625 826 95413
+ Seq.720 Spiritual Healing General reverse a bad attitude (change negativity love) 1323 498 725
+" Seq.721 Spiritual Healing General annoyance all causes be experienced less; patience,calm all situations of life 12 57 901"
+ Seq.722 Spiritual Healing General enhance creative flow,inspiration 45 826 9994 5789
+ Seq.723 Spiritual Healing General experience Unconditional Love 56 57 893
+ Seq.724 Other Side
+ Seq.725 Other Side enhanced communication those who are Heaven (and thinning veil general) 996 812 551
+ Seq.726 Twin Souls, Twin Flames Twin Souls, Twin Flames 
+ Seq.727 Twin Souls, Twin Flames Twin souls Heaven who miss their loved ones who are incarnate. 18 26 753
+ Seq.728 Twin Souls,Twin Flames ~ enhance connection & unity between Twin Flames 13 421 86 931 10405
+" Seq.729 Twin Souls,Twin Flames “For my heart be complete I must be you” a message let one's Soul Twin feel your love,longing them ; it goes from them you,back 12 15 316"
+ Seq.730 Energy Boost, Wellness
+ Seq.731 Energy Boost, Wellness alertness while staying up late at work 28 34 515
+ Seq.732 Energy Boost, Wellness a boost of energy (only use once a day) 24 868 5492
+ Seq.733 Energy Boost,Wellness promote a sense of unity All That Is 14 72 896
+ Seq.734 Energy Boost,Wellness activate your True Potential 823 494 7815 72954
+ Seq.735 Energy Boost,Wellness hope a better life all ways,welcome new 25 39 561 615
+ Seq.736 Energy Boost,Wellness consolation,comfort soul that only Divine Mother can give 99 61 378
+ Seq.737 Energy Boost, Wellness courage 11 21 222
+ Seq.738 Energy Boost,Wellness ability endure, perseverance on your Life Journey 89 66 186
+" Seq.739 Energy Boost, Wellness ease surgical emergencies; that all healing will expedite, one will have most positive experience through hospital treatment 56 51 215"
+ Seq.740 Energy Boost,Wellness experience Unconditional Love 56 57 893
+ Seq.741 Gaia Energetic Connection
+ Seq.742 Gaia Energetic Connection plant kingdom attunement 11 22 232
+ Seq.743 Gaia Energetic Connection Gaia attunement (includes major grounding assistance) 43 44 578 923 10774
+ Seq.744 Gaia Energetic Connection experience energy of seashore when one is landlocked 18 51 350
+ Seq.745 Gaia Energetic Connection Love,Happiness overwhelm planet 99 62 753
+ Seq.746 Working Elemental, Higher Realms Working Elemental, Higher Realms 
+ Seq.747 Working Elemental, Higher Realms Unicorn attunement 13 44 578
+ Seq.748 Working Elemental, Higher Realms Dragon attunement 13 31 989
+ Seq.749 Working Elemental, Higher Realms elemental attunement 34 86 789
+ Seq.750 Working Divine Mother
+ Seq.751 Working Divine Mother consolation,comfort soul that only Divine Mother can give 99 61 378
+ Seq.752 Advanced Capability
+ Seq.753 Advanced Capability circuit upgrade ~ ONLY USE if given permission as this is extremely high energy 11 111 1111 11111 1111 111 11
+" Seq.754 Advanced Capability ""surprise"" code from Galactics ~ ONLY USE if given permission as this is extremely high energy 1111 742 893 4114 87878 01543 1111"
+ Seq.755 Advanced Capability help manifesting 11 67 692
+ Seq.756 Advanced Capability celebrate a miracle which has already been given 25 21 064
+ Seq.757 Advanced Capability acceptance of one's life lessons 79 78 726
+ Seq.758 Advanced Capability slow down time 565 482 999 6567
+ Seq.759 Advanced Capability heal timelines (with Divine Assistance,Support) 42 88 112
+ Seq.760 Advanced Capability a powerful selfattunement 8 408 7908 1302 45854 622287 11111 8
+ Seq.761 Advanced Capability higher dimensional access 0 2345 7000 13134 42145 789 0
+ Seq.762 Advanced Capability omnipresence 11 747 8991 4253 78796 44410 11
+ Seq.763 Advanced Capability activate New Earth portal 1111 7777 17171 7777 1111
+ Seq.764 Advanced Capability ability shape shift 82 494 782 9009 4142 96543
+ Seq.765 Advanced Capability intertwinement 55555 42894 78625 90094 8888878 11111 10010 77795
+" Seq.766 Advanced Capability ""Spectrum"" (note this is a long number) 01232 58756 92254 622622784457894012345678977874564 223245789214687811214501438728354378289770"
+ Seq.767 Advanced Capability ability have remote viewing ability 5012 4788 9623 458456 53321
+ Seq.768 Advanced Capability telekinesis 4554 2123 5678 14114 09234
+ Seq.769 Advanced Capability a Sacral-Heart activation (my favorite ed) 696969 1111 888 08080 888 1111 696969
+ Seq.770 Advanced Capability phase through matter 10203 45156 22124 78 87 485 72631 11 21 232457894
+ Seq.771 Advanced Capability Love,Happiness overwhelm planet 99 62 753
+ Seq.772 Advanced Capability experience Unconditional Love 56 57 893
+ Seq.774 Food, Drink
+ Seq.775 Food,Drink: Neutralizes all toxic components introduced food processing 24 57 892
+ Seq.776 Food,Drink: Neutralizes cost-saving additives food ease production, not health 24 67 987
+ Seq.777 Food,Drink: Makes fruits,vegetables ripen full maturity maximum health 24 60 123
+ Seq.778 Food,Drink: Saves food which is almost mold-spoiled be edible (will taste okay) 42 67 982
+ Seq.779 Food,Drink: Neutralizes effect of ethanol (EtOH/alcohol). Use caution where alcohol is used inhibit microbial growth food/medicine 99 42 167
+ Seq.780 Food,Drink: pesticides be neutralized food one eats 81 52 936
+ Seq.781 Food,Drink: Increases life-giving nutrition of food (may be combined other codes) If you are only going use one code this is one use. 88 44 578
+ Seq.782 WATER CODES,44 66 111- balance masculine,feminine energies - write numbers opposite sides of water container-creates healingvortex in water, drink for balance energies for family, workplace(write it on coffee machine, water cooler!) 99 77 654
+ Seq.783 Food,Drink: neutralize spicy food (does not affect taste/spiciness, minimizes GI flare up) 34 02 991
+ Seq.784 Food, Drink: digestive health 77 74 321
+ Seq.785 Food,Drink: neutralize harmful effects of sugar (does not affect taste) when taken moderation 82 44 619
+ Seq.786 Food,Drink: neutralize harmful effects of fluoride when taken moderation 42 52 7671
+ Seq.787 Food,Drink: neutralize harmful effects of salt when taken moderation 42 88 974
+ Seq.788 Food,Drink: extend shelf life of frozen food 11 23 879
+ Seq.789 GMO Neutralization: GMO Neutralization: 
+ Seq.790 GMO Neutralization: Neutralizes genetically manipulated foods/GMO 24 46 713
+ Seq.791 GMO Neutralization: neutralizing GMO (energy 'boost', ground yourself before using. powerful healing energy transmitted from Spirit intense than first code) 82 41 576
+ Seq.792 GMO Neutralization: purify,cleanse any GMO and/or toxic chemicals marijuana 42 615 725 98897 45625
+ Seq.793 Smoking, Related Concerns
+ Seq.794 Smoking,Related Concerns: heal all dependence on smoking tobacco,non-tobacco options 99 61 553
+ Seq.795 Smoking,Related Concerns: purify,cleanse any GMO and/or toxic chemicals marijuana 42 615 725 98897 45625
+ Seq.796 Smoking,Related Concerns: add energies of healing, love,,blessings marijuana 12 485 7994 86892
+ Seq.797 Environmental Toxins
+ Seq.798 Environmental Toxins: removal of parasites, worms,, also etheric attachments/parasites 33 37 899
+ Seq.799 Environmental Toxins: humans,animals who have been exposed high, possibly lethal radiation some time. (This code must be used only this circumstance. It is powerful,otherwise could cause harm.) 86 45 378
+ Seq.800 Environmental Toxins: neutralize chemtrails 56 892 484 7576
+ Seq.801 Environmental Toxins: pesticide neutralization environment after long-term use. Includes Round Up. 57 56 105
+ Seq.802 Environmental Toxins: cat allergy 43 54 565
+ Seq.803 Environmental Toxins: assists cleansing of toxins 72 82 490
+ Seq.804 Environmental Toxins: remove existing placebo effect 10 42 789
+ Seq.805 Environmental Toxins: allergies medication general, make reactions them less severe but not all way to halt increase allergy caused by medicine without taking away beneficial effect of medicine itself. 43 33 556
+ Seq.806 Environmental Toxins: side effects medication general, make reactions them less severe but not all way to halt increase reaction medicine without taking away beneficial effect of medicine itself. 88 66 125
+ Seq.807 Environmental Toxins: neutralize odors which are not pleasant 12 12 126
+ Seq.808 Environmental Toxins: protect vehicle from vandals,theft 21 51 669
+ Seq.809 Environmental Toxins: protect buildings from graffiti,tagging 51 28 952
+ Seq.810 Environmental Toxins: base-level protection EMF, ambient radio frequency electromagnetic radiation 1331 28940 71345 100214 56789
+ Seq.811 Heavy Metal Poisoning
+ Seq.812 Heavy Metal Poisoning: lead ingestion, poisoning (use along chelation treatment, standard medical care) 19 86 451
+ Seq.813 Heavy Metal Poisoning: itai-itai/cadmium ingestion, poisoning (use along standard therapy toxic exposure) 52 99 767
+ Seq.814 Heavy Metal Poisoning: mercury toxicity (use along conventional therapy) 59 11 226
+ Seq.816 Other Energy Healing Spiritual Wounds 15 73 691
+ Seq.817 Other Energy Healing Mental Wounds 17 37 562
+ Seq.818 Other Energy Healing Emotional Wounds 55 65 786
+ Seq.819 Other Energy Healing Physical Wounds 18 57 991
+ Seq.820 Other Energy Healing Sexual Wounds 80 90 561
+ Seq.821 Other Energy Healing consolation,healing when others who are not awakened insult you,hurt you your Light. (Archangel Michael will also cut ties between you, situation help you heal when you use this code) 26 58 347
+ Seq.822 XXII. Social, Family Issues Academic Concerns: XXII. Social, Family Issues Academic Concerns: 
+ Seq.823 Social, Family Issues Academic Concerns academic success (if allowed life plan) 84 629 585 4519
+ Seq.824 Social,Family Issues Academic Concerns be admitted school of your choice your training or something better 15 64 211
+ Seq.825 Financial, Work Social Issues: Financial, Work Social Issues: 
+ Seq.826 Financial,Work Social Issues: ease condition of financial constraint 99 67 153
+ Seq.827 Financial, Work Social Issues: financial security (if allowed life plan) 13 24 686 9789 4516
+ Seq.828 Financial, Work Social Issues: homelessness 81 69 153 2
+ Seq.829 Financial,Work Social Issues: overcome poverty 31 56 887
+ Seq.830 Financial,Work Social Issues: 'pull yourself up by bootstraps',create financial abundance successfully, so you do not owe anything anyone 80 49 627
+ Seq.831 Financial,Work Social Issues: adjusting retirement 61 79 255
+ Seq.832 Financial,Work Social Issues: assist job loss,job recovery (to heal) 99 61 546
+ Seq.833 Financial,Work Social Issues: health care workers,healers all practices prevent burnout, counteract 'production pressure' (ability produce,survive medical/healing industry),to increase compassion, fulfillment, patience,appreciation work they are so blessed be able do 25 51 789 2254 31
+ Seq.834 Financial,Work Social Issues: travel. opportunities arise if you enjoy travel, both work,pleasure 06 11 916
+ Seq.835 Financial, Work Social Issues: generosity of spirit 86 85 931
+ Seq.836 Financial, Work Social Issues: an unexpected windfall 96 81 257
+ Seq.837 Family Concerns
+ Seq.838 Family Concerns fear of responsibility of being a parent 21 69 587 2196
+ Seq.839 Family Concerns easing step parenting issues 69 29 588
+ Seq.840 Family Concerns bonding within new blended families 19 59 688
+ Seq.841 Family Concerns parents who long their children for a special blessing ease their hearts when work,custody separate their physical presence 19 08 516
+ Seq.842 Family Concerns jealousy of mother-son relationship 21 79 665
+ Seq.843 Family Concerns jealousy of father-daughter relationship 69 79 228
+ Seq.844 Family Concerns easing life of single parents 12 66 978
+ Seq.845 Family Concerns ease energy of cliques, destructive character assassination shown by females other females a social/work setting 996 187
+ Seq.846 Family Concerns animosity,strife lessen 81 76 619
+ Seq.847 XXIII. Codes All Animals XXIII. Codes All Animals 
+ Seq.848 Animals abused animals 29 56 7892156
+ Seq.849 Animals wound care animals 29 58 734
+ Seq.850 Animals animals who suffer from malnutrition 21 76 9654321
+ Seq.851 Animals wild animals have their habitat increase 86 55 158
+ Seq.852 Animals (human code is safe animals) removal of parasites, worms,, also etheric attachments/parasites 33 37 899
+ Seq.853 Animals ear fungus, mites 96 76 269
+ Seq.854 Animals dry skin itching 42 92 532
+ Seq.855 Animals skin sensitivity from friction, loss of fur/hair 81 50 561
+ Seq.856 Bees
+ Seq.857 Bees stabilize bee colonies 21 71 2156 43
+ Seq.858 Bees increase bee nutrition 21 98 5792
+ Seq.859 Bees removal of Varroa mites,parasites specific bees 71 21 9681
+ Seq.860 Bees increase bee reproduction 81 91 271 58
+ Seq.861 Bees neutralize harmful effects of chemicals on bee life 91 62 5543 21
+ Seq.862 Felines
+ Seq.863 Felines assisting hair balls 21 76 582
+ Seq.864 Felines feline lower urinary tract infection 92 72 821
+ Seq.865 Felines feline eye problems 51 28 765
+ Seq.866 Canines all dogs domestic, those found Nature such as foxes, coyotes, wolves, dingos, similar Canines all dogs domestic, those found Nature such as foxes, coyotes, wolves, dingos, similar 
+ Seq.867 Canines all dogs domestic, those found Nature such as foxes, coyotes, wolves, dingos, similar excessive barking 22 50 967
+ Seq.868 Canines all dogs domestic, those found Nature such as foxes, coyotes, wolves, dingos, similar kennel cough concurrent vaccination 66 77 232
+ Seq.869 Canines all dogs domestic, those found Nature such as foxes, coyotes, wolves, dingos, similar hot spots 42 75 995
+ Seq.870 Canines all dogs domestic, those found Nature such as foxes, coyotes, wolves, dingos, similar bad breath when all dental care is up-to-date 28 78 562
+ Seq.871 Canines all dogs domestic, those found Nature such as foxes, coyotes, wolves, dingos, similar distemper concurrent vaccination 91 52 701
+ Seq.872 Canines all dogs domestic, those found Nature such as foxes, coyotes, wolves, dingos, similar rabies humans, animals when there is no medical/veterinary help available 55 65 792
+ Seq.873 Equines all horses domestic, wild, as well as related creatures such as mules, donkeys, miniature horses, ponies, similar Equines all horses domestic, wild, as well as related creatures such as mules, donkeys, miniature horses, ponies, similar 
+ Seq.874 Equines all horses domestic, wild, as well as related creatures such as mules, donkeys, miniature horses, ponies, similar tetanus (lockjaw) concurrent vaccination, treatment plan 78 98 221
+ Seq.875 Equines all horses domestic, wild, as well as related creatures such as mules, donkeys, miniature horses, ponies, similar equine influenza concurrent vaccination, antibiotics regime 91 25 876
+ Seq.876 Equines all horses domestic, wild, as well as related creatures such as mules, donkeys, miniature horses, ponies, similar equine hyper virus, rhinopneumonitis, rhino, viral 96 25 876
+ Seq.877 Abortion, concurrent vaccination
+ Seq.878 Abortion, concurrent vaccination, West Nile virus concurrent vaccination, treatment plan 69 79 891
+ Seq.879 Abortion, concurrent vaccination, strangles abscess, wound care concurrent antibiotics, treatment plan 99 66 554
+ Seq.880 Abortion, concurrent vaccination, Potomac horse fever concurrent oxytetracycline treatment 32 52 781
+ Seq.881 Abortion, concurrent vaccination, muscular/skeletal lamenesses 21 79 895
+ Seq.882 Abortion, concurrent vaccination, navicular disease 27 67 599
+ Seq.883 Abortion, concurrent vaccination, rain rot more severe cases which infection has affected deeper skin layers requires your veterinarian give antibiotic injections 98 21 765
+ Seq.884 Abortion, concurrent vaccination, thrush 79 52 349
+ Seq.885 Abortion, concurrent vaccination, founder Laminitis have your veterinary diagnose condition, treatment plan 22 59 681
+ Seq.886 Abortion, concurrent vaccination, colic requires your veterinary diagnose condition,treatment plan 99 22 579
+ Seq.887 Abortion, concurrent vaccination, azoturia/tying up requires your veterinary diagnose condition,treatment plan 10 92 598
+ Seq.888 Codes Equipment, Tools
+ Seq.889 Equipment,Tools electronic equipment function consistently at its best 70 47 898
